@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+	<meta name="renderer" content="webkit">
+	<title>Charlie Lee</title>
+	<link rel="stylesheet" href="common/font-awesome/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="common/css/style.css" />
+	<!--[if lte IE 8]>
+	<style type="text/css">
+		html,body{width:100%; height:100%; overflow:scroll}
+		.section-btn{display:none;}
+	</style>
+	<![endif]-->
+	<link rel="stylesheet" href="common/css/css.css" />
+</head>
+
+<body>
+<div id="logo"><a href="index.html">
+	<img src="common/img/svg.svg" width="177" />
+</a></div>
+<div id="icon-fw">
+	<a href="javascript:void(0);" class="icon-a"><i class="fa fa-qq"></i></a>
+	<a href="javascript:void(0);" class="icon-a"><i class="fa fa-wechat"></i></a>
+	<a href="javascript:void(0);" class="icon-a"><i class="fa fa-weibo"></i></a>
+</div>
+<div class="qr">
+	<img src="common/img/QR_QQ.JPG" alt="QR_QQ" />
+	<img src="common/img/QR_WeChat.JPG" alt="QR_WeChat" />
+	<img src="common/img/QR_Sina.JPG" alt="QR_Sina" />
+</div>
+<section class="section-wrap">
+	<div class="section section-1">
+<!--		<div class="title active">
+			<p class="tit">1</p>
+		</div>-->
+		<div class="main main1">
+			<img src="common/img/contents1.png" alt="" />
+		</div>
+	</div>
+	<div class="section section-2">
+<!--		<div class="title">
+			<p class="tit">随便写写意思下!</p>
+		</div>-->
+		<div class="main main2">
+			<img src="common/img/contents2.png" alt="" />
+		</div>
+	</div>
+	<div class="section section-3">
+		<div class="title">
+			<p class="tit">随便写写意思下</p>
+		</div>
+	</div>
+	<div class="section section-4">
+	<!--	<div class="title">
+			<p class="tit">随便写写意思下</p>
+		</div>-->
+		<div class="main main4">
+			<span>QQ: 1500023570</span>
+			<span>TEL: <a href="tel:15092214875">15092214875</a></span>
+			<span>E-MAIL: <a href="mailto:15092214875@163.com">15092214875@163.com</a></span>
+		</div>
+	</div>
+</section>
+<ul class="section-btn">
+  <li class="on"></li>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
+<ul class="section-nav">
+	<li class="on"><a href="javascript:void(0);">首页</a></li>
+	<li><a href="javascript:void(0);">关于</a></li>
+	<li><a href="javascript:void(0);">作品</a></li>
+	<li><a href="javascript:void(0);">联系</a></li>
+</ul>
+<div class="arrow">&laquo;</div>
+
+<script src="https://libs.baidu.com/jquery/2.1.1/jquery.min.js"></script>
+<script src="common/js/mousewheel.js"></script>
+<script type="text/javascript">
+$(function(){
+	var ico = $(".icon-a");
+	var qr = $(".qr img");
+	ico.hover(function(){
+		var num = ico.index($(this));
+		qr.eq(num).animate({top:"220px"},100);
+	},function(){
+		var num = ico.index($(this));
+		qr.eq(num).animate({top:"-150px"},10);
+	})
+})
+
+</script>
+</body>
+</html>

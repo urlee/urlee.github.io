@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+.pickup-wrapper {
+  width: 870px;
+  max-width: 870px;
+  margin: 0 auto;
+}
+.title-label {
+  font-size: 22px;
+  letter-spacing: 2px;
+  border-bottom: 1px solid #111111;
+  margin-bottom: 32px;
+  padding-left: 4px;
+}
+
+.title-label .en {
+  font-family: 'Lato', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+}
+
+.title-label .label-text {
+  font-size: 14px;
+  font-weight: normal;
+  padding-left: 12px;
+  letter-spacing: 1px;
+}
+
+.title-label .label-text:before,
+.title-label .label-text:after {
+  content: "-";
+}
+
+
+
+.pickup-wrapper .pickup_tab {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  align-items: stretch;
+  -webkit-align-items: stretch;
+  align-content: stretch;
+  -webkit-align-content: stretch;
+  font-family: 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+  margin-bottom: 16px;
+}
+
+.pickup-wrapper .pickup_tab li{
+  width: 24%;
+  text-align: center;
+  border: 0 solid #111111;
+  background: #e0e0e0;
+  cursor: pointer;
+  /*letter-spacing: 0.1rem;*/
+/* font-size: .875rem;*/
+}
+.pickup-wrapper .pickup_tab li a{
+	display: block;width: 100%;
+	padding: 0.5rem 0;
+	color: #111;
+}
+.pickup-wrapper .pickup_tab li a:hover {
+  color: #111111;
+  background: #CCCCCC;
+  transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -ms-transition-duration: 0.5s;
+}
+.pickup-wrapper .pickup_tab li a.active {
+  background: #111111;
+  color: #FFFFFF;
+  cursor: auto;
+}
+.frame{
+	width: 100%;
+	overflow: hidden;
+}
+
+.frame img{
+	width: 100%;
+	display: block;
+}
+.frame .column{
+	width: 32%;
+	float: left;
+}
+.frame .column:nth-child(2){
+	margin: 0 2%;
+}
+.frame .column .small {
+	display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  align-items: stretch;
+  -webkit-align-items: stretch;
+  align-content: stretch;
+  -webkit-align-content: stretch;
+}
+.frame .column .small a{
+	width: 47%;
+}
+.frame .column:first-child .small a,
+.frame .column:last-child .small a{
+	margin-top: 1.1rem;
+}
+.frame .column:nth-child(2) .small a{
+	margin-bottom: 1.1rem;
+}

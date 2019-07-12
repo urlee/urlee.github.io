@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				var nava = $('.nav td');
+				
+				nava.hover(function(){
+					
+					$(this).children().eq(1).stop().slideDown();
+				},function(){
+					$(this).children().eq(1).stop().slideUp();
+				});
+			});
+		</script>
+		<style>
+			.all {
+				width: 970px;
+				margin: 0 auto;
+			}
+			.all td>a{
+				font-size: 12px;
+				color: #000000;
+			}
+			.nav {
+				margin-top: 15px;
+				width: 970px;
+			}
+			.nav td {
+				position: relative;
+				text-align: center;
+				border-right: 1px dotted #cccccc;
+				height: 20px;
+				line-height: 20px;
+			}
+			.nav td>a{
+				
+				display: block;
+			}
+			.nav td>a:hover{
+				background-color: #cccccc;
+			}
+			.nav ul {
+				background-color: #FFFFFF;
+				width: 150px;
+				text-align: left;
+				position: absolute;
+				left: 0px;
+				top: 30px;
+				display: none;
+			}
+			.nav ul>a{
+				color: #0066CC;
+			}
+			.nav ul li {
+				height: 20px;
+				line-height: 20px;
+				border-top: 1px solid #ebebeb;
+				border-bottom: 1px solid #ebebeb;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="all">
+			<a href="https://shopping.geocities.jp/yhworld/" target="_blank"><img src="../common/img/header_logo2.png" alt="" /></a>
+			<table width="300" style="margin-top: 15px;">
+				<tr>
+					<td style="border-right: 1px solid #E0E0E0;" align="center">
+						<a href="https://shopping.yahoo.co.jp/" target="_blank">Yahoo!ショッピング</a>
+					</td>
+					<td style="border-right: 1px solid #E0E0E0;" align="center">
+						<a href="https://store.shopping.yahoo.co.jp/yhworld/search.html?sv=6&p=&x=16&y=10&X=4&brandid=6977#CentSrchFilter1" target="_blank">ブランド</a>
+					</td>
+					<td style="border-right: 1px solid #E0E0E0;" align="center">
+						<a href="https://inform.shopping.yahoo.co.jp/yhworld/contact.html" target="_blank">メルマガ</a>
+					</td>
+					<td>
+						<a href="Q&A.html" target="_blank">Q&A</a>
+					</td>
+				</tr>
+			</table>
+			
+		</div>
+	</body>
+</html>

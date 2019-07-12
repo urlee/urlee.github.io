@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8" />
+<title>ワイエムワールド - Yahoo!ショッピング - Ｔポイントが貯まる！使える！ネット通販</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript">
+	<link class="item__link" href="../smp/common/css/style.css" rel="stylesheet" type="text/css" media="all">
+	<script type="text/javascript" src="../common/js/jquery-1.10.2.min.js"></script>
+	<!--<script type="text/javascript" src="../common/js/ranking.js" charset="utf-8"></script>-->
+	<script type="text/javascript">
+	$(function(){
+		if($('.item__product').length > 0){
+			var count = 20; // デフォルトで表示する文字数
+			$('.item__product').each(function(){
+				var target = $(this),
+				fullTxt = target.text();
+				if(fullTxt.length > count){
+					target.text(fullTxt.substr(0,count) + ' … ');
+				}
+			});
+		}
+	});
+	</script>
+	<!--<style type="text/css">
+		p.item__product{
+			height: 48px;
+		}
+	</style>-->
+</head>
+<body>
+<!--- brand ranking start --->
+<div class="ranking_area">
+  <div class="ranking">
+    <div id="tabContents">
+      <!-- Wallet -->
+      <div class="main" style="background:none;">
+     <div class="ranking-main__slide">
+        <ul class="item pure-g">
+          <li class="item__list item__list-rank pure-u-1-3">
+<a class="item__link" href="https://store.shopping.yahoo.co.jp/yhworld/ti26spops16jun16.html" target="_top">
+	<img src="https://item-shopping.c.yimg.jp/i/l/yhworld_ti26spops16jun16" class="jhover">
+<p class="item__product">水濡れOK! UPF50+! 水着素材レギンス</p>
+<p class="item__price">&yen;1,180</p></a>
+          </li>
+          <li class="item__list item__list-rank pure-u-1-3">
+<a class="item__link" href="https://store.shopping.yahoo.co.jp/yhworld/ts03sp16dec20.html" target="_top">
+	<img src="images/imgrc0071436641.jpg" class="jhover">
+<p class="item__product">
+	着圧タイツ　9分丈とトレンカ2タイプ
+</p>
+<p class="item__price">&yen;1,880</p></a>
+          </li>
+          <li class="item__list item__list-rank pure-u-1-3">
+<a class="item__link" href="https://store.shopping.yahoo.co.jp/yhworld/ts08spo17feb01.html" target="_top">
+	<img src="images/imgrc0071436643.jpg" class="jhover">
+<p class="item__product">
+	着圧タイツ ダンスウェア
+</p>
+<p class="item__price">&yen;1,680</p></a>
+          </li>
+          <li class="item__list item__list-rank pure-u-1-3">
+<a class="item__link" href="https://store.shopping.yahoo.co.jp/yhworld/t03507000x830.html" target="_top">
+	<img src="https://item-shopping.c.yimg.jp/i/l/yhworld_t03507000x830" class="jhover">
+<p class="item__product">10カラー4サイズ スポーツレギンス</p>
+<p class="item__price">&yen;1,480</p></a>
+          </li>
+          <li class="item__list item__list-rank pure-u-1-3">
+<a class="item__link" href="https://store.shopping.yahoo.co.jp/yhworld/ti26spops16jun04.html" target="_top">
+	<img src="images/imgrc0071436622.jpg" class="jhover">
+<p class="item__product">高品質レギンス　着圧タイツ
+</p>
+<p class="item__price">&yen;1,980</p></a>
+          </li>
+          
+        </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- brand ranking end -->
+</body>
+</html>

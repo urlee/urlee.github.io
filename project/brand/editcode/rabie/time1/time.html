@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>数码时钟3</title>
+<script type="text/javascript">
+	function toDou(n){
+		if(n<10){
+			return '0'+n;
+		}else{
+			return ''+n;
+		};
+	};
+	window.onload = function(){
+		var aImg = document.getElementsByTagName('img');
+		function tick(){
+			var oDate = new Date();
+			
+			var str = toDou(oDate.getHours()) + toDou(oDate.getMinutes()) + toDou(oDate.getSeconds());
+			//alert(str);
+			for(var i=0;i<aImg.length;i++){
+				aImg[i].src = 'img/'+str.charAt(i)+'.png';
+			}
+		}
+		setInterval(tick,1000)
+		tick();
+	}
+</script>
+<style type="text/css">
+	#curTime{
+		background-color: #f6f4ed; float: left;padding: 4px;border-radius: 6px;line-height: 23px;
+	}
+	#curTime img,#curTime span{
+		float: left;margin-left: 6px;
+	}
+	#curTime img:first-child{
+		margin-left: 0;
+	}
+</style>
+</head>
+<body>
+<div id="curTime">
+	<img src="img/0.png" alt="" />
+	<img src="img/0.png" alt="" />
+	<span>:</span>
+	<img src="img/0.png" alt="" />
+	<img src="img/0.png" alt="" />
+	<span>:</span>
+	<img src="img/0.png" alt="" />
+	<img src="img/0.png" alt="" />
+</div>
+</body>
+</html>

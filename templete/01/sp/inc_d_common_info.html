@@ -1,0 +1,47 @@
+
+	<script>
+		var DENA_EC={};
+		DENA_EC.sc_data={};
+	</script>
+	<style>
+		.ds-contents-display{
+			display: block;
+		}
+
+		.aus-contents-display{
+			display: none;
+		}
+	</style>
+
+<!------------------------------------------
+　　　DeNASP 全ヘッダー お知らせ
+-------------------------------------------->
+<div class="h_information">
+
+<a target="_top" href="info.html#04">【重要】2019年4月1日(月)送料改定のお知らせ</a><a href="info.html#03"><span>【重要】商品棚卸しに伴う出荷停止のお知らせ</span></a>
+</div>
+
+
+
+<!------------------------------------------
+　　　DeNASP 全ヘッダー 企画バナー
+-------------------------------------------->
+<!--<div id="advertising">
+
+<a href="free_shipping1.html"  target="_blank">
+<img src="https://ic4-a.wowma.net/mi/w/1280/h/1280/q/90/www.dreamvs.jp/sp/images/sale/0929_sale/0929free_616x120_d.jpg"  alt="" width="100%">
+</a>
+</div>-->
+
+<script>
+	(function (){
+		// 繧ｿ繧ｰ繧貞炎髯､
+		var delSite = 'aus';
+		var deleteElm = document.querySelectorAll('.' + delSite + '-contents-display');
+		for(var i = 0;i <deleteElm.length;i++){
+			deleteElm[i].parentNode.removeChild(deleteElm[i]);
+		}
+	})();
+</script>
+<script>_satellite.pageBottom();</script>
+

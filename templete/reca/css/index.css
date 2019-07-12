@@ -1,0 +1,102 @@
+@charset "shift_jis";
+/* CSS Document */
+
+/*<!--layout-->*/
+body
+	{
+	margin:0 auto;
+	background-image: url(../img/body/body_obi.gif);
+	background-position: right;
+	background-repeat:repeat-y;
+	}
+	
+.structure
+	{
+	width:950px;
+	background-color: #FFFFFF;
+	margin:0 auto;
+	}
+
+.head
+	{
+	width:950px;
+	background-color: #FFFFFF;
+	margin:0px;
+	padding:0px;
+	}
+	
+.main{
+	width:950px;
+	padding-bottom:20px;
+	padding-top:0px;
+	}
+	
+.left_navi
+	{
+	float:left;
+	width:170px;
+	margin-bottom:20px;
+	}
+
+.right_main
+	{
+	float:right;
+	width:760px;
+	margin-bottom:20px;
+	}
+	
+.foot
+	{
+	clear:both;
+	width:950px;
+	background-color: #FFFFFF;
+	padding-top:20px;
+	}
+	
+iframe{
+	margin:0px;
+	padding:0px;
+	}
+	
+
+
+<!--layout_end-->
+
+<!--other-->
+.structure{
+	font-size:10px;
+	color: #333333;
+	font-family:"ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	height:100%;
+	}
+	
+a { color: #333; text-decoration: underline;}
+a:link { color: #333;text-decoration: underline;}	
+a:visited {color: #333;text-decoration: underline;}
+a:hover {color: #666;text-decoration: none;}
+
+
+
+h2 a { color: #ff6699; text-decoration: underline;}	
+h2 a:link { color: #ff6699;text-decoration: underline;}
+h2 a:visited {color: #ff6699;text-decoration: underline;}
+h2 a:hover {color: #ff6699;text-decoration: none;}
+
+
+
+a:hover img{
+	border:0px;
+	}
+
+a img{
+	border:0px;
+	}
+
+h2{
+	font-weight:bold;
+	font-family:"ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	font-size:12px;
+	color: #ff6699;
+	}
+	
+	

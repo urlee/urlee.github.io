@@ -1,0 +1,433 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1.midashi{
+	margin: 20px auto;
+	font-size:16px;
+	font-weight: bold;
+	text-align:center;
+	line-height: 1.5;
+	letter-spacing:1px;
+	border-bottom: 1px #ccc solid;
+	padding-bottom: 5px;
+}
+
+
+.date{
+	font-size:12px;
+	color: #d86196;
+	text-align:center;
+	margin-bottom: 10px;
+}
+
+
+/*
+	商品一覧 横2列ver.
+------------------------------*/
+#itemList ul.list02{
+	margin: 10px auto;
+	width: 90%;
+}
+#itemList .list02 li a{
+	text-decoration:none;
+}
+#itemList .list02 li{
+	float: left;
+	width: 47.5%;
+	margin: 1% 5% 8% 0;
+	list-style: none;
+	/*overflow: hidden;*/
+	height: auto;
+	position: relative;
+}
+
+#itemList .list02 li:nth-child(2n){
+	margin: 1% 0 8% 0;
+}
+
+#itemList .list02 li:nth-child(odd){
+	/* clear:both; */
+}
+
+#itemList .list02 li dt{
+	position: relative;
+}
+
+#itemList .list02 li dt img{
+	width: 100%;
+}
+
+#itemList .list02 li dd{
+	font-size: 10px;
+	text-align: right;
+	line-height: 12px;
+	margin: 3px 0;
+	text-align: center;
+}
+
+#itemList .list02 li dd.articleName{
+	width: auto;
+	overflow: hidden;
+  	white-space: nowrap;
+ 	text-overflow: ellipsis;
+	color:#666;
+	
+}
+
+#itemList .list02 li dd.price{
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 5px 0;
+	color:#333;
+	/*display: none;*/
+}
+
+
+
+.fix{
+	clear:both;
+}
+
+
+.btn{
+	background-color: #ffffff;
+	border: 1px #000 solid;
+	color: #000;
+	text-align:center;
+	width: 85%;
+	margin:20px auto 30px;
+	border-radius:3px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+	box-shadow:0px 0px 1x 1px #DDD;
+    -moz-box-shadow:0px 0px 1px 1px #DDD;
+    -webkit-box-shadow:0px 0px 1px 1px #DDD;
+}
+
+.btn a{
+	color: #000;
+	text-align:center;
+	display: block;
+	padding: 15px 10px;
+	font-size: 15px;
+	line-height:1.2;
+	position: relative;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.btn a:after {
+	position: absolute;
+	top: 51%;
+	right: 10px;
+	display: block;
+	content: '';
+	width: 6px;
+	height: 6px;
+	margin-top: -4px;
+	border-top: 1px solid #fff;
+	border-right: 1px solid #fff;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+
+/*　ランキング順位　*/
+.divCount li{
+  display: block;
+  position: relative;
+  /*margin: 30px;
+  padding: 20px 30px 10px 30px;
+  border-radius: 5px;
+  background: #cadbad;*/
+  counter-increment: divCount;
+  cursor: pointer;
+}
+.divCount li:nth-of-type{
+  margin: 30px 50px 30px 30px;
+}
+.divCount li:before,
+ul.list03.divCount li:nth-child(50):before{
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 20px;
+  height: 10px;
+  margin: 0;
+  padding: 7px 3px;
+  border-radius: 50%;
+  background: #fff;
+  color: #333;
+  border:#ccc solid 1px;
+  text-align: center;
+  content: counter(divCount);
+  z-index:100;
+  font-size: 11px;
+  line-height: 1;
+}
+
+.divCount li:nth-child(1):before{
+  background: #c1ab05;
+  border:none;
+  color: #fff;
+}
+
+.divCount li:nth-child(2):before{
+  background: #8F9294;
+   border:none;
+  color: #fff;
+}
+
+.divCount li:nth-child(3):before{
+  background: #b86c00;
+   border:none;
+  color: #fff;
+}
+
+.rank50.divCount li:nth-child(1):before,
+.rank50.divCount li:nth-child(2):before,
+.rank50.divCount li:nth-child(3):before{
+  color: #000;
+  background: #fff;
+  border:#ccc solid 1px;
+}
+
+.rank50.divCount li:nth-child(50):before{
+	letter-spacing:-1px;
+
+}
+
+ul.list02.rank50.divCount {
+    counter-reset: divCount 50;
+
+}
+
+#itemList .list02.rank50 li{
+	float: left;
+	width: 31%;
+	margin: 1% 3% 8% 0;
+	list-style: none;
+	/*overflow: hidden;*/
+	height: auto;
+}
+
+#itemList .list02.rank50 li:nth-child(3n){
+	margin: 1% 0 8% 0;
+}
+
+
+
+/*
+	検索リンク キーワード
+------------------------------*/
+.itemList_midashi02{
+	margin: 0;
+	padding: 5px;
+	text-align: center;
+	background-color: #f2f2f2;
+	color: #333;
+	font-size: 13px;
+	border-bottom: 1px #ccc dotted;
+}
+
+
+.category-searchWrap{
+	border:1px #ccc solid;
+	margin: 10px;
+	padding: 0;
+}
+
+.category-searchWrap ul.yoko03{
+	margin-bottom: 10px;
+}
+
+.category-searchWrap ul.yoko03 li{
+	float: left;
+	width: 33%;
+	margin: 0;
+	overflow: hidden;
+	text-align: center;
+	font-weight: bold;
+	font-size: 12px;	
+}
+
+.category-searchWrap ul.yoko03 li a{
+	display: block;
+	padding: 7px 0;
+	text-decoration: underline;
+	color: #000;
+}
+
+
+
+/*-----------------------
+
+		tab CSS
+		
+-----------------------*/
+
+#tabnavi ul{
+	margin: 0 auto;
+	padding:0;
+	list-style:none;
+	width: 100%;
+	text-align: center;
+}
+
+#tabnavi li{
+	width: 24.7%;
+	float:left;
+	padding:0;
+	/* background: #f2f2f2; */
+	text-align:center;
+	display:inline-block;
+	font-family: 'Poiret One', cursive;
+	/* margin: 0 0 -1px 0; */
+	font-size: 11px;
+	border-right: 1px #ccc solid;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-topright: 3px;
+	letter-spacing: 1px;
+}
+
+#tabnavi li:nth-child(4){
+	border-right: none;
+}
+
+#tabnavi li.max{
+	width: 96%;
+	margin: 5px 0 5px 5px;
+}
+
+#tabnavi li a{
+	padding: 5px 0;
+	text-decoration:none;
+	text-align:center;
+	display: block;
+	position:relative;
+	color: #4E4C63;
+}
+
+#tabnavi li a.up:before{
+	content:url(https://www.dreamvs.jp/sp/images/all/icon/icon_new_red.gif);
+	padding-right:5px;
+
+}
+
+#tabnavi li a.active,
+#tabnavi2 li a.active,
+#tabnavi3 li a.active{
+	width:100%;
+	float:left;
+	padding: 5px 0;
+	background: #4E4C63;
+	color: #fff !important;
+}
+
+a.active {}
+
+#tabnavi li a.active:before{
+	position: absolute;
+	top: 51%;
+	right: 45%;
+	display: block;
+	content: '';
+	width: 6px;
+	height: 6px;
+	margin-top: 9px;
+	-webkit-transform: rotate(135deg);
+	transform: rotate(135deg);
+	background-color: #4E4C63;
+}
+
+
+#tabcontent{
+	padding: 4px 0;
+	clear:both;
+	/* border-top: 1px #000 solid; */
+	margin-top: -1px;
+}
+
+#tabcontent dl.accordion{
+	width:100%;
+	margin:0;
+	padding:0;
+	color:#000;
+ } 
+
+#tabcontent dl.accordion dt{
+        font-weight:bold;
+        cursor:pointer;
+        border-top:1px solid #cccccc;
+		clear:both;
+		margin-top:10px;
+		padding:10px 50px 10px 0;
+		text-align:right;
+		background: url(https://www.dreamvs.jp/sp/images/all/icon/icon_plus.png) no-repeat;
+        background-position:96% center;
+        background-size:20px 20px;
+}
+
+#tabcontent dl.accordion dt.open{
+ background: url(https://www.dreamvs.jp/sp/images/all/icon/icon_minus.png)  no-repeat;
+ background-position:96% center;
+ background-size:20px 20px;
+	 } 
+
+#tabcontent .event_info ul,
+#tabcontent2 .event_info ul,
+#tabcontent3 .event_info ul{
+	padding:0;
+	margin:0;
+}
+
+#tabcontent dl.accordion dd{ 
+/* background:#FFF;*/
+ padding:0; 
+ display:none;
+ margin:0;
+ clear:both;
+ border-top:1px #CCC solid;
+}
+
+
+#top_contents .event_info{
+	margin:0;
+	background-color:#FFF !important;
+	padding-top: 5px;
+	padding-right: 0;
+	padding-bottom: 5;
+	padding-left: 0;/*	border-radius:5px 5px 5px 5px; */
+	}
+
+
+/*強制調整用*/
+ul.realtime-ranking.list02 {
+    margin: 10px auto !important;
+    width: 90% !important;
+}
+
+ul.realtime-ranking.list02 li {
+    width: 46.5%;
+    margin: 1% 5% 8% 0;
+}
+
+ul.realtime-ranking.list02 li a{
+	color: #333;
+	text-decoration: none;
+}
+
+ul.realtime-ranking.list02 li:nth-child(2n){
+	margin: 1% 0 8% 0;
+}
+
+ul.realtime-ranking li dd.articleName {
+    display: block !important;
+}
+
+
+div#ranking_shoes {
+    width: 95%;
+    margin: 0 auto;
+}

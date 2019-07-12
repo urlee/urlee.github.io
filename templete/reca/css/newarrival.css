@@ -1,0 +1,191 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*===============================================
+以下のCSSはPC・SPの両方に適用されます。
+共通の変更がある場合はこの箇所を変更してください。
+また、PC・SP用と重複がある場合はPC・SP箇所の適用箇所を削除し、
+削除後にここに記載してください。
+===============================================*/
+* {
+	margin:0;
+	padding:0;
+	border:0;
+}
+a:hover {
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.80;
+    opacity: 0.80;
+}
+body {
+	text-align:center;
+	font-family: "メイリオ", Meiryo,"ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN","游ゴシック", YuGothic, sans-serif;
+}
+ul {
+	list-style:none;
+	margin:20px 0 0 0;
+}
+
+
+/*===============================================
+widthが640px以上の場合に適用されるcssです。
+PCページの変更を行う場合はこの箇所を変更してください。
+===============================================*/
+@media screen and (min-width: 640px){
+div#wrapper {
+	width:900px;
+	margin:0 auto;
+	text-align:left;
+}
+h1 {
+	text-align:center;
+	margin:10px 0 0 0;
+}
+h1 img {
+	width:40%;
+	margin:0 auto;
+}
+
+/*.itemlist関係*/
+div.itemlist {
+	margin:100px 0 0 0;
+	clear:both;
+	overflow:hidden;
+}
+div.itemlist h3 {
+	text-align:center;
+	font-weight:400;
+	font-size:18px;
+}
+div.itemlist ul li {
+	float:left;
+	width:290px;
+	margin:30px 15px 0 0;
+}
+div.itemlist ul li:nth-child(3n) {
+	margin:30px 0 0 0 !important;
+}
+div.itemlist ul li a {
+	text-decoration:none;
+	color:#333;
+	font-size:14px;
+}
+div.itemlist ul li a:hover {
+	text-decoration:underline;
+}
+div.itemlist ul li a p {
+	margin:5px 0 0 5px;
+	letter-spacing:1px;
+}
+footer {
+	clear:both;
+	font-size:16px;
+	text-align:center;
+	margin-top:50px;
+}
+footer a {
+	color:#333;
+	text-decoration:none;
+}
+footer a:hover {
+	color:#ccc;
+	text-decoration:underline;
+}
+div#copy {
+	text-align:center;
+	font-size:14px;
+	margin:20px 0;
+}
+.pageTop{
+	background:#cccccc;
+	border-radius:5px;
+	color:#333333;
+	padding:20px;
+	position:fixed;
+	bottom:20px;
+	right:20px;
+}
+.pageTop:hover{
+	background:#EEE;
+}
+}
+
+
+/*===============================================
+widthが640px以下の場合に適用されるcssです。
+SPページの変更を行う場合はこの箇所を変更してください。
+===============================================*/
+@media screen and (max-width:640px){
+div#wrapper {
+	text-align:left;
+}
+h1 {
+	text-align:center;
+	margin:10px 0 0 0;
+}
+h1 img {
+	width:60%;
+	margin:0 auto;
+}
+/*.itemlist関係*/
+div.itemlist {
+	margin:40px 0 0 0;
+	clear:both;
+	overflow:hidden;
+}
+div.itemlist h3 {
+	text-align:center;
+	font-weight:400;
+	font-size:16px;
+}
+div.itemlist li {
+	width:49%;
+	margin:15px 0;
+}
+div.itemlist li:nth-child(odd) {
+	float:left;
+}
+div.itemlist li:nth-child(even) {
+	float:right;
+}
+div.itemlist li a {
+	text-decoration:none;
+	color:#333;
+	font-size:14px;
+}
+div.itemlist li a p {
+	font-size:14px;
+	margin:5px 0 0 0;
+}
+footer {
+	font-size:14px;
+	text-align:center;
+	margin-top:30px;
+}
+footer a {
+	color:#333;
+	text-decoration:none;
+}
+footer a:hover {
+	color:#ccc;
+	text-decoration:underline;
+}
+div#copy {
+	text-align:center;
+	font-size:14px;
+	margin:20px 0;
+}
+.pageTop{
+	background:#DDD;
+	border-radius:5px;
+	color:#666666;
+	font-size:1;
+	padding:15px;
+	position:fixed;
+	bottom:30px;
+	right:4px;
+}
+.pageTop:hover{
+	background:#EEE;
+}
+}

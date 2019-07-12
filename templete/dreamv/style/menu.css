@@ -1,0 +1,69 @@
+
+html>/**/body {
+behavior: url("http://www.rakuten.ne.jp/gold/dreamv-gla/style/csshover.htc");
+font-size: 12px;
+
+} /* WinIE behavior call */
+
+ul	{ margin:0; padding:0; list-style-type:none; }
+
+div#nav {
+	float: left; 
+	width: 200px;
+	text-align:center; 
+    background: #FDD;
+ font-size:small;
+ }
+ 
+
+div#nav ul {
+	margin: 0; 
+	padding: 0; 
+	width: 190px; 
+	background: white;
+  }
+  
+div#nav li {
+	position: relative; 
+	list-style: none; 
+	margin: 10px;
+    border-bottom: 1px solid #CCC;
+ /* border-right: 1px solid #CCC;*/
+  }
+  
+  
+  div#nav li a {
+	position: relative; 
+	list-style: none; 
+	margin: 0;
+    border-bottom: 1px solid #CCC;
+	color:#000000;
+ /* border-right: 1px solid #CCC;*/
+  }
+  
+div#nav li:hover {
+	background: #EBB;
+	}
+	
+div#nav li.submenu {
+	background: url(http://www.rakuten.ne.jp/gold/dreamv-kirei/img/top/submenu.gif) 95% 50% no-repeat;
+	}
+	
+div#nav li.submenu:hover {background-color: #EDD;}/*第一階層のホバー時のBGカラー*/
+
+div#nav li a {display: block; padding: 0.25em 0 0.25em 0.5em;
+  text-decoration: none; width: 6.5em;}
+div#nav>ul a {width: auto;}
+
+div#nav ul ul {
+	position: absolute; 
+	top: 0; 
+left: 180px;/*2～3階層目のホバーの位置指定*/
+  display: none;}
+  
+  
+div#nav ul.level1 li.submenu:hover ul.level2, 
+div#nav ul.level2 li.submenu:hover ul.level3 {/*2～3階層目の指定テキストなど*/
+	display:block;
+	font-size:small;
+	}

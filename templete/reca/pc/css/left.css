@@ -1,0 +1,135 @@
+
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin:0;
+	padding:0;
+	border:0;
+}
+body {
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+ul {
+	list-style:none;
+}
+
+/*------------------------------
+left
+------------------------------*/
+#wrapper {
+	width:230px;
+	background-color:#eee;
+	padding:10px 0 20px 0;
+}
+ul.banner_area {
+	width:210px;
+	margin:0 0 0 10px;
+}
+ul.banner_area li {
+	line-height:0;
+	margin:15px 0 0 0;
+}
+ul.banner_area p {
+	text-align:center;
+	font-size:12px;
+	color:#333;
+}
+h3 {
+	margin:40px 0 10px 10px;
+	width:210px;
+}
+ul.item_banner {
+	width:210px;
+	margin:0 0 0 10px;
+	border-bottom:2px solid #fff;
+}
+ul.item_banner li {
+	line-height:0;
+	margin:0 0 10px 0;
+}
+
+#search {
+	margin:0 0 30px 10px;
+}
+#search form {
+	position:relative;
+}
+#search form input.text {
+	width:210px;
+	height:30px;
+	border-radius:6px;/* CSS3草案 */  
+    -webkit-border-radius:6px;/* Safari,Google Chrome用 */  
+    -moz-border-radius:6px;/* Firefox用 */
+	padding:0 0 0 10px;
+}
+#search form input.search_btn {
+	position:absolute;
+	bottom:5px;
+	right:18px;
+}
+
+.item_list {
+	width:210px;
+	margin:0 0 0 10px;
+	border-bottom:2px solid #fff;
+}
+.item_list h4 {
+	background-color:#fff;
+	font-size:14px;
+	font-weight:700;
+	margin:10px 0 5px;
+}
+.item_list h4 a {
+	display:block;
+	text-decoration:none;
+	padding:3px 8px;
+	color:#333;
+}
+.item_list h4 a:hover {
+	display:block;
+	text-decoration:none;
+	padding:3px 8px;
+	color:#333;
+}
+.item_list ul {
+	margin:0 0 20px 0;
+}
+.item_list ul li {
+	font-size:14px;
+	line-height:1.8em;
+	padding:0 0 0 5px;
+}
+.item_list ul li a {
+	text-decoration:none;
+	color:#333;
+}
+.item_list ul li a:hover {
+	text-decoration:underline;
+}
+.item_list ul li.inner {
+	font-size:12px;
+	padding:0 0 0 22px;
+	background-image:url(../img/left/nav-icon.png);
+	background-repeat:no-repeat;
+	background-position:10px 3px;
+}
+
+
+.price {
+	width:210px;
+}
+.price ul {
+	margin:20px 0 0 10px;
+}
+.price ul li {
+	font-size:14px;
+	line-height:1.8em;
+}
+.price ul li a {
+	text-decoration:none;
+	color:#333;
+}
+.price ul li a:hover {
+	text-decoration:underline;
+	color:#333;
+}

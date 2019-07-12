@@ -1,0 +1,163 @@
+@charset "utf-8";
+
+*{
+	margin: 0;
+	padding: 0;
+}
+#ranking_container{
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #999;
+	border-top: 1px solid #999;
+}
+.pankuzu{
+	font-size:11px;
+}
+#hitrankmidasi{
+	text-align: center;
+	font-size:16px;
+	padding-top: 20px;
+	
+	font-weight: bold;
+	color:#000;
+}
+.draw_nowtext{
+	color: #E4007F;
+	text-align: center;
+	font-size: 11px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#ranking--head{
+	overflow: hidden;
+	margin: 0 auto;
+	text-align:center;
+	width: 100%;
+	padding: 6px 0;
+	border-bottom: 1px solid #999;
+	overflow: hidden;
+}
+#ranking--head select{
+	font-size:13px;
+	width: 240px;
+	padding: 0.5% 1%;
+	margin:0 auto;
+}
+
+#ranking--footer{
+	overflow: hidden;
+	margin: 0 auto;
+	width: 100%;
+	padding: 10px 0;
+	border-top: 1px solid #999;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+#ranking--footer select{
+	font-size:13px;
+	width: 40%;
+	padding: 0.5% 1%;
+	float: right;
+	margin-right: 5%;
+	
+}
+.pulldown {
+	background: url('/sp/images/icon/ico_select_arrow_under.png') no-repeat scroll right center / 20px 20px transparent;
+}
+.draw_container{
+	background-color: #fff;
+	margin-bottom: 0px;
+	overflow: hidden;
+}
+
+.item_list{
+	float: left;
+	width: 46%;
+	margin: 1%;
+	height:240px;
+	margin-bottom: 3%;
+	padding: 1%;
+}
+
+@media screen and (min-width: 641px) {
+	.item_list{
+		float: left;
+		width: 46%;
+		margin: 1%;
+		height:270px;
+		margin-bottom: 3%;
+		padding: 1%;
+	}
+}
+
+
+p.listname{
+	text-overflow: ellipsis;
+	white-space: nowrap; 
+	width: 100%;
+	margin-top: 5px;
+}
+.item_list img{
+	border: 0;
+	width: 100%;
+}
+.item_list p{
+	font-size: 10px;
+	color:#333;
+	text-align: center;
+	width: 150px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	white-space: nowrap; 
+
+}
+.item_list .listnprice{
+	font-size: 13px;
+	color:#f00;
+	font-weight: bold;
+	margin-top: -1px;
+}
+.item_list .listprice{
+	font-size: 8px;
+	color:#666;
+	margin-top: -5px;
+}
+ul#page{
+	overflow: hidden;
+	list-style: none;
+	margin: 20px auto;
+	width: 250px;
+}
+ul#page2{
+	overflow: hidden;
+	list-style: none;
+	margin: 0px auto;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	width: 250px;
+}
+ul#page li,ul#page2 li{
+	float: left;
+	width: 28px;
+	height: 28px;
+	margin: 0 10px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 30px;
+	border: 1px solid #666;
+}
+.btn_selected{
+	float: left;
+	width: 28px;
+	height: 28px;
+	margin: 0 10px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 30px;
+	border: 1px solid #333;
+	background-color: #333;
+	color:#fff;
+}

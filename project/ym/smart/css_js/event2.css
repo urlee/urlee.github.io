@@ -1,0 +1,192 @@
+a { text-decoration:none;
+}
+.yohaku{
+	margin:0% 3%;
+}
+.zure{
+	padding-top: 20px;
+	margin-top: -20px;
+}
+.botan{
+	text-align:center;
+	vertical-align:middle;
+	color:#ffffff;
+	border-radius:10px;
+	background-color:#333333;
+	padding:2%;
+	margin:0% 10% 3% 10%;
+	font-weight:bold;
+	font-size:10px;
+	 box-shadow: 2px 2px 2px  rgba(0,0,0,0.2);
+}
+.obi{
+	text-align:center;
+	font-weight:bold;
+	font-size:10px;
+	color:#ffffff;
+	background-color:#000000;
+	padding:2%;
+}
+.maru{
+	margin:0px 10px;
+	 text-align:center;
+	 margin-top:10px;
+	 background-color:#ffffff;
+	 border:#eee 1px solid;
+	 border-bottom:#cccccc 1px solid;
+	 border-right:#cccccc 1px solid;
+	 border-radius:10px;
+	 overflow:hidden;
+}
+.kage{
+	box-shadow: 5px 5px 5px  rgba(0,0,0,0.2); 
+}
+.bgcolor{
+	padding-bottom:5%;
+	margin-bottom:5%;
+}
+/*
+メニュー
+*/
+.menu div{
+	padding:4px 6px;
+	color:#ffffff;
+	text-align:center;
+	background-color:#000000;
+	border-radius:5px;
+	font-size:10px;
+	font-weight:bold;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	box-shadow: 2px 2px 2px  rgba(0,0,0,0.2); 
+}
+.search-botan{
+	 border:#000000 1px solid; border-radius:10px; padding:10px;  text-align:center; vertical-align:middle; font-weight:bold; font-size:15px;
+	 box-shadow: 2px 2px 2px  rgba(0,0,0,0.2); background-image:url(http://www.rakuten.ne.jp/gold/outletruckruck/images/eventimg/0615eventimg/arrow3.gif); background-repeat:no-repeat; background-position:10% 50%; background-size: 13%;
+}
+#menu-foot{
+	position:fixed;
+	z-index:9999;
+	bottom:-5px;
+	left:0px;
+	width:100%;
+	box-shadow: 0 0 1em #333333;
+}
+#menu-foot td{
+	width:20%;
+}
+
+#menu-foot td img:hover{
+	opacity:1;
+}
+.top-icon{
+	background:#000000;
+	color:#ffffff;
+	padding:10px;
+	position: fixed;
+	font-size:10px;
+	bottom:15%;
+	right: 5px;
+	z-index: 1;
+	opacity: 1;
+}
+	
+.top-icon:hover{
+	opacity: 0.5 ;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+/*
+アイテムデザイン
+*/
+.medama1{
+	border:5px solid;
+	margin:0% 3% 7% 3%;
+	position:relative;
+	background-color:#ffffff;
+	overflow:hidden;
+}
+.medama1 p{
+	font-size:10px;
+	margin:2%;
+	text-align:center;
+	 font-weight:bold;
+}
+.medama2{
+	border:3px solid;
+	margin:0% 1% 7% 1%;
+	position:relative;
+	background-color:#ffffff;
+	overflow:hidden;
+}
+.medama2 p{
+	font-size:10px;
+	margin:1%;
+	text-align:center;
+	 font-weight:bold;
+}
+.medama3{
+	border:3px solid;
+	margin:0% 1% 7% 1%;
+	position:relative;
+	background-color:#ffffff;
+	overflow:hidden;
+}
+.medama3 p{
+	font-size:10px;
+	margin:1%;
+	text-align:center;
+	 font-weight:bold;
+}
+.en{
+	font-size:600%;
+	font-weight:bold;
+	letter-spacing:-5px;
+}
+.medama-botan{
+	text-align:center;
+	vertical-align:middle;
+	color:#ffffff;
+	border-radius:10px;
+	background-color:#333333;
+	padding:2%;
+	margin:0% 10% 3% 10%;
+	font-weight:bold;
+	font-size:10px;
+	 box-shadow: 2px 2px 2px  rgba(0,0,0,0.2);
+	 background-image:url(arrow2.gif); background-repeat:no-repeat; background-position:10% 50%; background-size: 7%;
+}
+
+waku2{
+	overflow:hidden;
+	margin:0px;
+	padding:0px;
+}
+.waku2 img{
+	width:48%;
+	border:#eeeeee 1px solid;
+}
+
+.waku3 img{
+	padding:0px;
+	margin:1% 1%;
+	width:30%;
+	border:#cccccc 1px solid; 
+	
+    box-shadow:0 0 5px #fff, 0 0 5px #eee, 0 0 5px #eee;
+    -webkit-box-shadow:0 0 5px #fff, 0 0 5px #eee, 0 0 5px #eee;
+    -moz-box-shadow:0 0 5px #fff, 0 0 5px #eee, 0 0 5px #eee;
+}
+.waku4 img{
+	padding:0px;
+	margin:1% 1%;
+	width:22%;
+	border:#cccccc 1px solid; 
+	
+    box-shadow:0 0 5px #fff, 0 0 5px #eee, 0 0 5px #eee;
+    -webkit-box-shadow:0 0 5px #fff, 0 0 5px #eee, 0 0 5px #eee;
+    -moz-box-shadow:0 0 5px #fff, 0 0 5px #eee, 0 0 5px #eee;
+}
+.cate img{
+	padding:1px;
+	border:#eeeeee 1px solid;
+}

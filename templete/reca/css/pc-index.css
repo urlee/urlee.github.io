@@ -1,0 +1,371 @@
+* {
+	margin:0;
+	border:none;
+	text-align:center;
+	list-style:none;
+	font-family:"ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+	padding:0;
+}
+
+img {
+	margin:0;
+	border:none;
+}
+
+ul {
+  font-size: 0;
+}
+
+ul li {
+display: inline-block;
+}
+
+
+
+p{
+font-size:12px;
+}
+
+
+section {
+margin-bottom:100px;
+}
+
+div #wrapp {
+width:100%;
+margin:auto;
+}
+
+div #bgcolor2 {
+width:100%;
+top:100px;
+margin:auto;
+background-color:#333;
+height:140px;
+}
+
+div #bgcolor1 {
+width:100%;
+margin:auto;
+background-color:#000;
+height:100px;
+}
+
+header {
+margin:auto;
+width:1260px;
+}
+
+div #header-logo {
+margin:auto;
+padding-top:30px;
+height:70px;
+}
+
+h1 {
+float:left;
+}
+
+
+nav {
+float:right;
+width:370px;
+}
+
+nav li{
+margin:0 5 0 5;
+}
+
+#search {
+margin:auto;
+width:1260px;
+height:40px;
+}
+
+
+
+
+
+#pcsearch img {
+margin:10 15 0 0;
+}
+
+
+#searchword {
+width:820px;
+float:right;
+}
+
+#pcsearch {
+width:440px;
+float:left;
+}
+
+#pcsearch img {
+margin:10 15 0 0;
+}
+
+#searchword {
+float:right;
+margin:10 0 5 0;
+}
+
+#searchword ul li {
+color:#ccc;
+font-size:10px;
+}
+
+#searchword ul li.liword {
+color:#ff6699;
+font-size:10px;
+}
+
+#searchword ul li {
+color:#ff6699;
+font-size:10px;
+margin:0px 5px;
+}
+
+#searchword ul li.liword a:link {
+	color:#ff6699;
+	text-decoration: none;
+	font-size:10px;
+}
+
+#searchword ul li.liword a:visited {
+	color:#ff6699;
+	text-decoration: none;
+	font-size:10px;
+}
+
+#cont {
+width:1200px;
+margin:auto;
+}
+
+
+
+.banner img {
+width:540px;
+height:105px;
+margin:20px;
+height:auto;
+}
+
+
+
+
+
+.sepacate p{
+text-align: right;
+}
+
+.sepacate img {
+margin-bottom:20px;
+}
+
+
+
+.sec-new {
+width:590px;
+float:left;
+}
+
+.sec-rea {
+width:590px;
+float:right;
+}
+
+.sec-mini img {
+width:170px;
+height:170px;
+margin:5px;
+}
+
+.sec-big img {
+width:360px;
+height:360px;
+margin:5px;
+}
+
+#pc-rank li {
+margin:20px;
+}
+
+.sec-reco img {
+margin:10px 2px;
+}
+
+#sec-recate p {
+text-align: right;
+}
+
+.sec-recate img {
+width:260px;
+height:402px;
+margin:10px;
+}
+
+
+
+#pc-cate ol {
+float: left;
+margin:10px 5px;
+}
+
+
+#search-cate {
+width:1200px;
+}
+
+#search-cate ol {
+float: left;
+margin: 0px 40px 60px 40px;
+}
+
+#search-cate li.select {
+font-size:16px;
+text-align: left;
+margin:20px 0px 4px 0px;
+	color:#333333;
+}
+
+#search-cate li.selectmini {
+font-size:12px;
+text-align: left;
+margin:4px 0px 0px 30px;
+			color:#666666;
+}
+
+
+#search-cate li.select a:link {
+	color:#ff6699;
+	text-decoration: none;
+	font-size:16px;
+	color:#333333;
+}
+
+#search-cate li.select a:visited {
+	color:#ff6699;
+	text-decoration: none;
+	font-size:16px;
+	color:#333333;
+}
+
+
+#search-cate li.selectmini a:link {
+	color:#ff6699;
+	text-decoration: none;
+	font-size:12px;
+			color:#666666;
+}
+
+#search-cate li.selectmini a:visited {
+	color:#ff6699;
+	text-decoration: none;
+	font-size:12px;
+			color:#666666;
+}
+
+#pc-info img {
+margin:10px;
+}
+
+
+div #bgcolor3 {
+width:100%;
+margin-bottom:0;
+background-color:#000;
+height:340px;
+}
+
+footer {
+margin:auto;
+width:1260px;
+}
+
+
+
+#shopdata {
+width:320px;
+float: left;
+}
+
+#shopdata img {
+margin-top:30px;
+float: left;
+
+}
+
+.cateimpc {
+   /* Prevent vertical gaps */
+   width:1180;
+   line-height: 1;
+ 
+   -webkit-column-count: 5;
+   -webkit-column-gap:   0;
+   -moz-column-count:    5;
+   -moz-column-gap:      0;
+   column-count:         5;
+   column-gap:           0;
+   margin:auto;
+}
+
+
+#pc-hai {
+margin-top:30px;
+float:left;
+}
+
+footer p {
+color:#FFF;
+text-align:left;
+margin-top:20px;
+}
+
+
+
+footer p.mini {
+color:#FFF;
+font-size:10px;
+margin-top:20px;
+}
+
+footer p a:link {
+color:#FFF;
+	text-decoration: none;
+	font-size:12px;
+}
+
+footer p a:visited {
+color:#FFF;
+	text-decoration: none;
+	font-size:12px;
+}
+
+hr {
+  border: 0;
+    height: 0px;
+ clear:both;
+}
+
+
+
+
+iframe {
+	margin:auto;
+}
+
+
+.frame {
+  overflow:hidden;
+  overflow-x:hidden;
+  overflow-y:hidden;
+  height:100%;
+  width:100%;
+  position:relative;
+  top:0px;
+  left:0px;
+  right:0px;
+  bottom:0px;
+}

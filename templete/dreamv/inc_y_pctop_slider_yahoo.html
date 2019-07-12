@@ -1,0 +1,59 @@
+
+<!--楽天PC_TOP カルーセル上バナー-->
+<div class="hBan"> 
+  <div class="clearfix"></div>
+</div>
+
+<!--楽天PC_TOP カルーセル-->
+
+<div class="container_yahoo">
+  <div class="slide_all_yahoo">
+    <div class="slide_wrap_yahoo">
+      <div class="slide_body_yahoo">
+        <div class="slide_yahoo"><a href="javascript:;" target="_blank">
+        	<img src="images/prolist/500x75.jpg" alt="" width="200" height="auto"> 
+        </a> </div>
+        <div class="slide_yahoo"><a href="javascript:;" target="_blank">
+        	<img src="images/prolist/500x75.jpg" width="200" height="auto" alt=""> 
+        </a> </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+jQuery(document).ready(function($){
+	var slideNum = $('.slide_yahoo').size();
+	$('.slide_body_yahoo').bxSlider({
+		slideWidth: 200,
+		minSlides: 1,
+		maxSlides: 1,
+		moveSlides: 1,
+		slideMargin: 0,
+		
+		// スライドを無限ループにする
+		//infiniteLoop: true,
+		
+		pager:true,
+		prevText: '',
+		nextText: '',
+		auto:true,
+		
+		onSliderLoad:function(currentIndex){
+			$('.slide_yahoo').removeClass('active');
+			$('.slide_body_yahoo > div:nth-child(3n-1)').addClass('active');
+		},
+		
+		onSlideBefore: function($slideElement, oldIndex, newIndex){
+			var new_i = newIndex %3 - 1;
+			var nth = (new_i < 0) ? '3n-1' : '3n'+new_i;
+			$('.slide_yahoo').removeClass('active');
+			$('.slide_body_yahoo > div:nth-child('+nth+')').addClass('active');
+		}
+	});
+});
+
+
+
+</script>
+

@@ -1,0 +1,485 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+/*TOPページ追従バナー121128追加*/
+
+/*ul.sub_navi li a#rakuten_point {
+	width: 30px;
+	height: 28px;
+	margin: -20px 0 0 0;
+	padding: 12px 68px 0 112px;
+	font-size: 28px;
+	font-weight: bold;
+	color: #D60100;
+	background: url(https://www.rakuten.ne.jp/gold/culture/common/img/rpoint_bg.gif) left top no-repeat;
+	float: right;
+}*/
+
+
+#top_right120-1 {
+  display:block;
+  width: 68px;
+  height: 101px;
+  position: fixed; 
+  top: 10px;
+  right: 0px;
+  z-index:9999999999!important;
+}
+
+
+#top_right120-1 a.move {
+  display: block;
+  background: url("../img/rakuten_rbnr01.gif") no-repeat transparent; 
+  background-position: 5px 0px;
+  width: 45px;
+  height: 51px;
+  padding: 50px 23px 0 0;  
+  color: #D60100;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: narrower;
+  text-decoration:none;
+  text-align: right;
+  font-family:Arial,'ＭＳ Ｐゴシック',sans-serif ;
+}
+
+#top_right120-1 a.move:hover{
+  display: block;
+  background: url("../img/rakuten_rbnr01.gif") no-repeat transparent;
+  padding-right: 28px;
+  width: 40px;
+  height: 51px;
+  filter: alpha(opacity=70);  -moz-opacity:0.70;  opacity:0.70;
+}
+
+
+#top_right120-2 {
+  width: 68px;
+  top: 115px;
+  height: 101px;
+  position: fixed; 
+  display:block;  
+  right: 0px;
+  z-index:2;
+}
+
+
+#top_right120-2 a.move {
+  display: block;
+  background: url("../img/side/rbnr02-0205.gif") no-repeat transparent;
+  background-position: 5px 0px;
+  width: 68px;
+  height: 101px;  
+  color: #D60100;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: narrower;
+  text-decoration:none;
+  text-align: right;
+  font-family:Arial,'ＭＳ Ｐゴシック',sans-serif ;
+}/* 週明け終わったらこれ入れる　rbnr02-0226.gif */
+
+#top_right120-2 a.move:hover{
+  display: block;
+  background: url("../img/side/rbnr02-0205.gif") no-repeat transparent;
+  background-position: 0px 0px;
+  width: 68px;
+  height: 101px;
+  filter: alpha(opacity=70);  -moz-opacity:0.70;  opacity:0.70; 
+}
+
+
+#top_right120-3 {
+  width: 68px;
+  height: 101px;
+  position: fixed; 
+  display:block;
+  top: 220px; 
+  right: 0px;
+  z-index:2;
+}
+
+
+#top_right120-3 a.move {
+  display: block;
+  background: url("../img/side/rbnr10-valentine.gif") no-repeat transparent;  
+  background-position: 5px 0px;
+  width: 68px;
+  height: 101px;
+}
+
+#top_right120-3 a.move:hover{
+  display: block;
+  background: url("../img/side/rbnr10-valentine.gif") no-repeat transparent;  
+  background-position: 0px 0px;
+  width: 68px;
+  height: 101px;
+  filter: alpha(opacity=70);  -moz-opacity:0.70;  opacity:0.70;
+
+}
+
+
+#top_right120-10 {
+  width: 68px;
+  height: 101px;
+  position: fixed; 
+  display:block;
+  top:220px;
+  right: 0px;
+  z-index:2;
+}
+
+
+#top_right120-10 a.move {
+  display: block;
+  background: url("../img/side/rbnr11-coupon2.gif") no-repeat transparent;  
+  background-position: 5px 0px;
+  width: 68px;
+  height: 101px;
+}
+
+
+#top_right120-10 a.move:hover{
+  display: block;
+  background: url("../img/side/rbnr11-coupon2.gif") no-repeat transparent;   
+  background-position: 0px 0px;
+  width: 68px;
+  height: 101px;
+  filter: alpha(opacity=70);  -moz-opacity:0.70;  opacity:0.70;
+
+}
+
+
+#top_right-04-lespo {
+  width: 68px;
+  height: 101px;
+  position: fixed; 
+  display:block;
+  top:325px;
+  right: 0px;
+  z-index:2;
+}
+
+
+#top_right-04-lespo a.move {
+  display: block;
+  background: url("../img/side/rbnr08-0806.gif") no-repeat transparent;  
+  background-position: 5px 0px;
+  width: 68px;
+  height: 101px;
+}
+
+
+#top_right-04-lespo a.move:hover{
+  display: block;
+  background: url("../img/side/rbnr08-0806.gif") no-repeat transparent;   
+  background-position: 0px 0px;
+  width: 68px;
+  height: 101px;
+  filter: alpha(opacity=70);  -moz-opacity:0.70;  opacity:0.70;
+
+}
+
+
+#top_right120-coach {
+  width: 68px;
+  height: 101px;
+  position: fixed; 
+  display:block;
+  top:220px;
+  right: 0px;
+  z-index:2;
+}
+
+
+#top_right120-coach a.move {
+  display: block;
+  background: url("../img/side/rbnr08-0723.gif") no-repeat transparent;  
+  background-position: 5px 0px;
+  width: 68px;
+  height: 101px;
+}
+
+
+#top_right120-coach a.move:hover{
+  display: block;
+  background: url("../img/side/rbnr08-0723.gif") no-repeat transparent;   
+  background-position: 0px 0px;
+  width: 68px;
+  height: 101px;
+  filter: alpha(opacity=70);  -moz-opacity:0.70;  opacity:0.70;
+
+}
+
+#top_right120-4 {
+  width: 68px;
+  height: 101px;
+  position: fixed; 
+  display:block;
+  top: 415px; 
+  right: 0px;
+  z-index:2;
+}
+
+
+#top_right120-4 a.move {
+  display: block;
+  background: url("../img/rakuten_rbnr04.gif") no-repeat transparent;    
+  background-position: 5px 0px;
+  width: 68px;
+  height: 101px;
+}
+
+
+#top_right120-4 a.move:hover{
+  display: block;
+  background: url("../img/rakuten_rbnr04.gif") no-repeat transparent;  
+  background-position: 0px 0px;
+  width: 68px;
+  height: 101px;
+  filter: alpha(opacity=70);  -moz-opacity:0.70;  opacity:0.70;
+
+}
+
+
+#top_right120-5 {
+  width: 69px;
+  height: 111px;
+  position: fixed; 
+  display:block;
+  top: 250px;
+  right: 0px;
+  z-index:99999;
+}
+
+
+#top_right120-5 a.move {
+  display: block;
+  background: url("../../topic/review/common/img/coupon_right2.jpg") no-repeat transparent; 
+  background-position: 5px 0px;
+  width: 69px;
+  height: 111px;
+}
+
+
+#top_right120-5 a.move:hover{
+  display: block;
+  background: url("../../topic/review/common/img/coupon_right2.jpg") no-repeat transparent;  
+  background-position: 0px 0px;
+  width: 69px;
+  height: 111px;
+  filter: alpha(opacity=70);  -moz-opacity:0.70;  opacity:0.70;
+
+}
+
+#top_right120-6 {
+  width: 68px;
+  height: 101px;
+  position: fixed; 
+  display:block;
+  top: 625px; 
+  right: 0px;
+  z-index:99999;
+}
+
+
+#top_right120-6 a.move {
+  display: block;
+  background: url("../img/rakuten_rbnr06.gif") no-repeat transparent;  
+  background-position: 5px 0px;
+  width: 68px;
+  height: 101px;
+}
+
+
+#top_right120-6 a.move:hover{
+  display: block;
+  background: url("../img/rakuten_rbnr06.gif") no-repeat transparent;  
+  background-position: 0px 0px;
+  width: 68px;
+  height: 101px;
+  filter: alpha(opacity=70);  -moz-opacity:0.70;  opacity:0.70;
+
+}
+
+
+#top_right120-8 {
+  width: 69px;
+  height: 111px;
+  position: fixed; 
+  display:block;
+  top: 380px; 
+  right: 0px;
+  z-index:99999;
+}
+
+
+#top_right120-8 a.move {
+  display: block;
+  background: url("../img/header/soy2017.jpg") no-repeat transparent;  
+  /*　ブランド対象クーポン　https://www.rakuten.ne.jp/gold/culture/common/img/side/rbnr11-coupon1.gif　*/
+  background-position: 5px 0px;
+  width: 69px;
+  height: 111px;
+}
+
+
+#top_right120-8 a.move:hover{
+  display: block;
+  background: url("../img/header/soy2017.jpg") no-repeat transparent;  
+  background-position: 0px 0px;
+  width: 69px;
+  height: 111px;
+  filter: alpha(opacity=70);  -moz-opacity:0.70;  opacity:0.70;
+
+}
+
+
+#top_right120-8-sd {
+  width: 68px;
+  height: 101px;
+  position: fixed; 
+  display:block;
+  top: 430px; 
+  right: 0px;
+  z-index:99999;
+}
+
+
+#top_right120-8-sd a.move {
+  display: block;
+  background: url("../img/side/rakuten_rbnr08-sd.gif") no-repeat transparent;  
+  background-position: 5px 0px;
+  width: 68px;
+  height: 101px;
+}
+
+
+#top_right120-8-sd a.move:hover{
+  display: block;
+  background: url("../img/side/rakuten_rbnr08-sd.gif") no-repeat transparent;  
+  background-position: 0px 0px;
+  width: 68px;
+  height: 101px;
+  filter: alpha(opacity=70);  -moz-opacity:0.70;  opacity:0.70;
+
+}
+
+#top_right120-11 {
+  width: 68px;
+  height: 101px;
+  position: fixed; 
+  display:block;
+  top: 325px; 
+  right: 0px;
+  z-index:2;
+}
+
+
+#top_right120-11 a.move {
+  display: block;
+  background: url("../img/side/rbnr10-springbag.gif") no-repeat transparent;  
+  background-position: 5px 0px;
+  width: 68px;
+  height: 101px;
+}
+
+
+#top_right120-11 a.move:hover{
+  display: block;
+  background: url("../img/side/rbnr10-springbag.gif") no-repeat transparent;  
+  background-position: 0px 0px;
+  width: 68px;
+  height: 101px;
+  filter: alpha(opacity=70);  -moz-opacity:0.70;  opacity:0.70;
+
+}/*　12日朝にrbnr11-0530.gifに戻す　*/
+
+
+
+
+
+
+* html body #top_right120-1{
+  background: url(null) fixed;
+  
+}
+
+* html div#top_right120-1{
+  position:absolute !important;
+  top: expression((documentElement.scrollTop || document.body.scrollTop) + 10 + 'px');
+  left: expression((documentElement.scrollLeft || document.body.scrollLeft) + document.body.clientWidth - 68 + 'px');
+}
+
+* html div#top_right120-2{
+  position:absolute !important;
+  top: expression((documentElement.scrollTop || document.body.scrollTop) + 115 + 'px');
+  left: expression((documentElement.scrollLeft || document.body.scrollLeft) + document.body.clientWidth - 68 + 'px');
+}
+
+* html div#top_right120-3{
+  position:absolute !important;
+  top: expression((documentElement.scrollTop || document.body.scrollTop) + 220 + 'px');
+  left: expression((documentElement.scrollLeft || document.body.scrollLeft) + document.body.clientWidth - 68 + 'px');
+}
+
+* html div#top_right120-4{
+  position:absolute !important;
+  top: expression((documentElement.scrollTop || document.body.scrollTop) + 415+ 'px');
+  left: expression((documentElement.scrollLeft || document.body.scrollLeft) + document.body.clientWidth - 68 + 'px');
+}
+
+* html div#top_right120-5{
+  position:absolute !important;
+  top: expression((documentElement.scrollTop || document.body.scrollTop) + 535 + 'px');
+  left: expression((documentElement.scrollLeft || document.body.scrollLeft) + document.body.clientWidth - 68 + 'px');
+}
+
+* html div#top_right120-6{
+  position:absolute !important;
+  top: expression((documentElement.scrollTop || document.body.scrollTop) + 625 + 'px');
+  left: expression((documentElement.scrollLeft || document.body.scrollLeft) + document.body.clientWidth - 68 + 'px');
+}
+
+* html div#top_right120-10{
+  position:absolute !important;
+  top: expression((documentElement.scrollTop || document.body.scrollTop) + 310 + 'px');
+  left: expression((documentElement.scrollLeft || document.body.scrollLeft) + document.body.clientWidth - 68 + 'px');
+}
+
+* html div#top_right120-8{
+  position:absolute !important;
+  top: expression((documentElement.scrollTop || document.body.scrollTop) + 430 + 'px');
+  left: expression((documentElement.scrollLeft || document.body.scrollLeft) + document.body.clientWidth - 68 + 'px');
+}
+
+* html div#top_right120-11{
+  position:absolute !important;
+  top: expression((documentElement.scrollTop || document.body.scrollTop) + 325 + 'px');
+  left: expression((documentElement.scrollLeft || document.body.scrollLeft) + document.body.clientWidth - 68 + 'px');
+}
+
+* html div#top_right120-8-sd{
+  position:absolute !important;
+  top: expression((documentElement.scrollTop || document.body.scrollTop) + 430 + 'px');
+  left: expression((documentElement.scrollLeft || document.body.scrollLeft) + document.body.clientWidth - 68 + 'px');
+}
+
+* html div#top_right-04-lespo{
+  position:absolute !important;
+  top: expression((documentElement.scrollTop || document.body.scrollTop) + 325 + 'px');
+  left: expression((documentElement.scrollLeft || document.body.scrollLeft) + document.body.clientWidth - 68 + 'px');
+}
+
+* html div#top_right120-coach{
+  position:absolute !important;
+  top: expression((documentElement.scrollTop || document.body.scrollTop) + 220 + 'px');
+  left: expression((documentElement.scrollLeft || document.body.scrollLeft) + document.body.clientWidth - 68 + 'px');
+}
+
+
+
+

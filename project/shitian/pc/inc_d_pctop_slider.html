@@ -1,0 +1,95 @@
+
+	<script>
+		var DENA_EC={};
+		DENA_EC.sc_data={};
+	</script>
+	<style>
+		.ds-contents-display{
+			display: block;
+		}
+
+		.aus-contents-display{
+			display: none;
+		}
+	</style>
+
+<div class="hBan">
+<div class="clearfix"></div>
+</div>
+
+<div class="container"><div class="slide_all">
+<div class="slide_wrap"><div class="slide_body">
+
+<div class="slide"><a href="https://wowma.jp/item/277691247?l=true&e=llA&e2=listing_flpro">
+ <img src="images/slider_01.jpg">
+</a></div>
+
+<div class="slide"><a href="https://wowma.jp/item/296924731?l=true&e=llA&e2=listing_flpro">
+ <img src="images/slider_02.jpg">
+</a></div>
+
+<div class="slide"><a href="https://wowma.jp/item/304978105?l=true&e=llA&e2=listing_flpro">
+ <img src="images/slider_03.jpg">
+</a></div>
+
+<div class="slide"><a href="https://wowma.jp/item/296955850?l=true&e=llA&e2=listing_flpro">
+ <img src="images/slider_04.jpg">
+</a></div>
+
+<div class="slide"><a href="https://wowma.jp/item/353303922?l=true&e=llA&e2=listing_flpro">
+ <img src="images/slider_05.jpg">
+</a></div>
+
+
+
+
+</div></div>
+</div></div>
+
+
+<script type="text/javascript">
+jQuery(document).ready(function($){
+var slideNum = $('.slide').size();
+$('.slide_body').bxSlider({
+slideWidth: 1000,
+minSlides: 3,
+maxSlides: 3,
+moveSlides: 1,
+slideMargin: 0,
+
+
+
+
+
+pager:true,
+prevText: '',
+nextText: '',
+auto:true,
+onSliderLoad:function(currentIndex){
+$('.slide').removeClass('active');
+$('.slide_body > div:nth-child(3n-1)').addClass('active');
+},
+onSlideBefore: function($slideElement, oldIndex, newIndex){
+var new_i = newIndex %3 - 1;
+var nth = (new_i < 0) ? '3n-1' : '3n'+new_i;
+$('.slide').removeClass('active');
+$('.slide_body > div:nth-child('+nth+')').addClass('active');
+
+}
+
+});
+});
+</script>
+
+<script>
+	(function (){
+		// 繧ｿ繧ｰ繧貞炎髯､
+		var delSite = 'aus';
+		var deleteElm = document.querySelectorAll('.' + delSite + '-contents-display');
+		for(var i = 0;i <deleteElm.length;i++){
+			deleteElm[i].parentNode.removeChild(deleteElm[i]);
+		}
+	})();
+</script>
+<script>_satellite.pageBottom();</script>
+

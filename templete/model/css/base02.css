@@ -1,0 +1,10 @@
+@charset "utf-8";
+#MainTop{
+	position: relative;
+}
+#MainTop #yoko{
+	position: absolute;
+	top: 1130px;
+	left: 0;
+}
+

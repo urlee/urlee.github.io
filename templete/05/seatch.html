@@ -1,0 +1,142 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title></title>
+
+
+<style>	
+/*=============================*/
+/*Header　検索部分
+/*=============================*/
+
+
+.search-wrap{
+	padding:5px 0;
+	background:#F8F8FF;
+	width:950px;
+	height:40px;
+	margin: 0 auto;
+	}
+.search-block{
+	width:950px;
+	margin: 0 auto;
+	}
+
+
+/*検索フォーム
+----------------------*/
+dl.search1 {
+	float:left;
+	width: 200px;
+	height:20px;
+	margin: 8px 0 0 50px;
+	position: relative;
+	background-color: white;
+	opacity: 0.8;
+	border: 1px solid #000000;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	/*overflow: hidden;*/
+}
+
+dl.search1 dt {
+margin-right: 40px;
+padding: 0 0 0 8px;
+}
+dl.search1 dt input {
+font-size: 12px;
+width: 100%;
+height: 20px;
+line-height: 20px;
+background: none;
+border: none;
+}
+
+dl.search1 dd {
+position: absolute;
+top: 0;
+right: 0;
+}
+dl.search1 dd button {
+display: block;
+padding: 5px;
+background: #000000;
+border: none;
+}
+dl.search1 dd button:hover {
+background: #000000;
+}
+dl.search1 dd button span {
+display: block;
+width: 10px;
+height: 10px;
+background: url(img/seatch_icon.png) no-repeat scroll 0 0;
+cursor:pointer;
+}
+
+/*ホットキーワード
+----------------------*/
+.link-tag{
+	color: #777;
+	margin: 0 0 0 300px;
+	text-align: left;
+	}
+.link-tag:after{
+	clear:both;
+	display:block;
+	content:"";
+	}
+.link-tag p{
+	line-height: 15px;
+	font-size:13px;
+	float:left;
+	
+	}
+.link-tag p.title{
+	border-right: none;
+	font-weight:bold;
+	font-size:13px;
+	text-align: left;
+	}
+.link-tag a {
+	padding:3px 10px;
+	color: #777;
+	border-right: 1px solid #f5f5f5;
+	text-decoration: none;
+	transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	line-height: 15px;
+}
+.link-tag a:hover {
+	background:#FFFFFF;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+}
+</style>	
+	
+</head>
+<body>
+<div class="search-wrap"><div class="search-block">
+	<form action="javascript:;" method="get" name="form1" target="_top"><dl class="search1">
+		<dt><input type="text" value="" class="text" name="p"></dt>
+		<dd><button name="search_key" value="検索"><span></span></button></dd>
+	</dl></form>
+    
+	<div class="link-tag">
+		<p class="title">注目のキーワード：</p>
+		<p><a href="javascript:;" target="_top">レギンス</a></p>
+    <p><a href="javascript:;" target="_top">パーカー</a></p>
+    <p><a href="javascript:;" target="_top">Tシャツ</a></p>
+    <p><a href="javascript:;" target="_top">カーディガン</a></p>
+    <p><a href="javascript:;" target="_top">UV</a></p>
+    <p><a href="javascript:;" target="_top">送料無料</a></p>
+	</div>
+</div></div>    
+
+</body>
+</html>

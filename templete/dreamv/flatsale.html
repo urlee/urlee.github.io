@@ -1,0 +1,715 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<!-- 検索エンジン対策 リダレクト -->
+<script type="text/javascript">
+(function(){
+	var ua = navigator.userAgent.toUpperCase();
+	if(ua.indexOf('IPHONE') != -1 || (ua.indexOf('ANDROID') != -1 && ua.indexOf('MOBILE') != -1)){
+		location.href = 'sp/flatsale.html';
+	}
+}());
+</script>
+<script type="text/javascript" src="sp/jscript/jquery-1.10.2.min.js"></script>
+<!-- 検索エンジン対策 リダレクト -->
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="canonical" href="marathon.html"/>
+<link rel="alternate" media="only screen and (max-width: 640px)" href="sp/marathon.html" >
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="stylesheet" href="stylesheets/top_layout.css">
+<link rel="stylesheet" href="stylesheets/lp_flatsale01_sale.css">
+<link rel="stylesheet" href="stylesheets/lp_flatsale01.css">
+<title>FLAT PRICE SALE｜ファッション通販【楽天】夢展望</title>
+<!-- カウントダウン-->
+<script language="JavaScript" type="text/javascript">
+function CountdownTimer(elm,tl,mes){
+ this.initialize.apply(this,arguments);
+}
+CountdownTimer.prototype={
+ initialize:function(elm,tl,mes) {
+  this.elem = document.getElementById(elm);
+  this.tl = tl;
+  this.mes = mes;
+ },countDown:function(){
+  var timer='';
+  var today=new Date();
+  var day=Math.floor((this.tl-today)/(24*60*60*1000));
+  var hour=Math.floor(((this.tl-today)%(24*60*60*1000))/(60*60*1000));
+  var min=Math.floor(((this.tl-today)%(24*60*60*1000))/(60*1000))%60;
+  var sec=Math.floor(((this.tl-today)%(24*60*60*1000))/1000)%60%60;
+  var milli=Math.floor(((this.tl-today)%(24*60*60*1000))/10)%100;
+  var me=this;
+  if( ( this.tl - today ) > 0 ){
+	  timer+= '<p class="cd_title">初売りバーゲン開始まであと…</p>';
+   if (day) timer += '<span class="day">'+day+'day</span>';   
+   if (hour) timer += '<span class="hour">'+hour+':</span>';
+   timer += '<span class="min">'+this.addZero(min)+':</span><span class="sec">'+this.addZero(sec)+':</span><span class="milli">'+this.addZero(milli)+'</span>';
+   this.elem.innerHTML = timer;
+   tid = setTimeout( function(){me.countDown();},10 );
+  }else{
+   this.elem.innerHTML = this.mes;
+   return;
+  }
+ },addZero:function(num){ return ('0'+num).slice(-2); }
+}
+function CDT(){
+ var tl = new Date('2018/1/1 00:00:00');
+ var timer = new CountdownTimer('CDT',tl,'Happy New Year!');
+ timer.countDown();
+}
+window.onload=function(){
+ CDT();
+}
+</script>
+
+<script>
+$(function() {
+    var showFlag = false;
+    var topBtn = $('#menu-wrap');    
+    topBtn.css('bottom', '-700px');
+    var showFlag = false;
+    //スクロールが2000に達したらボタン表示
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 2000) {
+            if (showFlag == false) {
+                showFlag = true;
+                topBtn.stop().animate({'bottom' : '20px'}, 200); 
+            }
+        } else {
+            if (showFlag) {
+                showFlag = false;
+                topBtn.stop().animate({'bottom' : '-700px'}, 200); 
+            }
+        }
+    });
+
+});
+
+$(function() {
+    var showFlag = false;
+    var topBtn = $('#menu-topic_');    
+    topBtn.css('top', '-700px');
+    var showFlag = false;
+    //スクロールが1000に達したらボタン表示
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 1000) {
+            if (showFlag == false) {
+                showFlag = true;
+                topBtn.stop().animate({'top' : '100px'}, 200); 
+            }
+        } else {
+            if (showFlag) {
+                showFlag = false;
+                topBtn.stop().animate({'top' : '-700px'}, 200); 
+            }
+        }
+    });
+});
+
+$(function() {
+    var showFlag = false;
+    var topBtn = $('#pagetop_btn');    
+    topBtn.css('bottom', '20px');
+    var showFlag = false;
+    //スクロールが1000に達したらボタン表示
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 1000) {
+            if (showFlag == false) {
+                showFlag = true;
+                topBtn.stop().animate({'bottom' : '20px'}, 200); 
+            }
+        } else {
+            if (showFlag) {
+                showFlag = false;
+                topBtn.stop().animate({'bottom' : '-700px'}, 200); 
+            }
+        }
+    });
+});
+</script> 
+
+<style type="text/css">
+ul.item_line03_.cate_ li {
+    border: 1px #ccc solid;
+    background-color: #FFF;
+}
+ul.item_line03_ li {
+    width: 30%;
+    margin: 10px 7px 30px;
+    padding-bottom: 10px;
+}
+ul.item_line03_ li {
+    display: inline-block;
+    vertical-align: top;
+}
+ul.item_line03_ img {
+    border: none;
+}
+
+ul.item_line03_ img {
+    width: 99.5%;
+}
+ul.item_line03_ dd {
+    margin: 5px 0;
+    padding: 0;
+    text-align: center;
+}
+dd.item_bar01_ {
+    background-color: #feff00;
+    color: #f82a3d;
+    font-size: 14px;
+    font-weight: bold;
+}
+ul.item_line03_ dd.item_price_ {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 5px 0;
+    line-height: 1em;
+    color: #eb172b;
+}
+ul.item_line03_ dd.item_price_ {
+    font-size: 30px !important;
+}
+ul.item_line03_ dd.item_price_ span.intax_, ul.item_line04_ dd.item_price_ span.intax_ {
+    font-size: 12px;
+}
+ul.item_line03_ dd.item_price_ span {
+    font-size: 15px;
+}
+dd.item_offbar_ {
+    color: #fbfb0f;
+    font-weight: bold;
+    background-color: rgb(231, 5, 6);
+    font-size: 1.5em;
+}
+ul.item_list_.sale2_ dd.item_price_ {
+    color: #e70506;
+}
+
+.timesale_none {
+display:none;
+}
+
+ul.item_list_.sale_ li {
+    border: 5px #f2b30a solid !important;
+}
+ul.item_list_.sale02_ li {
+    border: 2px #f2f2f2 solid !important;
+}
+.icon02_ {
+    position: absolute;
+    top: -23px;
+    left: -21px;
+    width: 71px;
+}
+ul.button_line7_ {
+    width: 850px;
+    margin: 0 auto;
+    text-align: center;
+}
+ul.button_line7_ li {
+    display: inline-block;
+    width: 230px;
+}
+ul.button_line7_ li img {
+    width: 90%;
+}
+
+.button_style01_ a {
+    background-color:#B66753 !important;
+}
+ul.event_navi_ {
+	width: 80%;
+	margin: 0 auto;
+    /*width: 45% !important;*/
+}
+ul.event_navi_ li {
+    width: 160px !important;
+}
+#topic_ {
+    width: 98px !important;
+}
+ul.event_navi_ li {
+    -webkit-box-shadow: none !important;
+}
+section .box_ {
+    width: 980px;
+    margin: 10px auto;
+    padding: 10px 10px 50px;
+}
+#contents .topimg {
+    background-color: #012f3f !important;
+}
+</style>
+</head>
+
+<body>
+
+
+
+
+<!-- ヘッダー -->
+<div id="header_wrap"></div>
+<div id="contents">
+  <div class="pankuzu"><ol>
+    <li><a href="https://www.rakuten.ne.jp/gold/dreamv/">TOP</a> &gt;</li>
+    <li><h1>FLAT PRICE SALE</h1></li>
+  </ol></div>
+<div class="topimg" id="top"><img src="images/shoes_1000x500.jpg" alt="FLAT PRICE SALE" width="1000"></div>
+ 
+<!--<div id="menu-topic_">
+<ul id="topic_">
+<li><a href="javascript:;"><img src="images/price_1000.gif" alt="1000円均一"></a></li>
+<li><a href="javascript:;"><img src="images/price_1200.gif" alt="1200円均一"></a></li>
+<li><a href="javascript:;"><img src="images/price_1500.gif" alt="1500円均一"></a></li>
+<li><a href="javascript:;"><img src="images/price_1800.gif" alt="1800円均一"></a></li>
+<li><a href="javascript:;"><img src="images/price_2000.gif" alt="2000円均一"></a></li>
+<li><a href="javascript:;"><img src="images/price_2200.gif" alt="2200円均一"></a></li>
+<li><a href="javascript:;"><img src="images/price_2500.gif" alt="2500円均一"></a></li>
+<div class="clearfix"></div>
+</ul>
+</div>-->
+<div id="menu-wrap"><ul id="menu">
+<!--<li><a href="javascript:;" target="_blank"><img src="images/15off_coupon.gif" alt="15%OFFスペシャルクーポン"></a></li>
+<li><a href="javascript:;" target="_blank"><img src="images/coupon_200.gif" alt="200円OFFスペシャルクーポン"></a></li>
+<li><a href="javascript:;" target="_blank"><img src="images/coupon_1000.gif" alt="1000円OFFスペシャルクーポン"></a></li>   -->
+</ul></div> 
+
+<section>
+<div class="box_">
+<img src="images/flat_01.gif" />
+
+<ul class="event_navi_ clear_"> 
+<!--<h2 class="tex01_  top_space50_">FLAT PRICE MENU</h2>-->
+<li><a href="javascript:;"><img src="images/price_1000.gif" alt="1000円均一"></a></li>
+<li><a href="javascript:;"><img src="images/price_1200.gif" alt="1200円均一"></a></li>
+<li><a href="javascript:;"><img src="images/price_1500.gif" alt="1500円均一"></a></li>
+<li><a href="javascript:;"><img src="images/price_1800.gif" alt="1800円均一"></a></li>
+<li><a href="javascript:;"><img src="images/price_2000.gif" alt="2000円均一"></a></li>
+<li><a href="javascript:;"><img src="images/price_2200.gif" alt="2200円均一"></a></li>
+<li><a href="javascript:;"><img src="images/price_2500.gif" alt="2500円均一"></a></li>
+</ul>
+</div>
+<!--<div class="button_style01_"><a href="javascript:;">対象商品をすべて見る</a></div>-->
+</section>
+
+
+
+
+<!---->
+<section id="sale_01">
+<div class="box_">
+
+<div class="top_space50_"></div>
+<!--<h2 class="tex01_ top_spac30_">オススメ商品はコチラ</h2>-->
+<!--<img src="images/flat_02.gif" />-->
+<ul class="item_list_ line02_ sale02_">   
+<li><a href="javascript:;"><dl>
+<dt><img src="images/prolist/img_600.jpg" alt=""></dt>
+<dd class="item_articlename_">カシミヤタッチ選べる長袖ニットトップス</dd>
+<dd class="item_doubleprice_">通常￥1590が</dd>
+<dd class="item_price_">&yen;1200<span class="intax_">(税込)</span></dd>
+<!--<dd class="item_offbar_">33%OFF</dd>-->
+</dl></a></li>
+ 
+<li><a href="javascript:;"><dl>
+<dt><img src="images/prolist/img_600.jpg" alt=""></dt>
+<dd class="item_articlename_">選べるネックミンクタッチニットトップス</dd>
+<dd class="item_doubleprice_">通常￥2490が</dd>
+<dd class="item_price_">&yen;1800<span class="intax_">(税込)</span></dd>
+</dl></a></li>
+ 
+<li><a href="javascript:;"><dl>
+<dt><img src="images/prolist/img_600.jpg" alt=""></dt>
+<dd class="item_articlename_">4cmヒール美フォルムサイドゴアショートブーツ</dd>
+<dd class="item_doubleprice_">通常￥2990が</dd>
+<dd class="item_price_">&yen;2000<span class="intax_">(税込)</span></dd>
+</dl></a></li>
+ 
+<li><a href="javascript:;"><dl>
+<dt><img src="images/prolist/img_600.jpg" alt=""></dt>
+<dd class="item_articlename_">ふんわりオフショルケーブルニットワンピース</dd>
+<dd class="item_doubleprice_">通常￥2990が</dd>
+<dd class="item_price_">&yen;1800<span class="intax_">(税込)</span></dd>
+</dl></a></li>
+ 
+<li><a href="javascript:;"><dl>
+<dt><img src="images/prolist/img_600.jpg" alt=""></dt>
+<dd class="item_articlename_">ロングリブニットソーカーディガン</dd>
+<dd class="item_doubleprice_">通常￥1990が</dd>
+<dd class="item_price_">&yen;1000<span class="intax_">(税込)</span></dd>
+</dl></a></li>
+ 
+<li><a href="javascript:;"><dl>
+<dt><img src="images/prolist/img_600.jpg" alt=""></dt>
+<dd class="item_articlename_">選べるネックデザインミンクタッチワンピース</dd>
+<dd class="item_doubleprice_">通常￥2790が</dd>
+<dd class="item_price_">&yen;1500<span class="intax_">(税込)</span></dd>
+</dl></a></li>
+ 
+<li><a href="javascript:;"><dl>
+<dt><img src="images/prolist/img_600.jpg" alt=""></dt>
+<dd class="item_articlename_">選べるロゴデザイン裏起毛ゆるピタワンピース</dd>
+<dd class="item_doubleprice_">通常￥2290が</dd>
+<dd class="item_price_">&yen;1200<span class="intax_">(税込)</span></dd>
+</dl></a></li>
+ 
+<li><a href="javascript:;"><dl>
+<dt><img src="images/prolist/img_600.jpg" alt=""></dt>
+<dd class="item_articlename_">フレアヒールシンプルショートブーツ</dd>
+<dd class="item_doubleprice_">通常￥3290が</dd>
+<dd class="item_price_">&yen;1800<span class="intax_">(税込)</span></dd>
+</dl></a></li>
+ 
+<li><a href="javascript:;"><dl>
+<dt><img src="images/prolist/img_600.jpg" alt=""></dt>
+<dd class="item_articlename_">畦編みVネックニットトップス</dd>
+<dd class="item_doubleprice_">通常￥1990が</dd>
+<dd class="item_price_">&yen;1500<span class="intax_">(税込)</span></dd>
+</dl></a></li>
+ 
+<li><a href="javascript:;"><dl>
+<dt><img src="images/prolist/img_600.jpg" alt=""></dt>
+<dd class="item_articlename_">ふわっと広がるリボン付きフィッシュテールスカート</dd>
+<dd class="item_doubleprice_">通常￥1990が</dd>
+<dd class="item_price_">&yen;1000<span class="intax_">(税込)</span></dd>
+</dl></a></li>
+ 
+<li><a href="javascript:;"><dl>
+<dt><img src="images/prolist/img_600.jpg" alt=""></dt>
+<dd class="item_articlename_">カシミヤタッチ選べるクルーorVネックニットワンピース</dd>
+<dd class="item_doubleprice_">通常￥1990が</dd>
+<dd class="item_price_">&yen;1200<span class="intax_">(税込)</span></dd>
+</dl></a></li>
+ 
+<li><a href="javascript:;"><dl>
+<dt><img src="images/prolist/img_600.jpg" alt=""></dt>
+<dd class="item_articlename_">サイドポケット付きロングフィッシュテールスカート</dd>
+<dd class="item_doubleprice_">通常￥2490が</dd>
+<dd class="item_price_">&yen;1500<span class="intax_">(税込)</span></dd>
+</dl></a></li>
+ 
+<li><a href="javascript:;"><dl>
+<dt><img src="images/prolist/img_600.jpg" alt=""></dt>
+<dd class="item_articlename_">裏シャギービジューポケットパンツ</dd>
+<dd class="item_doubleprice_">通常￥2990が</dd>
+<dd class="item_price_">&yen;1800<span class="intax_">(税込)</span></dd>
+</dl></a></li>
+ 
+<li><a href="javascript:;"><dl>
+<dt><img src="images/prolist/img_600.jpg" alt=""></dt>
+<dd class="item_articlename_">前後2WAYゆるピタダーリンニットワンピース</dd>
+<dd class="item_doubleprice_">通常￥2990が</dd>
+<dd class="item_price_">&yen;1500<span class="intax_">(税込)</span></dd>
+</dl></a></li>
+ 
+<li><a href="javascript:;"><dl>
+<dt><img src="images/prolist/img_600.jpg" alt=""></dt>
+<dd class="item_articlename_">ミンクタッチ前後2wayゆるピタニットワンピース</dd>
+<dd class="item_doubleprice_">通常￥2090が</dd>
+<dd class="item_price_">&yen;1800<span class="intax_">(税込)</span></dd>
+</dl></a></li>
+ 
+<li><a href="javascript:;"><dl>
+<dt><img src="images/prolist/img_600.jpg" alt=""></dt>
+<dd class="item_articlename_">厚底レースアップDADシューズパンプス</dd>
+<dd class="item_doubleprice_">通常￥2990が</dd>
+<dd class="item_price_">&yen;1800<span class="intax_">(税込)</span></dd>
+</dl></a></li>
+ 
+<li><a href="javascript:;"><dl>
+<dt><img src="images/prolist/img_600.jpg" alt=""></dt>
+<dd class="item_articlename_">ゴールドポイントファ-ショートブーツ</dd>
+<dd class="item_doubleprice_">通常￥3990が</dd>
+<dd class="item_price_">&yen;2500<span class="intax_">(税込)</span></dd>
+</dl></a></li>
+ 
+<li><a href="javascript:;"><dl>
+<dt><img src="images/prolist/img_600.jpg" alt=""></dt>
+<dd class="item_articlename_">ボリュームケーブルニットロングカーディガン</dd>
+<dd class="item_doubleprice_">通常￥2990が</dd>
+<dd class="item_price_">&yen;1800<span class="intax_">(税込)</span></dd>
+</dl></a></li>
+
+</ul>
+
+
+
+<ul class="item_list_ line03_ sale02_">
+<li><a href="javascript:;"><dl>
+<dt><img src="images/prolist/img_600.jpg" alt=""></dt>
+<dd class="item_articlename_">裏起毛シャギーストレッチスキニーレギパン</dd>
+<dd class="item_doubleprice_">通常￥1990が</dd>
+<dd class="item_price_">&yen;1200<span class="intax_">(税込)</span></dd>
+</dl></a></li>
+ 
+<li><a href="javascript:;"><dl>
+<dt><img src="images/prolist/img_600.jpg" alt=""></dt>
+<dd class="item_articlename_">裏起毛シャギーロングマキシスカート</dd>
+<dd class="item_doubleprice_">通常￥1990が</dd>
+<dd class="item_price_">&yen;1200<span class="intax_">(税込)</span></dd>
+</dl></a></li>
+ 
+<li><a href="javascript:;"><dl>
+<dt><img src="images/prolist/img_600.jpg" alt=""></dt>
+<dd class="item_articlename_">7cmヒール美シルエットポインテッドトゥパンプス</dd>
+<dd class="item_doubleprice_">通常￥2490が</dd>
+<dd class="item_price_">&yen;1200<span class="intax_">(税込)</span></dd>
+</dl></a></li>
+ 
+<li><a href="javascript:;"><dl>
+<dt><img src="images/prolist/img_600.jpg" alt=""></dt>
+<dd class="item_articlename_">太ヒール定番レースアップショートブーツ</dd>
+<dd class="item_doubleprice_">通常￥3490が</dd>
+<dd class="item_price_">&yen;2500<span class="intax_">(税込)</span></dd>
+</dl></a></li>
+ 
+<li><a href="javascript:;"><dl>
+<dt><img src="images/prolist/img_600.jpg" alt=""></dt>
+<dd class="item_articlename_">極温裏起毛ストレッチデニムスキニーパンツ</dd>
+<dd class="item_doubleprice_">通常￥2490が</dd>
+<dd class="item_price_">&yen;1800<span class="intax_">(税込)</span></dd>
+</dl></a></li>
+ 
+<li><a href="javascript:;"><dl>
+<dt><img src="images/prolist/img_600.jpg" alt=""></dt>
+<dd class="item_articlename_">レースアップハイカットスニーカー</dd>
+<dd class="item_doubleprice_">通常￥1800が</dd>
+<dd class="item_price_">&yen;1000<span class="intax_">(税込)</span></dd>
+</dl></a></li>
+ 
+<li><a href="javascript:;"><dl>
+<dt><img src="images/prolist/img_600.jpg" alt=""></dt>
+<dd class="item_articlename_">極温!!裏起毛ストレッチスキニーパンツ</dd>
+<dd class="item_doubleprice_">通常￥1990が</dd>
+<dd class="item_price_">&yen;1200<span class="intax_">(税込)</span></dd>
+</dl></a></li>
+ 
+<li><a href="javascript:;"><dl>
+<dt><img src="images/prolist/img_600.jpg" alt=""></dt>
+<dd class="item_articlename_">選べるミニ丈＆ひざ丈タイトスカート</dd>
+<dd class="item_doubleprice_">通常￥1990が</dd>
+<dd class="item_price_">&yen;1200<span class="intax_">(税込)</span></dd>
+</dl></a></li>
+ 
+<li><a href="javascript:;"><dl>
+<dt><img src="images/prolist/img_600.jpg" alt=""></dt>
+<dd class="item_articlename_">変形タイトミニスカート</dd>
+<dd class="item_doubleprice_">通常￥1990が</dd>
+<dd class="item_price_">&yen;1200<span class="intax_">(税込)</span></dd>
+</dl></a></li>
+ 
+<li><a href="javascript:;"><dl>
+<dt><img src="images/prolist/img_600.jpg" alt=""></dt>
+<dd class="item_articlename_">激ストレッチ裾レーススキニーパンツ</dd>
+<dd class="item_doubleprice_">通常￥2290が</dd>
+<dd class="item_price_">&yen;1800<span class="intax_">(税込)</span></dd>
+</dl></a></li>
+ 
+<li><a href="javascript:;"><dl>
+<dt><img src="images/prolist/img_600.jpg" alt=""></dt>
+<dd class="item_articlename_">12cmアクセントヒールキラキラジュエリーパンプス</dd>
+<dd class="item_doubleprice_">通常￥3490が</dd>
+<dd class="item_price_">&yen;1800<span class="intax_">(税込)</span></dd>
+</dl></a></li>
+ 
+<li><a href="javascript:;"><dl>
+<dt><img src="images/prolist/img_600.jpg" alt=""></dt>
+<dd class="item_articlename_">シンプル定番ロリータパンプス</dd>
+<dd class="item_doubleprice_">通常￥2800が</dd>
+<dd class="item_price_">&yen;2000<span class="intax_">(税込)</span></dd>
+</dl></a></li>
+ 
+<li><a href="javascript:;"><dl>
+<dt><img src="images/prolist/img_600.jpg" alt=""></dt>
+<dd class="item_articlename_">7cmヒールスカラップパンプス</dd>
+<dd class="item_doubleprice_">通常￥2990が</dd>
+<dd class="item_price_">&yen;2000<span class="intax_">(税込)</span></dd>
+</dl></a></li>
+ 
+<li><a href="javascript:;"><dl>
+<dt><img src="images/prolist/img_600.jpg" alt=""></dt>
+<dd class="item_articlename_">サイドゴアチャンキーヒールショートブーツ</dd>
+<dd class="item_doubleprice_">通常￥3490が</dd>
+<dd class="item_price_">&yen;2000<span class="intax_">(税込)</span></dd>
+</dl></a></li>
+ 
+<li><a href="javascript:;"><dl>
+<dt><img src="images/prolist/img_600.jpg" alt=""></dt>
+<dd class="item_articlename_">シャギーゆるピタニットカーディガン</dd>
+<dd class="item_doubleprice_">通常￥2990が</dd>
+<dd class="item_price_">&yen;1800<span class="intax_">(税込)</span></dd>
+</dl></a></li>
+ 
+<li><a href="javascript:;"><dl>
+<dt><img src="images/prolist/img_600.jpg" alt=""></dt>
+<dd class="item_articlename_">モカシンフェイクムートンスリッポン</dd>
+<dd class="item_doubleprice_">通常￥2290が</dd>
+<dd class="item_price_">&yen;1800<span class="intax_">(税込)</span></dd>
+</dl></a></li>
+ 
+<li><a href="javascript:;"><dl>
+<dt><img src="images/prolist/img_600.jpg" alt=""></dt>
+<dd class="item_articlename_">選べるショールorラッフルカラー裏起毛シャギートッパー</dd>
+<dd class="item_doubleprice_">通常￥2990が</dd>
+<dd class="item_price_">&yen;1800<span class="intax_">(税込)</span></dd>
+</dl></a></li>
+ 
+<li><a href="javascript:;"><dl>
+<dt><img src="images/prolist/img_600.jpg" alt=""></dt>
+<dd class="item_articlename_">ミンクタッチロングニットカーデ</dd>
+<dd class="item_doubleprice_">通常￥2990が</dd>
+<dd class="item_price_">&yen;2000<span class="intax_">(税込)</span></dd>
+</dl></a></li>
+ 
+<li><a href="javascript:;"><dl>
+<dt><img src="images/prolist/img_600.jpg" alt=""></dt>
+<dd class="item_articlename_">ジップアクセント折り返しニットショートブーツ</dd>
+<dd class="item_doubleprice_">通常￥4290が</dd>
+<dd class="item_price_">&yen;2500<span class="intax_">(税込)</span></dd>
+</dl></a></li>
+ 
+<li><a href="javascript:;"><dl>
+<dt><img src="images/prolist/img_600.jpg" alt=""></dt>
+<dd class="item_articlename_">ヴィンテージ花柄フィッシュテールフレアシャツワンピース</dd>
+<dd class="item_doubleprice_">通常￥2990が</dd>
+<dd class="item_price_">&yen;2000<span class="intax_">(税込)</span></dd>
+</dl></a></li>
+ 
+<li><a href="javascript:;"><dl>
+<dt><img src="images/prolist/img_600.jpg" alt=""></dt>
+<dd class="item_articlename_">ワンショルシンプルニット</dd>
+<dd class="item_doubleprice_">通常￥1790が</dd>
+<dd class="item_price_">&yen;1200<span class="intax_">(税込)</span></dd>
+</dl></a></li>
+ 
+<li><a href="javascript:;"><dl>
+<dt><img src="images/prolist/img_600.jpg" alt=""></dt>
+<dd class="item_articlename_">3つボタン厚底ショートブーツ</dd>
+<dd class="item_doubleprice_">通常￥3490が</dd>
+<dd class="item_price_">&yen;2200<span class="intax_">(税込)</span></dd>
+</dl></a></li>
+ 
+<li><a href="javascript:;"><dl>
+<dt><img src="images/prolist/img_600.jpg" alt=""></dt>
+<dd class="item_articlename_">選べる丈プチリボンニットカーディガン</dd>
+<dd class="item_doubleprice_">通常￥1990が</dd>
+<dd class="item_price_">&yen;1200<span class="intax_">(税込)</span></dd>
+</dl></a></li>
+ 
+<li><a href="javascript:;"><dl>
+<dt><img src="images/prolist/img_600.jpg" alt=""></dt>
+<dd class="item_articlename_">フロントボタンチェックタイトナロースカート</dd>
+<dd class="item_doubleprice_">通常￥1990が</dd>
+<dd class="item_price_">&yen;1000<span class="intax_">(税込)</span></dd>
+</dl></a></li>
+ 
+<li><a href="javascript:;"><dl>
+<dt><img src="images/prolist/img_600.jpg" alt=""></dt>
+<dd class="item_articlename_">サイドファスナーリボンスニーカー</dd>
+<dd class="item_doubleprice_">通常￥3290が</dd>
+<dd class="item_price_">&yen;1800<span class="intax_">(税込)</span></dd>
+</dl></a></li>
+ 
+<li><a href="javascript:;"><dl>
+<dt><img src="images/prolist/img_600.jpg" alt=""></dt>
+<dd class="item_articlename_">アイスランドヤーンケーブルアランニットボレロカーデ</dd>
+<dd class="item_doubleprice_">通常￥2990が</dd>
+<dd class="item_price_">&yen;2200<span class="intax_">(税込)</span></dd>
+</dl></a></li>
+ 
+<li><a href="javascript:;"><dl>
+<dt><img src="images/prolist/img_600.jpg" alt=""></dt>
+<dd class="item_articlename_">キラキビジューショートムートンブーツ</dd>
+<dd class="item_doubleprice_">通常￥2990が</dd>
+<dd class="item_price_">&yen;2200<span class="intax_">(税込)</span></dd>
+</dl></a></li>
+
+</ul>
+
+</div>
+</section>
+
+
+
+<!--クーポン　ココから-->
+
+<section class="color01_">
+<div class="box_ style01_">
+
+<div id="r_coupon"></div>
+
+</div>
+</section>
+
+<!--クーポン　ココまで-->
+<!-- フッターカテゴリー -->
+<div id="inc_footer_category"></div>
+
+ 
+<!-- ご利用ガイド/コピーライト -->
+ <div id="frame_allfooter"></div>
+
+<script type="text/javascript" src="sp/jscript/jquery.min.js"></script> 
+<script type="text/javascript">
+$(function(){
+	$("#header_wrap").load("header.html"); //ヘッダー
+	$("#leftnavi").load("leftnavi.html"); //レフトナビ
+	$("#inc_footer_topsale").load("inc_topsale.html"); //フッターSALE
+	$("#inc_footer_category").load("inc_footer_category.html"); //フッターカテゴリー
+	$("#frame_allfooter").load("frame_allfooter.html"); //ご利用ガイド/コピーライト
+	  $("#newItem").load("inc_r_pctop_newitem_all.html");
+	  $("#ranking_all").load("inc_r_pctop_ranking_all.html"); //ランキングALL 
+	  $("#r_coupon").load("sp/inc_r_coupon.html"); //3段階クーポン
+	  $("#saleitem02").load("sp/inc_sptop_saleitem04.html"); 
+  })
+</script>
+
+<!--スライド追加-->
+<link rel="stylesheet" href="stylesheets/slick.css">
+<script type="text/javascript" src="sp/jscript/jquery-migrate-1.4.1.min.js"></script>
+<script type="text/javascript" src="sp/jscript/slick.min.js"></script>
+<script type="text/javascript">
+$(function() {
+	$('.slick-box').slick({
+		dots: true, // ドット状のページネーション
+		//infinite: true, //無限ループ
+		speed: 300, // 切り替わりのスピード
+		slidesToShow: 1,
+	});
+});
+</script>
+<style>
+.slick-prev:before,
+.slick-next:before
+{
+	border: 2px #a6a0a0 solid !important;
+}
+</style>
+<!--//スライド追加-->
+
+
+<script>
+
+	jQuery(function () {
+ var headerHight = 90; //繝倥ャ繝縺ｮ鬮倥＆
+ jQuery('a[href^=#]').not('#tabnavi a,#tabnavi2 a,#tabnavi3 a,#move_none_ a,#review_read_button a,a.scrollnot_,#tabnavi-sku a').click(function(){
+     var href= jQuery(this).attr("href");
+       var target = jQuery(href == "#" || href == "" ? 'html' : href);
+        var position = target.offset().top-headerHight; //繝倥ャ繝縺ｮ鬮倥＆蛻�ｽ咲ｽｮ繧偵★繧峨☆
+     jQuery("html, body").animate({scrollTop:position}, 550, "swing");
+        return false;
+   });
+});
+    
+</script>
+
+
+
+<script type="text/javascript" src="js/jquery.lazylinepainter-1.4.1.min.js"></script>
+<script type="text/javascript" src="js/painter_title.js"></script>
+</body>
+</html>

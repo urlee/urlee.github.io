@@ -1,0 +1,435 @@
+@charset "utf-8";
+/* common styles !!!YOU DON'T NEED THEM  */
+body {
+  font-family: 'Hind', sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  width: 950px;
+  margin: 50px auto 0px auto;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 35px;
+}
+h1 span {
+  font-family: 'Bad Script', cursive;
+  font-weight: bold;
+  -webkit-text-decoration: underline wavy;
+          text-decoration: underline wavy;
+  color: #119DA4;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: 30px auto 0;
+}
+.link a {
+  margin-right: 20px;
+  color: #1f1f1f;
+  font-size: 17px;
+  display: inline-block;
+}
+.link a:last-child {
+  margin-right: 0;
+}
+.link a i {
+  color: #119DA4;
+  margin-right: 5px;
+}
+
+.content-block {
+  margin-top: 50px;
+}
+.content-block h2 {
+  margin-bottom: 30px;
+}
+
+.content-block__effect {
+  margin-bottom: 50px;
+}
+
+.btn-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-hover-effect {
+  display: flex;
+  font-family: Arial;
+  font-size: 17px;
+  color: #fff;
+  letter-spacing: 1px;
+  line-height: 1;
+}
+.btn-hover-effect:nth-child(1) {
+  background-color: #880044;
+}
+.btn-hover-effect:nth-child(2) {
+  background-color: #28AFB0;
+}
+.btn-hover-effect:nth-child(3) {
+  background-color: #D78521;
+}
+.btn-hover-effect:nth-child(4) {
+  background-color: #745296;
+}
+.btn-hover-effect:nth-child(5) {
+  background-color: #3E8914;
+}
+
+/* effects styles !!!YOU NEED THEM */
+/* don't forget to add your own background-color and text color */
+.btn-hover-effect {
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  transition-delay: 0s;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 22px 36px;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  text-decoration: none;
+  overflow: hidden;
+}
+
+/* effect 1 styles */
+.btn-hover-effect--effect-1 {
+  /* overlay block styles */
+  /* icon styles */
+}
+.btn-hover-effect--effect-1:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  transition-delay: 0s;
+  display: block;
+  width: 100%;
+  height: 100%;
+  content: '';
+  background-color: rgba(255, 255, 255, 0.2);
+  -webkit-transform: scale(0, 1);
+          transform: scale(0, 1);
+  -webkit-transform-origin: right top;
+          transform-origin: right top;
+  z-index: -1;
+}
+.btn-hover-effect--effect-1:after {
+  position: absolute;
+  top: 1px;
+  right: -40px;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  transition-delay: 0s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 40px;
+  content: '\f105';
+  font-family: "Font Awesome 5 Free";
+  font-size: 25px;
+  font-weight: 900;
+  line-height: inherit;
+  opacity: 0;
+}
+.btn-hover-effect--effect-1:hover {
+  padding-left: 26px;
+  padding-right: 46px;
+}
+.btn-hover-effect--effect-1:hover:before {
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+  -webkit-transform-origin: left top;
+          transform-origin: left top;
+}
+.btn-hover-effect--effect-1:hover:after {
+  right: 0;
+  opacity: 1;
+}
+
+/* effect #2 */
+.btn-hover-effect--effect-2 {
+  /* overlay styles */
+  /* icon styles */
+}
+.btn-hover-effect--effect-2:before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  transition-delay: 0s;
+  display: block;
+  width: 200%;
+  height: 200%;
+  content: '';
+  -webkit-transform: translate(-50%, -50%) scale(0);
+          transform: translate(-50%, -50%) scale(0);
+  -webkit-transform-origin: center top;
+          transform-origin: center top;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  z-index: -1;
+}
+.btn-hover-effect--effect-2:after {
+  position: absolute;
+  top: 1px;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 40px;
+  content: '\f105';
+  font-family: "Font Awesome 5 Free";
+  font-size: 25px;
+  font-weight: 900;
+  line-height: inherit;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  opacity: 0;
+}
+.btn-hover-effect--effect-2:hover {
+  padding-left: 26px;
+  padding-right: 46px;
+}
+.btn-hover-effect--effect-2:hover:before {
+  -webkit-transform: translate(-50%, -50%) scale(1);
+          transform: translate(-50%, -50%) scale(1);
+  -webkit-transform-origin: center bottom;
+          transform-origin: center bottom;
+}
+.btn-hover-effect--effect-2:hover:after {
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  transition-delay: 0s;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  opacity: 1;
+}
+
+/* effect #3 */
+.btn-hover-effect--effect-3 {
+  /* overlay styles */
+  /* icon styles */
+}
+.btn-hover-effect--effect-3:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  transition-delay: 0s;
+  display: block;
+  width: 100%;
+  height: 100%;
+  content: '';
+  -webkit-transform: scale(1, 0);
+          transform: scale(1, 0);
+  -webkit-transform-origin: center bottom;
+          transform-origin: center bottom;
+  background-color: rgba(255, 255, 255, 0.15);
+  z-index: -1;
+}
+.btn-hover-effect--effect-3:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  transition-delay: 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  content: '\f30b';
+  font-family: "Font Awesome 5 Free";
+  font-size: 30px;
+  font-weight: 900;
+  line-height: inherit;
+  color: transparent;
+  -webkit-transform: scale(1, 0);
+          transform: scale(1, 0);
+  -webkit-transform-origin: center bottom;
+          transform-origin: center bottom;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+.btn-hover-effect--effect-3:hover {
+  color: transparent;
+}
+.btn-hover-effect--effect-3:hover:before {
+  transition-duration: .15s;
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+  -webkit-transform-origin: center top;
+          transform-origin: center top;
+}
+.btn-hover-effect--effect-3:hover:after {
+  transition-duration: .15s;
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+  -webkit-transform-origin: center top;
+          transform-origin: center top;
+  color: #fff;
+}
+
+/* effect #4 */
+.btn-hover-effect--effect-4 {
+  /* overlay styles */
+  /* icon styles */
+}
+.btn-hover-effect--effect-4:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  transition-delay: 0s;
+  display: block;
+  width: 300%;
+  height: 300%;
+  content: '';
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  z-index: -1;
+}
+.btn-hover-effect--effect-4:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  content: '\f30b';
+  font-family: "Font Awesome 5 Free";
+  font-size: 30px;
+  font-weight: 900;
+  line-height: inherit;
+  color: transparent;
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+}
+.btn-hover-effect--effect-4:hover {
+  color: transparent;
+}
+.btn-hover-effect--effect-4:hover:before {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+.btn-hover-effect--effect-4:hover:after {
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  transition-delay: 0.2s;
+  color: #fff;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+/* effect #5 */
+.btn-hover-effect--effect-5 {
+  /* overlay styles */
+  /* icon styles */
+}
+.btn-hover-effect--effect-5:before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  transition-delay: 0s;
+  display: block;
+  width: 300px;
+  height: 300px;
+  content: '';
+  -webkit-transform: translate(-50%, -50%) scale(0);
+          transform: translate(-50%, -50%) scale(0);
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 50%;
+  z-index: -1;
+}
+.btn-hover-effect--effect-5:after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: opacity .2s linear .2s, -webkit-transform .2s linear .2s;
+  transition: transform .2s linear .2s, opacity .2s linear .2s;
+  transition: transform .2s linear .2s, opacity .2s linear .2s, -webkit-transform .2s linear .2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  content: '\f30b';
+  font-family: "Font Awesome 5 Free";
+  font-size: 30px;
+  font-weight: 900;
+  line-height: inherit;
+  color: transparent;
+  -webkit-transform: translate(-50%, -50%) scale(0);
+          transform: translate(-50%, -50%) scale(0);
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 50%;
+  opacity: 0;
+  z-index: -1;
+}
+.btn-hover-effect--effect-5:hover {
+  color: transparent;
+}
+.btn-hover-effect--effect-5:hover:before {
+  transition-duration: .15s;
+  -webkit-transform: translate(-50%, -50%) scale(1);
+          transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+}
+.btn-hover-effect--effect-5:hover:after {
+  transition-duration: .15s;
+  -webkit-transform: translate(-50%, -50%) scale(1);
+          transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+  color: #fff;
+}

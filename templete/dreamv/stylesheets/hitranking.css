@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* hitranking100 */
+
+
+.divCount li {
+    display: block;
+    position: relative;
+    counter-increment: divCount;
+    cursor: pointer;
+}
+
+.divCount li:before {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    padding: 8px 0;
+    text-align: center;
+    content: counter(divCount);
+    z-index: 10;
+    font-size: 16px;
+    background-image: url(../images/rank_bg.png);
+    background-repeat: no-repeat;
+}
+
+
+ul.list04 {
+    counter-reset: divCount 51;
+}
+
+
+ul.list04.divCount li:before {
+    top: 10px;
+    left: 10px;
+	padding-top: 9px;
+}
+
+.date {
+    text-align: center;
+    color: #D96196;
+    font-size: 12px;
+}
+
+
+/* 　　　　　タブ
+-------------------------------*/
+#tabnavi{
+	margin: 30px auto 20px;
+	width: 62%;
+}
+
+#tabnavi ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	/* overflow: hidden; */
+	margin-bottom: -1px;
+	position: relative;/*IE*/
+}
+
+#tabnavi li{
+	/*display: inline;*/
+	width: 120px !important;
+	float: left;
+	padding: 0 !important;
+	text-align: center !important;
+	/* font-weight: bold; */
+	font-size: 13px !important;
+	letter-spacing: 1px !important;
+	margin-right: 10px !important;
+	background-color:#fff;
+	height: 30px !important;
+	margin: 0 !important;
+	position: relative;
+}
+
+#tabnavi li a{
+	padding: 5px 0;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	border-right:1px #ccc solid;
+	color: #4E4C63;
+}
+
+#tabnavi li:nth-child(1){
+	border-left: 1px #ccc solid;
+}
+
+
+#tabnavi li:hover{
+	/*text-decoration: underline;*/
+}
+
+
+#tabnavi li a.active{
+	float: left;
+	padding: 5px 0;
+	background-color: #4E4C63;
+	color: #fff !important;
+	border-bottom:1px #fff solid;
+	width: 100%;
+	/* color: #fff; */
+}
+
+#tabnavi li a.active:before{
+	position: absolute;
+	top: 51%;
+	right: 46%;
+	display: block;
+	content: '';
+	width: 8px;
+	height: 8px;
+	margin-top: 10px;
+	-webkit-transform: rotate(135deg);
+	transform: rotate(135deg);
+	background-color: #4E4C63;
+}
+
+
+

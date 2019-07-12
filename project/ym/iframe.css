@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+iframe#blog_side {
+	height: 1000px;
+}
+
+iframe#header_frame {
+	height: 378px;/* 通常： 370px */
+	margin: 5px 0 20px 0;
+}
+#pc_header:hover iframe#header_frame {
+	height: 680px;/* 通常： 370px */
+	margin: 5px 0 0 0;
+}
+iframe#sidenavi {
+	height: 6000px;
+}

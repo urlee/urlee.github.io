@@ -1,0 +1,574 @@
+@charset "shift_jis";
+/* CSS Document */
+
+
+div#category_page {}
+div#category_page .topimg_ img {
+    width: 100%;
+}
+p.img_ {
+    margin: 20px auto 0;
+    text-align: center;
+    width: 95%;
+}
+/* ---------------------------------------------------------------
+	見出し
+--------------------------------------------------------------- */
+.midashi_style01_{
+  margin: 10px 0 10px 0;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 2px !important;
+  line-height: 1.5 !important;
+  background-color: #fff !important;
+  clear: both;
+  border-bottom: 1px #CCC solid;
+  color: #333 !important;
+  font-weight: bold;
+  width: 100%;
+}
+.midashi_style01_.sale_{
+  color: #D61D1D !important;
+  border-bottom: 1px #D61D1D solid;
+}
+.midashi_style01_.sale_ div.subtext_{
+  color: #D61D1D !important;
+}
+.midashi_style01_ div.subtext_{
+  font-size: 11px;
+  padding: 0 5px;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+.midashi_style02_{
+	text-align:center;
+	/* background-color:#f2f2f2; */
+	padding: 5px 0;
+	margin-bottom:10px;
+	width:100%;
+	font-weight:bold;
+	letter-spacing:2px;
+}
+.midashi_style03_{
+	margin: 0 0 10px;
+	position: relative;
+}
+h1 .date_ {
+    font-size: 12px;
+    color: #d86196;
+    text-align: center;
+}
+/* ---------------------------------------------------------------
+	共通
+--------------------------------------------------------------- */
+.clearfix_:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.top_space50_ {
+    margin-top: 20px !important;
+}
+.top_space80_ {
+    margin-top: 30px !important;
+}
+.top_space100_ {
+    margin-top: 50px !important;
+}
+.bottom_space50_ {
+    margin-bottom: 20px !important;
+}
+.bottom_space80_ {
+    margin-bottom: 30px !important;
+}
+.bottom_space100_ {
+    margin-bottom: 50px !important;
+}
+/* ---------------------------------------------------------------
+	ボタンCSS
+--------------------------------------------------------------- */
+/*もっと見る*/
+.button_style01_ {
+	width:80%;
+	margin: 10px auto;
+	text-align:center;
+	font-size: 15px;
+	color: #ffffff;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	position:relative;
+	/* clear: both; */
+}
+.button_style01_ a{
+	color: #FFF !important;
+	text-decoration: none;
+	padding: 10px 0px;
+	background-color:#333333;
+	display: block;
+	font-weight: normal !important;
+	border-radius: 5px;        /* CSS3草案 */  
+	-webkit-border-radius: 5px;    /* Safari,Google Chrome用 */  
+	-moz-border-radius: 5px;
+}
+.button_style01_ a:hover{
+	opacity:0.9;
+}
+.button_style01_::after {
+	position: absolute;
+	top: 43%;
+	right: 30px;
+	display: block;
+	content: '';
+	width: 10px;
+	height: 10px;
+	margin-top: -4px;
+	border-top: 2px solid #fff;
+	border-right: 2px solid #fff;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.button_style02_ {
+	width:80%;
+	margin: 10px auto;
+	text-align:center;
+	font-size: 23px;
+	color: #000;
+	position:relative;
+	border: 2px #000 solid;
+	padding: 20px 0px;
+	position: relative;
+}
+a .button_style02_{
+	color: #000 !important;
+	text-decoration:none !important;
+	padding: 10px 0px;
+	display: block;
+}
+
+a .button_style02_::after {
+	position: absolute;
+	top: 43%;
+	right: 30px;
+	display: block;
+	content: '';
+	width: 10px;
+	height: 10px;
+	margin-top: -4px;
+	border-top: 2px solid #000;
+	border-right: 2px solid #000;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+a .button_style02_ :hover{
+	opacity:0.9;
+}
+
+/*アンカーボタン*/
+ul.anchor_button_line3_{
+	margin: 10px auto;
+	width: 90%;
+}
+ul.anchor_button_line3_ li{
+	float:left;
+	list-style:none;
+	margin: 0 10px 10px 0;
+	width: 30% !important;
+	background-color:#fff;
+	display:block;
+	border: 1px #CCC solid;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+ul.anchor_button_line3_ li:nth-child(3n){
+    margin-right:0;
+}
+@media screen and (min-width:375px){
+	ul.anchor_button_line3_ li{
+	width: 30.5% !important;
+	}
+}
+ul.anchor_button_line3_ li a{
+    padding: 10px 5px;
+    text-align:center;
+    font-size: 15px;
+    display:block;
+    text-decoration: none;
+}
+ul.anchor_button_line3_ li a img{
+	width: 100%;
+}
+ul.anchor_button_line3_ li:hover{
+	border: 1px #d86196 solid;
+}
+ul.anchor_button_line3_ li a:hover{
+	color: #d86196;
+	text-decoration: none;
+}
+
+/*アンカーボタン/画像*/
+ul.anchor_button_img03_{
+	margin: 10px auto;
+	width: 100%;
+}
+ul.anchor_button_img03_ li{
+	float:left;
+	list-style:none;
+	margin-right:10px;
+	width: 30.5% !important;
+	background-color:#fff;
+	display:block;
+	/* border: 1px #CCC solid; */
+}
+ul.anchor_button_img03_ li:nth-child(3n){
+    margin-right:0;
+}
+ul.anchor_button_img03_ li a img{
+	width: 100%;
+}
+
+/* ---------------------------------------------------------------
+	メインコンテンツ--商品一覧 横3つver.
+--------------------------------------------------------------- */
+ul.item_line03_ a{
+	color: #333;
+	text-decoration: none;
+}
+ul.item_line03_{
+	width: 96%;
+	margin: 0 auto 20px;
+}
+ul.item_line03_ li{
+	width: 30%;
+	display: inline-block;
+	/* float: left; */
+	margin: 15px 3px;
+	position: relative;
+	vertical-align: top;
+}
+@media screen and (min-width:375px){
+	ul.item_line03_ li{
+	width: 30.8%;
+	}
+}
+ul.item_line03_ li:nth-child(3n){
+	margin-right: 0;
+}
+ul.item_line03_ img{
+	width: 100%;
+	border: 1px #f2f2f2 solid;
+}
+ul.item_line03_ dt{
+	margin: 0;
+
+	padding: 0;
+}
+ul.item_line03_ dd{
+	margin: 5px 0;
+	padding: 0 5px;
+	text-align: center;
+}
+ul.item_line03_ dd.item_articlename_{
+	font-size: 8px;
+	line-height: 1.2em;
+	text-overflow: ellipsis;
+	-webkit-text-overflow: ellipsis; 
+    -o-text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 100%;
+	padding: 0;
+	overflow: hidden;
+}
+ul.item_line03_ dd.item_price_{
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 5px 0;
+	/*display: none;*/
+}
+ul.item_line03_ dd.item_price_ span{
+	font-size: 10px;
+}
+
+ul.item_line03_ dd.item_doubleprice_ {
+	font-size: 8px;
+	line-height: 1em;
+}
+/*レスポンシブ強制調整用*/
+ul.item_line03_.sp_line02_ li{
+	width: 45%;
+	display; inline-block;
+	margin: 10px 6px;
+	position: relative;
+	vertical-align: top;
+}
+@media screen and (min-width:375px){
+	ul.item_line03_.sp_line02_ li{
+	width: 46%;
+	}
+}
+ul.item_line03_.sp_line02_ li:nth-child(2n){
+	margin-right: 0;
+}
+
+/* ---------------------------------------------------------------
+	メインコンテンツ--商品一覧 横2つver.
+--------------------------------------------------------------- */
+ul.item_line02_ a{
+	color: #333;
+	text-decoration: none;
+}
+ul.item_line02_{
+	width: 98%;
+	margin: 0 auto 20px;
+}
+ul.item_line02_ li{
+	width: 45%;
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px 5px;
+	position: relative;
+}
+@media screen and (min-width:375px){
+	ul.item_line02_ li{
+	width: 46%;
+	}
+}
+ul.item_line02_ li:nth-child(2n){
+	margin-right: 0;
+}
+ul.item_line02_ img{
+	width: 100%;
+	border: 1px #f2f2f2 solid;
+}
+ul.item_line02_ dt{
+	margin: 0;
+	padding: 0;
+}
+ul.item_line02_ dd{
+	margin: 5px 0;
+	padding: 0 5px;
+}
+ul.item_line02_ dd.item_articlename_{
+	font-size: 8px;
+	line-height: 1.2em;
+	text-overflow: ellipsis;
+	/*-webkit-text-overflow: ellipsis; 
+    -o-text-overflow: ellipsis;
+	white-space: nowrap;*/
+	width: 100%;
+	padding: 0;
+	overflow: hidden;
+}
+ul.item_line02_ dd.item_price_{
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 5px 0;
+	/*display: none;*/
+}
+ul.item_line02_ dd.item_price_ span{
+	font-size: 10px;
+}
+ul.item_line02_:after,
+ul.item_line03_:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+ul.item_line02_ dd.item_doubleprice_ {
+	font-size: 8px;
+	line-height: 1em;
+	text-align: center;
+}
+
+/* ---------------------------------------------------------------
+	おすすめアイテム一覧
+--------------------------------------------------------------- */
+ul.pickitem_list_ {}
+ul.pickitem_list_ li {
+	border-bottom: 1px #CCC dotted;
+	padding: 10px 0;
+}
+/* ---------------------------------------------------------------
+	ランキングアイコン
+--------------------------------------------------------------- */
+.ranking_ li {
+    display: block;
+    position: relative;
+    counter-increment: divCount;
+    cursor: pointer;
+}
+.ranking_ li:before{
+	content: counter(divCount);
+	color: #333;
+	text-align: center;
+	padding: 6px 0 15px;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 1;
+	width: 26px;
+	height: 5px;
+	position: absolute;
+	top: -10px;
+    left: -5px;
+    border-radius: 50%;        /* CSS3髣慕判?｡? */  
+    -webkit-border-radius: 50%;    /* Safari,Google Chrome騾包ｽｨ */  
+    -moz-border-radius: 50%;
+    background-color: #ffffff;
+    border: 1px #CCC solid;
+}
+.ranking_ li:nth-child(1):before{
+	background-color: #AE9A20;
+	color: #fff;
+	border: 1px #AE9A20 solid;
+}
+.ranking_ li:nth-child(2):before{
+	background-color: #777;
+	color: #fff;
+	border: 1px #777 solid;
+}
+.ranking_ li:nth-child(3):before{
+	background-color: #794343;
+	color: #fff;
+	border: 1px #794343 solid;
+}
+/* ---------------------------------------------------------------
+	ブランド別ランキング
+--------------------------------------------------------------- */
+h3.midashi_style02_.dbs {
+    background-color: #ae9fb6 !important;
+	font-size: 1em;
+    padding: 7px 0 !important;
+    color: #fff! important;
+}
+h3.midashi_style02_.dml {
+    background-color: #e1afbf !important;
+	font-size: 1em;
+    padding: 7px 0 !important;
+    color: #fff! important;
+}
+h3.midashi_style02_.nlm {
+    background-color: #a2a1a1 !important;
+	font-size: 1em;
+    padding: 7px 0 !important;
+    color: #fff! important;
+}
+/* ---------------------------------------------------------------
+	　　商品一覧 アイコン
+--------------------------------------------------------------- */
+div.item_icon_ {
+	margin: 0 0 3px;
+}
+div.item_icon_ span.new_ {
+	font-size: 10px;
+	color: #fff;
+	padding: 0 2px;
+	margin-right: 2px;
+	line-height: 1;
+	color: #D96196;
+	border: 1px #D96196 solid;
+}
+div.item_icon_ span.re_ {
+	font-size: 10px;
+	color: #fff;
+	padding: 0 2px;
+	margin-right: 2px;
+	line-height: 1;
+	color: #6E74BB;
+	border: 1px #6E74BB solid;
+}
+div.item_icon_ span.free_ {
+	font-size: 10px;
+	color: #fff;
+	padding: 0 2px;
+	margin-right: 2px;
+	line-height: 1;
+	color: #E06D6F;
+	border: 1px #E06D6F solid;
+}
+div.item_icon_ span.upday_ {
+	font-size: 10px;
+	padding: 0 2px;
+	line-height: 1;
+}
+div.item_icon_.yokoku_ {
+	margin: 0 0 3px;
+	text-align: center;
+	line-height: 1.2;
+}
+div.item_icon_.yokoku_ span.upday_ {
+	font-size: 14px;
+	padding: 0;
+	line-height: 1;
+	color: #E06D6F;
+}
+
+/* ---------------------------------------------------------------
+	シューズ特集 ナビボタン
+--------------------------------------------------------------- */ 
+ul.mustitem_navi_ {
+    width: 95%;
+    margin: 30px auto;
+}
+ul.mustitem_navi_ li {
+    float: left;
+    width: 30%;
+    margin: 10px 5px;
+}
+ul.mustitem_navi_ li img {
+    width: 100%;
+}
+
+/* ---------------------------------------------------------------
+	表示切替対応
+--------------------------------------------------------------- */
+.pview_pc_ {
+	display: none !important;
+}
+ul.price_on_  dd.item_price_{
+	display: block;
+}
+ul.price_sale_ dd.item_price_{
+	color: #eb6565;
+}
+/* ---------------------------------------------------------------
+	検索結果カテゴリ別表示 ランキング
+--------------------------------------------------------------- */
+.inc_search_ranking_ li:nth-child(n+4) {
+    display: none;
+}
+/* ---------------------------------------------------------------
+	価格注意書き
+--------------------------------------------------------------- */
+.price_attention_ {
+    text-align: center;
+    color: #e42b2b;
+    font-size: 11px;
+    line-height: 1.5em;
+    margin: 10px auto;
+}
+.price_attention_ span {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+/* ---------------------------------------------------------------
+	帯
+--------------------------------------------------------------- */
+.obi_ {
+    position: absolute;
+    background-color: rgba(0,0,0,0.9);
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    top: 60%;
+    font-size: 16px;
+    padding: 5px 0;
+}

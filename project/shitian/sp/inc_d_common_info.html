@@ -1,0 +1,36 @@
+
+	<style>
+		.ds-contents-display{
+			display: block;
+		}
+
+		.aus-contents-display{
+			display: none;
+		}
+	</style>
+
+<!------------------------------------------
+　　　DeNASP 全ヘッダー お知らせ
+-------------------------------------------->
+<div class="h_information">
+
+<a target="_top" href="info.html#04">「毎週水曜日」店内全商品購入で送料無料!！</a>
+<!--<a href="info.html#03"><span>【重要】商品棚卸しに伴う出荷停止のお知らせ</span></a>-->
+</div>
+
+
+
+
+
+<script>
+	(function (){
+		// 繧ｿ繧ｰ繧貞炎髯､
+		var delSite = 'aus';
+		var deleteElm = document.querySelectorAll('.' + delSite + '-contents-display');
+		for(var i = 0;i <deleteElm.length;i++){
+			deleteElm[i].parentNode.removeChild(deleteElm[i]);
+		}
+	})();
+</script>
+<script>_satellite.pageBottom();</script>
+

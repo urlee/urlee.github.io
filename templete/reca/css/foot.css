@@ -1,0 +1,43 @@
+@charset "shift_jis";
+/* CSS Document */
+
+#guid{
+	width:950px;
+	margin:0px;
+	padding:0px;
+	background:url(../img/foot/guid_b.gif) repeat-x;
+	}
+
+.foot{
+	margin:0px;
+	padding:0px;
+	padding-top:20px;
+	}
+
+.foot ul{
+	list-style:none;
+	width:970px;
+	margin:0px;
+	padding:0px;
+	float:left;
+	}
+
+.foot li{
+	list-style:none;
+	padding-bottom:20px;
+	width:465px;
+	font-size:12px;
+	font-family:"ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	line-height:16px;
+	float:left;
+	padding-right:20px;
+	}
+	
+.foot img{
+	margin-bottom:20px;
+	}
+	
+.foot li img{
+	margin-bottom:10px;
+	margin-top:0px;
+	}

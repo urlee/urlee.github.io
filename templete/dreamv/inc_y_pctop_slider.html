@@ -1,0 +1,58 @@
+
+<p>&nbsp;</p>
+<div class="hBan"> 
+  
+  <div class="clearfix"></div>
+</div>
+
+
+<div class="container">
+  <div class="slide_all">
+    <div class="slide_wrap">
+      <div class="slide_body">
+        <div class="slide"><a href="shoes.html"><img src="images/shoes_1000x500.jpg" alt="shoes"></a></div>
+        <div class="slide"><a href="timesale.html"><img src="images/shoes_1000x500.jpg" alt=""></a></div>
+        <div class="slide"><a href="javascript:;"><img src="images/shoes_1000x500.jpg" alt=""></a></div>
+        <div class="slide"><a href="tops.html"><img src="images/shoes_1000x500.jpg" alt=""></a></div>
+      </div>
+    </div>
+  </div>
+</div>
+<style type="text/css">
+	
+</style>
+<script type="text/javascript">
+jQuery(document).ready(function($){
+	var slideNum = $('.slide').size();
+	$('.slide_body').bxSlider({
+		slideWidth: 1000,
+		minSlides: 1,
+		maxSlides: 3,
+		moveSlides: 1,
+		slideMargin: 0,
+		
+		// スライドを無限ループにする
+		//infiniteLoop: true,
+		
+		pager:true,
+		prevText: '',
+		nextText: '',
+		auto:true,
+		
+		onSliderLoad:function(currentIndex){
+			$('.slide').removeClass('active');
+			$('.slide_body > div:nth-child(3n-1)').addClass('active');
+		},
+		
+		onSlideBefore: function($slideElement, oldIndex, newIndex){
+			var new_i = newIndex %3 - 1;
+			var nth = (new_i < 0) ? '3n-1' : '3n'+new_i;
+			$('.slide').removeClass('active');
+			$('.slide_body > div:nth-child('+nth+')').addClass('active');
+		}
+	});
+});
+
+
+
+</script>

@@ -1,0 +1,199 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	font-family: 'Lucida Grande','Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3',Meiryo, メイリオ, sans-serif;
+}
+
+li,ul,p{
+	margin:0;
+	padding: 0;
+	line-height:1.4em;
+}
+
+
+div#coordinateContents {
+    width: 1000px;
+    overflow: hidden;
+    margin: 20px auto 100px;
+}
+
+div#coordinateContents h1 {
+    background-image: url(../images/todayCode_topTitle.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 200px;
+    text-indent: -9999px;
+}
+
+
+div#coordinateContents li {
+    float: left;
+    width: 230px;
+    margin: 10px;
+    list-style: none;
+    position: relative;
+}
+
+div#coordinateContents li.new:before {
+    position: absolute;
+    top: 10px;
+    left: -5px;
+    content: "NEW";
+    background-color: #d86196;
+    color: #fff;
+    padding: 3px 5px;
+    font-size: 12px;
+}
+
+div#coordinateContents li a {
+    line-height: 0.8;
+    display: block;
+}
+
+div#coordinateContents li img {
+    width: 230px;
+    height: 307px;
+    border: 1px #f2f2f2 solid;
+}
+
+div#coordinateContents li p.update {
+    font-size: 10px;
+    color: #ccc;
+    padding: 0 10px;
+    text-align: right;
+    margin: 3px 0;
+}
+
+.coordinate-detail {
+    padding: 50px;
+}
+
+.coordinate-detail p.detailImg{
+    /* float: left; */
+    width: 360px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.coordinate-detail p.clothes-item{
+    float: left;
+}
+
+.coordinate-detail p img {
+    width: 100%;
+}
+
+.coordinate-detail .clothes-item {
+	width: 360px;
+	margin: 0 auto;
+}
+
+.coordinate-detail .clothes-item li{
+    display: inline-block;
+    font-size: 12px;
+    margin: 3px 5px;
+}
+
+.coordinate-detail .clothes-item li a{
+	color: #666;
+	text-decoration: underline;
+
+}
+
+.coordinate-detail p{
+	/* width: 360px; */
+	letter-spacing: 0.5px;
+}
+
+.coordinate-detail p.pointText{
+	width: 360px;
+	margin: 10px auto;
+	border-bottom: 1px #ccc dotted;
+	padding-bottom: 5px;
+	font-size: 13px;
+}
+
+
+.coordinate-detail .update{
+    /* text-align: center; */
+    font-size: 11px;
+    /* position: absolute; */
+    /* top: 5px; */
+    /* right: 10px; */
+    color: #ccc;
+}
+
+.button-link-close {
+	color: #FFF;
+	/* text-decoration: underline; */
+	background-color: #000000;
+	display: block;
+	/* padding: 15px 0; */
+	font-size: 25px;
+	width: 30px;
+	height: 30px;
+	margin: 0 auto;
+	border-radius: 50%;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	text-align: center;
+	padding: 10px;
+	line-height: 1em;
+}
+
+.button-link-close a{
+	text-decoration: none;
+}
+
+
+
+/*モーダル*/
+
+.modal-content {
+    position:fixed;
+    display:none;
+    z-index:2;
+    width: 80%;
+    margin:0;
+    padding:10px 20px;
+    background:#fff;
+}
+
+.modal-content p {
+    margin:0;
+    padding:0;
+}
+
+.modal-overlay {
+    z-index:1;
+    display:none;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:120%;
+    background-color:rgba(0,0,0,0.8);
+}
+
+.modal-open {
+    color:#00f;
+    text-decoration:underline;
+}
+
+.modal-open:hover {
+    cursor:pointer;
+    color:#f00;
+}
+
+.modal-close {
+    color:#00f;
+}
+
+.modal-close:hover {
+    cursor:pointer;
+    color:#f00;
+}

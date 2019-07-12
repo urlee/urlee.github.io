@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>document</title>
+<link href="../css_js/2016/2016-pc.css" rel="stylesheet" type="text/css" />
+<link href="../css_js/2016/hover.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../css_js/jquery-1.8.3.js"></script>
+<!-- slick -->
+<link rel="stylesheet" type="text/css" href="../css_js/2016/slick-pc.css"/>
+<!-- frame -->
+<script type="text/javascript" src="。。/css_js/jquery.autoheight.js"></script>
+</head>
+
+<style type="text/css">
+body{
+	margin:0px;
+	padding:0px;
+}
+span{
+	color:#bf0000;
+	/*
+	background-color:#FFFF00;
+	*/
+	font-weight:bold;
+}
+img { -ms-interpolation-mode: bicubic; } 
+</style>
+
+<body>
+<div style=" margin:0px 30px; position:absolute; width:940px;"><ul class="pc-play">
+	<li><div>
+		<a target="_top" href="javascript:;"><img src="../images/ruckruck_wfp02128.jpg" /></a>
+  	<p>#ワイドパンツ</p>
+	</div></li>
+  
+  <li><div>
+  	<a target="_top" href="javascript:;"><img src="../images/ruckruck_wfs00966.jpg" /></a>
+  	<p>#オールインワン</p>
+	</div></li>
+  
+  <li><div>
+  	<a target="_top" href="javascript:;"><img src="../images/ruckruck_wfs01272.jpg" /></a>
+  	<p>#ワンピース</p>
+  </div></li>
+  
+  <li><div>
+  	<a target="_top" href="javascript:;" /><img src="../images/wfp02108.jpg" /></a>
+    <p>#タイトスカート</p>
+  </div></li>
+  
+  <li><div>
+  	<a target="_top" href="javascript:;" /><img src="../images/ruckruck_wft04303.jpg" /></a>
+    <p>#カーディガン</p>
+  </div></li>
+  
+  <li><div>
+    <a target="_top" href="javascript:;"><img src="../images/ruckruck_spdts010.jpg" /></a>
+    <p style="letter-spacing:-1px;">#サコッシュ</p>
+  </div></li>
+  
+  <li><div>
+  	<a target="_top" href="javascript:;"><img src="../images/ruckruck_fwst184.jpg" /></a>
+    <p>#腕時計</p>
+  </div></li>
+  
+  <li><div>
+  	<a target="_top" href="javascript:;"><img src="../images/ruckruck_biy011.jpg" /></a>
+    <p>#大容量リュック</p>
+  </div></li>
+          
+  <li><div>
+  	<a target="_top" href="javascript:;"><img src="../images/ruckruck_rushrs240.jpg" /></a>
+    <p style="letter-spacing:-1px;">#パンプス</p>
+  </div></li>
+          
+  <li><div>
+  	<a target="_top" href="javascript:;"><img src="../images/ruckruck_wft04281.jpg" /></a>
+    <p>#ニット</p>
+  </div></li>
+          
+  <li><div>
+  	<a target="_top" href="javascript:;"><img src="../images/ruckruck_leg13841.jpg" /></a>
+    <p>#ミニショルダー</p>
+  </div></li>
+  
+  <li><div>
+  	<a target="_top" href="javascript:;"><img src="../images/ruckruck_wfu342.jpg" /></a>
+    <p>#レギンス・タイツ</p>
+  </div></li>
+  
+  <li><div>
+  	<a target="_top" href="javascript:;"><img src="../images/ruckruck_ssbd6232071.jpg" /></a>
+    <p>#A4トート</p>
+  </div></li>
+          
+  <li><div>
+  	<a target="_top" href="javascript:;"><img src="../images/ruckruck_spdsun333.jpg" /></a>
+    <p>#ミニ財布</p>
+  </div></li>
+ 
+</ul></div>
+    
+    
+     <!-- / #mainSlide -->
+
+<!-- slick -->
+<script type="text/javascript" src="../css_js/2016/slick.js"></script>
+<script type="text/javascript" src="../css_js/2016/slick.min.js"></script>
+    <script>
+    $(function(){
+    $('.pc-play').slick({
+    autoplay:true,
+    autoplaySpeed:3000,
+    pauseOnHover:true,
+    slidesToShow: 8,
+    slidesToScroll: 3,
+    swipe:true
+    });
+    }); 
+    </script>
+
+<!-- frame -->
+<script type="text/javascript">
+var iframeHeight = function(){
+	if(!window.parent.document) return false;
+
+	try { // !IE
+		document.styleSheets[0].insertRule( 'html' + '{overflow:hidden;}', document.styleSheets[0].cssRules.length );
+	} catch (e) { // IE
+		document.styleSheets[0].addRule( 'html', '{overflow:hidden;}');
+	}
+
+	height = document.getElementsByTagName('div')[0].offsetHeight;
+	window.parent.document.getElementById('trend').style.height = height + 'px';
+
+	setTimeout('iframeHeight()',250)
+}
+
+try {
+	window.addEventListener('load', iframeHeight, false);
+} catch (e) {
+	window.attachEvent('onload', iframeHeight);
+}
+</script>
+
+</body>
+</html>

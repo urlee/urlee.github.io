@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	font-size: calc(12px + 0.25vw);
+	font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', '游ゴシック  Medium', meiryo, sans-serif;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+
+.clearfix:after {
+    content:" ";
+    display:block;
+    clear:both;
+}
+
+a{
+	text-decoration:none;
+	width:100%;
+	display:inline-block;
+}
+
+
+a:hover{
+	opacity:0.8;
+}
+
+
+/*#jg-bnr-Wrap{
+	width:100%;
+	
+}
+
+
+#jg-bnr-Wrap ul{
+	width:100vw;
+	display:block;
+	align-items:stretch;
+	margin:2em auto;
+}
+
+
+#jg-bnr-Wrap ul li{
+	width:48vw;
+	display:block;
+	float:left;
+	overflow: hidden;
+	margin-right: 2vw;
+}
+
+#jg-bnr-Wrap ul li:last-child{
+	margin-right:0;
+}
+
+#jg-bnr-Wrap ul li img{
+	width:100%;
+	height:auto;
+	margin:0 auto;
+}*/
+
+#categoryWrap,#categoryWrap2{
+	width:96%;
+	margin:0 auto 2em auto;
+}
+
+
+#categoryWrap ul,#categoryWrap2 ul{
+	display:flex;
+	flex-wrap:wrap;
+	align-items:stretch;
+	width:96%;
+	margin:0 auto;
+}
+
+#categoryWrap ul li,#categoryWrap2 ul li{
+	width:46%;
+	line-height:3em;
+	color: #000;
+	text-decoration: none;
+	text-align:center;
+	-o-text-overflow:ellipsis;
+	text-overflow:ellipsis;
+	display: block;
+	position: relative;
+	white-space: nowrap;
+	overflow: hidden;
+	margin-right: 1em;
+	background:#fafafa;
+	border-bottom:1px dashed rgba(204,204,204,0.5);
+}
+
+#categoryWrap ul li:after,#categoryWrap2 ul li:after{
+	color: #aaa;
+	line-height:3em;
+	transform: scaleX(0.6);
+	display: inline-block;
+	margin-left:0.5em;
+	letter-spacing: -1px;
+	content: ">>";
+	position:absolute;
+	right:0;
+}
+
+
+.categoryTitle{
+	width:100%;
+	margin-bottom:1em;
+	text-indent:1em;
+	border-top:1px dashed #999;
+	border-bottom:1px dashed #b6aca8;
+	background-color:rgba(237,237,237,1);
+	line-height:3em;
+	font-weight:400;
+}
+
+.categoryTitle:before{
+	color: #aaa;	line-height:3em;
+	transform: scaleX(0.6);
+	display: inline-block;
+	margin-right: 1em;
+	letter-spacing: -1px;
+	content: ">>";
+}
+
+
+
+/*クーポン*/
+
+.gpdcpWrap,.srcpWrap{
+	width:96%;
+	margin:3em auto;
+	display:block;
+}
+
+.gpdcpWrap li,.srcpWrap li{
+	width:31%;
+	display:block;
+	float:left;
+	margin-right:2%;
+}
+
+.gpdcpWrap li:last-child,.srcpWrap li:last-child{
+	margin:0;
+	padding:0;
+}
+
+.gpdcpWrap li img,.srcpWrap li img{
+	width:100%;
+}
+
+

@@ -1,0 +1,164 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta name = "viewport" content = "width = device-width, user-scalable = no">
+<style type="text/css">
+*{
+	background-color: #fefa05;
+	color: #ea1547;
+	letter-spacing:2px;
+}
+
+@media (min-device-width: 640px) {
+
+#CDT{
+	width:98%;
+	margin:auto;
+	text-align:center;
+	color:#ea1547 !important;
+	font-size: 18px;
+	font-weight: bold;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+#CDT .day{
+	font-size: 35px;
+}
+
+#CDT .day2{
+	font-size: 30px;
+}
+#CDT .hour,#CDT .min,#CDT .sec{
+ 	font-size: 35px;
+}
+
+#CDT .cd_title{
+	font-size:25px !important;
+	margin-bottom:-10px;
+	padding-right:5px;
+	font-weight:normal;
+}
+
+.tani{
+	font-size:0.8em;
+}
+
+#CDT2{
+	width:98%;
+	margin:auto;
+	text-align:center;
+	color:#ea1547 !important;
+	font-size: 32px;
+	font-weight: bold;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+}
+
+@media (max-device-width: 639px) {
+
+#CDT{
+	width:98%;
+	margin:auto;
+	text-align:center;
+	color:#ea1547 !important;
+	font-size: 16px;
+	font-weight: bold;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+#CDT .day{
+	font-size: 25px;
+}
+
+#CDT .day2{
+	font-size: 20px;
+}
+#CDT .hour,#CDT .min,#CDT .sec{
+ 	font-size: 25px;
+}
+
+#CDT .cd_title{
+	font-size:16px !important;
+	margin-bottom:-10px;
+	padding-right:5px;
+	font-weight:normal;
+}
+
+.tani{
+	font-size:0.8em;
+}
+
+#CDT2{
+	width:98%;
+	margin:auto;
+	text-align:center;
+	color:#ea1547 !important;
+	font-size: 20px;
+	font-weight: bold;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+}
+
+
+
+</style>
+
+<script language="JavaScript" type="text/javascript">
+function CountdownTimer(elm,tl,mes){
+ this.initialize.apply(this,arguments);
+}
+CountdownTimer.prototype={
+ initialize:function(elm,tl,mes) {
+  this.elem = document.getElementById(elm);
+  this.tl = tl;
+  this.mes = mes;
+ },countDown:function(){
+  var timer='';
+  var today=new Date();
+  var day=Math.floor((this.tl-today)/(24*60*60*1000));
+
+  //単位「日」：表示の場合
+  var hour=Math.floor(((this.tl-today)%(24*60*60*1000))/(60*60*1000));
+  //単位「日」：非表示の場合
+  //var hour=Math.floor(((this.tl-today)%(24*60*60*1000))/(60*60*1000)+(day*24));
+
+  var min=Math.floor(((this.tl-today)%(24*60*60*1000))/(60*1000))%60;
+  var sec=Math.floor(((this.tl-today)%(24*60*60*1000))/1000)%60%60;
+  var milli=Math.floor(((this.tl-today)%(24*60*60*1000))/10)%100;
+  var me=this;
+
+  if( ( this.tl - today ) > 0 ){
+   timer+= '<span class="cd_title">終了まで残り...</span><br>';
+   //単位「日」：表示の場合
+   if (day) timer += '<span class="day">'+day+'<span class="tani">日</span></span>';   
+   timer += '<span class="hour">'+this.addZero(hour)+'<span class="tani">時間</span></span>';
+   timer += '<span class="min">'+this.addZero(min)+'<span class="tani">分</span></span><span class="sec">'+this.addZero(sec)+'<span class="tani">秒</span></span><span class="milli">'+this.addZero(milli)+'</span>';
+   this.elem.innerHTML = timer;
+   tid = setTimeout( function(){me.countDown();},10 );
+  }else{
+   this.elem.innerHTML = this.mes;
+   return;
+  }
+ },addZero:function(num){ return ('0'+num).slice(-2); }
+}
+function CDT(){
+ var tl = new Date('2018/5/28 14:00:00');
+ var timer = new CountdownTimer('CDT',tl,'終了しました！');
+ timer.countDown();
+}
+window.onload=function(){
+ CDT();
+}
+</script>
+</head>
+<body>
+
+
+	<div id="CDT"></div> 
+
+
+
+</body>
+</html>

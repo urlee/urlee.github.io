@@ -1,0 +1,997 @@
+@charset "UTF-8";
+/*共通CSS // alltop_base.css（総合トップ）とセットで使用*/
+
+/*-----------------------
+
+		 Reset 
+		
+-----------------------*/
+
+html{color:#000;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+li{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+
+
+
+/*-----------------------
+
+		 Common
+		
+-----------------------*/
+*{
+	/*color: #000;*/
+	font-family: "Lucida Grande","メイリオ",Meiryo,
+    "Hiragino Kaku Gothic ProN",sans-serif;"
+	/*-webkit-appearance: none;*/
+	line-height: 1.4;
+	-webkit-text-size-adjust: 100%;
+}
+
+#header a,#footer a,.slidemenu .slidemenu-body a{
+	text-decoration: none;
+	color: #4e4c63;
+	/* display: block; */
+}
+
+.button02 a:hover,
+.button01 a:hover,
+.slidemenu ul.menuList  li a:hover{
+	color: #d6a3b0;
+	background-color: #f2f2f2;
+}
+
+.clearfix{
+	clear: both;
+}
+
+
+#header {
+    width: 100%;	
+	position: fixed;
+    z-index: 1;
+    top:0; /* Required!! */	
+}
+
+#header.fixed {
+    border-bottom: 1px #fff solid;
+}
+
+#main {
+    position: relative;
+    padding-top: 83px;
+    background-color: #fff;
+    box-shadow: -2px 0px 5px 2px #CCC;
+    -moz-box-shadow:-2px 0px 5px 2px #CCC;
+    -webkit-box-shadow: -2px 0px 5px 2px #CCC;
+    /* background-color: #ccc; */
+}
+
+/*#contents {
+    margin-top: -90px;      
+    padding-top: 90px;
+}*/
+
+
+.clearfix:after {
+	  content: "";
+	  clear: both;
+	  display: block;
+}
+
+  
+div.midashiStyle01{
+	border-top: 1px #CCC solid;
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px 0 5px;
+}
+  
+  
+div.midashiStyle01 span {
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+div.midashiStyle02{
+	text-align: center;
+    border-bottom: 1px #ccc solid;
+    padding-bottom: 10px;
+    font-weight: bold;
+    width: 95%;
+    margin: 0 auto 10px;
+    letter-spacing: 2px;
+}
+
+
+.space10{
+	height: 10px;
+}
+
+.space30{
+	height: 30px;
+}
+
+.space50{
+	height: 50px;
+}
+
+.space80{
+	height: 80px;
+}
+
+
+.h_information{
+	text-align:center;
+	font-size: 10px;
+	padding: 5px 0;
+	margin: 0;
+	/* border:1px #fa3351 solid; */
+	width: auto;
+	color:#fa3351;
+	border-bottom: 1px #ccc solid;
+}
+
+.h_information a{
+	color:#fa3351 !important;
+	padding: 0;
+	display: block;
+	text-decoration: none;
+}
+
+
+.slidemenu-body .h_information{
+	text-align: left;
+	font-size: 12px;
+	margin: 10px 20px;  
+	color:#fa3351;
+	border: none; 
+}
+
+
+.slidemenu-body .menuList-tel .tel_info {
+    font-size: 8px;
+    line-height: 1.4;
+    text-align: left;
+    margin: 10px 10px 0;
+    color: #888;
+}
+
+.slidemenu-body .menuList-tel .tel_info span {
+    color: #f00;
+}
+
+
+/*-----------------------
+
+		 Button
+		 		
+-----------------------*/	
+
+.slidemenu .button02{	
+	color: #fff;
+	text-align:center;
+	/* float: right; */
+	margin: 10px auto;
+	width: 100% !important;
+
+}
+
+.slidemenu .button02 a{
+	color: #fff;
+	text-align:center;
+	display: block;
+	padding: 12px 0px;
+	font-size: 14px;
+	background-color: #4E4C63;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	text-decoration: none;
+}
+
+.slidemenu .yoko2{
+	float: left;
+	width: 47% !important;
+	margin: 0 13px 0 0;
+}
+
+.slidemenu .yoko2 a{
+	float: left;
+	width: 100% !important;
+	margin: 0;
+	text-decoration: none;
+}
+
+
+.common div.moreBtn {   
+    padding: 3px 0;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 12px;
+    /* background-color: #f2f2f2; */
+    float: right;
+    margin: 0 5px;
+    border: 1px #ccc solid;
+}
+
+.common div.moreBtn a {
+    color:#000;
+    text-decoration:none;
+    display: block;
+}
+
+
+
+
+
+/*-----------------------
+
+	   pageTop   parts.css
+		
+-----------------------*/
+#fixBtn {
+	position: fixed;
+	bottom: 20px;
+	right: 5px;
+	z-index:1000;
+}
+#fixBtn a {
+	background: #FD647C;
+	text-decoration: none;
+	color: #fff;
+	width: 40px;
+	height: 40px;
+	padding: 0;
+	text-align: center;
+	display: block;
+	border-radius:50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+	box-shadow: 1px 1px 2px 1px #DCDCDC;
+	-moz-box-shadow: 1px 1px 2px 1px #DCDCDC;    
+	-webkit-box-shadow: 1px 1px 2px 1px #DCDCDC;
+}
+
+#fixBtn a.pageTop {
+	border: 1px #4E4C63 solid;
+	background-color: rgba(255, 255, 255, 0.72);
+	/* color: #fff; */
+	/* border-right: none; */
+}
+
+#fixBtn a.toCart {
+	border: 1px #333 solid;
+	background-color: #333;
+}
+
+
+#fixBtn a.pageTop img {
+	margin-top: 3px
+}
+
+
+/*-----------------------
+
+		 Header(fix)
+		
+-----------------------*/	  
+	
+div.headerText {
+	font-size: 10px;
+	padding: 5px 0 0;
+	text-align: center;
+	letter-spacing: 1px;
+	color: #4e4c63;
+}
+
+/*送料無料時*/	
+/*div.headerText {
+	font-size: 12px;
+	padding: 5px 0 0;
+	text-align: center;	
+	background-color: #e4007f;
+	color: #fff;
+}	*/
+	
+	
+div.headerText.delete {
+	display: none;
+	}
+	
+nav.headerFixed-gNavi{
+	padding: 5px 0 5px;
+	background: url(../images/yumetenboLogo_pink.gif) no-repeat center;
+	height: 25px;
+	background-size: auto 38px;
+	line-height: 1;
+	background-color: #fff;
+	position: relative;
+}
+	
+nav.headerFixed-gNavi .gNavi-left{
+	float: left;
+	font-size: 25px;
+	margin-left: 15px;	
+}	
+nav.headerFixed-gNavi .gNavi-right{
+	float: right;
+	font-size: 25px;
+	margin-right: 15px;
+	position: relative;
+	width: 32px;
+	}
+nav.headerFixed-gNavi .gNavi-right.cart {
+	background-image: url(../images/header_icon_01sp.png);
+	background-size: auto 25px;
+	background-position: 1px 0px;
+	background-repeat: no-repeat;
+	height: 30px;
+	}
+nav.headerFixed-gNavi .gNavi-right a {width: 100%;height: 28px;display: block;}	
+	
+nav.headerFixed-gNavi .denaIcon{
+    position: absolute;
+    top: 8px;
+    left: 25%;
+    width: 30px;
+}	
+
+
+div#yumeLogo{
+	text-indent:100%;
+	white-space:nowrap;
+	overflow:hidden;
+	width: 50%;
+	height: 30px;
+	float: left;
+	margin-left: 30px;
+}
+
+div#yumeLogo a{
+	display: block;
+	height: 30px;
+}
+
+
+
+.badge{/*数字*/
+	 background-color: #D96196;
+	 color: #FFF !important;
+	 font-size: 10px;
+	 position: absolute;
+	 padding: 1px;
+	 text-align: center;
+	 margin: 0;
+	 border-radius: 90px;
+	 z-index: 100 !important;
+	 width: 15px;
+	 height: 15px;
+	 /* border: 1px #FFF solid; */*/
+	 font-weight:bold;
+	 -moz-box-shadow:
+		0px 1px 3px rgba(142,147,148,0.4),
+		inset 0px 0px 10px rgba(014,151,242,0);
+	 top: -4px;
+	 right: -10px;
+	 line-height: 1.5;
+}
+
+.menuList div.badge{/*数字*/	 
+	 color: #FFF !important;	 
+	 font-size: 10px;
+	 padding: 1px;
+	 text-align: center;
+	 margin: 0;	 
+	font-weight:bold;
+	top: 13px;
+	left: 110px;
+	line-height: 1.5;
+}
+
+
+/*-----------------------
+
+	 Header-gNavi
+		
+-----------------------*/
+
+nav.header-gNavi{
+	overflow: hidden;
+	position: relative;
+	background-color: #4e4c63;
+}
+
+
+nav.header-gNavi ul{
+	margin: 0 auto;
+}
+	
+nav.header-gNavi li{
+	padding: 5px 0;
+	width: 19.5%;
+	float: left;
+	/* margin-right: 5px; */
+	position: relative;
+	font-size: 11px;
+	text-align: center;
+	letter-spacing: 0.8px;
+	border-right: 1px #6B6A79 solid;
+	box-sizing:initial;
+}
+
+nav.header-gNavi li.space{
+	letter-spacing: normal;
+}
+
+nav.header-gNavi li a{
+	display: block;
+	color: #fff !important;
+	
+}
+
+nav.header-gNavi.delete {
+	background-color: rgba(78, 76, 99, 0.9);
+  }
+
+nav.header-gNavi li:nth-last-child(1){
+	border-right: none;
+}
+
+@media screen and (min-width: 375px) {
+nav.header-gNavi li,
+nav.header-gNavi li.space{
+	letter-spacing: 1px;
+}
+}
+
+div#advertising {
+    width: 98%;
+    margin: 0 auto 10px;
+}
+
+
+/*-----------------------
+
+		 slidemenu
+		
+-----------------------*/
+.slidemenu ul.menuList {
+    /* background-color: #333; */
+}
+
+.slidemenu ul.menuList li {
+    list-style: none;
+    border-bottom: 1px dotted #aaa;
+    font-size:14px;
+    position: relative;
+}
+
+.slidemenu ul.menuList  li a {
+    padding: 12px 0 12px 20px;
+    display: block;
+    text-decoration: none;
+    /* color: #fff; */
+}
+
+.slidemenu ul.menuList  li a span {
+	padding-left: 10px;
+	font-size: 10px;
+	color: #aaa;
+}
+
+.slidemenu ul.menuList  li a span.colorText {
+	color: #f95e93;
+}
+
+.slidemenu ul.menuList  li:after {
+	position: absolute;
+	top: 51%;
+	right: 20px;
+	display: block;
+	content: '';
+	width: 6px;
+	height: 6px;
+	margin-top: -4px;
+	border-top: 1px solid #aaa;
+	border-right: 1px solid #aaa;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+
+}
+
+.slidemenu ul.menuList  li:first-child {
+    border-top: none;
+}
+/*.slidemenu ul.menuList  li:last-child {
+    border-bottom: none;
+}*/
+.slidemenu ul.menuList .slidemenu-header {
+    height: 49px;
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 3px rgba(34,25,25,.4);
+    -moz-box-shadow: 0 1px 3px rgba(34,25,25,.4);
+    -webkit-box-shadow: 0 1px 3px rgba(34,25,25,.4);
+    background-color: #333;
+}
+
+
+/*plugin*/
+.slidemenu {
+  top: 0;
+  width: 240px;
+  position: fixed;
+  visibility: hidden;
+  z-index: -1;
+}
+
+.slidemenu .slidemenu-body {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: #fff;
+  border-right: 1px #4F4D64 solid;
+}
+
+.slidemenu .slidemenu-body .slidemenu-content {
+  position: relative;
+  padding: 50px 0;
+}
+
+.slidemenu-left {
+    left: 0;
+}
+
+.slidemenu-body .wrap01{
+	margin: 0 18px 0 15px;
+}
+
+/*-----------------------
+
+	slidemenu-Contents
+		
+-----------------------*/
+.slidemenu-body {
+	color: #4E4C63;
+	/* background-color: #fff; */*/;
+}
+
+
+.slidemenu-body .customersName span a {
+	font-size: 12px;
+	padding-left: 10px;
+	color: #4E4C63;
+}
+
+.slidemenu-body div.midashiStyle02{
+	margin: 30px auto 0;
+	border-bottom: 2px #4E4C63 solid;
+	font-size: 18px;
+	letter-spacing: 2px;
+	padding: 0 0 5px 20px;
+	text-align:left;
+}
+
+.slidemenu-body .searchFormWrap{
+	position: relative;
+	margin: 20px auto 10px;
+	padding: 0;
+}
+
+.slidemenu-body .searchFormWrap input.searchForm{
+    margin: 2px auto;
+    padding: 5px 0 5px 5px;
+    line-height: 1;
+    width: 200px !important;
+    border: 1px #aaa solid;
+    line-height: 1.5;
+}
+
+.slidemenu-body .searchFormWrap input.searchBtn{
+	background-image: url(../images/ico_searchBtn.gif) !important;
+
+	background-size: 31px auto;
+	padding: 0;
+	margin: 0;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	height: 25px;
+	width: 40px;
+	text-indent: -9999px;
+	white-space: nowrap;
+    overflow: hidden;
+	border: none;
+	background-color: #fff !important;	
+	position: absolute;
+	top: 7px;
+	right: 10px;
+}
+
+
+.slidemenu-body .searchText {
+    text-align: right;
+    padding: 0 15px;
+}
+
+.slidemenu-body .keyword{
+	padding: 0;
+	/* background-color: #f2f2f2; */
+	margin: 10px 0;
+	/* width: 230px; */
+}
+
+.slidemenu-body .keyword a{
+	font-size: 12px;
+}
+
+.slidemenu-body .keyword a:before{
+	content:"#";
+}
+
+.slidemenu-body .keyword ul{
+	padding: 5px 0;
+}
+
+.slidemenu-body .keyword ul li{
+	display:inline-block;
+	padding: 3px 7px;
+	font-size: 14px;
+	background-color: #f2f2f2;
+	line-height: 1;
+	margin: 0 0 5px 0;
+}
+
+.slidemenu-body .keyword .wordicon{
+	font-size: 9px;
+	color: #e4007f;
+	padding: 1px 5px;
+	/* background-color: #fff; */
+	text-align: center;
+	border-radius:10px;
+	margin-top: -1px;
+	border: 1px #e4007f solid;
+	width: 50px;
+	display: none;
+}	
+	
+.slidemenu-body .eventWrap{
+	margin: 10px 0;
+	/* width: 250px; */
+}
+
+.slidemenu-body .eventWrap img{
+	width: 99%;
+	border: 1px #f2f2f2 solid;
+}
+
+
+.slidemenu-body .menuList-tel{
+	background-color: #f2f2f2;
+	text-align: center;
+	margin: 10px;
+	padding: 10px 0;
+}
+
+.slidemenu-body [class^="icon-"],
+.slidemenu-body [class*=" icon-"] {
+	padding: 0 3px 0 0;
+}
+
+
+.menuList-Colorcon {
+    font-size: 11px;
+    padding: 20px 0 0 20px;
+    color: #666;
+}
+
+
+
+/*-----------------------
+
+     Footer-Category
+		
+-----------------------*/	
+
+.common {
+	margin: 0;
+}
+
+.common a {
+	color: #000;
+}
+
+.common ul.thumbnail,
+.common ul.thumbnail-topic{
+	margin: 0 auto 20px;
+
+	width: 95%;
+}
+
+.common ul.thumbnail li{
+	list-style-type: none;
+	height: auto;
+	width: 20.8%;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 0 10px;
+	padding: 2px 0 2px 7px;
+}
+
+@media screen and (min-width: 375px) {
+	.common ul.thumbnail li{
+	width: 21.4%;
+	}
+}
+
+@media screen and (min-width: 414px) {
+	.common ul.thumbnail li{
+	width: 21.6%;
+	}
+}
+
+.common ul.thumbnail li a{
+	display: block;
+	text-decoration: none;
+}
+
+.common ul.thumbnail li img{
+	width: 100%;
+	border: 1px #f2f2f2 solid;
+}
+
+.common ul.thumbnail li p{
+	/* margin: -5px 0  0; */
+	font-size: 10px;
+	text-align: center;
+	/* line-height: 1; */
+	/* background-color: #f2f2f2; */
+	padding: 0;
+}
+
+
+
+.common ul.thumbnail-topic li{
+	list-style-type: none;
+	width: 100%;
+	margin: 0 0 10px;
+}
+
+.common ul.thumbnail-topic li a,
+.common ul.thumbnail-02 li a,
+.common ul.thumbnail-03 li a{
+	display: block;
+	text-decoration: none;
+}
+
+.common ul.thumbnail-topic li img{
+	width: 99%;
+	border: 1px #f2f2f2 solid;
+}
+
+.common ul.thumbnail-topic li p,
+.common ul.thumbnail-02 li p,
+.common ul.thumbnail-03 li p{
+	font-size: 10px;
+	text-align: center;
+	padding: 0;
+}
+
+
+/*横2つ*/
+.common ul.thumbnail-02{
+	margin: 0 auto 20px;
+	width: 95%;
+}
+
+.common ul.thumbnail-02 li{
+	list-style: none;
+	width: 49%;
+	float: left;
+	margin: 0 2% 10px 0;
+	/*display: inline-block;*/
+}
+.common ul.thumbnail-02 li:nth-child(2n){
+	margin: 0 0 10px 0;
+}
+
+.common ul.thumbnail-02 li img{
+	width: 100%;
+	border: 1px #f2f2f2 solid;
+}
+
+
+/*横3つ*/
+.common ul.thumbnail-03{
+	margin: 0 auto 20px;
+	width: 95%;
+}
+
+.common ul.thumbnail-03 li{
+	list-style: none;
+	width: 30%;
+	float: left;
+	margin: 0 13px 10px 0;
+	/*display: inline-block;*/
+}
+
+.common ul.thumbnail-03 li:nth-child(3n){
+	margin: 0 0 10px 0;
+}
+
+.common ul.thumbnail-03 li img{
+	width: 100%;
+	border: 1px #f2f2f2 solid;
+}
+
+
+/*
+  見出し 必要
+--------------------------------------*/
+
+.common_midashi01{
+	border-bottom:2px #CCC solid; 
+	padding:7px 10px; 
+	font-weight: bold;
+}
+
+.common_midashi02{
+	padding:7px 0;
+	margin: 0 10px;
+	border-bottom:1px #CCC dotted;
+}
+
+
+/*
+ 	パンくずリスト
+--------------------------------------*/
+.pankuzu{
+	color:#666;
+	font-size:11px;
+	text-align:left;
+	padding:0px 5px 5px 3px;
+}
+
+.pankuzu a{
+	color:#666;
+	text-decoration: underline !important;
+}
+
+
+.pankuzu_list{
+	color:#666;
+	font-size:11px;
+	text-align:left;
+	padding: 5px 3px;
+}
+
+.pankuzu_list h1{
+	font-size:11px;
+	font-weight: normal;
+	/*padding-top:2px;*/
+}
+
+.pankuzu_list p{
+	padding-left: 5px;
+	color: #999;
+}
+
+
+.pankuzu_list ol{
+	list-style:none;
+	padding:0;
+	margin:0 5px;
+}
+
+.pankuzu_list li{
+	/*display:inline-block;*/
+	float: left;
+	padding: 0 6px 0 0;
+}
+
+.pankuzu_list li:after{
+	content:">";
+	margin-left: 6px;
+}
+
+.pankuzu_list li:last-child:after{
+        /* 隴崢陋ｻ譏ｴ�ｽli邵ｺ邵ｺ逾撲ntent郢ｧ蜻茨ｽｶ蛹ｻ笘� */
+        content:none;
+}
+
+
+.pankuzu_list li a{
+	color:#666;
+	text-decoration: underline;
+}
+
+.pankuzu_list ol:after {
+    content: "";
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+}
+
+
+/*-----------------------
+
+         Footer
+		
+-----------------------*/	
+	  
+footer#footer {
+    background-color: #f2f2f2;
+    color: #000;
+    text-align: center;
+	padding: 10px;
+      }
+
+
+footer .sns{
+	/* border-top: 1px #CCCCCC dotted; */
+	/*border-bottom: 2px #CCCCCC solid;*/
+	font-size: 13px;
+	margin: 0 0 10px;
+}
+
+footer .sns ul{
+	width: 58%;
+	margin: 7px auto;
+}
+
+footer .sns li{
+	width: 30px;
+	height: 25px;
+	float: left;
+	text-align: center;
+	margin: 0 2px;
+	/* background-color: #5F5D72; */
+	border-radius:50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+
+footer .sns li a{
+	display: block;
+}
+
+
+footer .sns li img{
+	width: 70%;
+	margin-top: 5px;
+}
+
+footer .sns li span{
+	font-size: 18px;
+	color: #333333;
+}
+
+footer .footerNavi03{
+	margin: 10px auto;
+	text-align: center;	
+	font-size: 14px;
+	line-height: 20px;
+}
+
+footer .footerNavi03 a{
+	text-align: center;
+	color: #333333;
+}
+
+
+footer .copyright{
+    font-size:10px;
+    text-align:center;
+    padding:3px;	
+    color: #666;
+}
+
+

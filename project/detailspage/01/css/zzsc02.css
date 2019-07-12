@@ -1,0 +1,80 @@
+@charset "utf-8";
+html,body,div,img,q,dl,dt,dd,ol,ul,li,p{margin:0;padding:0;}
+img,a img{border-style:none;border-width:0;}
+a,a:hover{ text-decoration:none}
+html {margin:0 auto;}
+ol,ul,li{list-style: none;}:focus {outline: 0;}
+body{ color:#666}
+a,a:visited{ color:#666}
+a:hover {color:#009966;}
+.main{font-family:'Meiryo UI';color:#666; width:650px; margin:0 auto;}
+.main p{font-size:70%;line-height:24px;color: #999999;}
+
+.slider-scroll{overflow:hidden;}  
+#showArea{width:550px; float:left; height: 550px; }
+#showArea img{display:none;}
+#showArea img:first-child{display:block;}
+#scrollDiv{float:left; width:80px; height:550px; margin-left:15px;}
+#scrollDiv li{width:50px;  height:80px; margin-bottom:10px;cursor:pointer;} 
+#scrollDiv li img{border:#fff 2px solid;}
+#scrollDiv li img:hover{border:#f0f 2px solid;}
+#scrollDiv li:last-child{margin-bottom:0;}
+#scrollDiv li.on{position:relative;}
+#scrollDiv li.on:hover{opacity:0.6;}
+#scrollDiv li a{display:block; font-size:16px; height:35px; line-height:35px; color:#fff;}
+#scrollDiv li span{display:block; color:#66ffff; font-size:14px; height:15px; line-height:15px; }
+#scrollDiv li span.entity-triangle{ display:none; }
+#scrollDiv li.on span.entity-triangle{ position:absolute; top:31px; left:-6px; display:block; width:6px; height:22px; background:url(img/triangle2.png) 0 0 no-repeat; z-index:99;}
+
+.img-list{
+	width: 650px;
+	margin: 0 auto;
+}
+.img-list img{
+	display: block;
+	width: 100%;
+	margin-bottom: 40px;
+}
+	.itemSpec{
+		width: 650px;
+    background-color: #CCC;
+    margin: auto;
+    font-family: 'Hiragino Kaku Gothic ProN',Meiryo,sans-serif;
+	}
+	.itemSpec th{
+		width: 120px;
+    background-color: #EEE;
+    color: #666;
+    font-size: 80%;
+    text-align: left;
+    padding: 5px 10px;
+    font-weight: 400;
+    vertical-align: middle;
+	}
+	.itemSpec th img{
+		float: right;
+    margin-left: 5px;
+    display: inline;
+	}
+	.itemSpec td{
+		background-color: #FFF;
+    color: #666;
+    font-size: 13px;
+    padding: 5px 10px;
+    line-height: 160%;
+    text-align: left;
+	}
+	table a{
+		color: #0066CC;
+		text-decoration: none;
+	}
+	.sale_desc{
+		width: 650px;
+		margin: 20px auto 0;
+	}
+	.sale_desc img{
+		display: block;
+		width: 100%;
+		text-align: center;
+    margin: auto auto 0;
+	}

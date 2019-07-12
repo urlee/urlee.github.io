@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8" />
+<title>ワイエムワールド - Yahoo!ショッピング - Ｔポイントが貯まる！使える！ネット通販</title>
+	<meta name="description" content="]">
+	<meta name="keywords" content="" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript">
+	<link class="item__link" href="../smp/common/css/style.css" rel="stylesheet" type="text/css" media="all">
+	<script type="text/javascript" src="../common/js/jquery-1.10.2.min.js"></script>
+	<!--<script type="text/javascript" src="../common/js/ranking.js" charset="utf-8"></script>-->
+	<script type="text/javascript">
+	$(function(){
+		if($('.item__product').length > 0){
+			var count = 20; // デフォルトで表示する文字数
+			$('.item__product').each(function(){
+				var target = $(this),
+				fullTxt = target.text();
+				if(fullTxt.length > count){
+					target.text(fullTxt.substr(0,count) + ' … ');
+				}
+			});
+		}
+	});
+	</script>
+	<!--<style type="text/css">
+		p.item__product{
+			height: 48px;
+		}
+	</style>-->
+</head>
+
+<body>
+
+<!--- brand ranking start --->
+<div class="ranking_area">
+  <div class="ranking">
+    <div id="tabContents">
+      <!-- Bag -->
+      <div class="main" style="background:none;">
+     		<div class="ranking-main__slide">
+	        <ul class="item pure-g">
+	          <li class="item__list item__list-rank pure-u-1-3"><a class="item__link" href="https://store.shopping.yahoo.co.jp/yhworld/ts03sp16dec03.html" target="_top">
+							<img src="../tab_pages/img/imgNew_03.jpg" class="jhover">
+							<p class="item__product">スポーツウェア 3点セット</p>
+							<p class="item__price">&yen;2,000</p>
+	          </a></li>
+	          <li class="item__list item__list-rank pure-u-1-3"><a class="item__link" href="https://store.shopping.yahoo.co.jp/yhworld/ts03sp16dec02.html" target="_top">
+							<img src="../tab_pages/img/imgNew_01.jpg" class="jhover">
+							<p class="item__product">スポーツウェア 4点セット</p>
+							<p class="item__price">&yen;4,380</p>
+	          </a></li>
+	          <li class="item__list item__list-rank pure-u-1-3"><a class="item__link" href="https://store.shopping.yahoo.co.jp/yhworld/ts08spw17feb12.html" target="_top">
+							<img src="../tab_pages/img/imgNew_02.jpg" class="jhover">
+							<p class="item__product">迷彩 3点セット</p>
+							<p class="item__price">&yen;2,980</p>
+	          </a></li>
+	          <li class="item__list item__list-rank pure-u-1-3"><a class="item__link" href="https://store.shopping.yahoo.co.jp/yhworld/ts03sp16dec05.html" target="_top">
+							<img src="../tab_pages/img/imgNew_04.jpg" class="jhover">
+							<p class="item__product">接触冷感　2点セット</p>
+							<p class="item__price">&yen;2,980</p>
+	          </a></li>
+	          <li class="item__list item__list-rank pure-u-1-3"><a class="item__link" href="https://store.shopping.yahoo.co.jp/yhworld/ts03sp16dec06.html" target="_top">
+							<img src="../tab_pages/img/ts03sp16dec06.jpg" class="jhover">
+							<p class="item__product">メッシュ素材　2点セット</p>
+							<p class="item__price">&yen;2,940</p>
+	          </a></li>
+	          
+	        </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- brand ranking end -->
+</body>
+</html>

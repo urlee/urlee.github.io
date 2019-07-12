@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+
+#yumetenbo{
+
+	margin:0 auto;
+
+	padding:0;
+
+	width:1000px;
+
+}
+
+
+
+
+
+#yumetenbo .head{
+
+	width:1000px;
+
+	margin:0;
+
+	padding:0;
+
+}
+
+
+
+#yumetenbo .leftnavi{
+
+	width:182px;
+
+	margin:0 18px 0 0;
+
+	padding:0;
+
+	float:left;
+
+}
+
+
+
+#yumetenbo .contents{
+
+	width:800px;
+
+	margin:0;
+
+	padding:0;
+
+	float:left;
+
+	
+
+}
+
+#yumetenbo .contents1000{
+
+	width:1000px;
+
+	margin:0;
+
+	padding:0;
+
+
+	
+
+}
+
+
+
+#yumetenbo .footer{
+
+	width:1000px;
+
+	margin:0;
+
+	padding:0;
+
+}
+
+
+
+.pankuzu{
+	font-size: 12px;
+	width: 800px;
+	margin: 10px 0;
+}
+
+.pankuzu ol{
+	list-style: none;
+	padding: 0 10px;
+}
+
+.pankuzu li{
+	display: inline;
+}
+
+.pankuzu li a{
+	color:#666;
+}
+
+.pankuzu li a:hover{
+	text-decoration:underline;
+}
+
+
+.pankuzu li h1{
+	display:inline-block;
+	font-size: 14px;
+	font-weight:bold;
+}
+
+.pankuzu p{
+	font-size:12px;
+	color: #bbb;
+	padding-left: 10px;
+}
+
+
+
+ol,p{
+	padding:0;
+	margin:0;
+}
+
+
+*{
+	margin:0;
+	padding: 0;
+}
+

@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#itemList ul.realtime-ranking{
+	margin: 10px auto;
+	width: 95%;
+	counter-reset: rankingnumeber;
+}
+
+
+#itemList h2{
+	line-height: 1.5em !important;
+}
+
+
+
+#itemList .realtime-ranking li{
+	/* float: left; */
+	width: 47%;
+	margin: 5px 4px 20px;
+	list-style: none;
+	/*overflow: hidden;*/
+	/* height:270px; */	
+	display: inline-block;
+	vertical-align: top;
+}
+
+#itemList .realtime-ranking li:before{ 
+    counter-increment: rankingnumeber;
+    content: counter(rankingnumeber);
+    font-size: 12px;
+    position: relative;
+    top: 30px;
+    left: 5px;
+    z-index:9999;
+	background-color: #fff;
+	color: #666;
+	text-align: center;
+	padding: 7px 9px;
+	height:30px;
+	width: 30px;
+	border: 1px #ccc solid;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+}
+
+#itemList .realtime-ranking li:nth-child(n+10):before{ 
+	padding: 7px 6px;
+}
+
+
+@media screen and (min-device-width: 414px) {
+#itemList .realtime-ranking li{
+	width: 47.5%;
+	margin: 5px;	
+}
+#itemList .realtime-ranking li:nth-child(2n){
+	margin: 5px 0 5px 0;
+}
+}
+
+
+#itemList .realtime-ranking li:nth-child(2n){
+	margin: 5px 0 4px 0;
+}
+
+#itemList .realtime-ranking li dt{
+	position: relative;
+}
+
+#itemList .realtime-ranking li dt img{
+	width: 100%;
+}
+
+
+#itemList .realtime-ranking li dd{
+	font-size: 10px;
+	text-align: right;
+	line-height: 12px;
+	margin: 3px 0;
+	text-align: center;
+}
+
+#itemList .realtime-ranking li dd.articleName{
+	width: auto;
+	text-align:left;
+	/*overflow: hidden;
+  	white-space: nowrap;
+ 	text-overflow: ellipsis;*/
+	
+}
+
+#itemList .realtime-ranking li dd.price{
+	font-size: 14px;
+	font-weight: bold;
+	/*display: none;*/
+	text-align: right;
+	padding: 5px;
+}
+
+#itemList .realtime-ranking li dd.price span{
+	font-size: 10px;
+	font-weight: normal;
+}
+
+#itemList .realtime-ranking li dd.price span.inTax{
+	font-size: 10px;
+	color: #888;
+}
+
+
+#itemList .realtime-ranking.sale li dd.price,
+#itemList .realtime-ranking.sale li dd.price span.inTax{
+	color: #FA3350;
+}

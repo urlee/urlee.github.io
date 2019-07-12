@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ラインナップ</title>
+<link href="css/style-lu.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="nav">
+  <ul>
+    <li><a href="#section01" target="_self">2点セット</a></li>
+    <li><a href="#section02" target="_self">3点セット</a></li>
+    <li><a href="#section03" target="_self">4点セット</a></li>
+    <li><a href="#section04" target="_self">5点セット</a></li>
+  </ul>
+</div>
+<div id="section01" class="section women">
+  <div class="women-inner">
+    <p>2点セット</p>
+    <div class="Rushguard-lineup"><a href="https://store.shopping.yahoo.co.jp/yhworld/ts03sp16dec05.html" target="_top">
+    	<img src="img/set2_1.jpg" width="75">
+      <p>通気性抜群 接触冷感</p>
+    </a></div>
+    <div class="Rushguard-lineup"><a href="https://store.shopping.yahoo.co.jp/yhworld/ts03sp16dec06.html" target="_top">
+    	<img src="img/set2_2.jpg" width="75">
+      <p>スポーツにも部屋着にも着まわしOK♪</p>
+    </a></div>
+    <div class="Rushguard-lineup"><a href="https://store.shopping.yahoo.co.jp/yhworld/t03507000h450.html" target="_top">
+    	<img src="img/set2_3.jpg" width="75">
+      <p>高品質 メッシュ素材</p>
+    </a></div>
+    
+  </div>
+</div>
+<div id="section02" class="cf section mens">
+  <div class="men-inner">
+    <p>3点セット</p>
+    <div class="Rushguard-lineup"><a href="https://store.shopping.yahoo.co.jp/yhworld/ts08spw17feb12.html" target="_top">
+    	<img src="img/set3_1.jpg" width="75">
+      <p>高レビューセット&nbsp;&nbsp;&nbsp;迷彩セットアップ</p>
+    </a></div>
+    <div class="Rushguard-lineup"><a href="https://store.shopping.yahoo.co.jp/yhworld/ts03sp16dec03.html" target="_top">
+    	<img src="img/set3_2.jpg" width="75">
+      <p>スポーツラッシュセット</p>
+    </a></div>
+    <div class="Rushguard-lineup"><a href="https://store.shopping.yahoo.co.jp/yhworld/t03507000cf40.html" target="_top">
+    	<img src="img/set3_3.jpg" width="75">
+      <p>スポーツウェア 3点セット</p>
+    </a></div>
+    <div class="Rushguard-lineup"><a href="https://store.shopping.yahoo.co.jp/yhworld/ts08spw17feb11.html" target="_top">
+    	<img src="img/set3_4.jpg" width="75">
+      <p>星空花柄　体型カバー </p>
+    </a></div>
+  </div>
+</div>
+<div id="section03" class="cf section kids">
+  <div class="kids-inner">
+    <p>4点セット</p>
+    <div class="Rushguard-lineup"><a href="https://store.shopping.yahoo.co.jp/yhworld/ts03sp16dec02.html" target="_top">
+    	<img src="img/set4_1.jpg" width="75">
+      <p>超人気スポーツセット&nbsp;&nbsp;&nbsp;スポーツ機能全対応<br></p>
+    </a></div>
+    <div class="Rushguard-lineup"><a href="https://store.shopping.yahoo.co.jp/yhworld/ts08spw17feb05.html" target="_top">
+    	<img src="img/set4_2.jpg" width="75">
+      <p>在庫処分&nbsp;&nbsp;&nbsp;数量限定セッ<br></p>
+    </a></div>
+
+  </div>
+</div>
+<div id="section04" class="cf section goods">
+  <div class="goods-inner">
+    <p>5点セット</p>
+    <div class="Rushguard-lineup"><a href="https://store.shopping.yahoo.co.jp/yhworld/t035070003d00.html" target="_top">
+    	<img src="img/set5_1.jpg" width="75">
+      <p>動きやすさ重視で作られた！<br></p>
+    </a></div>
+    <div class="Rushguard-lineup"><a href="https://store.shopping.yahoo.co.jp/yhworld/t03507000yp30.html" target="_top">
+    	<img src="img/set5_2.jpg" width="75">
+      <p>吸汗速乾 通気性抜群<br></p>
+    </a> </div>
+    <div class="Rushguard-lineup"><a href="https://store.shopping.yahoo.co.jp/yhworld/t03507000g150.html" target="_top">
+    	<img src="img/set5_3.jpg" width="75">
+      <p>ランニングウエアとしても最適!<br></p>
+    </a> </div>
+  </div>
+</div>
+<div class="dummy"></div>
+<script src="js/jquery.min.js"></script> 
+<script src="js/jquery.smoothScroll.js"></script> 
+<script>
+  $('a').smoothScroll();
+</script> 
+<script>
+	
+	$(function(){
+    var margin = 100,   //ウインドウ上部からどれぐらいの位置で変化させるか
+    sectionTop = new Array, //sectionのTop位置格納用
+    current = -1;   //現在のカレント位置
+ 
+    //(1)各sectionの縦位置を取得
+    $('.section').each(function(i) {
+        sectionTop[i] = $(this).offset().top;
+    });
+ 
+    //init
+    changeNavCurrent(0);
+ 
+    //スクロールした時の処理
+    $(window).scroll(function(){
+        scrollY = $(window).scrollTop();
+ 
+        //(2)各セクションの位置とスクロール位置を比較して、条件にあったらchangeNavCurrentを実行
+        for (var i = sectionTop.length - 1 ; i >= 0; i--) {
+            if (scrollY > sectionTop[i] - margin) {
+                    changeNavCurrent(i);
+                break;
+            }
+        };
+    });
+    //(3)ナビの処理
+    function changeNavCurrent(curNum) {
+        if (curNum != current) {
+            current = curNum;
+            curNum2 = curNum + 1;//HTML順序用
+            $('#nav li').removeClass('on');
+            $('#nav li:nth-child(' + curNum2 +')').addClass('on');
+        }
+    };
+});
+		
+
+	</script>
+</body>
+</html>

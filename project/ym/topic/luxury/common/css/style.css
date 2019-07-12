@@ -1,0 +1,704 @@
+@charset "UTF-8";
+/* CSS Document */
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+  outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+  text-decoration: none;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* CSS Document */
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 16px;
+  font-size: 1rem;
+  padding: 60px 0 0 0 !important;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+
+.main {
+  background: url(../img/main.png) no-repeat center;
+  height: 610px;
+  margin: 0 0 46px;
+}
+
+.main__head {
+  padding: 380px 0 0 0;
+  color: #555;
+  text-align: center;
+}
+
+.main__head span {
+  display: block;
+  margin: 10px 0 0 0;
+}
+
+.main__subhead {
+  margin: 50px 0;
+}
+
+.main__subhead span {
+  display: block;
+  margin: 10px 0;
+}
+
+.nav {
+  font-family: "Libre Baskerville", serif;
+  margin: 0 0 4%;
+}
+
+.nav.fixed {
+  position: fixed;
+  width: 100%;
+  top: 60px;
+  left: 0;
+  background: rgba(255, 255, 255, 0.75);
+  z-index: 100;
+}
+
+.nav__list {
+  margin: 0 4%;
+}
+
+.nav__link {
+  display: block;
+  padding: 20px;
+  position: relative;
+  color: #333;
+}
+
+.nav__link:after {
+  content: "";
+  border-bottom: #408dac solid 5px;
+  width: 0%;
+  -webkit-transition: .4s ease-in-out;
+  -moz-transition: .4s ease-in-out;
+  -ms-transition: .4s ease-in-out;
+  -o-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+}
+
+.nav__link:hover:after {
+  width: 100%;
+}
+
+.brandbox {
+  border-top: 2px solid #9da5aa;
+  background: #ebebe8;
+  padding: 170px 80px 170px;
+  position: relative;
+}
+
+.brandbox__head {
+  color: #28455b;
+  font-size: 38px;
+  font-size: 2.375rem;
+  margin: 0 0 40px;
+  font-family: "Libre Baskerville", serif;
+}
+
+.brandbox__head span {
+  display: block;
+  font-size: 15px;
+  font-size: 0.9375rem;
+  margin: 40px 0 0 0;
+}
+
+.brandbox__more {
+  background: #28455b;
+  width: 475px;
+  color: #fff;
+  display: block;
+  margin: 0 auto 180px;
+  font-size: 20px;
+  font-size: 1.25rem;
+  -webkit-transition: .4s ease-in-out;
+  -moz-transition: .4s ease-in-out;
+  -ms-transition: .4s ease-in-out;
+  -o-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+  padding: 16px 0;
+  border: #28455b 1px solid;
+}
+
+.brandbox__more:hover {
+  background: #f5f5f4;
+  color: #28455b;
+}
+
+.brandbox__more-white {
+  background: #f5f5f4;
+  color: #28455b;
+}
+
+.brandbox__more-white:hover {
+  background: #28455b;
+  color: #fff;
+}
+
+.visual {
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 85px;
+}
+
+.visual__head {
+  font-size: 46px;
+  font-size: 2.875rem;
+  color: #3c4e5b;
+  position: absolute;
+  top: 70px;
+  width: 100%;
+  left: 0;
+}
+
+.visual__head span {
+  display: block;
+  margin: 20px 0;
+  font-size: 13px;
+  font-size: 0.8125rem;
+  font-weight: bold;
+}
+
+.visual__head span:after {
+  content: "\025B6";
+}
+
+.visual__head-2 {
+  font-size: 30px;
+  font-size: 1.875rem;
+  position: relative;
+  padding: 0 0 13px 0;
+  margin: 0 0 26px;
+  top: 0;
+}
+
+.visual__head-2:after {
+  content: "";
+  width: 150px;
+  border-top: 1px solid #ddd;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.visual__list {
+  padding: 70px 7% 50px;
+  height: 725px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.visual__list-grey {
+  background: url(../img/grey_bg.png);
+  padding: 0;
+  position: relative;
+}
+
+.visual__list-grey:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: -moz-linear-gradient(top, rgba(209, 224, 227, 0) 0%, rgba(209, 224, 227, 0.49) 49%, #d1e0e3 100%);
+  background: -webkit-linear-gradient(top, rgba(209, 224, 227, 0) 0%, rgba(209, 224, 227, 0.49) 49%, #d1e0e3 100%);
+  background: linear-gradient(to bottom, rgba(209, 224, 227, 0) 0%, rgba(209, 224, 227, 0.49) 49%, #d1e0e3 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00d1e0e3', endColorstr='#d1e0e3',GradientType=0 );
+}
+
+.visual__list-white {
+  background: #fff;
+}
+
+.visual__link {
+  position: relative;
+  z-index: 10;
+  display: block;
+  -webkit-transition: .4s ease-in-out;
+  -moz-transition: .4s ease-in-out;
+  -ms-transition: .4s ease-in-out;
+  -o-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+}
+
+.visual__link:hover {
+  opacity: 0.75;
+}
+
+.visual__desc {
+  font-size: 13px;
+  font-size: 0.8125rem;
+  line-height: 1.69231em;
+  text-align: left;
+  color: #3c4e5b;
+  margin: 0 0 10px;
+}
+
+.visual__price {
+  color: #c30000;
+  text-align: left;
+}
+
+.visual__price sub {
+  font-weight: bold;
+  font-size: 12px;
+  font-size: 0.75rem;
+}
+
+.visual .brandbox__more {
+  width: 50%;
+}
+
+.seriesbox {
+  margin: 0 0 45px;
+}
+
+.seriesbox__list {
+  margin: 0 0 45px;
+}
+
+.seriesbox__link {
+  display: block;
+  -webkit-transition: .4s ease-in-out;
+  -moz-transition: .4s ease-in-out;
+  -ms-transition: .4s ease-in-out;
+  -o-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+}
+
+.seriesbox__link:hover {
+  opacity: 0.75;
+}
+
+.seriesbox__img {
+  margin: 0 0 10px;
+}
+
+.seriesbox__name {
+  color: #0a402b;
+  font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 12px;
+  font-size: 0.75rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.itembox {
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.itembox__list {
+  margin: 0 12.5% 5% 0;
+}
+
+.itembox__list:nth-of-type(3n+3) {
+  margin: 0 0 5%;
+}
+
+.itembox__link {
+  color: #333;
+  display: block;
+  -webkit-transition: .4s ease-in-out;
+  -moz-transition: .4s ease-in-out;
+  -ms-transition: .4s ease-in-out;
+  -o-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+}
+
+.itembox__link:hover {
+  opacity: 0.75;
+}
+
+.itembox__img {
+  margin: 0 0 24px;
+  box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.11);
+}
+
+.itembox__name {
+  font-size: 12px;
+  font-size: 0.75rem;
+  line-height: 1.66667em;
+  margin: 0 0 16px;
+  text-align: left;
+}
+
+.itembox__price {
+  text-align: left;
+  color: #c30000;
+}
+
+.itembox__price sub {
+  font-size: 12px;
+  font-size: 0.75rem;
+}
+
+.price__head {
+  font-size: 30px;
+  font-size: 1.875rem;
+  position: relative;
+  padding: 0 0 13px 0;
+  margin: 0 0 26px;
+}
+
+.price__head:after {
+  content: "";
+  width: 150px;
+  border-top: 1px solid #ddd;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.price__list {
+  width: 18%;
+  margin: 0 4%;
+  padding: 12px 0;
+  position: relative;
+}
+
+.price__list:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid #d1d1d1;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.price__link {
+  color: #333;
+  -webkit-transition: .4s ease-in-out;
+  -moz-transition: .4s ease-in-out;
+  -ms-transition: .4s ease-in-out;
+  -o-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+  display: block;
+}
+
+.price__link:hover {
+  opacity: 0.75;
+}
+
+.pagetop {
+  color: #28455b;
+  font-family: 'Roboto Condensed', sans-serif;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  padding: 50px 0 0 0;
+  font-size: 13px;
+  text-align: center;
+  -webkit-transition: .4s ease-in-out;
+  -moz-transition: .4s ease-in-out;
+  -ms-transition: .4s ease-in-out;
+  -o-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+  z-index: 1000;
+}
+
+.pagetop:before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  position: absolute;
+  background: #f9f9f8;
+}
+
+.pagetop:after {
+  content: "";
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  border-top: 1px solid #28455b;
+  border-right: 1px solid #28455b;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.pagetop:hover {
+  bottom: 40px !important;
+}
+
+.lazy {
+  max-width: initial;
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .main {
+    height: 230px;
+    background-size: auto 230px;
+  }
+
+  .main__head {
+    padding: 140px 0 0 0;
+    font-size: 14px;
+    font-size: 0.875rem;
+  }
+
+  .main__head img {
+    width: 85%;
+  }
+
+  .main__subhead {
+    margin: 30px 10% 30px;
+  }
+
+  .nav {
+    letter-spacing: -0.8em;
+    background: #fff;
+    margin: 0;
+  }
+
+  .nav__list {
+    width: 50%;
+    margin: 0;
+    letter-spacing: 0;
+    text-align: center;
+    font-size: 13px;
+    font-size: 0.8125rem;
+  }
+
+  .nav__link {
+    padding: 15px 3%;
+    border-right: 1px solid #000;
+    box-sizing: border-box;
+    border-bottom: 1px solid #000;
+  }
+
+  .brandbox {
+    padding: 10% 0 10%;
+  }
+
+  .brandbox__head {
+    margin: 0 5% 10%;
+    font-size: 22px;
+    font-size: 1.375rem;
+  }
+
+  .brandbox__more {
+    width: 90%;
+    margin: 0 auto 10%;
+  }
+
+  .visual {
+    margin-bottom: 0;
+  }
+
+  .visual__head {
+    top: 7%;
+    font-size: 30px;
+    font-size: 1.875rem;
+  }
+
+  .visual__list {
+    height: auto;
+    padding: 10% 7% 10%;
+  }
+
+  .visual__list-grey {
+    padding: 0 0 0;
+  }
+
+  .visual .brandbox__more {
+    width: 90%;
+  }
+
+  .itembox {
+    text-align: left;
+    margin: 0 5%;
+    padding-top: 5%;
+  }
+
+  .itembox__list {
+    margin: 0 2% 10% 0 !important;
+    padding: 0 2%;
+  }
+
+  .itembox__list:nth-of-type(3n+3) {
+    margin: 0 0% 10% 0;
+  }
+
+  .itembox__list:nth-of-type(even) {
+    margin: 0 0 10% 0 !important;
+  }
+
+  .itembox__img {
+    margin: 0 0 5%;
+  }
+
+  .price__head {
+    padding: 10% 0 5%;
+  }
+
+  .price__list {
+    width: 100%;
+    margin: 0;
+  }
+
+  .price__list:first-child:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-top: 1px solid #d1d1d1;
+    border-bottom: 1px solid #eeeeee;
+  }
+}
+/*20180710追加*/
+@media (min-width: 768px) {
+  .visual__list {
+    height: 680px;
+  }
+
+  .visual__list-grey img {
+    width: 450px;
+    position: absolute;
+    top: 170px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+  }
+
+  .visual__list-white img {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+
+  .seriesbox__link img {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .visual__list-grey img {
+    padding: 10%;
+    margin-top: 25%;
+  }
+
+  .visual__list-white img {
+    padding: 5%;
+    margin-bottom: 20px;
+  }
+
+  .nav {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .nav__list {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+  }
+
+  .nav__link {
+    border: none;
+  }
+
+  .itembox {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+  }
+
+  .itembox__list {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 48%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

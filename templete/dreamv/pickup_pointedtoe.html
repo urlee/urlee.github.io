@@ -1,0 +1,477 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script type="text/javascript">
+(function(){
+	var ua = navigator.userAgent.toUpperCase();
+	if(ua.indexOf('IPHONE') != -1 || (ua.indexOf('ANDROID') != -1 && ua.indexOf('MOBILE') != -1)){
+		location.href = 'sp/bottom.html';
+	}
+}());
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="canonical" href="pickup_color.html"/>
+<link rel="stylesheet" href="stylesheets/common.css">
+<link rel="stylesheet" href="stylesheets/lp_base.css" />
+<link rel="stylesheet" href="stylesheets/lp_style2.css" />
+<link rel="stylesheet" href="stylesheets/top_layout.css">
+<link rel="stylesheet" href="css/animation.css">
+<link rel="stylesheet" href="css/lp_layout_pc.css">
+<script type="text/javascript" src="sp/jscript/accordion.js"></script>
+<script type="text/javascript" src="sp/jscript/jquery-1.10.2.min.js"></script>
+<title>あなたにピッタリのタイプはコレ！</title>
+<style type="text/css">
+
+#kikaku section{
+		margin: 20px 0 100px;
+		text-align: center;
+		line-height: 1.6em;
+		color: #000;
+	}
+	#kikaku section .main_ {
+		margin: 10px 0 30px !important;
+	}
+	#kikaku section .text_ {
+		font-size: 35px;
+		margin: 20px 0 10px;
+		letter-spacing: 2px;
+		line-height: 1;
+		    color: #333;
+	}
+	#kikaku section .text_sub_ {
+		font-size: 1.4em;
+		margin: 10px 0 20px;
+		letter-spacing: 2px;
+		line-height: 1.6;
+	}
+	#kikaku section .price_ {
+		font-size: 40px;
+		margin: 20px 0;
+		letter-spacing: 2px;
+		line-height: 1;
+		color: #d96196;
+	}
+	#kikaku section .price_ span {
+		font-size: 0.7em;
+		margin: 20px 0;
+	}
+	#kikaku ul.inc_shoes_all_list_ li:nth-child(n+19){
+		display: none;
+	}
+	#kikaku p.text01_ {
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+	    margin: 20px 0;
+	}
+	.yesno {
+    height: 350px;
+    position:relative;
+    background: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.07);
+    margin: 50px auto;
+    clear: both;
+    overflow: hidden;
+    border: 1px #ccc solid;
+    width: 700px;
+}
+
+.yesno ul{
+	padding: 0 0 0 25px;
+	margin: 10px 0;
+}
+ 
+.yesno ul li {
+	list-style:none;
+	float: left;
+	text-align: center;
+	display: block;
+	color: #FFF;
+	line-height: 2.5em;
+	font-size: 120%;
+	width: 320px;
+	margin: 0 20px 0 0;
+
+}
+.yesno ul li.even a {
+	background-color: #4eac8a;
+}
+.yesno ul li.odd a {
+	background-color: #eb7b8b;
+}
+.positionFit {
+	position:absolute;
+	left: 0px;
+	top: 70px;
+	width: 710px;
+}
+.positionFit p{
+	/* background: #eee none repeat scroll 0 0; */
+	padding: 10px 0;
+	margin: 0 25px;
+	font-size: 30px;
+	text-align: center;
+}
+.yesno ul li a {
+    background-color: #CCC;
+    color: #fff;
+    display: block;
+    height: 100%;
+    text-decoration: none;
+    width: 94%;
+    font-size: 28px;
+    padding: 50px 10px;
+    	border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    box-shadow:0px 0px 3px 3px #f2f2f2;
+    -moz-box-shadow:0px 0px 3px 3px #f2f2f2;
+    -webkit-box-shadow:0px 0px 3px 3px #f2f2f2;
+}
+.no-bg{
+	background: #48cc83!important;
+}
+.yesno ul li a:hover {
+	opacity: 0.8;
+}
+
+.yesno .material-icons{
+	background: rgba(0, 0, 0, 0.1) none repeat scroll 0 0;
+    border-radius: 50%;
+    font-size: 30px;
+    padding: 10px 10px 8px;
+    vertical-align: middle;
+    margin: 0 10px 0 0;
+}
+.kotae {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.4;
+    position: absolute;
+    top: -50px;
+    width: 700px;
+}
+.kotae img {
+	width: 180px;
+}
+.kotae span {
+    color: #d96196;
+    font-size: 1.8em;
+}
+
+a.btn {
+    background-color: #5cbcb1;
+    color: #fff;
+    padding: 10px;
+    display: block;
+    width: 300px;
+    margin: 20px auto;
+}
+a.btn2 {
+    background-color: #5cbcb1;
+    color: #fff;
+    padding: 60px;
+    display: block;
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 50px;
+	border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    box-shadow:0px 0px 3px 3px #f2f2f2;
+    -moz-box-shadow:0px 0px 3px 3px #f2f2f2;
+    -webkit-box-shadow:0px 0px 3px 3px #f2f2f2;
+}
+
+#kikaku p.text01_ span {
+    font-size: 1.3em;
+    color: #d96196;
+}
+#kikaku ul.navi_ {
+    text-align: center;
+    margin: 30px auto;
+}
+#kikaku ul.navi_ li {
+    display: inline-block;
+    width: 20%;
+    border: 1px #ccc dashed;
+    padding: 5px;
+    margin: 10px;
+}
+#kikaku ul.navi_ li img {
+    width: 100%;   
+}
+#kikaku p.text02_ {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.button_style01_ a {
+    background-color: #5cbcb1 !important;
+}
+
+</style>
+</head>
+
+<body>
+<div class="head">
+  <iframe src="header.html" frameborder="0" width="100%" height="auto" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+</div>
+<div id="yumetenbo">
+ <div class="leftnavi">
+    <iframe src="leftnavi.html" frameborder="0" height="auto" width="182" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+
+  </div>
+
+  <div class="contents"> 
+
+    
+
+    <!--本文ここから--> 
+
+
+<div id="kikaku">
+<div class="topimg_"><img src="images/prolist/img_800400.jpg" alt="診断チャート"></div>
+<p class="text01_">"つま先までキレイに見える"と高支持率のポインテッドトゥ&#9825;<Br>
+<span>人気の4タイプから、あなたに合うものを診断♪</span>
+</p>
+
+
+<ul class="navi_">
+<p class="text02_">#LINE UP</p>
+<li><a href="#pumps03"><img src="images/prolist/img_300250.jpg"></a></li>
+<li><a href="#pumps02"><img src="images/prolist/img_300250.jpg"></a></li>
+<li><a href="#pumps01"><img src="images/prolist/img_300250.jpg"></a></li>
+<li><a href="#pumps04"><img src="images/prolist/img_300250.jpg"></a></li>
+</ul>
+
+
+
+<div class="yesno clearfix">
+	<div id="q_00" class="positionFit sp_">
+		<div><a href="#q_01" class="btn2">診断START</a></div>
+	</div>
+	<div id="q_01" style="display: none;">
+		<p>Q.どのシーンで履きたい？</p>
+		<ul>
+			<li class="even"><a class="btn" href="#q_02">A.仕事</a></li>
+			<li class="odd"><a class="btn" href="#q_04">B.プライベート</a></li>
+		</ul>
+	</div>
+ 
+    <div id="q_02" style="display: none;">
+        <p>Q.仕事はどのスタイルが多い？</p>
+        <ul>
+        <li class="even"><a class="btn" href="#q_03">A.デスクワーク</a></li>
+        <li class="odd"><a class="btn" href="#q_06">B.外回り</a></li>
+        </ul>
+    </div>
+ 
+    <div id="q_03" style="display: none;">
+        <p>Q.どっち重視？</p>
+        <ul>
+        <li class="even"><a class="btn" href="#q_08">A.とにかく美脚</a></li>
+        <li class="odd"><a class="btn" href="#q_07">B.歩きやすさ</a></li>
+        </ul>
+    </div>
+    
+    <div id="q_04" style="display: none;">
+        <p>Q.どこに履いていく？</p>
+        <ul>
+        <li class="even"><a class="btn" href="#q_05">A.買い物やお出かけ</a></li>
+        <li class="odd"><a class="btn" href="#q_06">B.子供と一緒orちょっとそこまで</a></li>
+        </ul>
+    </div>
+    
+    <div id="q_05" style="display: none;">
+        <p>Q.普段のアナタはどちらかと言えば…</p>
+        <ul>
+        <li class="even"><a class="btn" href="#q_03">A.きれいめコーデ</a></li>
+        <li class="odd"><a class="btn" href="#q_06">B.カジュアルコーデ</a></li>
+        </ul>
+    </div>
+    
+    <div id="q_06" style="display: none;">
+        <p>Q.長時間歩くor 全力疾走することが多い？</p>
+        <ul>
+        <li class="even"><a class="btn" href="#q_07">A.それほどでも無い</a></li>
+        <li class="odd"><a class="btn" href="#q_11">B.はいッ！多い！</a></li>
+        </ul>
+    </div>
+    
+    <div id="q_07" style="display: none;">
+        <p>Q.どんなコーデに合わせたい？</p>
+        <ul>
+        <li class="even"><a class="btn" href="#q_09">A.手持ちのボトム全部にあうもの！</a></li>
+        <li class="odd"><a class="btn" href="#q_10">B.トレンド感&amp;こなれ感重視！</a></li>
+        </ul>
+    </div>
+ 
+    <div id="q_08" style="display: none;"><div class="kotae">
+アナタは…<br><span>「とことん美脚 美人タイプ」</span><br>
+こちらのポインテッドトゥがおすすめ<br>
+<a href="#pumps01"><img src="images/prolist/img_300250.jpg"></a><br>
+<a href="#q_01" class="btn">もう一度最初から診断する</a>
+    </div></div>
+ 
+    <div id="q_09" style="display: none;"><div class="kotae">
+<span>「楽ちん&amp;女らしい わがままタイプ」</span><br>のアナタにはこちらのポインテッドトゥがおすすめ<br>
+<a href="#pumps02"><img src="images/prolist/img_300250.jpg"></a><br>
+<a href="#q_01" class="btn">もう一度最初から診断する</a>
+    </div></div>
+    
+    <div id="q_10" style="display: none;">
+        <div class="kotae">
+<span>「今っぽさ重視のお洒落タイプ」</span><br>のアナタにはこちらのポインテッドトゥがおすすめ<br><a href="#pumps03"><img src="https://www.dreamvs.jp/img/contents/201801/pointedtue/navi_pumps03.jpg"></a><br><a href="#q_01" class="btn">もう一度最初から診断する</a></div>
+    </div>
+    
+    <div id="q_11" style="display: none;">
+        <div class="kotae">
+<span>「優しい&amp;上品見せ 楽ちんタイプ」</span><br>のアナタにはこちらのポインテッドトゥがおすすめ<br>
+<a href="#pumps04"><img src="images/prolist/img_300250.jpg"></a><br>
+<a href="#q_01" class="btn">もう一度最初から診断する</a>
+        </div>
+    </div>
+</div>
+
+
+
+
+<section id="pumps01">
+<div class="main_"><a href="javascript:;"><img src="images/prolist/pumps_01.jpg" alt=""></a></div>
+<div class="text_">いつもの服に足すだけで今っぽさUP!</div>
+<div class="text_sub_">歩きやすさとオシャレ感が両方欲しい欲張りな方にオススメ！<br>安定感のある太ヒールは履くだけで今っぽさ満点♪</div>
+<div class="price_">￥1,990<span>(税込)送料無料</span></div>
+
+<div class="button_style01_"><a href="javascript:;">Check！</a></div>
+</section>
+
+<section id="pumps02">
+<div class="main_"><a href="javascript:;"><img src="images/prolist/pumps_01.jpg" alt=""></a></div>
+<div class="text_">合わせやすいのに女っぽい&#9829;</div>
+<div class="text_sub_">おでかけ用はもちろん、お仕事にもOK！<br>どんなコーデにも合うのにいつでも女っぽく決まる♪
+</div>
+<div class="price_">￥1,990<span>(税込)送料無料</span></div>
+
+<div class="button_style01_"><a href="javascript:;">Check！</a></div>
+</section>
+
+<section id="pumps03">
+<div class="main_"><a href="javascript:;"><img src="images/prolist/pumps_01.jpg" alt="9cmヒールパンプス"></a></div>
+<div class="text_">"小顔パンプス"でスレンダー美人！</div>
+<div class="text_sub_">足が大きく見える要素をそぎ落としたデザイン。<br>脚長見せ9cmの直角ヒールは、まっすぐ立てて自然とキレイな姿勢に&#9829;</div>
+<div class="price_">￥2,790<span>(税込)送料無料</span></div>
+
+<div class="button_style01_"><a href="javascript:;">Check！</a></div>
+</section>
+
+<section id="pumps04">
+<div class="main_"><a href="javascript:;"><img src="images/prolist/pumps_01.jpg" alt="3cmヒールパンプス"></a></div>
+<div class="text_">足に優しくて上品見えも叶う♪</div>
+<div class="text_sub_">3cmのピンヒールとポインテッドトゥで女っぽさを残しつつ、歩きやすさもGET。<br>
+たくさん歩く日やママさんには、この楽ちんタイプがオススメ。</div>
+<div class="price_">￥2,290<span>(税込)送料無料</span></div>
+
+<div class="button_style01_"><a href="javascript:;">Check！</a></div>
+</section>
+
+<section>
+<p class="text01_"><span>2018 パンプスCollection</span></p>
+<div align="center"><a href="pickup_irodoripumps.html"><img src="images/prolist/img_800400.jpg" width="80%"></a></div>
+</section>
+
+<section>
+<p class="text01_"><span>売れ筋シューズRANKING</span></p>
+<ul class="item_line03_ sp_line02_ inc_shoes_all_list_">
+<!--/pc/inc_shoes_pumps_list.html-->
+</ul>
+</section>
+
+
+</div>
+<!--<h2 class="midashi_style01_ top_space100_">＼今皆が買ってるのはコレ！／<br>
+売れ筋人気ランキング</h2>
+
+<div id="contents"><div id="ranking">
+        <div class="rankingList">
+        <div id="ranking_all"></div> 
+</div></div>
+
+-->
+
+<div class="space100"></div>
+   <iframe src="frame_lpfooter_category.html" frameborder="0" width="800"  height="auto" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+  </div>
+   </div> <!--class="contents"-->
+  <div style="clear:both;"></div>
+</div>
+<!--id="yumetenbo"-->
+<div class="footer">
+  <iframe src="footer.html" frameborder="0" height="auto" width="100%" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+</div>
+
+<script>
+jQuery(function(){
+  jQuery("ul.inc_shoes_all_list_").load("frame_shoes_ranking_pumps.html"); 
+});
+</script>
+
+
+<script src="jscript/jquery-1.10.2.min.js"></script> 
+<script src="jscript/jquery.min.js"></script> 
+<script src="jscript/jquery.iframe-auto-height.plugin.js"></script> 
+
+<script type="text/javascript">
+$(document).ready(function(){
+    jQuery('iframe').iframeAutoHeight();
+});
+
+</script> 
+
+<script>
+jQuery.noConflict();
+(function(jQuery) {
+	    jQuery(function(){
+	        jQuery(".btn").on("click", function() {
+			   jQuery(this).closest("div").css("display","none");
+			   id = jQuery(this).attr("href");						   
+			   jQuery(id).addClass("positionFit").show("fast");
+			});
+			
+			 jQuery(".btn2").on("click", function() {
+			   jQuery(this).closest("div").css("display","none");
+			   id = jQuery(this).attr("href");						   
+			   jQuery(id).addClass("positionFit").show("fast");
+			});
+});
+})(jQuery)	
+</script>
+
+<script src="jscript/jquery.lazyload.min.js"></script> 
+<script src="jscript/jquery.colorbox-min.js"></script> 
+
+<script>
+    $(document).ready(function(){
+        $(".inline").colorbox({
+            rel:'group',
+            inline: true
+        });
+
+        $( "img.lazy" ).lazyload({
+        //threshold: 200 ,            // 200pxの距離まで近づいたら表示する
+        effect: "fadeIn" ,        // じわじわっと表示させる
+        effect_speed: 1000 ,        // 表示速度
+        }) ;
+    });
+</script>
+
+<script type="text/javascript">
+$(function(){
+$("#ranking_all").load("inc_y_pctop_ranking_all.html"); //ランキングALL
+  })
+
+</script>
+</body>
+</html>

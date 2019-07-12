@@ -1,0 +1,1227 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+#item_list{
+	margin:0 auto 100px;
+	padding:0;
+	/*font-size:13px;*/
+	color:#666;
+	width:795px;
+}
+
+#item_list h1 {
+	margin: 20px auto 10px;
+	padding:0;
+	text-align:center;
+	font-size: 30px;
+	line-height: 1em;
+	color:#848282;
+}
+
+#item_list h1+p, 
+#item_list h1+p img {
+	margin:10px 0;
+	padding:0;
+	width:100%;
+	font-size: 20px;
+	text-align: center;
+	color: #333;
+	line-height: 1em;
+}
+
+#item_list h2{
+	margin:30px 0 10px 0;
+	padding:10px 20px;
+	text-align:center;
+	font-size:30px;
+	letter-spacing:2px;
+	line-height:35px;
+	background-color:#E9E9E9;
+	clear:both;
+}
+
+#item_list a img{
+	border: 0;
+}
+
+
+#item_list h2.taste img{	
+	margin-left: 15px;
+}
+
+
+#item_list h2.taste{
+	background-color: #fff; 
+	padding:0;
+}
+
+
+#item_list h2.osusume{
+	background-color:#D71520 !important;
+	color:#fff !important;
+	text-align:center;
+}
+
+
+#item_list h2.style02{
+  margin: 30px 0 10px 0;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 5px !important;
+  line-height: 1.5 !important;
+  background-color: #fff !important;
+  clear: both;
+  border-bottom: 1px #CCC solid;
+  color: #333 !important;
+}
+
+#item_list h2.style02.sale{
+  color: #D61D1D !important;
+  border-bottom: 1px #D61D1D solid;
+}
+
+#item_list h2.style02.sale div.text{
+  color: #D61D1D !important;
+}
+
+
+#item_list h2.style02 div.text{
+  font-size: 13px;
+  padding: 0 20px;
+  letter-spacing: 5px;
+}
+
+
+#item_list h3{
+	text-align:center; 
+	font-weight:bold;
+	 padding:3px; 
+	 color:#FFF;
+	 margin:0 auto;
+	 width:780px;
+}
+
+
+#item_list h3.style01 {
+    font-size: 1.4em;
+    font-weight: normal !important;
+    /* text-align: left !important; */
+    background-color: #ddd;
+    color: #fff;
+    padding: 5px  0 5px 15px !important;
+    letter-spacing: 2px;
+}
+
+
+#item_list h3.style01.dbs {
+    background-color: #ae9fb6;
+}
+
+#item_list h3.style01.dml {
+    background-color: #e1afbf;
+}
+
+#item_list h3.style01.nlm {
+    background-color: #a2a1a1;
+}
+
+
+
+
+#item_list li p{
+	margin:0;
+	padding:0;
+}
+
+#item_list li a{
+	text-decoration:none;
+	color:#666;
+}
+
+#item_list li a img:hover{
+	opacity:0.8;
+}
+
+
+.fix,
+.clearfix{
+	clear:both;
+}
+
+
+/*商品一覧 1アイテム*/
+#item_list ul.list01{
+	margin:0;
+	padding:0;
+	font-size:18px;
+}
+
+ul.list01 li{
+	margin:5px;
+	padding:10px;
+	float:left;
+	width:365px;
+	list-style:none;
+	position: relative;
+	
+	
+}
+
+ul.list01 li a img{
+	margin:2px auto;
+	padding:0;
+	width:100%;
+}
+
+ul.list01 dd.articleName{
+	font-size:13px;
+	line-height:1.5em;
+	margin: 5px;
+	text-align:left;
+	/*text-overflow: ellipsis;
+	-webkit-text-overflow: ellipsis; /* Safari */
+    /*-o-text-overflow: ellipsis; /* Opera */
+	/*white-space: nowrap;*/
+	width: 365px;
+	overflow: hidden;
+	letter-spacing: 1px;
+	color: #666;
+}
+
+ul.list01 dd.price{/*値段*/
+	margin:10px 5px 0;
+	padding:0;
+	color:#333;
+	font-size:1.2em;
+	text-align:right;
+	line-height:1.5em;
+	font-weight:bold;
+	line-height:0.5em !important;
+}
+
+ul.list01 dd.price span{/*値段*/
+	margin:2px 0;
+	padding:0;
+	color:#333;	
+	font-size:0.6em;
+}
+
+
+ul.list01 dd.price span.inTax{/*値段*/
+	color:#666 !important;
+	font-size:0.7em;
+	font-weight:normal !important;
+}
+
+ul.list01 dd.price span.inTax span{/*値段*/
+	font-size:0.6em;
+	font-weight:normal !important;
+	color:#666 !important;
+}
+
+
+#item_list div.text01{/*商品キャッチ*/
+	font-size:18px;
+	color:#F39;
+	line-height:25px;
+	text-align:center;
+	padding:5px 0;
+	font-weight:bold;
+	}
+	
+/*//商品一覧 1アイテム*/
+
+
+/*商品一覧 横2列*/
+#item_list ul.list02{
+	margin:0 0 0 5px;
+	padding:0;
+	font-size:15px;
+
+}
+
+ul.list02 li{
+	margin:2px 2px;
+	padding:10px;
+	float:left;
+	list-style:none;
+	/*border:1px #E4E4E4 solid;*/
+	width:235px !important;
+	height: 350px;	
+
+}
+
+ul.list02 li dt img{
+	margin:0 auto;
+	padding:0;
+	width:100%;
+}
+
+ul.list02 li dt{
+	position: relative;
+}
+
+ul.list02 dd{
+	margin:0 5px;
+}
+
+ul.list02 dd.articleName,
+ul.list02 dd.itemname{
+	font-size:0.7em;
+	line-height:1.5em;
+	margin: 5px;
+	text-align: left;
+	/*text-overflow: ellipsis;
+	-webkit-text-overflow: ellipsis; /* Safari */
+    /*-o-text-overflow: ellipsis; /* Opera */
+	/*white-space: nowrap;*/
+	width: 235px;
+	overflow: hidden;
+	letter-spacing: 1px;
+	color: #666;
+}
+
+ul.list02 dd.price{/*値段*/
+	margin:10px 5px 0;
+	padding:0;
+	color:#333;
+	font-size:1.2em;
+	text-align:right;
+	line-height:1.5em;
+	font-weight:bold;
+	line-height:0.5em !important;
+
+}
+
+ul.list02 dd.price span{/*値段*/
+	margin:2px 0;
+	padding:0;
+	color:#333;	
+	font-size:0.6em;
+}
+
+
+ul.list02 dd.price span.inTax{/*値段*/
+	color:#666 !important;
+	font-size:0.7em;
+	font-weight:normal !important;
+}
+
+ul.list02 dd.price span.inTax span{/*値段*/
+	font-size:0.6em;
+	font-weight:normal !important;
+	color:#666 !important;
+}
+
+dd.detailsButton{
+	background-image: url('../images/detailsButton.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	text-indent: -9999px;
+	margin: 10px 0 !important;
+
+}
+
+
+/*//商品一覧 横2列*/
+
+
+/*商品一覧 横3列*/
+#item_list ul.list03{
+	margin:0 0 0 5px;
+	padding:0;
+	font-size:15px;
+
+}
+
+ul.list03 li{
+	width:230px;
+	margin:2px 2px;
+	padding:10px;
+	float:left;
+	list-style:none;
+	border:1px #E4E4E4 solid;
+	height:300px;
+
+}
+
+ul.list03 li img{
+	margin:0 auto 5px;
+	padding:0;
+	width:100%;
+}
+
+ul.list03 p.article_name{
+	font-size:0.7em;
+	line-height:1.2em;
+	margin-bottom:5px;
+}
+
+
+ul.list03 p.price{/*値段*/
+	margin:2px 0;
+	padding:0;
+	color:#f00;
+	font-size:1.5em;
+	text-align:right;
+}
+
+ul.list03 p.price span{/*値段*/
+	margin:2px 0;
+	padding:0;
+	color:#f00;
+	font-size:0.7em;
+}
+
+
+
+/*//商品一覧 横3列*/
+
+
+
+/*商品一覧 横4列*/
+#item_list ul.list04{
+	margin:0 0 0 5px;
+	padding:0;
+	font-size:15px;
+
+}
+
+ul.list04 li{
+	margin: 10px 15px 10px;
+	/* padding:1%; */
+	float:left;
+	list-style:none;
+	/*border:1px #E4E4E4 solid;*/
+	width:21%;
+	height: 260px;
+}
+
+ul.list04 li dt img{
+	margin:0 auto;
+	padding:0;
+	width:100%;
+}
+
+ul.list04 li dt{
+	position: relative;
+}
+
+ul.list04 dd{
+	margin:0 5px;
+}
+
+ul.list04 dd.articleName,
+ul.list04 dd.itemname{
+	font-size:0.7em;
+	line-height:1.5em;
+	text-align: left;
+	/*text-overflow: ellipsis;
+	-webkit-text-overflow: ellipsis; /* Safari */
+    /*-o-text-overflow: ellipsis; /* Opera */
+	/*white-space: nowrap;*/
+	overflow: hidden;
+	letter-spacing: 1px;
+	color: #666;
+}
+
+ul.list04 dd.price{/*値段*/
+	margin:10px 5px 0;
+	padding:0;
+	color:#333;
+	font-size:1.2em;
+	text-align:right;
+	line-height:1.5em;
+	font-weight:bold;
+	line-height:0.5em !important;
+	display:none;
+}
+
+ul.list04 dd.price span{/*値段*/
+	margin:2px 0;
+	padding:0;
+	color:#333;	
+	font-size:0.6em;
+}
+
+
+ul.list04 dd.price span.inTax{/*値段*/
+	color:#666 !important;
+	font-size:0.7em;
+	font-weight:normal !important;
+}
+
+ul.list04 dd.price span.inTax span{/*値段*/
+	font-size:0.6em;
+	font-weight:normal !important;
+	color:#666 !important;
+}
+
+/*//商品一覧 横4列*/
+
+
+ul.list01 p.price2,
+ul.list02 p.price2,
+ul.list03 p.price2{/*showprice用値段*/
+	margin:2px 0;
+	padding:0;
+	color:#f00;
+	text-align:right;
+	font-weight:bold;
+}
+
+
+p.catch{
+	text-align:center;
+	font-size:20px;
+	font-weight:bold;
+}
+
+p.catch .big{
+	font-size:25px;
+
+}
+
+p.catch .small{
+	font-size:15px;
+
+}
+
+
+.lp_update,
+.date_time{
+	color:#f00;
+	font-size:13px;
+	text-align:right;
+	margin:10px;
+}
+
+
+
+#item_list a.button  {
+	text-decoration:none;
+	font-weight:bold;
+	margin:20px auto;
+	width:80%;
+	font-size:25px;
+	color: #fff;
+	padding:20px 30px;
+	background: -moz-linear-gradient(
+		top,
+		#ffffff 0%,
+		#ffffff 50%,
+		#d6d6d6);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#EF4DA7),
+		color-stop(0.50, #EF4DA7),
+		to(#DB1885));
+	*border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid #DB1885;
+	
+}
+
+#item_list a.button:hover {
+	opacity:0.9;
+}
+
+ul.category_anchor{
+	margin:50px auto;
+    position: relative;
+    left: 50%;
+    float: left;
+}
+
+ul.category_anchor li{
+	float:left;
+	list-style:none;
+	margin-right:10px;
+	width:230px !important;
+	border:2px #666 solid;
+	background-color:#fff;
+	display:block;
+    position: relative;
+    left: -50%;
+		background:url(https://www.dreamvs.jp/sp/images/arrow_triangle_down.png)no-repeat right;
+	background-size:10px 10px;
+	background-position:95% center;
+}
+
+ul.category_anchor li a{
+	padding:20px 10px;
+	text-align:center;
+	font-size:25px;
+	display:block;
+}
+
+ul.category_anchor2{
+	margin:50px auto;
+    position: relative;
+    left: 50%;
+    float: left;
+}
+
+ul.category_anchor2 li{
+	float:left;
+	list-style:none;
+	margin-right:10px;
+	width:200px !important;
+	border:2px #666 solid;
+	background-color:#fff;
+	display:block;
+    position: relative;
+    left: -50%;
+		background:url(https://www.dreamvs.jp/sp/images/arrow_triangle_down.png)no-repeat right;
+	background-size:10px 10px;
+	background-position:95% center;
+}
+
+ul.category_anchor2 li a{
+	padding:20px 10px;
+	text-align:center;
+	font-size:25px;
+	display:block;
+}
+
+
+
+ul.category_anchor2 li a:hover, 
+ul.category_anchor li a:hover{
+	background-color:#B0F8EC;
+}
+
+
+.space50{
+	height:50px;
+}
+
+.space100{
+	height:100px;
+}
+
+
+#item_list .searchCategoryBtn {
+	width:600px;
+	margin: 10px auto;
+	text-align:center;
+	font-size: 28px;
+	color: #ffffff;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	zoom: 1;
+	behavior: url(https://www.dreamvs.jp/pc/stylesheets/PIE.htc);
+	position:relative;
+}
+
+#item_list .searchCategoryBtn a{
+	    color:#FFf;
+		text-decoration:none;
+		padding: 10px 0px;
+		display: block;
+		font-weight: normal !important;
+	}
+
+#item_list .searchCategoryBtn a:hover{
+	opacity:0.9;
+}
+
+#item_list .searchCategoryBtn.color{
+	background-color:#333333;         
+
+}
+
+
+#item_list .button_long{	
+	width:600px;
+	margin:10px 0 0 100px;
+	text-align:center;
+	font-size: 28px;
+	color: #ffffff;
+	padding: 18px 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	border: 0px solid #7d0000;
+	-moz-box-shadow:
+		0px 1px 3px rgba(117,117,117,0.5),
+		inset 0px 0px 2px rgba(255,255,255,0.7);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(117,117,117,0.5),
+		inset 0px 0px 2px rgba(255,255,255,0.7);
+	box-shadow:
+		0px 1px 3px rgba(117,117,117,0.5),
+		inset 0px 0px 2px rgba(255,255,255,0.7);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.4),
+		0px 1px 0px rgba(255,255,255,0.9);
+		background: #D82741;
+	background: -webkit-gradient(linear, left top, left bottom, from(#F863AD), to(#F12C94) );           
+	background: -moz-linear-gradient(-90deg, #F863AD, #F12C94);            
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#F863AD', EndColorStr='#F12C94')
+	
+}
+
+
+#item_list .button_long a{
+	    color:#FFf;
+		text-decoration:none;
+		display:block;
+		font-size:30px;	
+}
+
+
+/*----------------------
+       商品横3つ
+----------------------**/
+.lp_tax3 .price_style_8,
+.article-price .price_style_8{
+	font-weight: normal;
+    line-height: 1.2em !important;
+}
+
+/** ￥**/
+.lp_tax3 .price_style_8 span:nth-child(1),
+.article-price .price_style_8 span:nth-child(1){
+	color: #000;	
+	font-size: 10px !important;
+}
+
+/** 外税価格　1000 **/
+.lp_tax3 .price_style_8 span:nth-child(2),
+.article-price.article-price .price_style_8 span:nth-child(2){
+	font-size: 18px !important;
+	color: #000;	
+}
+
+/** 外税価格 + **/
+.lp_tax3 .price_style_8 span:nth-child(3),
+.article-price .price_style_8 span:nth-child(3){
+	color: #000;
+	font-size: 10px !important;
+}
+
+
+/*
+		おすすめ枠
+---------------------------------------*/
+
+#item_list h2.pickup{
+	background-color: #333;
+	color: #fff;
+	margin: 30px auto 10px !important;
+	padding: 20px 20px !important;
+	width: 715px;
+}
+
+ul.osusumeWrap{
+	margin-bottom:20px;
+}
+
+ul.osusumeWrap li{
+	margin: 25px 0;
+	text-align: center;
+	position: relative;
+}
+
+ul.osusumeWrap li .comingsoon{
+	top: 230px;
+	padding: 10px 0;
+	font-size: 30px;
+}
+
+
+
+/*
+		セールアイテム横3つ
+---------------------------------------*/
+#item_list ul.sale li .obi{
+	background-color:#B91013;
+	color:#fff;
+	text-align: center;
+	padding: 2px 0;
+	font-size: 12px;
+	letter-spacing:1px;
+	margin-top: -2px;
+}
+
+#item_list ul.sale li dt img{
+	border: 2px #D61D1D solid;
+}
+
+#item_lis ul.sale dd.price{
+	font-size: 25px;
+	color: #B91013 !important;
+	line-height: 1.5em;
+}
+
+#item_list ul.sale dd.price span{
+	color: #FA3351 !important;
+	line-height: 1em;
+	font-size: 12px;
+}
+
+
+#item_list ul.sale dd.price span.inTax span{
+	font-size: 10px !important;
+}
+
+
+
+/*
+		赤帯
+---------------------------------------*/
+
+ul li dt div.tag_free{
+	position: absolute;
+	background-image:url(../images/tag_free.png);
+	background-position: top right;
+	background-repeat: no-repeat;
+	top: 0;
+	right: 0;
+	width:88px;
+	height:88px;
+}
+
+ul li dt div.tag_sale{
+	position: absolute;
+	background-image:url(../images/tag_sale.png);
+	background-position: top right;
+	background-repeat: no-repeat;
+	top: 0;
+	right: 0;
+	width:60px;
+	height:60px;
+}
+
+ul li dt div.tag_sale02{
+	position: absolute;
+	/*background-image:url(../images/tag_sale.png);
+	background-position: top right;
+	background-repeat: no-repeat;*/
+	bottom: 0;
+	background-color: #f00;
+	width: 100%;
+	/*content:"SALE";*/
+	color: #fff;
+	text-align:center;
+	letter-spacing: 5px;
+}
+
+
+		
+/*
+	アンカーボタン(横5つ)
+---------------------------------------*/
+.category_anchor5{
+	margin: 50px 0 50px 20px;
+    float: left;
+	width: 760px;
+}
+
+.category_anchor5 li{
+	float:left;
+	list-style:none;
+	margin-right:10px;
+	width: 140px !important;
+	/*border:2px #666 solid;*/
+	background-color:#fff;
+	display:block;
+/*	background:url(https://www.dreamvs.jp/sp/images/arrow_triangle_down.png)no-repeat right;
+	background-size:10px 10px;
+	background-position:95% center;*/
+}
+
+.category_anchor5 li a{
+	/*padding:20px 10px;*/
+	text-align:center;
+	font-size:17px;
+	display:block;
+}
+
+.category_anchor5 li a img{
+	width: 100%;
+
+}
+
+.category_anchor5 .midashi{
+	text-align:center; 
+	background-color:#f2f2f2; 
+	padding:5px; 
+	margin-bottom:10px; 
+	width:730px; 
+	font-weight:bold; 
+	letter-spacing:2px;
+}
+
+
+/*
+	アンカーボタン(横4つ) ※画像
+---------------------------------------*/
+.category_anchor4{
+	margin: 50px 0 50px 50px;
+    float: left;
+	width: 680px;
+}
+
+.category_anchor4 li{
+	float:left;
+	list-style:none;
+	margin-right:10px;
+	width: 158px !important;
+	/*border:2px #666 solid;*/
+	background-color:#fff;
+	display:block;
+/*	background:url(https://www.dreamvs.jp/sp/images/arrow_triangle_down.png)no-repeat right;
+	background-size:10px 10px;
+	background-position:95% center;*/
+}
+
+.category_anchor4 li a{
+	/*padding:20px 10px;*/
+	text-align:center;
+
+	font-size:17px;
+	display:block;
+}
+
+.category_anchor4 li a img{
+	width: 100%;
+
+}
+
+.category_anchor4 .midashi{
+	text-align:center; 
+	background-color:#f2f2f2; 
+	padding:5px; 
+	margin-bottom:10px; 
+	width:660px; 
+	font-weight:bold; 
+	letter-spacing:2px;
+}
+
+
+/*
+	アンカーボタン(横4つ) ※テキスト
+---------------------------------------*/
+
+.category_anchor4.text li{
+	float:left;
+	list-style:none;
+	margin-right:10px;
+	margin-bottom:10px;
+	width: 158px !important;
+	border: 1px #ccc solid;
+	background-color:#fff;
+	display:block;
+}
+
+.category_anchor4.text li a{
+	padding:20px 10px;
+	text-align:center;
+	font-size:17x;
+	display:block;
+	color: #333;
+}
+
+.category_anchor4.text li a:hover{
+	background-color: #CCC;
+	color: #fff !important;
+}
+
+/*
+	アンカーボタン(横3つ) ※画像
+---------------------------------------*/
+.category_anchor3{
+	margin: 50px 0 50px 100px;
+	/* float: left; */
+	/* width: 600px; */
+}
+
+.category_anchor3 li{
+	float:left;
+	list-style:none;
+	margin-right:10px;
+	width: 190px !important;
+	/*border:2px #666 solid;*/
+	background-color:#fff;
+	display:block;
+/*	background:url(https://www.dreamvs.jp/sp/images/arrow_triangle_down.png)no-repeat right;
+	background-size:10px 10px;
+	background-position:95% center;*/
+}
+
+.category_anchor3 li a{
+	/*padding:20px 10px;*/
+	text-align:center;
+	font-size:17px;
+	display:block;
+}
+
+.category_anchor3 li a img{
+	width: 100%;
+
+}
+
+.category_anchor3 .midashi{
+	text-align:center; 
+	background-color:#f2f2f2; 
+	padding:5px; 
+	margin-bottom:10px; 
+	width:580px; 
+	font-weight:bold; 
+	letter-spacing:2px;
+}
+
+
+/*
+	アンカーボタン(横3つ) ※テキスト
+---------------------------------------*/
+
+.category_anchor3.text li{
+	float:left;
+	list-style:none;
+	margin-right:10px;
+	margin-bottom:10px;
+	width: 188px !important;
+	border:1px #CCC solid;
+	background-color:#fff;
+}
+
+.category_anchor3.text li a{
+	padding:20px 10px;
+	text-align:center;
+	font-size:17px;
+	display:block;
+}
+
+.category_anchor3.text li a:hover{
+	background-color: #CCC;
+	color: #fff !important;
+}
+
+
+
+/*
+	カラー検索
+---------------------------------------*/
+
+ul.yoko03.colorList li div.item{
+	 height: 110px;
+     background-size: 100px;
+     background-position: 130px -10px;
+	 background-repeat: no-repeat;
+}
+
+ul.yoko03.colorList li .text{
+	  position: absolute;
+	  top: 25px;
+	  margin-left: 20px;
+}
+
+.category_anchor5.color{
+  margin: 20px 0 50px 20px;
+  float: left;
+  width: 760px;
+}
+
+.category_anchor5.color li a img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.category_anchor5.color li {
+	margin-bottom: 10px;
+	border: 1px #ccc solid;
+}
+
+.category_anchor5.color li a{
+	padding: 10px 0;
+}
+
+
+/*
+	セール価格
+-----------------------------*/
+
+ul.list02.sale dd.price,
+ul.list02 dd.price.sale{/*値段*/
+	color: #FA3351 !important;
+}
+
+ul.list02.sale dd.price span,
+ul.list02 dd.price span.sale{/*値段*/
+	color: #B91013 !important;
+}
+
+ul.list02.sale dd.price span.inTax{/*値段*/
+	color:#666 !important;
+	font-size:0.7em;
+	font-weight:normal !important;
+}
+
+ul.list02.sale dd.price span.inTax span{/*値段*/
+	font-size:0.6em;
+	font-weight:normal !important;
+	color:#666 !important;
+}
+
+
+/*
+	 ランキング
+---------------------------------------*/
+
+.rankIcon{
+	color: #333;
+	text-align: center;
+	padding: 11px 0;
+	font-size: 18px;
+	font-weight:bold;
+	line-height:1;
+	width: 40px;
+	height: 20px;
+	position: absolute;
+	top: -10px;
+    left: -10px;
+	border-radius: 20px;        /* CSS3草案 */  
+    -webkit-border-radius: 20px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 20px;
+	background-image:url(https://www.rakuten.ne.jp/gold/dreamv/images/icon/rank_bg.png);
+	background-repeat: no-repeat;
+
+}
+
+
+ul.list01 .rankIcon{
+	top: 20px !important;
+	left: 20px !important;
+}
+
+	
+	/*
+	   アイコン
+------------------------------------------------------*/
+ul li dt div.icon{
+	background-color: #333;
+	font-size: 10px !important;
+	position: absolute !important;
+	top: 0;
+	padding: 3px;
+	line-height: 1;
+}
+
+ul li dt div.icon.new{
+	background-color: #F35779 !important;
+	color: #fff !important;
+	
+}
+
+ul li dt div.icon.re{
+	background-color: #2FD18D !important;
+	color: #fff !important;
+	
+}
+
+
+/*
+	   バナー設置
+------------------------------------------------------*/
+.banner{
+	width: 616px;
+	margin: 20px auto;
+}
+
+.banner img{
+	width: 616px;
+}
+
+.banner p{
+	text-align: center;
+	font-size: 20px;
+	padding: 0 0 5px 0;
+}
+
+
+.comingsoon {
+    position: absolute;
+    top: 150px;
+    z-index: 9999;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(211, 65, 98, 0.8);
+	filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#CCd34162,EndColorStr=#CCd34162);/*IE8以下用*/
+    font-size: 20px;
+    line-height: 1.2em;
+    padding: 5px 0;
+    color: #fff;
+}
+
+.comingsoon:not(:target){
+    filter: none;
+    -ms-filter: none;
+}
+
+/*再入荷ページ用アイコン*/
+#item_list .list02 li dd.reDay{
+	text-align:center;
+	background-color: #333;
+	color: #fff;
+	padding: 3px 0;
+	margin: -7px 0 5px;
+	width: 100%;
+	font-size:13px;
+	display: none;
+}
+
+#item_list .list02 li dd.reDay.up{
+	background-color: #e95b8c !important;
+}
+
+
+
+
+p.icon{
+    margin: 0 0 7px !important;
+    text-align: left;
+    line-height: 1;
+}
+
+p.icon span.new {
+	font-size: 10px;
+	color: #fff;
+	padding: 0 3px;
+	margin-right: 2px;
+	line-height: 1;
+	color: #D96196;
+	border: 1px #D96196 solid;
+}
+
+p.icon span.re {
+	font-size: 10px;
+	color: #fff;
+	padding: 0 3px;
+	margin-right: 2px;
+	line-height: 1;
+	color: #6E74BB;
+	border: 1px #6E74BB solid;
+}
+
+p.icon span.free {
+	font-size: 10px;
+	color: #fff;
+	padding: 0 3px;
+	margin-right: 2px;
+	line-height: 1;
+	color: #E06D6F;
+	border: 1px #E06D6F solid;
+}
+
+p.icon span.upday {
+	font-size: 12px;
+	margin-right: 7px; 
+}

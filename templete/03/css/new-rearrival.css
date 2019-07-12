@@ -1,0 +1,259 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	-webkit-text-size-adjust:100%;
+	color:#666666;
+	font-size: calc(10px + 0.2vw);
+	font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', '游ゴシック  Medium', meiryo, sans-serif;
+	text-decoration:none;
+	line-height:1.4em;
+}
+
+.clearfix:after {
+    content:" ";
+    display:block;
+    clear:both;
+}
+
+
+#newRelogo, #ArrivalWrap{
+	max-width:1010px;
+	min-width:320px;
+	width:100%;
+	margin:0 auto;
+}
+
+#newRelogo{
+	margin:2em 0;
+}
+
+#logo img{
+	width:100%;
+}
+
+
+#ArrivalWrap{
+	display:block;
+}
+
+
+.days{
+	margin:1em auto;
+	text-align:center;
+	font-weight:bold;
+	font-size:1.2em;
+	width:80%;
+	border-bottom:1px dotted #b6aca8;
+}
+
+.days:after{
+	content:"UP!";
+	font-size:0.8em;
+	margin-left:0.5em;
+	color:#c10000;
+}
+
+
+
+#ArrivalWrap ul{
+	width:100%;
+	padding:1em;
+	display:inline-flex;
+	flex-wrap:wrap;
+	margin:0 auto;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+
+#ArrivalWrap ul li{
+	width:32%;
+	display:inline-block;
+	margin-right:1%;
+	margin-bottom:1em;
+	background:#fafafa;
+	border-radius:8px;
+	padding:1em;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	position:relative;
+	vertical-align:top;
+}
+
+#ArrivalWrap ul li a{
+	display:block;
+}
+
+#ArrivalWrap ul li img{
+	width:100%;
+	display:block;
+	margin:0 auto;
+	vertical-align:bottom;
+	border:1px solid rgba(153,153,153,0.5)
+}
+
+
+#ArrivalWrap p{
+	display:block;
+	margin:1em 0 0 0;
+	line-height:1.4em;
+}
+
+
+.itemName{
+	height:auto;
+	max-height:7.6em;
+	overflow:hidden;
+	display:block;
+	font-size:1em;
+	font-weight:normal;
+	line-height:1.4em;
+	padding:0.5em;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	background:rgba(255,255,255,1);
+	word-wrap: break-all;
+	white-space:normal;
+}
+
+#ArrivalWrap ul li p{
+	width:100%;
+}
+
+#ArrivalWrap ul li p .new:before,
+#ArrivalWrap ul li p .re:before,
+#ArrivalWrap ul li p .res:before,
+#ArrivalWrap ul li p .ins:before{
+	margin-right:0.5em;
+}
+
+
+#ArrivalWrap ul li p .new:before{
+	content:url(../img/new.jpg);
+}
+
+#ArrivalWrap ul li p .re:before{
+	content:url(../img/re.jpg);
+}
+
+#ArrivalWrap ul li p .res:before{
+	content:url(../img/reservation.jpg);
+}
+
+#ArrivalWrap ul li p .ins:before{
+	content:url(../img/instock.jpg);
+}
+
+
+
+#ArrivalWrap ul li p .new:after,
+#ArrivalWrap ul li p .re:after,
+#ArrivalWrap ul li p .res:after,
+#ArrivalWrap ul li p .ins:after{
+	color:#a24544;
+	font-size:0.9em;
+	font-weight:500;
+}
+
+#ArrivalWrap ul li p .new:after{
+	content:"新入荷";
+	
+}
+
+#ArrivalWrap ul li p .re:after{
+	content:"再入荷";
+}
+
+#ArrivalWrap ul li p .res:after{
+	content:"予約追加";
+}
+
+#ArrivalWrap ul li p .ins:after{
+	content:"予約商品入荷";
+}
+
+
+#pnkzlist{
+	width:98%;
+	display:block;
+	margin:2rem auto;
+}
+
+#pnkzlist ul{
+	display:block;
+}
+
+#pnkzlist li,#pnkzlist li{
+	float:left;
+}
+
+#pnkzlist li:after{
+	content:">";
+	margin:0 0.5em;
+	display:inline;
+}
+
+
+@media screen and (min-width: 421px) and ( max-width:740px){
+
+#newRelogo, #ArrivalWrap{
+	width:100%;
+	max-width:740px;
+	margin:0 auto;
+}
+	
+#ArrivalWrap{
+	height:3880px;
+	overflow:hidden;
+}
+
+
+#ArrivalWrap ul li{
+	width:32%;
+	display:inline-block;
+	margin-right:1%;
+	margin-bottom:1em;
+	background:#fafafa;
+	border-radius:8px;
+	padding:1em;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	position:relative;
+	vertical-align:top;
+}
+
+}
+
+
+@media screen and ( max-width:420px ){
+
+#newRelogo, #ArrivalWrap{
+	width:100%;
+	max-width:414px;
+	min-width:320px;
+	margin:0 auto;
+}
+	
+#ArrivalWrap ul li{
+	width:49%;
+	display:inline-block;
+	margin-right:1%;
+	margin-bottom:1em;
+	background:#fafafa;
+	border-radius:8px;
+	padding:1em;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	position:relative;
+	vertical-align:top;
+}
+	
+}

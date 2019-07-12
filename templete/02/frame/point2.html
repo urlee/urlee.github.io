@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<link href="../css_js/html5reset-1.6.1.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="../css_js/jquery-1.8.3.js"></script>
+
+<!-- frame -->
+<script type="text/javascript" src="../css_js/jquery.autoheight.js"></script>
+<script type="text/javascript">
+var iframeHeight = function(){
+	if(!window.parent.document) return false;
+
+	try { // !IE
+		document.styleSheets[0].insertRule( 'html' + '{overflow:hidden;}', document.styleSheets[0].cssRules.length );
+	} catch (e) { // IE
+		document.styleSheets[0].addRule( 'html', '{overflow:hidden;}');
+	}
+
+	height = document.getElementsByTagName('div')[0].offsetHeight;
+	window.parent.document.getElementById('point').style.height = height + 'px';
+
+	setTimeout('iframeHeight()',100)
+}
+
+try {
+	window.addEventListener('load', iframeHeight, false);
+} catch (e) {
+	window.attachEvent('onload', iframeHeight);
+}
+</script>
+<title>ヤフーポイントバナー</title>
+
+<script type="text/javascript" src="../css_js/jquery-1.8.3.js"></script>
+
+<script type="text/javascript" src="../css_js/slick.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../css_js/slick-theme.css"/>
+  <link rel="stylesheet" type="text/css" href="../css_js/slick.css"/>
+  
+<style type="text/css">
+body { margin: 0px; padding: 0px; }
+a{text-decoration:none;}
+a:hover img{
+filter: alpha(opacity=80);
+-GINGERmoz-opacity:0.8;
+opacity:0.8;
+}
+
+.autoplay li{
+	border:#fff 1px solid;
+}
+.autoplay img{
+	width:166px;
+	height:50px;
+}
+.big{
+	color:#F00;
+	font-size:120%;
+	font-weight:bold;
+	padding:0px;
+	margin:5px;
+}
+</style>
+  
+  </head>
+<body>
+<div style="width:230px; margin:auto; padding:auto;">
+<div style=" margin:0px 30px;"><ul class="autoplay" style="margin:0px; padding:0px;">
+<li><a href="javasscript:;" target="_blank">
+	<img src="../images/006_315_95.gif" border="0" /></a></li>
+      
+<li><a href="javasscript:;" target="_blank">
+  <img src="../images/title_0911.jpg" border="0" /></a></li>
+      
+<li><a href="javasscript:;" target="_blank">
+  <img src="../images/315_95.gif" border="0" /></a></li>
+      
+<li><a href="javasscript:;" target="_blank">
+  <img src="../images/zorome-point.jpg" border="0" /></a></li>
+      
+<li><a href="javasscript:;" target="_blank">
+  <img src="../images/315_95_2.gif" border="0" /></a></li>
+ 
+</ul></div><!-- / #mainSlide -->
+</div>
+<script type="text/javascript" charset="utf-8">
+      $(document).ready(function(){
+        $('.autoplay').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  speed: 400,
+  autoplay: true,
+  autoplaySpeed: 3000,
+  dots:false,
+  arrow:true,
+});
+});
+</script>
+</body>
+</html>

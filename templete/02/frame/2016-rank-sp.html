@@ -1,0 +1,248 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>document</title>
+<link href="../css_js/html5reset-1.6.1.css" rel="stylesheet" type="text/css">
+<link href="../css_js/2016/2016-smp-y.css" rel="stylesheet" type="text/css">
+
+
+<script type="text/javascript" src="../css_js/jquery-1.8.3.js"></script>
+
+<!-- frame -->
+<script type="text/javascript" src="../css_js/jquery.autoheight.js"></script>
+
+<!-- tab -->
+
+
+<style type="text/css">
+.ta{
+	width:100%;
+}
+.tab{overflow:hidden;
+	list-style:none;
+	font-weight:bold;
+	margin: auto;}
+.tab li{
+	background:#cccccc;
+	padding:10px 0%;
+	float:left;
+	cursor:pointer;
+	display: table-cell;
+	color:#ffffff;
+	font-size:90%;
+	letter-spacing:1px;
+	text-align:center;
+}
+.tab li.select{background:#000000;color:#ffffff;}
+.content li{background:#ffffff; text-align:center; padding:2%; list-style:none;}
+.hide {display:none;}
+</style>
+
+
+<script type="text/javascript">
+$(function() {
+	//クリックしたときのファンクションをまとめて指定
+	$('.tab li').click(function() {
+
+		//.index()を使いクリックされたタブが何番目かを調べ、
+		//indexという変数に代入します。
+		var index = $('.tab li').index(this);
+
+		//コンテンツを一度すべて非表示にし、
+		$('.content li').css('display','none');
+
+		//クリックされたタブと同じ順番のコンテンツを表示します。
+		$('.content li').eq(index).css('display','block');
+
+		//一度タブについているクラスselectを消し、
+		$('.tab li').removeClass('select');
+
+		//クリックされたタブのみにクラスselectをつけます。
+		$(this).addClass('select')
+	});
+});
+</script>
+
+
+
+<style type="text/css">
+p{
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+.anim-wrap{}
+.anim01,.anim02,.anim03{margin:0;color:white!important;}
+/*実際に必要な記述はここから*/
+.fadeInUp01,.fadeInUp02,.fadeInUp03{
+    animation-fill-mode:both;
+    animation-duration:1s;
+    animation-name: fadeInUp;
+    visibility: visible !important;}
+/*animation-delayでタイミングをずらしている*/
+.fadeInUp02{
+    animation-delay: 0.3s;
+}
+.fadeInUp03{
+    animation-delay: 0.6s;
+}
+ 
+/*@translateYで縦の動き・translateXで横の動きを指定できる*/
+@keyframes fadeInUp {
+    0% { opacity: 0; transform: translateY(20px);}
+    100% { opacity: 1; transform: translateY(0);}
+}
+.rank-img td{
+	width:33%;
+}
+.rank-img2 td{
+	width:25%;
+	font-size:12px;
+}
+
+</style>
+
+</head>
+<body>
+
+<h3 id="pagetop"></h3>
+
+<div>
+    <iframe src="../spheader.html"scrolling="no" width="100%"  frameborder="0" allowtransparency="true" id="sphead" target="_top"></iframe>
+</div>
+
+<h3 class="fab-design-mg--t20 fab-typo-title--lg fab-typo-optima"><span>RANKING</span></h3>
+<p style=" text-align:center; margin-bottom:5px; font-size:12px;">更新日（2019/3/25） </p>   
+<ul class="tab" style=" padding:0% 3%;">
+	<li class="select" style="width:50%; position:relative;"><u>総合 Ranking</u></li>
+	<li style="width:50%"><u>新作 Ranking</u></li>
+</ul>
+
+<ul class="content" style=" margin:0px 2%; padding:0px; border:#000000 2px solid;">
+<li>
+	<table width="100%"><tr><td style="position:relative; padding-bottom:5px; padding-top:5px;">
+		<table class="rank-img" cellpadding="3" width="100%" style="position:absolute; top:-5px;"><tr>
+			<td align="right"><img src="../images/top/2016/rank/rank1.png" style="width:20%;"></td>
+			<td align="right"><img src="../images/top/2016/rank/rank2.png" style="width:20%;"></td>
+		</tr></table><!-- ▼総合１位～ -->
+		<table class="rank-img" cellpadding="3" width="100%"><tr>
+			<td><a target="_top" href="javascript:;"><img src="../images/wft04247.jpg" width="100%"></a></td>
+			<td><a target="_top" href="javascript:;"><img src="../images/wft04241.jpg" width="100%"></a></td>
+		</tr></table>
+	</td></tr></table>
+	<table width="100%"><tr><td style="position:relative; padding-bottom:5px; padding-top:5px;">
+		<table class="rank-img" cellpadding="3" width="100%" style="position:absolute; top:-5px;"><tr>
+			<td align="right"><img src="../images/top/2016/rank/rank3.png" style="width:20%;"></td>
+			<td align="right"><img src="../images/top/2016/rank/rank4.png" style="width:20%;"></td>
+		</table><!-- ▼総合３位～ -->
+		<table class="rank-img" cellpadding="3" width="100%"><tr>
+			<td><a target="_top" href="javascript:;"><img src="../images/ssbd6270001.jpg" width="100%"></a></td>
+			<td><a target="_top" href="javascript:;"><img src="../images/biy003.jpg" width="100%"></a></td>
+		</tr></table>
+	</td></tr></table>
+	<table width="100%"><tr><td style="position:relative; padding-bottom:5px; padding-top:5px;">
+		<table class="rank-img" cellpadding="3" width="100%" style="position:absolute; top:-5px;"><tr>
+			<td align="right"><img src="../images/top/2016/rank/rank5.png" style="width:20%;"></td>
+			<td align="right"><img src="../images/top/2016/rank/rank6.png" style="width:20%;"></td>
+		</tr></table><!-- ▼総合５位～ -->
+		<table class="rank-img" cellpadding="3" width="100%"><tr>
+			<td><a target="_top" href="javascript:;"><img src="../images/wft04225.jpg" width="100%"></a></td>
+			<td><a target="_top" href="javascript:;"><img src="../images/wft04293.jpg" width="100%"></a></td>
+		</tr></table>
+	</td></tr></table>
+	<table width="100%"><tr><td style="position:relative; padding-bottom:5px; padding-top:5px;">
+		<table class="rank-img" cellpadding="3" width="100%" style="position:absolute; top:-5px;"><tr>
+			<td align="right"><img src="../images/top/2016/rank/rank7.png" style="width:20%;"></td>
+			<td align="right"><img src="../images/top/2016/rank/rank8.png" style="width:20%;"></td>
+		</tr></table><!-- ▼総合７位～ -->
+		<table class="rank-img" cellpadding="3" width="100%"><tr>
+			<td><a target="_top" href="javascript:;"><img src="../images/biy4895.jpg" width="100%"></a></td>
+			<td><a target="_top" href="javascript:;"><img src="../images/spdts010.jpg" width="100%"></a></td>
+		</tr></table>
+	</td></tr></table>
+	<table width="100%"><tr><td style="position:relative; padding-bottom:5px; padding-top:5px;">
+		<table class="rank-img" cellpadding="3" width="100%" style="position:absolute; top:-5px;"><tr>
+			<td align="right"><img src="../images/top/2016/rank/rank9.png" style="width:20%;"></td>
+			<td align="right"><img src="../images/top/2016/rank/rank10.png" style="width:20%;"></td>
+			<td align="right"></td>
+		</tr></table><!-- ▼総合９位～ -->
+		<table class="rank-img" cellpadding="3" width="100%"><tr>
+			<td><a target="_top" href="javascript:;"><img src="../images/wfp01493.jpg" width="100%"></a></td>
+			<td><a target="_top" href="javascript:;"><img src="../images/wft04279.jpg" width="100%"></a></td>
+		</tr></table>
+	</td></tr></table>
+</li>
+<li class="hide">
+<table width="100%"><tr><td style="position:relative; padding-bottom:5px; padding-top:5px;">
+	<table class="rank-img" cellpadding="3" width="100%" style="position:absolute; top:-5px;"><tr>
+		<td align="right"><img src="../images/top/2016/rank/rank1.png" style="width:20%;"></td>
+		<td align="right"><img src="../images/top/2016/rank/rank2.png" style="width:20%;"></td>
+		<td align="right"></td>
+	</tr></table><!-- ▼総合１位～ -->
+	<table class="rank-img" cellpadding="3" width="100%"><tr>
+		<td><a target="_top" href="javascript:;"><img src="../images/wft04242.jpg" width="100%"></a></td>
+		<td><a target="_top" href="javascript:;"><img src="../images/wft04319.jpg" width="100%"></a></td>
+	</tr></table>
+</td></tr></table>
+<table width="100%"><tr><td style="position:relative; padding-bottom:5px; padding-top:5px;">
+	<table class="rank-img" cellpadding="3" width="100%" style="position:absolute; top:-5px;"><tr>
+		<td align="right"><img src="../images/top/2016/rank/rank3.png" style="width:20%;"></td>
+		<td align="right"><img src="../images/top/2016/rank/rank4.png" style="width:20%;"></td>
+		<td align="right"></td>
+	</tr></table><!-- ▼総合３位～ -->
+	<table class="rank-img" cellpadding="3" width="100%"><tr>
+		<td><a target="_top" href="javascript:;"><img src="../images/wft04310.jpg" width="100%"></a></td>
+		<td><a target="_top" href="javascript:;"><img src="../images/wft04307.jpg" width="100%"></a></td>
+	</tr></table>
+</td></tr></table>
+<table width="100%"><tr><td style="position:relative; padding-bottom:5px; padding-top:5px;">
+	<table class="rank-img" cellpadding="3" width="100%" style="position:absolute; top:-5px;"><tr>
+		<td align="right"><img src="../images/top/2016/rank/rank5.png" style="width:20%;"></td>
+		<td align="right"><img src="../images/top/2016/rank/rank6.png" style="width:20%;"></td>
+		<td align="right"></td>
+	</tr></table><!-- ▼総合５位～ -->
+	<table class="rank-img" cellpadding="3" width="100%"><tr>
+		<td><a target="_top" href="javascript:;"><img src="../images/wft04227.jpg" width="100%"></a></td>
+		<td><a target="_top" href="javascript:;"><img src="../images/wft04304.jpg" width="100%"></a></td>
+	</tr></table>
+</td></tr></table>
+<table width="100%"><tr><td style="position:relative; padding-bottom:5px; padding-top:5px;">
+	<table class="rank-img" cellpadding="3" width="100%" style="position:absolute; top:-5px;"><tr>
+		<td align="right"><img src="../images/top/2016/rank/rank7.png" style="width:20%;"></td>
+		<td align="right"><img src="../images/top/2016/rank/rank8.png" style="width:20%;"></td>
+		<td align="right"></td>
+	</tr></table><!-- ▼総合７位～ -->
+	<table class="rank-img" cellpadding="3" width="100%"><tr>
+		<td><a target="_top" href="javascript:;"><img src="../images/wft04305.jpg" width="100%"></a></td>
+		<td><a target="_top" href="javascript:;"><img src="../images/ssbd4301471.jpg" width="100%"></a></td>
+	</tr></table>
+</td></tr></table>
+<table width="100%"><tr><td style="position:relative; padding-bottom:5px; padding-top:5px;">
+	<table class="rank-img" cellpadding="3" width="100%" style="position:absolute; top:-5px;"><tr>
+		<td align="right"><img src="../images/top/2016/rank/rank9.png" style="width:20%;"></td>
+		<td align="right"><img src="../images/top/2016/rank/rank10.png" style="width:20%;"></td>
+		<td align="right"></td>
+	</tr></table><!-- ▼総合９位～ -->
+	<table class="rank-img" cellpadding="3" width="100%"><tr>
+		<td><a target="_top" href="javascript:;"><img src="../images/wfu341.jpg" width="100%"></a></td>
+		<td><a target="_top" href="javascript:;"><img src="../images/czysbg00310.jpg" width="100%"></a></td>
+	</tr></table>
+</td></tr></table>
+</li>
+
+</ul><br>
+    
+</div>
+<div style="text-align:center;">
+    <iframe src="../sp/sp-comment.html" scrolling="no" frameborder="0" allowtransparency="true" width="98%" height="2000" target="_top"></iframe>
+</div><br>
+<div>
+  <iframe src="../spfoot.html" scrolling="no" width="100%" height="100%" frameborder="0" allowtransparency="true" id="head4" target="_top"></iframe>
+</div>
+    
+    
+
+</body>
+</html>

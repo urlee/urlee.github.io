@@ -1,0 +1,1041 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+
+	font-family: "lr oSVbN", "Osaka";
+	font-size: 12px;
+	color: #666;
+	margin:0 auto;
+	padding:0;
+	text-align:center;
+}
+/*chrome firefox*/
+body:nth-of-type(1) .tabcontents ul.category00 li{
+		margin:4px 0 4px 60px;
+	}
+
+img{
+	border:0;
+}
+#wrapppppppper {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0;
+	text-align:center;
+	}
+
+
+/*各館TOPページロゴ*/	
+#logooo {
+	width: 330px;
+	margin:0;
+	padding-top:10px;
+	float: left;
+}
+/*各館TOPページ受賞エンブレム*/
+#free-img {
+	width: 230px;
+	height:80px;
+	margin-left:3px;
+	padding: 0;
+	position:relative;
+	float: left;
+	}
+#free-img img{
+	float:right;
+	padding:20px 5px 0 5px;
+	width:100px;
+}
+
+
+/*新着・再販・売り切れ目前*/
+#nrrrr {
+	margin: 30px 0 0 0;
+	padding: 0;
+	}
+.nrrrr_new{
+	float:left;
+}
+.nrrrr_re{
+	float:right;
+}
+
+/*かてごりメニューアイコン設定*/
+
+.menu5 {
+	background: URL(http://www.rakuten.ne.jp/gold/dreamv/r-con1108.png) no-repeat 5px 4px;/*カテゴリアイコンここに設置*/
+	width: 190px;
+	font:12px Tahoma,sans-serif;
+	float:center;
+	overflow: hidden;
+	}
+	
+	
+.menu5 li a {
+  	height: 10px;
+	text-decoration: none;
+	text-align:left;
+	}
+	
+.menu5 li li a {
+  	height: 10px;
+	text-decoration: none;
+	text-align:left;
+	}
+	
+.menu5 li a:link, .menu5 li a:visited {
+	background: URL(http://www.rakuten.ne.jp/gold/dreamv/r-con1108.png) no-repeat 5px 4px;/*カテゴリアイコンマウスオン時ここに設置*/
+	color: #000;
+	display: block;
+	padding: 5px 5px 5px 25px;
+	}
+	
+.menu5 li a:hover {
+	background: #CCC url(r-con1108.png) no-repeat 5px 4px;/*カテゴリアイコンマウスオン時ここに設置*/
+	color: #F39;/*マウスオン時のリンク文字カラーはここで変更*/
+	padding: 5px 5px 5px 25px;
+	}
+	
+
+
+
+.ic_navi{
+background: url(http://www.dreamvs.jp/pc/images/top/ic_heart.gif) no-repeat;
+/*background: url(http://www.rakuten.ne.jp/gold/dreamv/images/top/xmasicon_01.png) no-repeat;*/
+padding:1px 0 0 18px;
+font-size:1em;
+}
+
+
+
+/*ヘッダー----------------------------------------*/
+
+ 
+#box-002 {
+	width: 400px;
+	height: 80px;
+	float: right;
+	padding-top: 10px;
+}
+
+
+#box-003 {
+    font-size:13px;
+	margin:0 auto;
+	padding: 0;
+	float:right;
+}
+
+
+
+#box-004 {
+	widows:400px;
+	float:right;
+	padding:0;
+	margin: 0;
+}
+
+/*ヘッドコンテンツ---------------------------------------*/
+
+#search{
+background:url(http://www.dreamvs.jp/pc/images/top/search_bg.gif) no-repeat;
+	width:1000px;
+	height:70px;
+	padding:10px;
+	margin:0 auto;
+}
+
+
+/*画像関係---------------------------------------*/
+
+
+
+
+
+
+a {
+	color: #333;
+	text-decoration: none;
+	line-height: 1em;
+}
+
+a:visited {
+	/*color: #999;*/
+	text-decoration: none;
+	line-height: 1em;
+}
+
+a:hover{
+	font-size:inherit;
+	/*color: #FF0066;*/
+	text-decoration: none;
+}
+
+
+p {
+	text-align:left;
+	font-size: 1em;
+	line-height: 2.0em;
+	margin: 0px 0px 5px 5px;
+	padding-left: 2px;
+	padding-top: 3px;
+	text-decoration: none;
+}
+
+
+
+/* ■■05.基本点レイアウト■■ */
+
+#maincolumn{/*メイン*/
+	width:800px;
+	display:block;
+	float:right;
+	}
+
+
+
+#maincolumn1000{/*メイン1000*/
+	margin:0 auto;
+	width:1000px;
+	clear:both;
+	overflow:hidden;
+	}
+
+
+#saie_tenplate{/*サイドナビ*/
+	float:left;
+	width:190px;
+	padding:0 5;
+}
+
+
+		
+		
+#header {
+	width:1000px;
+	margin:0 auto;
+	text-align:center;
+	overflow:hidden;
+	background-color:#FFF;
+}
+
+
+#header2{
+	height:75px !important;
+	width:510px;
+	margin:0 auto;
+	text-align:center;
+	overflow:hidden;
+	float:left;
+	background-color:#e1e1e1;
+}
+
+#header_nav{
+	
+	overflow:hidden;
+	margin-bottom:5px !important;
+	background-color:#FFF; 
+	width:1000px;
+}
+
+
+
+
+#globalmenu{/*グローバルメニュー*/
+width: 1000px; 
+margin:0 auto;
+padding: 0;
+border-top:1px #CCC solid;
+ }
+
+
+
+#kewword{
+	float:left; 
+	margin:5px 8px 0 5px; 
+	font-size:12px;
+	background-color:#FFF;
+	width:200px;
+	padding:5px;
+	line-height:17px;
+	color:#666;
+	height:55px;
+	-webkit-border-radius: .4em; 
+	-moz-border-radius: .4em;
+	border-radius: .4em;
+}
+
+#kewword a{
+	color:#333;
+	text-decoration:underline;
+}
+
+#kewword a:hover{
+	color:#f39;
+}
+
+
+#from{/*フォームエリア*/
+width:310px;
+float:left;
+margin:0;
+padding:0;
+}
+
+#from dl{
+	margin-top:5px;
+	margin-bottom:10px;
+	font-size:12px;
+}
+	
+
+#header_nav h1{
+    float:left;
+	width:1000px;
+	overflow:hidden;
+	margin:5px auto 0;
+	padding:0;
+	text-align:left;
+	color:#999;
+	font-size: x-small;
+	background-color:#FFF !important;
+}
+
+
+/* 各館タブ６つ */
+#header4{
+	height:75px !important;
+	width:475px;
+	margin:0 auto;
+	text-align:center;
+	overflow:hidden;
+	float:left;
+	background-color:#e1e1e1;
+}
+#kewword4{
+	float:left; 
+	margin:5px 5px 0 5px; 
+	font-size:12px;
+	background-color:#FFF;
+	width:170px;
+	padding:5px;
+	line-height:17px;
+	color:#666;
+	height:55px;
+	-webkit-border-radius: .4em; 
+	-moz-border-radius: .4em;
+	border-radius: .4em;
+}
+
+#kewword4 a{
+	color:#333;
+	text-decoration:underline;
+}
+
+#kewword4 a:hover{
+	color:#f39;
+}
+
+
+#from4{/*フォームエリア*/
+width:280px;
+float:left;
+margin:0;
+padding:0;
+}
+
+#from4 dl{
+	margin-top:5px;
+	margin-bottom:10px;
+	font-size:12px;
+}
+#header_yakata4{
+	margin: 0 auto;
+	padding:0;
+	float:left;
+	margin-left:5px;
+}
+
+
+
+/*05-3.カルーセル*/
+
+/*-----カルーセル部分-----*/
+#main_cal{
+	width:1000px;
+	height:334px;
+	margin:0 auto;
+	padding:0;
+	}
+
+#main_cal img{
+	border:1px #ccc solid;
+}
+
+#main_cal .cal00{/*カルーセル*/
+	width:554px;
+	height:332px;
+	/*margin-right:10px;*/
+	float:left;
+	border:1px #ccc solid;
+	overflow: hidden;
+}
+
+#main_cal .cal02{/*カルーセルの横枠*/
+	width:443px;
+	height:334px;
+	float:right;
+}
+
+#main_cal .cal03{/*画像大*/
+	width:433px;
+	height:217px;
+    float:right;
+	margin:0 0 10px 0;
+}
+
+#main_cal .cal03 img{
+	width:431px;
+	height:215px;
+}
+
+
+#main_cal .cal04{/*画像小*/
+	width:211px;
+	height:107px;
+	float:right;
+	margin-left:10px;
+}
+
+#main_cal .cal04 img{
+	width:209px;
+	height:105px;
+}
+
+
+#dd {
+	margin: 0;
+	padding: 0;
+	text-align:center;
+	width:1000px;
+}
+
+
+#dd li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	font: 14px;
+	width: 141px;
+	font-weight:bold;
+}
+
+
+#header_yakata li{
+	margin: 0 auto;
+	padding:0;
+	list-style:none;
+	float:left;
+	width:123.5px;
+}
+/*--------------------------------------*/	
+	
+.menu7 {
+	width: 190px;
+	font:12px Tahoma,sans-serif;
+	float:center;
+	overflow: hidden;
+	}
+	
+	
+.menu7 li a {
+	text-decoration: none;
+	text-align:left;
+	}
+	
+	
+.menu7 li a:link, .menu7 li a:visited {
+	display: block;
+	padding: 5px 5px 5px 25px;
+
+	}
+	
+.menu7 li a:hover {
+	padding: 5px 5px 5px 25px;
+	background: #E1E1E1;
+	}
+
+
+
+/*縦帯ここから*/
+
+
+.mumu{
+	width:90px;
+}
+
+
+
+
+
+
+
+.mumu02{
+	width:90px;
+}
+/*ここまで*/
+
+
+/**--------------------------**/
+ul.thumbnail_newitem dd span.name a{
+	  -moz-text-blink: none;
+    -moz-text-decoration-color: -moz-use-text-color;
+    -moz-text-decoration-line: none;
+    -moz-text-decoration-style: solid;
+    color: #333333;
+    line-height: 1em;
+	}
+ul.thumbnail_newitem dd span.name a:hover{
+	  -moz-text-blink: none;
+    -moz-text-decoration-color: -moz-use-text-color;
+    -moz-text-decoration-line: none;
+    -moz-text-decoration-style: solid;
+    color: #d86196;
+    line-height: 1em;
+	}
+
+
+ul.thumbnail_rank dd span.name a{
+	  -moz-text-blink: none;
+    -moz-text-decoration-color: -moz-use-text-color;
+    -moz-text-decoration-line: none;
+    -moz-text-decoration-style: solid;
+    color: #333333;
+    line-height: 1em;
+	}
+ul.thumbnail_rank dd span.name a:hover{
+	  -moz-text-blink: none;
+    -moz-text-decoration-color: -moz-use-text-color;
+    -moz-text-decoration-line: none;
+    -moz-text-decoration-style: solid;
+    color: #d86196;
+    line-height: 1em;
+	}
+
+.tabcontents a:link {
+	color: #000;
+	text-decoration: none;
+	line-height: 1em;
+}
+
+.tabcontents a:visited {
+	color: #999;
+	text-decoration: none;
+	line-height: 1em;
+}
+.tabcontents a:hover {
+    color: #FF0066;
+	text-decoration: none;
+}
+
+.dd_japan {
+	font-size: 9px;
+	font-weight:normal;
+	line-height: 15px;
+	color: #FFF;
+	margin:0 auto;
+	top:5px;
+}
+
+.price_corner{
+	margin-bottom:10px;
+}
+.price_corner a img{
+	border:#CCC 1px solid;
+}
+.price_corner a:hover img{
+	border:#CCC 1px solid;
+}
+
+	
+#main_contents{
+	float:left;
+	display:inline;
+	width:660px;
+	margin:10px auto;
+	}
+	
+	
+	
+#sub_contents{
+	float:right;
+	width:300px;
+	margin:10px auto;
+	}
+
+
+
+
+/*■contents
+=======================================================*/
+
+
+h2.whats_new ,h2.revew ,h2.newitem ,h2.category ,h2.ranking ,h2.brand ,h2.contents ,h2.mag ,h2.movie ,h2.guide_bar ,h2.info ,h2.sale {
+
+	font-family: 'Federo', sans-serif;
+	font-size: 25px !important;
+	color: #d86196;
+	font-weight:bold;
+	list-style-type: none;
+	padding: 3px;
+	letter-spacing:0.1em;
+	text-align:left;
+	margin-bottom:3px;
+		
+}
+
+span.sub_tittle{
+/*	float:right;
+	display:inline;
+	font-size: 13px;
+	padding:0 5px 0 0;
+	vertical-align:bottom;*/
+	font-size:13px; 
+	color:#666; 
+	padding-left:10px;
+	font-weight:bold;
+	}
+
+
+
+.contents_box{
+	float:left;
+	display:inline;
+	width:660px;
+	/*border:blue 1px solid;*/
+	margin:10px auto;
+}
+
+/*■Newitem
+=======================================================*/
+ul.thumbnail_newitem {
+	width: 100%;
+	margin: 0;
+	padding: 10px 0 0;
+	list-style-type: none;
+}
+
+
+ul.thumbnail_newitem li {
+	width: 142px;
+	float: left;
+	margin:0 10px;
+}
+
+
+ul.thumbnail_newitem dl {
+	width: 140px;
+	margin: 0 auto;
+	/*font-size: 80%;*/
+}
+
+
+ul.thumbnail_newitem dt {
+	margin-bottom: 5px;
+}
+
+
+ul.thumbnail_newitem dt img {
+	/*border: 1px #808080 solid;*/
+}
+
+
+ul.thumbnail_newitem dd {
+	margin: 0 0 5px;
+	height: 7em;
+	line-height: 170%;
+	text-align:right;
+}
+
+ul.thumbnail_newitem dd span.name{
+	font-size:10px;
+	line-height:12px;
+	color:#999;
+}
+
+
+span.plice{
+	font-size:12px;
+	color:#F00;
+	font-weight:bold;
+}
+
+
+/*■Ranking
+=======================================================*/
+ul.thumbnail_rank {
+	width: 100%;
+	margin: 0;
+	padding: 10px 0 0;
+	list-style-type: none;
+}
+
+
+ul.thumbnail_rank li {
+	width: 110px;
+	float: left;
+	margin:0 10px;
+}
+
+
+ul.thumbnail_rank dl {
+	width: 110px;
+	margin: 0 auto;
+	/*font-size: 80%;*/
+}
+
+
+ul.thumbnail_rank dt {
+	margin-bottom: 5px;
+}
+
+
+ul.thumbnail_rank dt img {
+	/*border: 1px #808080 solid;*/
+}
+
+
+ul.thumbnail_rank dd {
+	margin: 0 0 5px;
+	height: 6em;
+	line-height: 170%;
+	text-align:right;
+}
+
+ul.thumbnail_rank dd span.name{
+	font-size:10px;
+	line-height:12px;
+}
+
+
+span.plice{
+	font-size:12px;
+	color:#F00;
+	font-weight:bold;
+}
+
+
+/*■Clearfix
+=======================================================*/
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix {
+	min-height: 1px;
+	display: inline-table;
+	display: block;
+}
+
+
+* html .clearfix { height: 1%; }
+
+
+/* ■box css3角丸・グラデ指定・装飾
+=======================================================*/
+
+.sircle {
+	margin: 0 2px 2px 2px;
+	border: 1px solid #ccc;
+	border-radius: 5px;	/* CSS3草案 */
+	-webkit-border-radius: 5px;	/* Safari,Google Chrome用 */
+	-moz-border-radius: 5px;	/* Firefox用 */
+	background: -moz-linear-gradient(center top, #fcfcfc 0%,#ffffff 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fcfcfc),color-stop(1, #ffffff));
+	-pie-background: linear-gradient(#fcfcfc, #ffffff);　/* PIE用 */	
+	position: relative;
+	zoom: 1;
+	behavior: url("http://www.dreamvs.jp/pc/jscript/cosme_htc/pie.htc"); /*IEに角丸適用*/
+
+}
+
+
+
+
+
+
+
+/* ■Tab
+=======================================================*/
+#newitem {
+	margin: 0 auto;
+}
+
+
+#tab {
+	margin-left: 0;
+	padding-left: 0;
+	margin-bottom: 1em;
+	border-bottom: 2px solid #333;
+	height: 1.5em;
+	overflow: hidden;
+}
+#tab li {
+	float: left;
+	width: 120px;
+	height: 1.5em;
+	margin:0 5px;
+}
+#tab li a {
+	display: block;
+	width: 120px;
+	height: 1.5em;
+	border: 1px solid #ccc;
+	border-bottom: 0;
+	/*color: #777;*/
+	text-align: center;
+}
+
+#tab li.present a {
+	/*border-color: #333;*/
+	/*color: #ffffff;*/
+	background-color:#f5f5f5;
+}
+
+#tab li a {
+	border-color: #333;
+	color: #ffffff;
+	background-color:#f5f5f5;
+}
+
+
+#tab li a:hover {
+	border-color: #333;
+	color: #ffffff;
+	background-color:#ff1493;
+}
+
+
+
+#tab_page1, #tab_page2, #tab_page3, #tab_page4, #tab_page5 {
+	margin-bottom: 12em;
+	padding-top: 1em;
+}
+
+/* ■Contents
+=======================================================*/
+
+.tabcontents{
+	margin:3px;
+	width:32%; 
+	float:left;
+	display:inline;
+	/*border:#ccc 1px dotted;*/
+
+
+}
+
+
+.TabbedPanelsTab{
+	width:100px;
+}
+
+.tabcontents ul.category00 li{
+	font-size:12px !important; 
+	text-align:left;
+	line-height:1.5em;
+	margin:4px 0 4px 25px;
+	padding:2px 0;
+	width:115px;
+	border-bottom:#ccc 1px dotted ;
+}
+
+
+
+
+.tab_img{
+	margin:5px;
+	float:left;
+	display:inline;
+}
+
+
+.tab_1{
+	margin:5px 0;
+}
+
+/* ■Event_content
+=======================================================*/
+
+
+ul.thumbnail {
+	width: 660px;
+	margin: 0;
+	padding: 0;
+	border-top: 1px #808080 dotted;
+	list-style-type: none;
+}
+
+
+ul.thumbnail li {
+	font-size:12px !important; 
+	padding: 10px 10px;
+	border-bottom: 1px #808080 dotted;
+	width:45%;
+	float:left;
+	display:inline;
+	margin:0 5px;
+}
+
+
+
+
+ul.thumbnail dl {
+	margin: 0;
+	/*font-size: 80%;*/
+}
+
+
+ul.thumbnail dt {
+	width: 160px;
+	float: left;
+}
+ul.thumbnail dt img {
+	border: 1px #808080 solid;
+}
+
+ul.thumbnail dd {
+	margin: 0 0 0 160px;
+	line-height: 150%;
+	text-align:left;
+	/*border:#F00 1px solid;*/
+
+}
+
+ul.thumbnail dd span.tittle{
+	font-size:15px;
+	font-weight:bold;
+	color:#09F;
+}
+ul.thumbnail dd span.sub_tittle {
+	font-size:11px;
+	width:130px;
+	margin-bottom:5px;
+	font-weight:bold;
+	color:#09F;
+}
+
+
+
+
+/* ■link
+=======================================================*/
+
+
+
+
+
+a:hover
+*{ /*color: #ffffff;*/
+filter:alpha(style=0, opacity=30);
+ -moz-opacity:0.75;
+ opacity:0.75;
+ }
+
+	
+/*各館ブランド紹介*/
+
+#brand_wrraper {
+	width: 640px;
+	height: 180px;
+	border: 1px #CCC solid;
+	padding: 10px;
+}
+
+
+#brand_left {
+	width: 48%;
+	height: auto;
+	float: left;
+	margin-right: 10px;
+}
+
+
+#brand_right {
+	width: 48%;
+	height: auto;
+	float: right;
+}
+
+
+#brand_kirei {
+	width: 98%;
+	height: auto;
+	float: right;
+}
+
+.brand_movie a{
+	font-size: 14px;
+	display: block;
+	text-decoration:none;
+	font-weight:bold;
+	color:#fff;
+	}
+
+
+.brand_movie a:hover{
+	text-decoration:none;
+	font-weight:bold;
+	color:#fff;
+	}
+
+.brand_movie{
+	width: 180px;
+	background-color: #000;
+	padding: 5px;
+	font-size: 14px;
+	display: block;
+}
+
+.brand_movie_kirei a:hover{
+	text-decoration:none;
+	font-weight:bold;
+	color:#fff;
+	}
+
+.brand_movie_kirei {
+	width: 605px;
+	background-color: #000;
+	padding: 5px;
+	font-size: 14px;
+	display: block;
+}
+
+
+.brand_namae {
+	color:#ff3399;
+	font-size: 18px;
+	font-weight:bold;
+	line-height: 17px;
+}
+
+
+.brand_inner {
+	width: 130px;
+	float: right;
+}
+
+.brand_inner_kirei {
+	width: 280px;
+	float: right;
+}
+
+.brand_moji {
+	font-size: 12px;
+	line-height: 16px;
+}

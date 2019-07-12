@@ -1,0 +1,423 @@
+#contents{
+    line-height: 1;
+    color: #000;
+}
+#contents .topimg {
+    background-color: #ffffff;
+}
+#contents section {
+    padding: 10px 0;
+}
+#contents section.color01_ {
+    background-color: #ffffff;
+}
+#contents section.color02_ {
+    background-color: #fff0c7;
+}
+#contents section .box_ {
+    /* width: 95%; */
+    margin: 0 auto;
+    /* padding: 10px 0; */
+}
+#contents section .box_.style01_ {
+	width: 90%;
+	background-color: #ffffff;
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	padding: 10px;
+	margin: -10px auto;
+}
+#contents .tex01_ {
+    font-size: 18px;
+    margin: 10px 0;
+    padding: 10px 0;
+    border-top: 1px #ff3131 dashed;
+    border-bottom: 1px #ff3131 dashed;
+    color: #ff3131;
+    letter-spacing: 1px !important;
+    text-align:  center;
+}
+#contents .tex02_ {
+    font-size: 19px;
+    line-height: 2.4;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 5px 0;
+    text-align: center;
+    background-color: #ff2929;
+}
+#contents .tex03_ {
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: bold;
+}
+#contents .sub_ {
+    font-size: 0.6em;
+}
+
+/*Ã¥Å¸ÂºÃ¦Å"Â¬Ã¥â€¢â€ Ã¥â€œÂ Ã¦Â¨Âª3Ã¥Ë†â€"*/   
+ul.item_list_{
+	text-align: center;
+} 
+ul.item_list_ li{
+	width: 30%;
+	display:inline-block;
+	vertical-align: top;
+	margin: 10px 4px 10px 0;
+	position: relative;
+	border: 1px #e6e6e6 solid;
+	background-color: #ffffff;
+	/* padding-bottom: 10px; */
+	text-align: center;
+}
+
+ul.item_list_ img{
+	width: 100%;
+	/* padding-top: 3px; */
+}
+ul.item_list_ dt{
+	margin: 0;
+	padding: 0;
+}
+ul.item_list_ dd{
+	margin: 5px 0;
+	padding: 3px 5px 1px;
+	text-align: center;
+}
+ul.item_list_ dd.item_articlename_{
+	font-size: 8px;
+	line-height: 1.2em;
+	text-overflow: ellipsis;
+	-webkit-text-overflow: ellipsis; /* Safari */
+	-o-text-overflow: ellipsis; /* Opera */
+	white-space: nowrap;
+	overflow: hidden;
+}
+ul.item_list_ dd.item_price_{
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 5px 0;
+	line-height: 1em;
+}
+ul.item_list_ dd.item_price_ span {
+	font-size: 1em;
+}
+ul.item_list_ dd.item_price_ span.intax_{
+	font-size: 0.4em !important;
+}
+ul.item_list_ dd.item_doubleprice_{
+	font-size: 12px !important;
+	line-height: 1em;
+	/* margin-top: 4px !important; */
+}
+ul.item_list_:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+dd.item_offbar_ {
+	color: #fbfb0f;
+	margin: 0;
+	font-weight: bold;
+	background-color: rgb(231, 5, 6);
+	padding: 5px 0;
+	font-size: 1em;
+}
+dd.item_offbar_ span {
+	color: #000;
+	font-weight: normal;
+	font-size: 0.7em;
+}
+.clear_:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+
+ul.item_list_.line02_{
+	text-align: center;
+}
+
+ul.item_list_.line02_ li{
+	width: 46%;
+}
+ul.item_list_.line02_ dd.item_price_{
+	font-size: 50px;
+}
+ul.item_list_.line02_ li:nth-child(2n){
+	margin-right: 0;
+}
+ul.item_list_.line02_ dd.item_price_{
+	font-size: 24px;
+}
+ul.item_list_.line02_ dd.item_offbar_ {
+	font-size: 18px;
+}
+
+/*スタイル01-基本*/
+ul.item_list_.sale_ li{
+	border: 2px #f2b30a solid;
+}
+ul.item_list_.sale_ dd.item_price_{
+	color: #e70506;
+	font-size: 24px;
+}
+ul.item_list_.sale_ dd.item_price_ span.intax_{
+	color: #e70506;
+}
+
+/*スタイル02*/
+ul.item_list_.sale02_ li{
+	border: 1px #ececec solid;
+}
+ul.item_list_.sale02_ dd.item_price_{
+	color: #f82a3d;
+}
+ul.item_list_.sale02_ dd.item_offbar_ {
+	background-color: #f61c19;
+}
+ul.item_list_.sale02_ dd.item_price_ span.intax_{
+	color: #f94051;
+}
+
+/*スタイル03*/
+ul.item_list_.sale03_ li{
+	border: 1px #5bdffd solid;
+	/* background-color: #eef5ff; */
+}
+ul.item_list_.sale03_ dd.item_price_{
+	color: #2e7bec;
+	font-size: 24px;
+}
+ul.item_list_.sale03_ dd.item_offbar_ {
+	background-color: #2e7bec;
+	color: #fff;
+}
+ul.item_list_.sale03_ dd.item_bar01_ {
+	display: none;
+}
+ul.item_list_.sale03_ dd.item_price_ span.intax_,
+ul.item_list_.sale03_ dd.item_price_ span{
+	color: #2e7bec;
+}
+ul.item_list_medama_ li {
+    border: 3px #f2c40a solid;
+    background-color: #fff;
+    margin: 20px  auto;
+    width: 100%;
+}
+ul.item_list_medama_ li img {
+    max-width: 100%;
+}
+ul.item_list_medama_.style02_ li {
+    border: none;
+}
+
+/*Ã£Æ'Å"Ã£â€šÂ¿Ã£Æ'Â³*/
+.button_style01_ {
+    width: 89%;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 17px !important;
+    color: #ffffff;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    position: relative;
+    /* clear: both; */
+}
+.button_style01_ a {
+    color: #ffffff !important;
+    text-decoration: none;
+    padding: 9px 0px;
+    background-color: #a1a1a1;
+    display: block;
+    font-weight: normal !important;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.button_style01_::after {
+    position: absolute;
+    top: 43%;
+    right: 13px;
+    display: block;
+    content: '';
+    width: 10px;
+    height: 10px;
+    margin-top: -4px;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}	
+
+/*Ã£â€šÂ¹Ã£Æ'Å¡Ã£Æ'Â¼Ã£â€šÂ¹*/	
+.top_space50_ {
+	margin-top: 20px !important;
+	clear: both;
+}
+.top_space100_ {
+	margin-top: 100px !important;
+	clear: both;
+}
+.bottom_space50_ {
+	margin-bottom: 50px !important;
+	clear: both;
+}
+.bottom_space100_ {
+	margin-bottom: 100px !important;
+	clear: both;
+}	
+
+/*クーポン3列*/
+ul.coupon_step_ {
+	margin: 20px 0 30px;
+	text-align: center;
+}
+
+ul.coupon_step_ li {
+    display: inline-block;
+    width: 44%;
+    margin: -4px 6px;
+}
+ul.coupon_step_ li:nth-child(n+4) {
+    display: inline-block;
+    width: 20%;
+    margin: 10px 5px;
+}
+ul.coupon_step_ li img{
+    width: 100%;
+}
+
+/*クーポン2列*/
+ul.coupon_step02_ {
+	margin: 20px 0 30px;
+	text-align: center;
+}
+
+ul.coupon_step02_ li {
+    display: inline-block;
+    width: 40%;
+    margin: -4px 7px;
+}
+ul.coupon_step02_ li:nth-child(n+4) {
+    display: inline-block;
+    width: 20%;
+    margin: 10px 5px;
+}
+ul.coupon_step02_ li img{
+    width: 100%;
+}
+
+
+
+ul.coupon_step_.bigcoupon_ li {
+    width: 40%;
+}
+
+
+ul.event_navi_ {
+	width: 100%;
+	margin: 0 auto;
+}
+ul.event_navi_ li {
+    display: inline-block;
+    width: 40%;
+    margin: 12px;
+    /* border: 1px #000 solid; */
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    box-shadow:0px 0px 3px 3px #f2f2f2;
+    -moz-box-shadow:0px 0px 3px 3px #f2f2f2;
+    -webkit-box-shadow:0px 0px 3px 3px #f2f2f2;
+    line-height: 0.6;
+}
+ul.event_navi_ li:nth-child(3n) {
+	/* margin-right: 0; */
+}
+ul.event_navi_ li img {
+    display: inline-block;
+    width: 100%;
+    border-bottom-left-radius:5px;
+    -border-bottom-left-radius:5px;
+    -border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    -border-bottom-right-radius:5px;
+    -border-bottom-right-radius:5px;
+}
+ul.event_navi_ li a{
+	display: block;
+}
+
+ul.event_navi_ li img:hover {
+    width: 98%;
+}
+ul.event_navi_ .event_number_ {
+	background-color: #292929;
+	padding: 3px;
+	text-align: center;
+	color: #fff;
+	font-size: 8px;
+	letter-spacing: 1px;
+	border-top-left-radius:5px;
+	-border-top-left-radius:5px;
+	-border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	-border-top-right-radius:5px;
+	-border-top-right-radius:5px;
+	}
+	/*下部メニューボタン FIX*/
+	#topic_navi_fix {
+		width: 101%;
+		position: fixed;
+		bottom: 0;
+		z-index: 50;
+		text-align: center;
+		color: #fff;
+		font-weight: bold;
+		padding: 0;
+		display: block;
+		letter-spacing: 2px;
+		background-color: #ff2929 !important;
+		box-shadow:2px 2px 8px 3px rgba(110, 109, 109, 0.6);
+		-moz-box-shadow:2px 2px 8px 3px rgba(110, 109, 109, 0.6);
+		-webkit-box-shadow:2px 2px 8px 3px rgba(110, 109, 109, 0.6);
+	}
+	#topic_navi_fix ul li {
+		width: 24.5%;
+		float: left;
+		border-right: 1px #FFF solid;
+	}
+	#topic_navi_fix ul li img {
+		width: 100%;
+		vertical-align: bottom;
+	}
+	#topic_navi_fix ul li a{
+		display: block;
+		padding: 5px 0;
+	}
+	#topic_navi_fix ul li:nth-child(5){
+		border: none;
+	}
+.attention_info_ {
+    font-size: 10px;
+    color: #d70000;
+}
+
+/*
+
+　一部のLPにだけ表示しない
+------------------------------*/
+.super_sale_none {
+	display:none;
+}

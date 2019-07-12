@@ -1,0 +1,207 @@
+
+#ctgcontainer a{
+	text-decoration: none;
+	color: #666;
+	padding: 0;
+}
+#ctgcontainer {
+	width: 1000px;
+	margin: 0 auto;
+	color:#666;
+	font-family:'Lucida Grande','Hiragino Kaku Gothic ProN',Meiryo, sans-serif;
+	background-color: #fff;
+}
+
+#ctghead {
+	width: 990px;
+	background-color: #fff;
+}
+
+#ctghead h1{
+	font-size: 25px;
+	padding: 0 5px;
+	text-align:left;
+}
+
+#ctgcontent {
+	width: 100%;
+	background-color: #fff;
+	overflow: hidden;
+	clear: both;
+}
+
+.ctgbox {
+	width: 22%;
+	height: 400px;
+	float: left;
+	margin: 1.5%;
+	text-align:left;
+}
+
+/*.ctgbox:nth-child(1){
+	margin-left: 0;
+	height: 400px;
+}
+.ctgbox:nth-child(2){
+	height: 400px;
+}
+
+.ctgbox:nth-child(3){
+	height: 400px;
+}
+
+.ctgbox:nth-child(4){
+	height: 400px;
+}
+
+.ctgbox:nth-child(5){
+	margin-left: 0;
+}
+
+.ctgbox:nth-child(9){
+	margin-left: 0;
+}
+
+.ctgbox:nth-child(13){
+	margin-left: 0;
+}*/
+
+.ctgbox-head h2 {
+	font-size: 16px;
+	border-bottom: solid 1px #666;
+	padding: 0 0 5px 0;
+	/* margin-bottom: 5px; */
+	font-weight: bold;
+	text-align:left;
+}
+
+.ctgbrand-head h2 {
+	margin: 7px 0px;
+	margin-top: 10px;
+	font-size: 18px;
+	border-bottom: solid 1px #666;
+}
+
+#ctgbrandhead h2 {
+	margin: 0;
+	font-size: 20px;
+}
+
+#categpry_list ul{
+	list-style: none;
+	overflow: hidden;
+	margin: 10px 0;
+}
+
+.ctgbox ul {
+	list-style: none;
+	margin: 10px 0;
+	padding: 0px;
+	font-size: 13px;
+}
+
+.ctgbox ul li{
+	margin: 8px 0;
+	color:#666;
+	line-height:1;
+}
+
+#categpry_list ul li{
+	width: 160px;
+	margin: 5px 1.5% ;
+	float:left;
+	text-align:left;
+}
+
+#categpry_list ul li a:hover{
+	text-decoration: underline;
+}
+
+.ctgbox ul li:hover{
+	text-decoration: underline;
+}
+
+.ctgbrand-ctg-box-fst{
+	float:left;
+	margin-bottom: 30px;
+	font-size: 14px;
+}
+
+.ctgbrand-ctg-box{
+	float:left;
+	margin-left:48px;
+	margin-bottom: 30px;
+	font-size: 14px;
+}
+.ctgbrand-ctg-box ul,.ctgbrand-ctg-box-fst ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+}
+
+.ctgbrand-ctg-box ul li,.ctgbrand-ctg-box-fst ul li{
+	margin-bottom: 5px;
+}
+
+.ctgbrand-ctg-box-fst ul li:hover{
+	text-decoration: underline;
+}
+
+.ctgbrand-ctg-box ul li:hover{
+	text-decoration: underline;
+}
+
+.ctgbrand {
+	overflow: hidden;
+	margin-bottom: 40px;
+}
+
+.ctgbrand-head {
+	font-size: 18px;
+	/*margin-left: 15px;
+	margin-right: 15px;*/
+    margin-bottom: 20px;
+}
+
+.ctgbrand-ctg-head {
+	margin-bottom: 10px;
+	font-size: 13px;
+}
+
+.ctgbrand-ctg-head:hover{
+	text-decoration: underline;
+}
+
+#ctgbrandhead {
+	width: 100%;
+    margin: 0 auto;
+}
+
+#categpry_list {
+	width: 990px;
+	margin: 20px auto;
+	font-size: 13px;
+	border: 1px solid #999;
+}
+
+.top_anchor {
+	clear: both;
+	width: 100%;
+	text-align: right;
+	font-size: 12px;
+	padding: 10px 0;
+}
+
+.brandtop_anchor {
+	clear: both;
+	width: 100%;
+	text-align: right;
+	font-size: 12px;
+	padding: 0px 0;
+	margin-bottom: 30px;
+}
+.brandtop_anchor a{
+	margin-right: 15px;
+}
+

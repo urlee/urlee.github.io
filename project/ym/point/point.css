@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main_head {
+    font-size:20px;
+    color:#111;
+    padding:0 0 10px;
+    margin:0 0 70px;
+    border-bottom:2px solid #111;
+}
+
+.point_head {
+    color:#111;
+    font-size:120px;
+    line-height:1em;
+    text-align:center;
+    margin:0 0 70px;
+    font-weight:normal;
+    letter-spacing: -0.05em;
+    font-family: 'Roboto Condensed',"鐃緒申鐃緒申鐃緒申鐃緒申�刻申鐃緒申 Pro W3", "Hiragino Kaku Gothic Pro", "鐃緒�鐃純��鐃緒申鐃緒申", Meiryo, Osaka, "���主� ����鐃順�種申羶�鐃緒申鐃緒申", "MS PGothic", sans-serif;
+}
+.point_head span{
+    font-size:14px;
+    line-height:1.5em;
+    margin:34px 0 0 0;
+    display:block;
+    font-weight:bold;
+    letter-spacing: 0;
+    }
+
+.campaign_head {
+    text-align:center;
+    color:#fff;
+    background:#000;
+    font-size:15px;
+    padding:10px 0;
+    margin:0 0 75px 0;
+}
+
+.pointbox {
+    border:#eeeeee 10px solid;
+    margin: 0 0 50px;
+}
+
+.pointbox__head {
+    text-align:center;
+    font-size:18px;
+    padding: 5px 0 15px;
+    margin: 0 0 20px;
+    color:#000;
+    background:#eeeeee;
+}
+
+.pointbox__period {
+    font-size:13px;
+    border:2px solid #eeeeee;
+    max-width:470px;
+    margin:20px auto;
+    padding:15px 0;
+    color:#000;
+    line-height: 1.5em;
+}
+
+.pointbox__entry {
+    display:table;
+    width:320px;
+    margin: 0 auto 20px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e00109+0,bd0000+100 */
+    background: #e00109; /* Old browsers */
+    background: -moz-linear-gradient(top,  #e00109 0%, #bd0000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #e00109 0%,#bd0000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #e00109 0%,#bd0000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e00109', endColorstr='#bd0000',GradientType=0 ); /* IE6-9 */
+    text-decoration:none;
+    font-size:15px;
+    font-weight:bold;
+    height:54px;
+    border-radius:10px;
+}
+.pointbox__entry-middle {}
+.pointbox__entry-middle {
+    color:#fff;
+    display: table-cell;
+    vertical-align: middle;
+    line-height:1.25em;
+    text-align: center;
+}
+
+.pointbox__entry-middle span{
+    display:block;
+    font-size:12px;
+    font-weight:normal;
+}
+
+.pointbox__link {
+    margin:0 auto 20px;
+    display:block;
+    width:90%;
+}
+.pointbox__link img{
+    height:auto;
+}
+
+@media screen and (max-width:767px) {
+    .main_head {
+    font-size: 18px;
+    font-weight: bold;
+    color:#111;
+    padding:0 0 10px;
+    margin:0 0 35px;
+    border-bottom:2px solid #111;
+}
+.campaign_head {
+    text-align:center;
+    color:#fff;
+    background:#000;
+    font-size:15px;
+    padding:10px 0;
+    margin:0 0 30px 0;
+}
+    .point_head {
+    color:#111;
+    font-size: 14vw;
+    line-height:1em;
+    text-align:center;
+    margin:0 0 35px;
+    font-family:'Roboto Condensed',"鐃緒申鐃緒申鐃緒申鐃緒申�刻申鐃緒申 Pro W3", "Hiragino Kaku Gothic Pro", "鐃緒�鐃純��鐃緒申鐃緒申", Meiryo, Osaka, "���主� ����鐃順�種申羶�鐃緒申鐃緒申", "MS PGothic", sans-serif;
+}
+    .pointbox__period {
+    font-size:13px;
+    border:2px solid #eeeeee;
+    max-width:470px;
+    width:90%;
+    margin: 0 auto 20px;
+    padding:15px 10px;
+    color:#000;
+}
+.pointbox {
+    border:#eeeeee 5px solid;
+    margin: 0 0 25px;
+}
+.pointbox__head {
+    text-align:center;
+    font-size:14px;
+    font-weight:bold;
+    padding: 5px 0 15px;
+    margin: 0 0 20px;
+    color:#000;
+    background:#eeeeee;
+}
+.pointbox__entry {
+    display:table;
+    width:90%;
+
+}
+}
