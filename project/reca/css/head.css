@@ -1,0 +1,158 @@
+@charset "EUC-JP";
+/* CSS Document */
+
+<!--head-->
+.cate-text a:hover img{
+	 filter:alpha(opacity=70); /*��IE�p*/
+   -moz-opacity:0.80; /*��Mozilla�p*/
+}
+
+
+
+
+#top{
+	margin:0px;
+	padding:0px;
+	height:80px;
+	
+	}
+#top img{
+	margin-bottom:5px;	
+	}
+	
+	
+#top_title{
+	float:left;
+	}
+
+#top_right{
+	float:right;
+	}
+
+#form{
+	float:right;
+	margin:0px;
+	}
+	
+#style{
+	margin-top:10px;
+	}
+
+#pickup{
+	margin:0px;
+	padding:0px;
+	}
+	
+object{
+	margin:0px;
+	}
+
+iframe{
+	margin:0px;
+	padding:0px;
+	}
+	
+
+<!--navi-->
+#navi{
+	width:950px;
+	margin:0px;
+	padding:0px;
+	}
+	
+ul#menu{
+    list-style:none;
+	margin:0px;
+	padding:0px;
+    width:100%;
+    float:left;
+}
+ul#menu li{
+    list-style:none;
+	margin:0px;
+	padding:0px;
+    float:left;
+    width:190px;
+}
+ul#menu a{
+    display:block;
+    width:190px;
+    height:37px;
+    text-indent:-9999px;
+    overflow:hidden;
+}
+a.home{
+    background-image:url(http://image.rakuten.co.jp/reca/cabinet/img/menu/home.gif);
+}
+a:hover.home{
+    background-position:0px -37px;
+}
+a.sale{
+    background-image:url(http://image.rakuten.co.jp/reca/cabinet/img/menu/sale.gif);
+}
+a:hover.sale{
+    background-position:0px -37px;
+}
+a.comp{
+    background-image:url(http://image.rakuten.co.jp/reca/cabinet/img/menu/company.gif);
+}
+a:hover.comp{
+    background-position:0px -37px;
+}
+a.cart{
+    background-image:url(http://image.rakuten.co.jp/reca/cabinet/img/menu/cart.gif);
+}
+a:hover.cart{
+    background-position:0px -37px;
+}
+a.guid{
+	background-image:url(http://image.rakuten.co.jp/reca/cabinet/img/menu/guid.gif);
+}
+a:hover.guid{
+	background-position:0px -37px;
+}
+<!--navi_end-->
+
+#attention {
+	width:950px;
+	padding-bottom:15px;
+	}
+
+#form_002 {
+	width:950px;
+	height:40px;
+	margin:0px;
+	padding:5px;
+	background-image:url(../img/head/hotword-title.gif);
+	background-repeat: no-repeat;
+	}
+
+.now {
+	font-size:11px;
+	color:#ebebeb;
+	font-weight:100;
+	padding:0px 0px 0px 160px;
+	vartical-align:top; 
+	}
+
+#form_body {
+	height:30px;
+	float:left;
+	width:700px;
+	margin:0px;
+	padding:0px;
+	
+	}
+
+#form_right{
+	height:20px;
+	float:right;
+	width:240px;
+	margin:0px;
+	padding-top:5px 0px 0px 0px;
+	}
+
+
+#point3{
+margin-bottom:10px;
+]

@@ -1,0 +1,174 @@
+@charset "EUC-JP";
+/* CSS Document */
+
+#BtmFlag{
+	width:100%;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	bottom: -5px;
+	right: 0;
+	z-index: 899999;}
+	
+	
+	#BtmFlagc{
+	width:100%;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	bottom: -5px;
+	right: 0;
+	z-index: 899999;}
+	
+	
+	#BtmFlagri1{
+	width:12%;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	bottom: 350px;
+	right: 0;
+	z-index: 899999;}
+	
+		#BtmFlagri2{
+	width:12%;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	bottom: 200px;
+	right: 0;
+	z-index: 899999;}
+	
+	
+	
+
+	
+/* CSS Document
+
+		#BtmFlagc p{
+				background-color: rgba(255,242,255,1);
+	width:100%;
+	color:#f15183;
+	text-align:center;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	bottom: 18%;
+	z-index: 2147483651;}
+	
+	 */	
+	
+		#BtmFlagc table{
+	width:100%;
+	color:#FFF;
+	text-align:center;
+	height:15%;
+	background-color: rgba(51,51,51,0.6);
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	bottom: -5px;
+	left: 0;
+	z-index: 899999;}
+	
+			#BtmFlagc table tr{
+	width:100%;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	bottom: -5px;
+	margin-left:-10%;
+	left:10%;
+	z-index: 899999;}
+	
+	.BtmFlag1{
+	width:50%;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	bottom: -5px;
+	left: 0;
+	z-index: 899999;}
+	
+	.BtmFlag2{
+	width:50%;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	bottom: -5px;
+	right: 0;
+	z-index: 899999;}
+	
+	
+
+
+#okbFooter a {
+width: 100%;
+float:left;
+margin:0;
+padding:0;
+}
+
+
+/*-------------------- floatBanner1 --------------------*/
+#floatBanner1 a {
+display: block;
+width: 42px;
+height: 84px;
+margin: 0;
+padding: 0;
+position: fixed;
+bottom: 175px;
+right: 5px;
+z-index: 899998;}
+#floatBanner1 img {
+width: 42px;
+height: 84px;
+-webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3),0px 0px 3px rgba(0, 0, 0, 0.3), -3px 0px 3px rgba(0, 0, 0, .3) inset;
+box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3),0px 0px 3px rgba(0, 0, 0, 0.3), -3px 0px 3px rgba(0, 0, 0, .3) inset;}
+
+
+
+
+
+
+
+#floatingButtons {
+    display: none;
+    position: fixed;
+    bottom: 80px;
+    right: 8px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 10px;
+    z-index: 900000;
+}
+
+
+
+#offer-notification-btn {
+    display: none;
+    width: 51px;
+    bottom: 45px;
+    right: -1px;
+	z-index: 2147483648;
+}
+
+
+
+
+#floatbanner a {
+display: block;
+width: 100%;/*°¶ ‰#≠„•Ó·„∞‰#¿‰#¥‰#º„°ÁÁ‰é®Âπ°¶/
+height: 38px;/*°¶¿‰#¥‰#º„°ÁÈÏé§Âπ°¶/
+line-height: 38px;
+margin: 0;
+padding: 0;
+position: fixed;
+bottom: 0;
+right: 0;
+color: #FFF!important; 
+text-align: center;
+font-weight: bold;
+background-color: rgba(0,0,0,0.5);/*Á·∏ÂÕË°¶≤„°ÁÌ‡æÂÃÁ∫¶°¶°¶±È(/
+z-index:9005;}
