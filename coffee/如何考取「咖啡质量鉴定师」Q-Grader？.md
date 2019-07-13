@@ -68,5 +68,8 @@
 
 ### 【推荐阅读】：
 
-[咖啡师要考证书吗？有没有必要上咖啡认证课程？](https://mp.weixin.qq.com/s/6Ujay2RTQuFC4OCfCvN2aA)
-[如何成为一名光荣的咖啡师？当学徒还是上培训课程好？](https://mp.weixin.qq.com/s/HlDRAerrHh3P4g6MYZJXhQ)
+<ul>
+    <li><a href="https://mp.weixin.qq.com/s/6Ujay2RTQuFC4OCfCvN2aA" target="_top">《咖啡师要考证书吗？有没有必要上咖啡认证课程？》</a></li>
+    <li><a href="https://mp.weixin.qq.com/s/HlDRAerrHh3P4g6MYZJXhQ" target="_top">《如何成为一名光荣的咖啡师？当学徒还是上培训课程好？》</a></li>
+</ul>
+
