@@ -39,32 +39,31 @@
 
 ​		译者仅读完第一章，就感觉作者强大的咖啡经验以及不拖沓冗长的措辞非常的精辟，每一个单词都是通过仔细斟酌以后才写出来的。既然咖啡是一个舶来品，咱们应该将其专业词汇的英文单词搞清楚，对无论是咖啡爱好者、要打比赛的人，还是考国际资格证的人，都适用。
 
-<div>
+<div style="padding:.5rem 0;">
     <span style="background:#d7aba9;display:inline-block;padding:0 4px;"> <b>TASTE </b></span>
     <span style="display:block;">风味，在咖啡里主要是指通过味觉（主要是舌头）开品尝到的风味。在人类五觉中，味觉是最主观的，所以不同的人，因为不同的经验、经历、以及对不同事物的印象不同，所尝到的咖啡内容也不同。在咖啡中，是通过萃取从而将咖啡烘焙以后生成带有芳香因子的可挥发性化合物，从而体现风味的。</span>
 </div>
 
-<div>
+<div  style="padding:.5rem 0;">
     <span style="background:#d7aba9;display:inline-block;padding:0 4px;"> <b>AROMA </b></span>
     <span style="display:block;">干香，在咖啡里主要是通过嗅觉（鼻子）来察觉的味道。闻过生豆的朋友们都知道它除了草香别的很难闻出什么，但正是因为将其烘焙，开发出来800多种干香化合物、焦糖反应产生的香气、以及梅拉德反应产生的褐色色素那迷人的焦香等等。其实在咖啡萃取后，也会有不同的香气产生，行业内俗称为<span style="background:#d7aba9;display:inline-block;padding:0 4px;"><b>FRAGRANCE</b></span>，也就是咖啡被萃取成溶液后的香气，经常买香水的朋友都知道，这个单词是来自法语的，主要代表液体精油或通过酒精会发带出来的香气。在咖啡中，它是指湿香，也就是导致干香的成分与水融合以后的风味。</span>
 </div>
 
-<div>
+<div  style="padding:.5rem 0;">
     <span style="background:#d7aba9;display:inline-block;padding:0 4px;"> <b>DENSITY</b></span>
     <span style="display:block;">密度，这里是指豆子的密度。不同的咖啡生豆，由于不同的产地、海拔、树种、湿度、土壤、处理方法等诸多因素而不同。当生豆烘焙以后，先在生豆中残留的水分（10%~13%）由于在高温下蒸发吸热，从而冲破细胞壁产生第一次爆响，豆子的体积会增大，密度就会减小；第二次爆响是由于化学反应中生成的二氧化碳等气体再次冲破细胞壁的响声，从而是豆子的密度更小。密度小，体积就会大。</span>
 </div>
 
-<div>
+<div  style="padding:.5rem 0;">
     <span style="background:#d7aba9;display:inline-block;padding:0 4px;"> <b>ACIDY</b></span>
     <span style="display:block;">酸性。这里的酸，不是我们人舌头唱出来的酸，而是PH值的酸碱性。由于烘焙程度越深，越碳化，PH值就越低。</span>
 </div>
 
-<div>
+<div  style="padding:.5rem 0;">
     <span style="background:#d7aba9;display:inline-block;padding:0 4px;"> <b>SOLUBLE</b></span>
     <span style="display:block;">可溶于水的。无机物是可以溶于水的，所以通过化学反应形成的可溶性化合物；有机物是不能溶于水的，比如说蛋白质和脂肪，但是蛋白质和脂肪在高温的条件下产生梅拉德反应，从而生成的褐色色素是可溶的，因为已经碳化，这也就是为什么，咖啡水溶液的颜色是褐色的，只不过因为烘焙度的不同，溶液深浅而已。</span>
 </div>
-
-<div>
+<div  style="padding:.5rem 0 1.5rem;">
     <span style="background:#d7aba9;display:inline-block;padding:0 4px;"> <b>BODY</b></span>
     <span style="display:block;">醇厚度。咖啡的醇厚度是通过我们人类的触觉来感知的。也就是舌头与口腔其他部分的摩擦来识别一杯咖啡的醇厚度。BODY是什么物质形成的呢？是可溶性细小颗粒（碳化了）、油脂、悬浮物质（植物纤维素）的结合使咖啡的醇厚度起到了变化。</span>
 </div>
@@ -87,85 +86,103 @@
 
 ## <span style="font-size:2rem;font-weight:normal;">化学结构</span>
 ​		咖啡生豆的结构是三维立体的纤维素化合物，或者说是是一个多聚醣(糖)体，其每一个质子含有大约一百万个单细胞。咖啡生豆的基质中的纤维素使数百种化学物质相互关联，通过烘焙工序，将这些化学物质转变成为油脂和可溶于水的物质，从而决定冲泡咖啡中的不同风味。咖啡生豆中的纤维素结构为其贡献了一半的重量，但是对烘焙后的咖啡风味没有起到太大的作用，但是它确实可以捕捉到影响咖啡香气的挥发性化合物，为冲煮出来的咖啡增加黏稠性，也就是增加我们人类通过触觉所感知的醇厚度。
-​	<span style="font-size:1.25rem;color:pink;">此段落关键词：</span>
-​	Cellulose  纤维素
-​	Polysaccharide  多醣(糖)体
-​	Soluble Material  可溶性物质
-​	Volatile Compound  可挥发化合物
-​	Viscosity  黏稠度
-​	Body  醇厚度
+<div style="padding-left:2rem;">
+    <span style="font-size:1.25rem;color:orange;">此段落关键词：</span><br>
+	Cellulose  纤维素<br>
+​	Polysaccharide  多醣(糖)体<br>
+​	Soluble Material  可溶性物质<br>
+​	Volatile Compound  可挥发化合物<br>
+​	Viscosity  黏稠度<br>
+​	Body  醇厚度<br>
+</div>
 
 ## <span style="font-size:2rem;font-weight:normal;">糖</span>
 ​		糖份，主要以蔗糖为主，占一颗咖啡生豆净重的6%~9%，为我们的一杯咖啡提供甜感。蔗糖在咖啡烘焙时为开发果酸做出贡献，因为在烘焙中，有一种反应叫做「焦糖反应」，就是蔗糖生成了一种物质叫做「乙酸」，也叫作「醋酸」。
-​	<span style="font-size:1.25rem;color:pink;">此段落关键词：</span>
-​	Sucrose  蔗糖
-​	Sweetness  甜感
-​	Acidity  酸感
-​	Caramelization  焦糖反应
-​	Acetic Acid  乙酸、醋酸
+<div style="padding-left:2rem;">
+​	<span style="font-size:1.25rem;color:orange;">此段落关键词：</span><br>
+​	Sucrose  蔗糖<br>
+​	Sweetness  甜感<br>
+​	Acidity  酸感<br>
+​	Caramelization  焦糖反应<br>
+​	Acetic Acid  乙酸、醋酸<br>
+</div>
+
 
 ## <span style="font-size:2rem;font-weight:normal;">酯类</span>
 ​		酯类，主要是甘油三酯，占一颗咖啡生豆净重的16%。虽然酯类不能溶于水，但是萃取出来的咖啡溶液中却含有此物质，尤其是在出品杯测、意式浓缩、法压壶、法兰绒以及其它手冲咖啡时，酯类的含量非常高。酯类帮助萃取出来的咖啡保留香气（这里指干香和湿香）并且增加咖啡口感。咖啡生豆中酯类含量高低，直接关系到咖啡生豆治疗的好坏，含量越高，生豆质量越佳。不幸的是，它在咖啡生豆中的存在也会相对地影响咖啡质量，因为会使烘焙好的咖啡豆，在储藏时，容易引起氧化和酸败。
-​	<span style="font-size:1.25rem;color:pink;">此段落关键词：</span>
-​	Lipids  酯类
-​	Triglycerides  甘油三酯
-​	Mouthfeel  口感
-​	Oxidation  氧化反应
-​	Rancidity  酸败反应
-​	Storage  存储
+<div style="padding-left:2rem;padding-bottom:2rem;">
+​	<span style="font-size:1.25rem;color:orange;">此段落关键词：</span><br>
+​	Lipids  酯类<br>
+​	Triglycerides  甘油三酯<br>
+​	Mouthfeel  口感<br>
+​	Oxidation  氧化反应<br>
+​	Rancidity  酸败反应<br>
+​	Storage  存储<br>
+</div>
+
 
 ## <span style="font-size:2rem;font-weight:normal;">蛋白质</span>
 ​		蛋白质和游离胺基酸，占咖啡生豆净重的10%~13%。咖啡豆中的胺基酸和还原糖在烘焙过程中热解在聚合进行一系列非酶褐变反应，此种反应译者经常提到的叫法叫做梅拉德反应。梅拉德反应生成糖胺和类黑精，这两种物质使咖啡具有甘苦、呈褐色、烤肉香气、以及烘焙香气。
-​	<span style="font-size:1.25rem;color:pink;">此段落关键词：</span>
-​	Protein  蛋白质
-​	Free Amino acids  游离胺基酸
-​	Reducing Sugars  还原糖
-​	Nonenzymatic Browning Reactions  非酶褐变反应
-​	Mailard Reactions 梅拉德反应，台湾人叫做梅纳反应
-​	Glycosylamines  糖胺
-​	Melanoidins  类黑精
-​	Bittersweet  甘苦香
+<div style="padding-left:2rem;padding-bottom:2rem;">
+​	<span style="font-size:1.25rem;color:pink;">此段落关键词：</span><br>
+​	Protein  蛋白质<br>
+​	Free Amino acids  游离胺基酸<br>
+​	Reducing Sugars  还原糖<br>
+​	Nonenzymatic Browning Reactions  非酶褐变反应<br>
+​	Mailard Reactions 梅拉德反应，台湾人叫做梅纳反应<br>
+​	Glycosylamines  糖胺<br>
+​	Melanoidins  类黑精<br>
+​	Bittersweet  甘苦香<br>
+</div>
+
 
 ## <span style="font-size:2rem;font-weight:normal;">生物碱类：咖啡因&葫芦巴碱</span>
 
 ​		咖啡含有两大种生物碱类，那就是咖啡因&葫芦巴碱，它们各自占有一颗生豆净重的1%，是一杯咖啡中苦味的其中一个来源，它们也是轻度刺激人体的主要来源。咖啡因占咖啡苦味的10%，并起到人体刺激性作用。**咖啡树（这里之所有咖啡树种）生成咖啡因是为了抵抗虫害。一颗咖啡树的种植海拔越高，其咖啡浆果中咖啡因的含量就越低，因为海拔高，低虫害风险。**
 ​		葫芦巴碱或是我们所引用咖啡苦味最大的贡献者！但是他却内含许多的芳香化合物，在烘焙过程中，葫芦巴碱在高温的环境下降解成吡啶和尼古丁酸。尼古丁酸又被称为烟酸，或者**维生素B3**，200克的咖啡液里含有20~80毫升的烟酸（要看不同的烘焙度），烟酸引起反腔效应。
-​	<span style="font-size:1.25rem;color:pink;">此段落关键词：</span>
-​	AlKaloid  生物碱类
-​	Caffeine  咖啡因
-​	Trigonelline  葫芦巴碱
-​	Stimulating Property 刺激性
-​	Insect  虫害
-​	Aromatic Compound  芳香化合物
-​	Degrade  降解
-​	Pyridines  吡啶
-​	Nicotinic Acid  尼古丁酸
-​	Niacin  烟酸
-​	Vitamin B3  维生素B3
-​	Anti-Cavity Effect反腔效应
+<div style="padding-left:2rem;padding-bottom:2rem;">
+​	<span style="font-size:1.25rem;color:pink;">此段落关键词：</span><br>
+​	AlKaloid  生物碱类<br>
+​	Caffeine  咖啡因<br>
+​	Trigonelline  葫芦巴碱<br>
+​	Stimulating Property 刺激性<br>
+​	Insect  虫害<br>
+​	Aromatic Compound  芳香化合物<br>
+​	Degrade  降解<br>
+​	Pyridines  吡啶<br>
+​	Nicotinic Acid  尼古丁酸<br>
+​	Niacin  烟酸<br>
+​	Vitamin B3  维生素B3<br>
+​	Anti-Cavity Effect反腔效应<br>
+</div>
+
 
 ## <span style="font-size:2rem;font-weight:normal;">有机酸</span>
 
 ​		有机酸，主要是绿原酸(CGAs)占有生豆净重的7%~10%。绿原酸使一杯咖啡具有酸味、果酸、收敛性和苦味。罗布斯塔种咖啡豆的高绿原酸含量使其与阿拉比卡种咖啡相比更苦。绿原酸不仅对咖啡有抗氧化性，对人体也起到了抗氧化的益处。在咖啡中，也有一些其他的有机酸，如奎宁酸、柠檬酸、苹果酸、乙酸、单宁酸、甲酸。
-​	<span style="font-size:1.25rem;color:pink;">此段落关键词：</span>
-​	Organic  有机的
-​	Chlorogenic Acid  绿原酸
-​	Astringency  收敛性
-​	Antioxidant  抗氧化性的
-​	Citric  柠檬酸
-​	Quinic  奎宁
-​	Caffeic  单宁
-​	Malicious  苹果酸
-​	Acetic  乙酸
-​	Formic  甲酸
+<div style="padding-left:2rem;padding-bottom:2rem;">
+​	<span style="font-size:1.25rem;color:pink;">此段落关键词：</span><br>
+​	Organic  有机的<br>
+​	Chlorogenic Acid  绿原酸<br>
+​	Astringency  收敛性<br>
+​	Antioxidant  抗氧化性的<br>
+​	Citric  柠檬酸<br>
+​	Quinic  奎宁<br>
+​	Caffeic  单宁<br>
+​	Malicious  苹果酸<br>
+​	Acetic  乙酸<br>
+​	Formic  甲酸<br>
+</div>
 
 ## <span style="font-size:2rem;font-weight:normal;">气体&芳烃</span>
 
 挥发性芳香化合物为我们的咖啡提供香气。咖啡生豆含有200多种挥发性物质，但是它们却机会不提供香气。对咖啡进行烘焙创造出大量的芳香化合物，目前为止，科学家已经从已烘焙的咖啡豆中提炼除了800多种挥发性芳香因子。
-	<span style="font-size:1.25rem;color:pink;">此段落关键词：</span>
-​	Gas  气体
-​	Aromatics  芳香因子
-​	Volatile  挥发性
+<div style="padding-left:2rem;padding-bottom:2rem;">
+	<span style="font-size:1.25rem;color:pink;">此段落关键词：</span><br>
+​	Gas  气体<br>
+​	Aromatics  芳香因子<br>
+​	Volatile  挥发性<br>
+</div>
 
 
 
@@ -210,19 +227,21 @@
 
 ## <span style="font-size:1.5rem;font-weight:normal;">以下是几种常见的</span> **<span style="color:orange;font-size:2rem;font-weight:normal;">生豆包装方式 </span>**<span style="font-size:1.5rem;font-weight:normal;">可供选择：</span>
 
-<ul style="list-style:circle;">
+<ul style="list-style:circle;margin-bottom:0;">
     <li>粗麻袋（黄麻）</li>
     <div style="text-indent:2.1rem;">粗麻袋是最常见也是成本最低的生豆包装运输方式。黄麻是可再生资源，制成袋子成本很低，对它的使用也无需技术需求。粗麻袋无法抵御生豆受潮或者变质，而且在运输和仓储过程中容易使生豆遭受磕碰而受损。</div>
 </ul>
+<center><img src="img/hongbei_01.jpg"></center>
 
-![hongbei_01](img/hongbei_01.jpg)
-
-<ul style="list-style:circle;">
+<ul style="list-style:circle;margin-bottom:0;">
     <li>真空塑料袋</li>
     <div style="text-indent:2.1rem;">真空包装塑料袋在目前市面上来讲是最好的了，它可以防止生豆受潮、变质、氧化，它可以让生豆与空气隔绝而无法进行呼吸，也就是说可以延长生豆的寿命。在抽真空之前，必须先测量生豆含水量以及豆内水份活跃程度，以免抽真空封装后会变质长毛。真空包装成本大概每磅15~25美分（大概1块钱500克生豆），需要抽真空装置和人员技术培训。</div>
 </ul>
-![](img/hongbei_02.jpg)
-（上图左边是真空塑料包装，右边是粮用编织袋包装，这两种包装方法有效的预防咖啡生豆受潮或变质）
+<center>
+    <img src="img/hongbei_02.jpg"><br>
+    <span>(上图左边是真空塑料包装，右边是粮用编织袋包装，这两种包装方法有效的预防咖啡生豆受潮或变质)</span>
+</center>
+
 
 <ul style="list-style:circle;">
     <li>GrainPro（粮用编织袋）</li>
@@ -259,23 +278,24 @@
 笔者认为，我们注重季节因素原因是由于我们注重一杯咖啡的质量。一杯是你充满活力的咖啡，酸度适中，并且没有任何陈豆的痕迹（如纸味、塑料袋味、干燥、有机成分缺失等等）要比是不是当季豆重要的多得多！真的不需要把事情搞的那么复杂！
 
 ## <span style="font-size:1.5rem;font-weight:normal;">本章节词汇</span>
-
-​	Degradation  降解
-​	Mucilage  果胶
-​	Fermentation  发酵
-​	Arid  干旱，缺水
-​	Burlap Sacks  装生豆的黄麻袋，在浆果可以看到
-​	Jute黄麻
-​	Vacuum-sealed  抽真空包装
-​	GranPro  一种专利，和我们国内的编织袋很像，主要用于包装谷物和粮食
-​	Moisture  潮湿
-​	Odors  变质 发臭
-​	Oxygen  氧气
-​	Mold  长毛
-​	Microorganism  微生物
-​	Water Activity  水活性，豆子内部水分气压值 / 存储环境大气压值，理想状态下，豆子的水活性指数为0.53~0.59
-​	Humidity  湿度
-​	Seasonality  季节性
+<div style="padding-left:2rem;padding-bottom:2rem;">
+​	Degradation  降解<br>
+​	Mucilage  果胶<br>
+​	Fermentation  发酵<br>
+​	Arid  干旱，缺水<br>
+​	Burlap Sacks  装生豆的黄麻袋，在浆果可以看到<br>
+​	Jute黄麻<br>
+​	Vacuum-sealed  抽真空包装<br>
+​	GranPro  一种专利，和我们国内的编织袋很像，主要用于包装谷物和粮食<br>
+​	Moisture  潮湿<br>
+​	Odors  变质 发臭<br>
+​	Oxygen  氧气<br>
+​	Mold  长毛<br>
+​	Microorganism  微生物<br>
+​	Water Activity  水活性，豆子内部水分气压值 / 存储环境大气压值，理想状态下，豆子的水活性指数为0.53~0.59<br>
+​	Humidity  湿度<br>
+​	Seasonality  季节性<br>
+</div>
 
 
 # 第四章  生豆烘焙物理变化
@@ -315,8 +335,7 @@
 - 意大利烘焙（Italian）
 
   ​		大多数意大利烘焙是在中烘出炉，但是是在所有现今流行烘焙度中，颜色最深、最油、最苦、最炭化的烘焙方式了。几乎所有的意大利式烘焙时的气味都非常难闻和刺鼻，因为咖啡豆中的绿原酸和纤维素完全降解，并且迅速氧化。一杯意式咖啡焦苦味十足、烟熏味、腐臭味、炭化味，醇厚度适中。
-
-  ![](img/hongbei_04.jpg)
+<center><img src="img/hongbei_04.jpg"></center>
 
 ## <span style="font-size:1.5rem;font-weight:normal;">组织结构变化</span>
 
@@ -337,25 +356,26 @@
 ​		对于浅烘来说,90%的重量流失为水分的蒸发，另外10%包括一些有机质和二氧化碳，还有一些烘干了银皮，一氧化碳、氮气、挥发性化合物和一些挥发酸。烘焙度越深，豆子中的有机含量消失的越多：中烘时有机物流失5%~8%，而深烘时有机物将流失12%。当烘焙使豆子流失重量时，豆子的体积将会是原先的150%~190%，豆子的质量和密度同时减半，体积增大。
 
 ## <span style="font-size:1.5rem;font-weight:normal;">本章节词汇</span>
-First Crack  一爆，豆子吸热时，水分转化为水蒸气，冲破细胞壁的声音。
-Second Crack  二爆，一爆以后，豆子再次吸热，化学反应形成二氧化碳，再次冲破细胞壁的声音。
-Carbonisation  碳化反应
-Nordic Countries  北欧国家，也就是挪威、瑞典、芬兰和丹麦四国。
-Pungent  辛辣的
-Ripe Fruit  熟果
-Nutty  坚果味
-Syrupy  糖浆一样粘稠
-Rancid  腐臭
-Carbon dioxide  二氧化碳
-Carbon Monoxide  一氧化碳
-Inner Bean  豆子内部
-Outer Bean  豆子外部
-"Spread"  咖啡英语术语，描述烘焙后，豆内外“色差”的术语/行话。
-Shrinkage  缩水，咖啡英语术语，指烘焙造成咖啡豆的重量流失比率。
-Water Voper  水蒸气
-Brittle  变脆了
-Chaff  银皮，大家知道还有一种说法是“**Silver Skin**”。两者的区别是“Silver Skin”指的是烘焙前生豆状态下的银皮；而Chaff是指烘焙之后被烘干了的银皮。
-
+<div style="padding-left:2rem;padding-bottom:2rem;">
+First Crack  一爆，豆子吸热时，水分转化为水蒸气，冲破细胞壁的声音。<br>
+Second Crack  二爆，一爆以后，豆子再次吸热，化学反应形成二氧化碳，再次冲破细胞壁的声音。<br>
+Carbonisation  碳化反应<br>
+Nordic Countries  北欧国家，也就是挪威、瑞典、芬兰和丹麦四国。<br>
+Pungent  辛辣的<br>
+Ripe Fruit  熟果<br>
+Nutty  坚果味<br>
+Syrupy  糖浆一样粘稠<br>
+Rancid  腐臭<br>
+Carbon dioxide  二氧化碳<br>
+Carbon Monoxide  一氧化碳<br>
+Inner Bean  豆子内部<br>
+Outer Bean  豆子外部<br>
+"Spread"  咖啡英语术语，描述烘焙后，豆内外“色差”的术语/行话。<br>
+Shrinkage  缩水，咖啡英语术语，指烘焙造成咖啡豆的重量流失比率。<br>
+Water Voper  水蒸气<br>
+Brittle  变脆了<br>
+Chaff  银皮，大家知道还有一种说法是“**Silver Skin**”。两者的区别是“Silver Skin”指的是烘焙前生豆状态下的银皮；而Chaff是指烘焙之后被烘干了的银皮。<br>
+</div>
 
 
 # 第五章  烘焙化学（上）
@@ -398,21 +418,22 @@ Chaff  银皮，大家知道还有一种说法是“**Silver Skin**”。两者�
 上图为咖啡浆果变红的程度不同，所含蔗糖量也不同，颜色越深，含糖量越高，意味着出品的咖啡甜度和酸感也高。
 
 ## <span style="font-size:1.5rem;font-weight:normal;">本章词汇</span>
-Composition  成分
-Chemical  化学的
-Fines  咖啡业内术语，也是生物化学术语，指的是那些可溶于水的，微观世界的咖啡纤维细胞壁脆片。
-Chlorogenic Acid  (CGA)绿原酸，使咖啡产生酸味和苦味。
-Quinic  奎宁
-Caffeic Acids  有机咖啡酸
-Organic Acids  有机酸
-Concentration  浓度
-Citric Acid  柠檬酸
-Malic Acid  苹果酸
-Phosphoric Acid  磷酸，只有在肯尼亚出产的咖啡中才能找到，是一种无机酸。
-Organpleptic  人体感官
-Perception  直觉
-Ripe  成熟的，变红的
-
+<div style="padding-left:2rem;padding-bottom:2rem;">
+Composition  成分<br>
+Chemical  化学的<br>
+Fines  咖啡业内术语，也是生物化学术语，指的是那些可溶于水的，微观世界的咖啡纤维细胞壁脆片。<br>
+Chlorogenic Acid  (CGA)绿原酸，使咖啡产生酸味和苦味。<br>
+Quinic  奎宁<br>
+Caffeic Acids  有机咖啡酸<br>
+Organic Acids  有机酸<br>
+Concentration  浓度<br>
+Citric Acid  柠檬酸<br>
+Malic Acid  苹果酸<br>
+Phosphoric Acid  磷酸，只有在肯尼亚出产的咖啡中才能找到，是一种无机酸。<br>
+Organpleptic  人体感官<br>
+Perception  直觉<br>
+Ripe  成熟的，变红的<br>
+</div>
 
 
 # 第五章  烘焙化学（下）
@@ -455,18 +476,17 @@ Ripe  成熟的，变红的
 事实并不像我们所听到的那样，越深烘的咖啡豆其实咖啡因含量不会减少。当某种恒定烘焙温度时咖啡因保持稳定状态，烘焙对豆子里的咖啡因含量毫无影响。烘焙使豆子的质量减少，咖啡因在豆子中所占含量比重增加。也就是说，假设当我们用相同的水粉比来冲泡不同烘焙度的咖啡豆，深烘咖啡豆萃取出来的的咖啡因含量要高于浅烘，因为深烘豆的质量要比浅烘豆轻。
 
 ## <span style="font-size:1.5rem;font-weight:normal;">本章词汇</span>
-Lipid  油脂
-Amino Acid  胺基酸
-nutty  坚果味的
-Floral  花香
-Savory  咸味
-Earthy  泥土芬芳
-Pyrolysis  热解反应
-Molecule  分子
-Reducing sugar  还原糖
-
-
-
+<div style="padding-left:2rem;padding-bottom:2rem;">
+Lipid  油脂<br>
+Amino Acid  胺基酸<br>
+nutty  坚果味的<br>
+Floral  花香<br>
+Savory  咸味<br>
+Earthy  泥土芬芳<br>
+Pyrolysis  热解反应<br>
+Molecule  分子<br>
+Reducing sugar  还原糖<br>
+</div>
 # 第六章  烘焙中的热能传递
 
 > 很多咖友们问我，何谓「因果」。
