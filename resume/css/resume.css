@@ -1,6 +1,12 @@
 #header {
+    padding: 16.5rem 0 12rem;
     background-image: url(../img/bg_h.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+#header img {
+    display: inline-block;
+    margin-left: 20%;
 }
