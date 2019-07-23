@@ -27,7 +27,7 @@ header img {
 	position: absolute;
 	top: 20px;
 	left: 30px;
-	width:60px;
+	width:300px;
 }
 
 nav {
@@ -250,7 +250,7 @@ footer small {
 
 
 .footlogo img {
-	width: 10%;
+	width: 30%;
 	margin: auto;
 }
 
