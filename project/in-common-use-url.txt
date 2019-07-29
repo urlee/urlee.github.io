@@ -27,6 +27,8 @@
 	https://v.paixin.com/
 
 	<!-- 花瓣explore系列 -->
+	https://huaban.com/liubin/
+
 	https://huaban.com/explore/coffee/
 	https://huaban.com/explore/hanfu/
 	https://huaban.com/explore/Banner/
