@@ -36,16 +36,16 @@ div.sp.fixed{
 <!--基本的な高さは6200px-->
 <iframe src="pc/bod.html" frameborder="0" width="100%" height="5800" vspace="0"></iframe>
 
-<div style="top:61px;z-index: 999;" class="sp fixed">
-<a href="https://shopping.yahoo.co.jp/coupon/ladiesfashion/c2RERWtEQ1FycVc0JmFsaSYxNTY0NDczODkw" target="_blank"><img src="pc/img/0110-2item-close.jpg" onMouseOver="this.src='pc/img/0110-2item-open.jpg';" onMouseOut="this.src='pc/img/0110-2item-close.jpg';" style="opacity: 1;"></a><br>
+<div style="top:61px;z-index: 999;" class="sp fixed" id="fixed01">
+<a href="https://shopping.yahoo.co.jp/coupon/ladiesfashion/c2RERWtEQ1FycVc0JmFsaSYxNTY0NDczODkw" target="_blank"><img src="pc/img/0110-2item-close.jpg" style="opacity: 1;"></a><br>
 </div>
 
-<div style="top:240px;z-index: 999;" class="sp fixed">
-	<a href="https://shopping.yahoo.co.jp/coupon/ladiesfashion/Y081ZzdTb2x2Q1VsJmFsaSYxNTY0NDc0MTk3" target="_blank"><img src="pc/img/0116-coupon-close.jpg" onMouseOver="this.src='pc/img/0116-coupon-open.jpg';" onMouseOut="this.src='pc/img/0116-coupon-close.jpg';" style="opacity: 1;"></a><br>
+<div style="top:240px;z-index: 999;" class="sp fixed" id="fixed02">
+	<a href="https://shopping.yahoo.co.jp/coupon/ladiesfashion/Y081ZzdTb2x2Q1VsJmFsaSYxNTY0NDc0MTk3" target="_blank"><img src="pc/img/0116-coupon-close.jpg" style="opacity: 1;"></a><br>
 </div>
 
-<div style="top:420px;z-index: 999;" class="sp fixed">
-<a href="https://shopping.yahoo.co.jp/coupon/others/Q0tXbjl1dTNmdlk2JmFsaSYxNTY0MzYyNDky" target="_blank"><img src="pc/img/0109-coupon-close.jpg" onMouseOver="this.src='pc/img/0109-coupon-open.jpg';" onMouseOut="this.src='pc/img/0109-coupon-close.jpg';" style="opacity: 1;"></a><br>
+<div style="top:420px;z-index: 999;" class="sp fixed" id="fixed03">
+<a href="https://shopping.yahoo.co.jp/coupon/others/Q0tXbjl1dTNmdlk2JmFsaSYxNTY0MzYyNDky" target="_blank"><img src="pc/img/0109-coupon-close.jpg" style="opacity: 1;"></a><br>
 </div>
 
 
@@ -53,10 +53,40 @@ div.sp.fixed{
 <div style="position:fixed;bottom:0px;left:0;width:100%;height:70px;background-color:#eee;overflow:hideen;z-index:10;">
 	<table width="100%" height="35" border="0" cellpadding="0" cellspacing="0">
 	<tr align="center" valign="middle">
-		<td><a href="event/2019spring/index.html" target="_blank">
-			<img border="0" src="event/2019spring/img/0516-ulong.jpg">
-		</a></td>
+		<td>
+			<img border="0" src="img/0516-ulong.jpg">
+		</td>
 	</tr></table>
 </div>
 </body>
+<script type="text/javascript">
+window.onload = function(){
+	var oFix01 = document.getElementById("fixed01");
+	var oFix02 = document.getElementById("fixed02");
+	var oFix03 = document.getElementById("fixed03");
+	var ofImg01 = oFix01.getElementsByTagName("img")[0];
+	var ofImg02 = oFix02.getElementsByTagName("img")[0];
+	var ofImg03 = oFix03.getElementsByTagName("img")[0];
+	oFix01.onmouseover = function(){
+		ofImg01.src = 'pc/img/0110-2item-open.jpg';
+	}
+	oFix01.onmouseout = function(){
+		ofImg01.src = 'pc/img/0110-2item-close.jpg';
+	}
+	
+	oFix02.onmouseover = function(){
+		ofImg02.src = 'pc/img/0116-coupon-open.jpg';
+	}
+	oFix02.onmouseout = function(){
+		ofImg02.src = 'pc/img/0116-coupon-close.jpg';
+	}
+	
+	oFix03.onmouseover = function(){
+		ofImg03.src = 'pc/img/0109-coupon-open.jpg';
+	}
+	oFix03.onmouseout = function(){
+		ofImg03.src = 'pc/img/0109-coupon-close.jpg';
+	}
+}
+</script>
 </html>
