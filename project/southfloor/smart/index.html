@@ -1,0 +1,486 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>southfloor</title>
+
+<!--stylesheet-->
+<link rel="stylesheet" href="css/sample/style.css">
+<link rel="stylesheet" href="css/sample/sanitize.css">
+<link rel="stylesheet" href="css/sample/jquery.mmenu.all.css">
+<link rel="stylesheet" href="css/sample/slick.css">
+<link rel="stylesheet" href="css/sample/slick-theme.css">
+<link rel="stylesheet" href="css/sample/slick-theme2.css">
+<link rel="stylesheet" href="css/sample/drawer.min.css">
+
+<!--js-->
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/iscroll-5.1.3.min.js"></script>
+<script src="js/sample/drawer.min.js"></script>
+<script src="js/sample/main.js"></script>
+<script src="js/sample/slick.min.js"></script>
+<script src="js/sample/jquery.mmenu.min.all.js"></script>
+<script src="js/sample/sp.js"></script>
+<script type="text/javascript">
+$(function($) {
+    WindowHeight = $(window).height();
+    $('.drawr').css('height', WindowHeight); //メニューをWindowの高さいっぱいにする
+    $(document).ready(function() {
+        $('.btn').click(function(){ //クリックしたら
+            $('.drawr').animate({width:'toggle'}); //animateで表示・非表示
+            $(this).toggleClass('peke'); //toggleでクラス追加・削除
+        });
+    });
+    
+    
+});
+</script>
+
+
+<style>
+/*モーダルウィンドウ*/
+
+    
+	.text_comment {
+		text-align:left;
+		line-height:1.6em;
+		font-size:14px;
+		padding:10px 20px;
+	}
+    input#modal {
+        display: none;
+    }
+
+    input#modal + label {
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 9998;
+        cursor: pointer;
+    }
+
+    input#modal + label div {
+        position: fixed;
+        width: 80%;/*基本80%*/
+        top: 25%;/*基本25%*/
+		left:10%;
+        z-index: 9999;
+        background: none;
+        border: none;
+    }
+
+    input#modal + label div::before {
+        content: "× Close";
+        font-size: 2em;
+        font-weight: bold;
+        color: #ffffff;
+        position: absolute;
+        bottom: -20%;/*基本-20%*/
+        right: 30%;
+        margin: 0 -10px 0 0;
+        cursor: pointer;
+    }
+
+    input#modal + label a {}
+
+    input#modal:checked + label {
+        display: none;
+    }
+</style>
+</head>
+<!--モーダルウィンドウ-->
+<input type="checkbox" name="modal" id="modal" />
+<label for="modal"><div><a href="https://www.rakuten.ne.jp/gold/southfloor/major/hodgepodge.html" target="_blank">
+<img border="0" src="https://www.rakuten.ne.jp/gold/southfloor/major/images/max_50off_3.jpg" width="100%">
+</a></div></label>
+
+<body class="drawer drawer--right">
+<div id="wrapper">
+
+<header>
+<div class="logo"><h1><a href="index.html" target="_blank">
+	<img src="img/logo.jpg" width="45%" alt="">
+</a></h1></div><!--/.logo-->
+<!--<h2><img src="img/img-170.gif" width="40%" alt=""></h2>-->
+
+<!--ここからが「ドロワーメニュー」です。-->
+<button type="button" class="drawer-toggle drawer-hamburger">
+  <span class="sr-only">toggle navigation</span>
+  <span class="drawer-hamburger-icon"></span>
+</button>
+
+<nav class="drawer-nav">
+  <ul class="drawer-menu">
+  <form name="seach1" target="_top" method="get" action="https://search.rakuten.co.jp/search/mall">
+<input type="hidden" value="6" name="sv">
+<input type="hidden" value="281508" name="sid">
+<input type="hidden" value="南の花" name="su">
+<input type="hidden" value="南の花" name="sn">
+<input type="hidden" value="A" name="f">
+<input type="search" class="text" name="sitem" src="https://www.rakuten.co.jp/southfloor/"  placeholder="何をお探しですか？">
+<input type="image" src="img/top/search_btn.png" width="18px" height="16px" value="検索" onClick="document.charset='EUC-JP'; document.seach1.submit();" class="search_btn">
+</form>
+    <li class="title">CATEGORY</li>
+    <a href="https://search.rakuten.co.jp/search/mall/%E3%83%88%E3%83%83%E3%83%97%E3%82%B9/?sid=281508"><li>トップス</li></a>
+    <a href="https://search.rakuten.co.jp/search/mall/%E3%83%9C%E3%83%88%E3%83%A0%E3%82%B9/?sid=281508"><li>ボトムス</li></a>
+    <a href="https://search.rakuten.co.jp/search/mall/%E3%82%A2%E3%82%A6%E3%82%BF%E3%83%BC/?sid=281508"><li>アウター</li></a>
+    <a href="https://search.rakuten.co.jp/search/mall/%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9/?sid=281508"><li>ワンピース</li></a>
+    <a href="https://search.rakuten.co.jp/search/mall/%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/?sid=281508"><li>ストール</li></a>
+    <a href="https://search.rakuten.co.jp/search/mall/%E6%B0%B4%E7%9D%80/?sid=281508"><li>水着</li></a>
+    <a href="https://search.rakuten.co.jp/search/mall/%E9%9B%A8%E5%85%B7/?sid=281508"><li class="end">雨具</li></a>
+    
+    <li class="title">EVENT</li>
+    <ul class="bnr"><!--セール-->
+		<li><a href="https://www.rakuten.ne.jp/gold/southfloor/major/hodgepodge.html"><img src="https://www.rakuten.ne.jp/gold/southfloor/major/images/max_50off_3.jpg" width="100%" ></a></li>
+    <li class="end"><a href="https://search.rakuten.co.jp/search/mall/6%E6%9C%88/?sid=281508"><img src="https://image.rakuten.co.jp/southfloor/cabinet/000000/imgrc0069065181.jpg" width="100%" alt=""></a></li>
+    <li class="end"><img src="img/top/event_305-176.jpg" width="100%" alt=""></li>
+    </ul>
+    
+    <li class="title">INFORMATION</li>
+    <a href="https://www.rakuten.co.jp/southfloor/"><li>トップページ</li></a>
+    <a href="https://www.rakuten.co.jp/southfloor/info.html"><li>会社概要</li></a>
+    <a href="https://review.rakuten.co.jp/shop/4/281508_281508/1.1/?l2-id=review_PC_il_iteminfo_07"><li>ストアレビュ</li></a>
+    <a href="https://www.rakuten.co.jp/southfloor/news.html"><li>お買い物かごを見る</li></a>
+    <a href="https://www.rakuten.co.jp/" target="_blank"><li class="end">楽天市場トップページ</li></a>
+  </ul>
+</nav>
+
+<div class="freeshipping">
+<img src="img/top/freeshipping-.jpg" width="100%" alt="">
+</div><!--/.freeshipping-->
+
+<nav id="gmenu">
+<table cellpadding="0" cellspacing="0">
+<tr>
+<td><a href="https://search.rakuten.co.jp/search/mall/%E7%9F%AD%E7%B4%8D%E6%9C%9F/?sid=281508"><img src="img/top/gmenu_newre.jpg" width="100%" alt=""></a></td>
+<td class="middle"><a href="https://search.rakuten.co.jp/search/mall/?s=4&sid=281508"><img src="img/top/gmenu_category.jpg" width="100%" alt=""></a></td>
+<td class="middle"><a href="#ranking_area"><img src="img/top/gmenu_ranking.jpg" width="100%" alt=""></a></td>
+<td class="middle"><a href="https://search.rakuten.co.jp/search/mall/%E9%80%81%E6%96%99%E7%84%A1%E6%96%99/?sid=281508"><img src="img/top/gmenu_sale.jpg" width="100%" alt=""></a></td>
+</tr>
+</table>
+</nav><!--/#gmenu-->
+</header>
+
+
+<div id="search_area" class="clearfix">
+<form name="seach1" target="_top" method="get" action="https://search.rakuten.co.jp/search/mall">
+<input type="hidden" value="6" name="sv">
+<input type="hidden" value="281508" name="sid">
+<input type="hidden" value="南の花" name="su">
+<input type="hidden" value="南の花" name="sn">
+<input type="hidden" value="A" name="f">
+<input type="search" class="text" name="sitem" src="https://www.rakuten.co.jp/southfloor/"  placeholder="何をお探しですか？">
+<input type="image" src="img/top/search_btn.png" width="18px" height="16px" value="検索" onClick="document.charset='EUC-JP'; document.seach1.submit();" class="search_btn">
+</form>
+
+<div class="hotword">
+<h3><img src="img/top/titles_hotword.png" alt="HOT WORD" width="100%"></h3>
+<div class="keyword"><ul>
+	<li><a target="_blank" href="https://item.rakuten.co.jp/southfloor/c/0000000369/">ドレス</a></li>
+	<li><a target="_blank" href="https://search.rakuten.co.jp/search/mall/%E3%83%8B%E3%83%83%E3%83%88/?sid=281508">ニット</a></li>
+	<li><a target="_blank" href="https://search.rakuten.co.jp/search/mall/%E3%83%87%E3%83%8B%E3%83%A0/?sid=281508">デニム</a></li>
+	<li><a target="_blank" href="https://search.rakuten.co.jp/search/mall/%E3%83%88%E3%83%AC%E3%83%B3%E3%83%81%E3%82%B3%E3%83%BC%E3%83%88/?sid=281508">トレンチコート</a></li>
+	<li><a target="_blank" href="https://search.rakuten.co.jp/search/mall/%E7%9F%AD%E7%B4%8D%E6%9C%9F/?sid=281508">即納</a></li>
+	<li><a target="_blank" href="https://search.rakuten.co.jp/search/mall/%E3%82%B9%E3%82%AB%E3%83%BC%E3%83%88/?sid=281508">スカート</a></li>
+	<li><a target="_blank" href="https://search.rakuten.co.jp/search/mall/%E3%82%AB%E3%83%90%E3%83%B3/?sid=281508">カバン</a></li>
+	<li><a target="_blank" href="https://search.rakuten.co.jp/search/mall/%E3%82%AD%E3%83%83%E3%82%BA/?sid=281508">キッズ</a></li>
+	<li><a target="_blank" href="https://search.rakuten.co.jp/search/mall/%E9%9D%B4/?sid=281508">靴</a></li>
+</ul></div>
+
+</div>
+</div><!--/#search-->
+
+<div id="bnr_slide_area"><h3><ul id="key_visual_mini">
+<li><a href="https://item.rakuten.co.jp/southfloor/t09507000x480/"><img src="img/slider_05.jpg"></a></li>
+<li><a href="https://item.rakuten.co.jp/southfloor/t09507000hu50/"><img src="img/slider_06.jpg"></a></li>
+<li><a href="https://item.rakuten.co.jp/southfloor/t095070004a30/"><img src="img/slider_07.jpg"></a></li>
+<li><a href="https://item.rakuten.co.jp/southfloor/t095070001360/"><img src="img/slider_08.jpg"></a></li>
+<li><a href="https://item.rakuten.co.jp/southfloor/tsl09xf17mar02/"><img src="img/slider_09.jpg"></a></li>
+<li><a href="https://item.rakuten.co.jp/southfloor/t09507000jf80/"><img src="img/slider_10.jpg"></a></li>
+</ul></h3></div><!--/#bnr_slide_area-->
+
+
+<!--coupon start-->
+
+<!--
+<a target="_top" href="">
+	<img width="100%" src="" />
+</a><table height="20"></table>
+-->
+
+
+<!--/ coupon end-->
+
+
+<div class="bnr">
+	<a href="https://www.rakuten.ne.jp/gold/southfloor/major/hodgepodge.html">
+		<img src="https://www.rakuten.ne.jp/gold/southfloor/major/images/max_50off_3.jpg"/>
+	</a><br /><br />
+	<table border="0" cellspacing="0" cellpadding="0" width="100%">
+		<tr>
+			<td width="50%"><a href="https://item.rakuten.co.jp/southfloor/t19507000jn40/">
+				<img src="https://image.rakuten.co.jp/southfloor/cabinet/zhsj52/t19507000jn40.jpg"/>
+			</a></td>
+			<td width="50%"><a href="https://item.rakuten.co.jp/southfloor/ts79ds17mar17/">
+				<img src="https://image.rakuten.co.jp/southfloor/cabinet/bcsj314/ts79ds17mar17.jpg"/>
+			</a></td>
+		</tr>
+		<tr>
+			<td width="50%"><a href="https://item.rakuten.co.jp/southfloor/t09507000et80/">
+				<img src="img/slider_03.jpg"/>
+			</a></td>
+			<td width="50%"><a href="https://item.rakuten.co.jp/southfloor/t09507000qz90/">
+				<img src="https://image.rakuten.co.jp/southfloor/cabinet/t0950741/t09507000qz90.jpg"/>
+			</a></td>
+		</tr>
+	</table>
+</div>
+<div id="ranking_area">
+<h3><img src="img/top/titles_ranking.png" alt="ranking" width="100%"></h3>
+<ul>
+<!--1位-->
+<li><a href="http://item.rakuten.co.jp/southfloor/t095070005350/">
+<img src="img/top/rank1.png" alt="第1位" width="50%" class="number">
+<img src="https://image.rakuten.co.jp/southfloor/cabinet/t09507721/0.jpg" width="100%"></a></li>
+
+<!--2位-->
+<li><a href="https://item.rakuten.co.jp/southfloor/t09507000hu50/?s-id=rk_shop_pc_rnkInShop">
+<img src="img/top/rank2.png" alt="第2位" width="50%" class="number">
+<img src="https://tshop.r10s.jp/southfloor/cabinet/t09507620/t09507000hu50.jpg" width="100%"></a></li>
+
+<!--3位-->
+<li><a href="https://item.rakuten.co.jp/southfloor/t19507000jn40/">
+<img src="img/top/rank3.png" alt="第3位" width="50%" class="number">
+<img src="https://image.rakuten.co.jp/southfloor/cabinet/zhsj52/t19507000jn40.jpg" width="100%"></a></li>
+</ul>
+
+<ul class="second">
+<!--4位-->
+<li><a href="https://item.rakuten.co.jp/southfloor/tk09bkn17feb10/">
+<img src="img/top/rank4.png" alt="第4位" width="50%" class="number">
+<img src="https://image.rakuten.co.jp/southfloor/cabinet/zhsj224/tk09bkn17feb10.jpg" width="100%"></a></li>
+
+<!--5位-->
+<li><a href="https://item.rakuten.co.jp/southfloor/t195070005q50/">
+<img src="img/top/rank5.png" alt="第5位" width="50%" class="number">
+<img src="https://image.rakuten.co.jp/southfloor/cabinet/t195071886/t195070005q50.jpg" width="100%"></a></li>
+
+<!--6位-->
+<li><a href="https://item.rakuten.co.jp/southfloor/tl16md17feb16/">
+<img src="img/top/rank6.png" alt="第6位" width="50%" class="number">
+<img src="https://image.rakuten.co.jp/southfloor/cabinet/tl16md17feb0222/tl16md17feb16.jpg" width="100%"></a></li>
+</ul>
+</div><!--/#ranking_area-->
+
+
+<div id="newitem_area">
+
+<!--<h4 class="second">3/5(火) 再入荷！</h4>-->
+<h3><img src="img/top/reallaival.gif" width="100%" alt="newarraival"></h3>
+<table width="100%">
+<tr>
+<td width="30%"><a href="https://item.rakuten.co.jp/southfloor/t09507000w450/"><img src="https://image.rakuten.co.jp/southfloor/cabinet/zhsj1868/t09507000w450.jpg" width="100%"></a></td>
+<td width="30%"><a href="https://item.rakuten.co.jp/southfloor/t095070004a30/"><img src="https://image.rakuten.co.jp/southfloor/cabinet/zhsj18213/t095070004a30.jpg" width="100%"></a></td>
+<td width="30%"><a href="https://item.rakuten.co.jp/southfloor/t09507000is40/"><img src="https://image.rakuten.co.jp/southfloor/cabinet/zhsj402/0.jpg" width="100%"></a></td>
+</tr><tr>
+<td width="30%"><a href="https://item.rakuten.co.jp/southfloor/t19507000jn40/"><img src="https://image.rakuten.co.jp/southfloor/cabinet/zhsj52/t19507000jn40.jpg" width="100%"></a></td>
+<td width="30%"><a href="https://item.rakuten.co.jp/southfloor/tl16md17feb02/"><img src="https://image.rakuten.co.jp/southfloor/cabinet/tl16md17feb0222/tl16md17feb02.jpg" width="100%"></a></td>
+<td width="30%"><a href="https://item.rakuten.co.jp/southfloor/tl16md17feb16/"><img src="https://image.rakuten.co.jp/southfloor/cabinet/tl16md17feb0222/tl16md17feb16.jpg" width="100%"></a></td>
+</tr><tr>
+<td width="30%"><a href="https://item.rakuten.co.jp/southfloor/t09507000hu50/"><img src="https://image.rakuten.co.jp/southfloor/cabinet/t09507620/t09507000hu50.jpg" width="100%"></a></td>
+<td width="30%"><a href="https://item.rakuten.co.jp/southfloor/t09507000dv40/"><img src="https://image.rakuten.co.jp/southfloor/cabinet/t09507521/t09507000dv40.jpg" width="100%"></a></td>
+<td width="30%"><a href="https://item.rakuten.co.jp/southfloor/t095070005350/"><img src="https://image.rakuten.co.jp/southfloor/cabinet/t09507721/0.jpg" width="100%"></a></td>
+</tr>
+</table>
+<!--<h5><a href="javascript:;" target="_blank">新作・再入荷商品をもっと見る＞＞</a></h5>--><br /><br />
+
+
+<!--<h4 class="second">3/4(月) 販売開始！</h4>-->
+<h3><img src="img/top/newarraival.gif" width="100%" alt="newarraival"></h3>
+<table width="100%">
+<tr>
+<td width="30%"><a href="https://item.rakuten.co.jp/southfloor/t19507000p490/"><img src="https://image.rakuten.co.jp/southfloor/cabinet/t19507312/t19507000p490.jpg" width="100%"></a></td>
+<td width="30%"><a href="https://item.rakuten.co.jp/southfloor/t095070003h90/"><img src="https://image.rakuten.co.jp/southfloor/cabinet/t0950734/3h90.jpg" width="100%"></a></td>
+<td width="30%"><a href="https://item.rakuten.co.jp/southfloor/t095070003ja0/"><img src="https://image.rakuten.co.jp/southfloor/cabinet/t0950749/t095070003ja0.jpg" width="100%"></a></td>
+</tr><tr>
+<td width="30%"><a href="https://item.rakuten.co.jp/southfloor/t095070008ja0/"><img src="https://image.rakuten.co.jp/southfloor/cabinet/t0950749/0.jpg" width="100%"></a></td>
+<td width="30%"><a href="https://item.rakuten.co.jp/southfloor/t19507000u490/"><img src="https://image.rakuten.co.jp/southfloor/cabinet/t19507312/t19507000u490.jpg" width="100%"></a></td>
+<td width="30%"><a href="https://item.rakuten.co.jp/southfloor/t09507000y480/"><img src="https://image.rakuten.co.jp/southfloor/cabinet/t095071218/0.jpg" width="100%"></a></td>
+</tr><tr>
+<td width="30%"><a href="https://item.rakuten.co.jp/southfloor/t09507000x480/"><img src="https://image.rakuten.co.jp/southfloor/cabinet/t095071218/t09507000x480.jpg" width="100%"></a></td>
+<td width="30%"><a href="https://item.rakuten.co.jp/southfloor/t19507000e6b0/"><img src="https://image.rakuten.co.jp/southfloor/cabinet/spb529/t19507000e6b0.jpg" width="100%"></a></td>
+<td width="30%"><a href="https://item.rakuten.co.jp/southfloor/t09507000yjb0/"><img src="https://image.rakuten.co.jp/southfloor/cabinet/spb529/t09507000yjb0.jpg" width="100%"></a></td>
+</tr>
+</table>
+<!--<h5><a href="javascript:;" target="_blank">新作・再入荷商品をもっと見る＞＞</a></h5>-->
+
+<div class="bnr">
+	<a href="https://search.rakuten.co.jp/search/mall/t%E3%82%B7%E3%83%A3%E3%83%84/?sid=281508">
+		<img src="img/supersale_02.jpg" alt="" />
+	</a><br /><br />
+	<a href="https://item.rakuten.co.jp/southfloor/c/0000000433/">
+		<img src="img/supersale_03.jpg" alt="" />
+	</a><br /><br />
+	<a href="https://search.rakuten.co.jp/search/mall/%E6%98%A5/?s=4&sid=281508">
+		<img src="img/supersale_04.jpg" alt="" />
+	</a>
+</div>
+</div><!--/#newitem_area-->
+
+<div id="category_area">
+<h3><img src="img/top/titles_category.png" alt="カテゴリー" width="100%"></h3>
+<ul>
+<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000697/"><img src="img/category_01.jpg" width="100%" alt=""></a></li>
+<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000190/"><img src="img/category_02.jpg" width="100%" alt=""></a></li>
+<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000145/"><img src="img/category_03.jpg" width="100%" alt=""></a></li>
+<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000362/"><img src="img/category_04.jpg" width="100%" alt=""></a></li>
+<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000369/"><img src="img/category_05.jpg" width="100%" alt=""></a></li>
+<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000116/"><img src="img/category_06.jpg" width="100%" alt=""></a></li>
+<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000646/"><img src="img/category_07.jpg" width="100%" alt=""></a></li>
+<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000548/"><img src="img/category_08.jpg" width="100%" alt=""></a></li>
+<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000435/"><img src="img/category_09.jpg" width="100%" alt=""></a></li>
+<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000242/"><img src="img/category_10.jpg" width="100%" alt=""></a></li>
+</ul>
+
+</div><!--/#category_area-->
+
+<div class="section" id="category">
+<dl class="accordion">
+<dt>＞＞アウター</dt>
+<dd><ul class="accordion_list">
+	<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000433/" target="_top">アウターをすべて見る　</a></li>
+  <li><a href="https://item.rakuten.co.jp/southfloor/c/0000000669/" target="_top">ダウン</a></li>
+	<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000450/" target="_top">ジャケット</a></li>        
+</ul></dd>
+</dl>
+
+<dl class="accordion">
+<dt>＞＞トップス</dt>
+<dd><ul class="accordion_list">
+	<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000396/" target="_top">トップスをすべて見る</a></li>
+	<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000398/" target="_top">Tシャツ</a></li>
+	<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000399/" target="_top">ブラウス </a></li>
+	<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000416/" target="_top">カーディガン </a></li>
+	<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000400/" target="_top">セーター・ニット</a></li>
+	<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000334/" target="_top">  ペアルック</a></li>
+	<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000548/" target="_top">セットアップ </a></li>
+	<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000673/" target="_top">シャツ</a></li>
+	<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000694/" target="_top">パーカー </a></li>
+</ul></dd>
+</dl>
+
+<dl class="accordion">
+<dt>＞＞ボトムス</dt>
+<dd><ul class="accordion_list">
+	<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000145/" target="_top">ボトムスをすべて見る</a></li>
+	<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000566/" target="_top"> ワイドパンツ</a></li>
+	<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000303/" target="_top"> デニム・ジーパン</a></li>
+	<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000116/" target="_top">スカート</a></li>
+	<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000679/" target="_top">サロペット</a></li>
+	<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000689/" target="_top">レギンス</a></li>
+</ul></dd>
+</dl>
+
+<dl class="accordion">
+<dt>＞＞キッズ</dt>
+<dd><ul class="accordion_list">
+	<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000242/" target="_top"> キッズをすべて見る </a></li>
+	<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000265/" target="_top">   水着 </a></li>
+	<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000302/" target="_top">    親子ペア</a></li>
+	<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000645/" target="_top">演出服</a></li>
+	<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000646/" target="_top">リュックサック</a></li>
+	<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000654/" target="_top">オールインワン</a></li>
+	<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000659/" target="_top">ワンピース</a></li>
+	<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000711/" target="_top"> ベビーキャリア</a></li>
+</ul></dd>
+</dl>
+
+<dl class="accordion">
+<dt>＞＞シューズ</dt>
+<dd><ul class="accordion_list">
+	<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000118/" target="_top"> シューズをすべて見る</a></li>
+</ul></dd>
+</dl>
+
+<dl class="accordion">
+<dt>＞＞水着</dt>
+<dd><ul class="accordion_list">
+	<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000672/" target="_top">水着をすべて見る</a></li>
+</ul></dd>
+</dl>
+
+<dl class="accordion">
+<dt>＞＞ファション小物</dt>
+<dd><ul class="accordion_list">
+	<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000121/" target="_top">ファション小物をすべて見る</a></li>
+	<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000363/" target="_top"> パソコンカバン</a></li>
+	<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000713/" target="_top">カゴバッグ</a></li>
+	<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000685/" target="_top">ストール</a></li>
+	<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000678/" target="_top"> 傘</a></li>
+</ul></dd>
+</dl>
+
+<dl class="accordion">
+<dt>＞＞その他</dt>
+<dd><ul class="accordion_list">
+	<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000391/" target="_top">雨具</a></li>
+	<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000529/" target="_top"> チャイナドレス</a></li>
+	<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000327/" target="_top"> ルームウェア </a></li>
+	<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000676/" target="_top">マタニティズボン</a></li>
+	<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000716/" target="_top"> マタニティウェア</a></li>
+	<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000693/" target="_top"> インナー </a></li>
+</ul></dd>
+</dl>
+
+<dl class="accordion">
+<dt>＞＞ワンピース</dt>
+<dd><ul class="accordion_list">
+	<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000190/" target="_top">ワンピースを全て見る</a></li>
+</ul></dd>
+</dl>
+
+<dl class="accordion">
+<dt>＞＞マタニティ</dt>
+<dd><ul class="accordion_list">
+	<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000676/" target="_top">マタニティズボン</a></li>
+	<li><a href="https://item.rakuten.co.jp/southfloor/c/0000000716/" target="_top">マタニティウェア</a></li>
+</ul></dd>
+</dl>
+
+</div><!--/.#category-->
+
+
+<div id="information_area">
+<h3><img src="img/top/titles_information.png" alt="" width="100%"></h3>
+
+<!--<h5>お買い物前に・・・</h5>
+<ul>
+<li><a href="javascript:;">■送料について</a></li>
+<li><a href="javascript:;">■お支払いについて</a></li>
+<li><a href="javascript:;">■お届けまでの期間について</a></li>
+</ul>
+
+<div class="after"><h5>お買い物後に・・・</h5>
+<ul>
+<li><a href="javascript:;">■返品・交換について</a></li>
+<li><a href="javascript:;">■キャンセルについて</a></li>
+</ul>
+</div>-->
+
+
+</div><!--/#information_area-->
+<script type="text/javascript">
+$(function(){
+	$("#information_area").load("footer.html");
+})
+</script>
+
+</div><!--/#wrapper-->
+</body>
+</html>
