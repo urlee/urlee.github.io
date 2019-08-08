@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=yes">
+<title>southfloor</title>
+<!--meta-->
+<meta name="description" content=""> 
+<meta name="keyword" content="">
+<!--stylesheet-->
+<link rel="stylesheet" href="css/Xmas.css" />
+<link rel="stylesheet" href="css/Xmasheader.css" />
+<link rel="stylesheet" href="css/Xmasfooter.css" />
+<!--js-->
+<script src="js/jquery.1.7.1.min.js"></script>
+<script src="js/jquery.lazyload.js"></script>
+<script>
+// Lazy Loadを起動する
+$( function()
+{
+	$( 'img.lazy' ).lazyload(
+	
+	{
+	effect: "fadeIn",		// じわじわっと表示させる
+}
+	
+	
+	) ;
+} ) ;
+</script>
+<script>
+<!-- スムーズスクロール部分の記述 -->
+$(function() {
+        $('.pageTop').click(function(){
+            var position = $('html',parent.document).offset().top;
+            $("html, body",parent.document).animate({scrollTop:position},1800, "swing");
+//            $('html, body',parent.document).animate({ scrollTop: 0 }, 500);
+        });
+    });
+</script>
+<script>
+<!-- 文字カット -->
+$(function(){
+    var $setElm = $('.itemlist ul li a p');
+    var cutFigure = '10'; // カットする文字数
+    var afterTxt = ' ...'; // 文字カット後に表示するテキスト
+ 
+    $setElm.each(function(){
+        var textLength = $(this).text().length;
+        var textTrim = $(this).text().substr(0,(cutFigure))
+ 
+        if(cutFigure < textLength) {
+            $(this).html(textTrim + afterTxt).css({visibility:'visible'});
+        } else if(cutFigure >= textLength) {
+            $(this).css({visibility:'visible'});
+        }
+    });
+});
+</script>
+
+</head>
+
+<body>
+<a href="https://www.rakuten.ne.jp/gold/southfloor/pages/pageXmas.html" target="_blank" style="position: fixed;right: 0; top: 50%; margin-top: -290px;">
+	<img src="https://www.rakuten.ne.jp/gold/southfloor/pages/img/xmas/xmax_sidebnr.jpg" alt="" />
+</a>
+<div class="head"><div class="wrapper">
+	<div class="head_logo"><a href="https://www.rakuten.ne.jp/gold/southfloor/" target="_top">
+		<img src="https://image.rakuten.co.jp/southfloor/cabinet/zytp64/nhlogo03.jpg">
+	</a></div>
+	<div class="deli_bnr"><a href="#" target="_top">
+		<img src="https://image.rakuten.co.jp/southfloor/cabinet/zytp64/nhzhuyeban7_7.jpg">
+	</a></div>
+	<div class="deli_star"><a href="https://review.rakuten.co.jp/rd/0_281508_281508_0/" target="_blank">
+		<img src="https://image.rakuten.co.jp/southfloor/cabinet/zytp64/nhzhuyeban7_5.jpg">
+	</a></div>
+</div></div>
+<div class="wrapper"><ul class="info">
+	<li><a href="https://www.rakuten.co.jp/southfloor/info.html" target="_top">会社概要</a>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+	<li><a href="https://www.rakuten.co.jp/southfloor/" target="_top">Top</a>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+	<li><a href="https://www.rakuten.ne.jp/gold/southfloor/main-pc/detail/detail4.html" target="_top">返品・交換について</a>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+	<li><a href="https://www.rakuten.co.jp/southfloor/news.html" target="_top">お買い物カゴ</a>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+	<li><a href="https://review.rakuten.co.jp/shop/4/281508_281508/1.1/?l2-id=review_PC_il_iteminfo_07" target="_top">ストアレビュ</a>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+</ul></div>
+<div id="search_area"><div class="wrapper">
+	<div id="backblock">
+		<form id="search_box" class="clearfix" name="form" action="https://search.rakuten.co.jp/search/mall" method="get" target="_top">
+			<input type="hidden" name="sv" value="6">
+			<input type="hidden" name="sid" value="281508">
+			<input type="hidden" name="su" value="281508">
+			<input type="hidden" name="sn" value="南の花">
+			<span><input type="text" name="sitem" id="textarea"></span>
+			<input type="hidden" name="f" value="A">
+			<input type="submit" value="" id="submit">
+		</form>
+	</div>
+	<ul>
+		<li><a target="_blank" href="https://search.rakuten.co.jp/search/mall/%E3%83%80%E3%82%A6%E3%83%B3%E3%82%B3%E3%83%BC%E3%83%88/?sid=281508">ダウンコート</a></li>
+		<li><a target="_blank" href="https://search.rakuten.co.jp/search/mall/%E3%83%8B%E3%83%83%E3%83%88/?sid=281508">ニット</a></li>
+		<li><a target="_blank" href="https://search.rakuten.co.jp/search/mall/%E3%83%87%E3%83%8B%E3%83%A0/?sid=281508">デニム</a></li>
+		<li><a target="_blank" href="https://search.rakuten.co.jp/search/mall/%E3%83%88%E3%83%AC%E3%83%B3%E3%83%81%E3%82%B3%E3%83%BC%E3%83%88/?sid=281508">トレンチコート</a></li>
+		<li><a target="_blank" href="https://search.rakuten.co.jp/search/mall/%E3%83%8F%E3%83%AD/?sid=281508">ハロウィン</a></li>
+		<li><a target="_blank" href="https://search.rakuten.co.jp/search/mall/%E3%82%B9%E3%82%AB%E3%83%BC%E3%83%88/?sid=281508">スカート</a></li>
+		<li><a target="_blank" href="https://search.rakuten.co.jp/search/mall/%E3%82%AB%E3%83%90%E3%83%B3/?sid=281508">カバン</a></li>
+		<li><a target="_blank" href="https://search.rakuten.co.jp/search/mall/%E3%82%AD%E3%83%83%E3%82%BA/?sid=281508">キッズ</a></li>
+		<li><a target="_blank" href="https://search.rakuten.co.jp/search/mall/%E9%9D%B4/?sid=281508">靴</a></li>
+	</ul>
+</div></div>
+
+
+<div id="wrapper">
+<a href="javascript:;" target="_blank">
+	<img src="img/xmas/banner_xmas.jpg" width="100%" alt="" />
+</a>
+<p align="center" style="font-size: 24px;">今年のクリスマスは準備が始まりますか？クリスマス用品をいっぱいを紹介♪</p>
+<div class="itemlist" style="margin-top: 0;"><ul>
+	<li><a href="#cate01" target="_top">
+		<img class="lazy" data-original="img/xmas/xmas_cate_01.jpg" alt="" />
+	</a></li>
+	<li><a href="#cate03" target="_top">
+		<img class="lazy" data-original="img/xmas/xmas_cate_02.jpg" alt="" />
+	</a></li>
+	<li><a href="#cate02" target="_top">
+		<img class="lazy" data-original="img/xmas/xmas_cate_03.jpg" alt="" />
+	</a></li>
+</ul></div><br /><br /><br />
+<a href="https://coupon.rakuten.co.jp/getCoupon?getkey=TUEzRS1aNUVFLUhWSlktOVlNTQ--&rt=" target="_blank">
+	<img src="img/xmas/xmas_coupon.jpg" alt="" />
+</a>
+<!--1group start-->
+<div class="itemlist" style="margin-top: 50px;">
+<!--<h3>10/9(火) 再入荷!!</h3>-->
+<h4><a id="cate01">
+	<img class="lazy" data-original="img/xmas/xmas_ttl_01.jpg" width="100%" alt="">
+</a></h4>
+<ul>
+<li style="width: 474px;"><a href="https://item.rakuten.co.jp/southfloor/tc09xmat14nov02/" target="_blank">
+	<img class="lazy" data-original="https://shop.r10s.jp/southfloor/cabinet/sdkc1101/tc09xmat14nov02.jpg" width="100%" alt="">
+</a></li>
+<li style="width: 474px;"><a href="https://item.rakuten.co.jp/southfloor/tc09xmat18oct01/" target="_blank">
+	<img class="lazy" data-original="https://image.rakuten.co.jp/southfloor/cabinet/sdkc1101/tc09xmat18oct01.jpg" width="100%" alt="">
+</a></li>
+
+</ul></div>
+<div class="itemlist">
+<h4><a id="cate02">
+	<img class="lazy" data-original="img/xmas/xmas_ttl_02.jpg" width="100%" alt="">
+</a></h4>
+<ul>
+<li><a href="https://item.rakuten.co.jp/southfloor/tsl09sd18oct23/" target="_blank">
+	<img class="lazy" data-original="https://image.rakuten.co.jp/southfloor/cabinet/sdkc1027/tsl09sd18oct23.jpg" width="100%" alt="">
+</a></li>
+<li><a href="https://item.rakuten.co.jp/southfloor/tsl09sd18oct24/" target="_blank">
+	<img class="lazy" data-original="https://image.rakuten.co.jp/southfloor/cabinet/sdkc1027/tsl09sd18oct24.jpg" width="100%" alt="">
+</a></li>
+<li><a href="https://item.rakuten.co.jp/southfloor/tsl09sd18oct22/" target="_blank">
+	<img class="lazy" data-original="https://image.rakuten.co.jp/southfloor/cabinet/sdkc1027/tsl09sd18oct22.jpg" width="100%" alt="">
+</a></li>
+<li><a href="https://item.rakuten.co.jp/southfloor/tsl09sd18oct21/" target="_blank">
+	<img class="lazy" data-original="https://image.rakuten.co.jp/southfloor/cabinet/sdkc1027/tsl09sd18oct21.jpg" width="100%" alt="">
+</a></li>
+<li><a href="https://item.rakuten.co.jp/southfloor/tsl09sd18oct20/" target="_blank">
+	<img class="lazy" data-original="https://image.rakuten.co.jp/southfloor/cabinet/sdkc1027/tsl09sd18oct20.jpg" width="100%" alt="">
+</a></li>
+<li><a href="https://item.rakuten.co.jp/southfloor/tc25kxma14otc08/" target="_blank">
+	<img class="lazy" data-original="https://image.rakuten.co.jp/southfloor/cabinet/sdkc1108/tc25kxma14otc08.jpg" width="100%" alt="">
+</a></li>
+<li><a href="https://item.rakuten.co.jp/southfloor/tc27kxma14otc14/" target="_blank">
+	<img class="lazy" data-original="https://image.rakuten.co.jp/southfloor/cabinet/sdkc1027/tc27kxma14otc14.jpg" width="100%" alt="">
+</a></li>
+<li><a href="https://item.rakuten.co.jp/southfloor/tsl09hw18aug57/" target="_blank">
+	<img class="lazy" data-original="https://image.rakuten.co.jp/southfloor/cabinet/tsl09hw18/tsl09hw18aug57.jpg" width="100%" alt="">
+</a></li>
+<li><a href="https://item.rakuten.co.jp/southfloor/tsl09hw18aug01/" target="_blank">
+	<img class="lazy" data-original="https://image.rakuten.co.jp/southfloor/cabinet/sdkc1108/tsl09hw18aug01.jpg" width="100%" alt="">
+</a></li>
+</ul>
+</div>
+
+
+<!--1group start-->
+<div class="itemlist">
+<!--<h3>10/05(金) 販売開始!!</h3>-->
+<h4><a id="cate03">
+	<img class="lazy" data-original="img/xmas/xmas_ttl_03.jpg" width="100%" alt="">
+</a></h4>
+<ul>
+<li><a href="https://item.rakuten.co.jp/southfloor/ytchw093092514/" target="_blank">
+	<img class="lazy" data-original="https://image.rakuten.co.jp/southfloor/cabinet/sdkc1027/ytchw093092514.jpg" width="100%" alt="">
+</a></li>
+<li><a href="https://item.rakuten.co.jp/southfloor/tsl09sd18oct17/" target="_blank">
+	<img class="lazy" data-original="https://image.rakuten.co.jp/southfloor/cabinet/sdkc1027/tsl09sd18oct17.jpg" width="100%" alt="">
+</a></li>
+<li><a href="https://item.rakuten.co.jp/southfloor/tsl09sd18oct14/" target="_blank">
+	<img class="lazy" data-original="https://image.rakuten.co.jp/southfloor/cabinet/sdkc1027/tsl09sd18oct14.jpg" width="100%" alt="">
+</a></li>
+<li><a href="https://item.rakuten.co.jp/southfloor/tsl09sd18oct15/" target="_blank">
+	<img class="lazy" data-original="https://image.rakuten.co.jp/southfloor/cabinet/sdkc1027/tsl09sd18oct15.jpg" width="100%" alt="">
+</a></li>
+<li><a href="https://item.rakuten.co.jp/southfloor/tsl09sd18oct13/" target="_blank">
+	<img class="lazy" data-original="https://image.rakuten.co.jp/southfloor/cabinet/sdkc1027/tsl09sd18oct13.jpg" width="100%" alt="">
+</a></li>
+<li><a href="https://item.rakuten.co.jp/southfloor/tsl09sd18oct05/" target="_blank">
+	<img class="lazy" data-original="https://image.rakuten.co.jp/southfloor/cabinet/sdkc1027/tsl09sd18oct05.jpg" width="100%" alt="">
+</a></li>
+<li><a href="https://item.rakuten.co.jp/southfloor/tsl09sd18oct02/" target="_blank">
+	<img class="lazy" data-original="https://image.rakuten.co.jp/southfloor/cabinet/sdkc1027/tsl09sd18oct02.jpg" width="100%" alt="">
+</a></li>
+<li><a href="https://item.rakuten.co.jp/southfloor/tsl09sd18oct19/" target="_blank">
+	<img class="lazy" data-original="https://image.rakuten.co.jp/southfloor/cabinet/sdkc1027/tsl09sd18oct19.jpg" width="100%" alt="">
+</a></li>
+<li><a href="https://item.rakuten.co.jp/southfloor/tsl09sd18oct10/" target="_blank">
+	<img class="lazy" data-original="https://image.rakuten.co.jp/southfloor/cabinet/sdkc1027/tsl09sd18oct10.jpg" width="100%" alt="">
+</a></li>
+<li><a href="https://item.rakuten.co.jp/southfloor/tsl09sd18oct18/" target="_blank">
+	<img class="lazy" data-original="https://image.rakuten.co.jp/southfloor/cabinet/sdkc1027/tsl09sd18oct18.jpg" width="100%" alt="">
+</a></li>
+<li><a href="https://item.rakuten.co.jp/southfloor/tc02xmaa14oct31/" target="_blank">
+	<img class="lazy" data-original="https://image.rakuten.co.jp/southfloor/cabinet/sdkc1027/tc02xmaa14oct31.jpg" width="100%" alt="">
+</a></li>
+<li><a href="https://item.rakuten.co.jp/southfloor/tc31xmsc14oct25/" target="_blank">
+	<img class="lazy" data-original="https://image.rakuten.co.jp/southfloor/cabinet/sdkc1108/tc31xmsc14oct25.jpg" width="100%" alt="">
+</a></li>
+<li><a href="https://item.rakuten.co.jp/southfloor/ytmc0931104/" target="_blank">
+	<img class="lazy" data-original="https://image.rakuten.co.jp/southfloor/cabinet/sdkc1108/ytmc0931104.jpg" width="100%" alt="">
+</a></li>
+<li><a href="https://item.rakuten.co.jp/southfloor/tsl09sd18oct03/" target="_blank">
+	<img class="lazy" data-original="https://image.rakuten.co.jp/southfloor/cabinet/sdkc1027/tsl09sd18oct03.jpg" width="100%" alt="">
+</a></li>
+<li><a href="https://item.rakuten.co.jp/southfloor/tsl09sd18oct01/" target="_blank">
+	<img class="lazy" data-original="https://image.rakuten.co.jp/southfloor/cabinet/sdkc1027/tsl09sd18oct01.jpg" width="100%" alt="">
+</a></li>
+</ul>
+</div>
+
+
+<!--1group start-->
+<div class="itemlist">
+<!--<h3>10/2(火) 再入荷!!</h3>-->
+<h4><img class="lazy" data-original="img/xmas/xmas_ttl_04.jpg" width="100%" alt="再入荷アイテム"></h4>
+<ul>
+<li><a href="https://search.rakuten.co.jp/search/mall/%E3%83%80%E3%82%A6%E3%83%B3%E3%82%B3%E3%83%BC%E3%83%88/?sid=281508" target="_blank">
+	<img class="lazy" data-original="img/xmas/xmas_specials_01.jpg" width="100%" alt="">
+</a></li>
+<li><a href="https://search.rakuten.co.jp/search/mall/%E3%83%8B%E3%83%83%E3%83%88/?sid=281508" target="_blank">
+	<img class="lazy" data-original="img/xmas/xmas_specials_02.jpg" width="100%" alt="">
+</a></li>
+<li><a href="https://www.rakuten.ne.jp/gold/southfloor/pages/newarrival.html" target="_blank">
+	<img class="lazy" data-original="img/xmas/xmas_specials_03.jpg" width="100%" alt="">
+</a></li>
+</ul>
+</div>
+
+
+<a class="pageTop">↑</a>
+
+</div><!--/#copy-->
+</div><!--/#wrapper-->
+<div class="footer-wrapper">
+	<div class="ttl">
+		<img src="https://www.rakuten.ne.jp/gold/southfloor/main-pc/img/shoppingguid.jpg" alt="" />
+	</div>	
+	<div class="main">
+		<dl>
+			<dt>お払い方法</dt>
+			<dd>
+				●【クレジットカード決済】<br /><br />
+				<img src="https://www.rakuten.ne.jp/gold/southfloor/main-pc/img/footer_01.png" width="80%" alt="" /><br />
+				●【コンビニ決済(前払い)】<br /><br />
+				●【楽天Edy決済】<br /><br />
+				●【銀行振込(前払い)】<br /><br />
+				●【代金引換】<br /><br />
+				<a href="https://www.rakuten.ne.jp/gold/southfloor/main-pc/detail/detail1.html" target="_blank">詳細はこちら>></a>
+			</dd>
+		</dl>
+		<dl>
+			<dt>領収書</dt>
+			<dd>
+				領収書についてはエコのため、<br /><br />
+				発行しておりません。<br /><br />
+				必要の方はメールにて<br /><br />
+				ご連絡くださいませ。<br /><br />
+				 電子版領収書を<br /><br />
+				  発行させていただきます。
+				<a href="https://www.rakuten.ne.jp/gold/southfloor/main-pc/detail/detail2.html" target="_blank">詳細はこちら>></a>
+			</dd>
+		</dl>
+		<dl>
+			<dt>配送・送料</dt>
+			<dd>
+				送料は商品ごとに<br /><br />
+				異なってまいりますので、<br /><br />
+				各商品ページをご参照ください。<br /><br />
+				※ご注文後の自動送信メールには<br /><br />
+				送料について反映されず、<br /><br />
+				後ほど、当店より訂正後の<br /><br />
+				ご請求金額をメールにてご連  絡いたします。<br />
+				<a href="https://www.rakuten.ne.jp/gold/southfloor/main-pc/detail/detail3.html" target="_blank">詳細はこちら>></a>
+			</dd>
+		</dl>
+		<dl>
+			<dt>返品・交換</dt>
+			<dd>
+				 ※初期不良や弊社都合による<br />
+				 著しい発送遅延などが発生し<br />
+				 た場合、<br />
+				 商品到着後一週間以内にメー<br />
+				 ルにて<br />
+				 ※ご注文後の自動送信メール<br />
+				  には<br />
+				  させていただきます。<br />
+				   この場合送料は当店にて負担<br />
+				   いたします。<br />
+				   ※お客様の都合（イメージ違いやサイズなど）<br />
+				   による返品·交換の場合、<br />
+				   お客様送料（発送料及び返送料）負担にて<br />
+				   返品が可能です。
+				 <br /><br /><br />
+				  <font color="#dc143c"> ※ご注意【受取拒否・未引き取り】について※</font>
+				<a href="https://www.rakuten.ne.jp/gold/southfloor/main-pc/detail/detail4.html" target="_blank">詳細はこちら>></a>
+			</dd>
+		</dl>
+	</div>
+	<div class="last">
+		<a href="https://www.rakuten.ne.jp/gold/southfloor/" target="_blank">
+			<img src="https://www.rakuten.ne.jp/gold/southfloor/typesetting1/test/south20180712/main-pc/img/footerlogo.jpg" alt="" />
+		</a>
+		<dl>
+			<dd>
+				<br /><br /><br /><br /><br />
+〒113-0022 東京都文京区千駄木3-48-2-402（※返品先は別住所）　/　 店舗運営責任者:今井 早百合
+<br /><br />
+TEL:03-6905-6209　 / FAX:03-6905-7792　 /　メールアドレス:flying@southfloor.sakura.ne.jp
+<br /><br /><br /><br /><br />
+【お問い合せ時間帯について】※土日祝祭日はお休みをいただいております。
+<br /><br />
+※ご注文は24時間受け付けておりますが、お問合せは下記の時間帯にお願いいたします。
+<br /><br />
+【TEL：平日 11：00-13：00、14：00-17：00 　/　メール返信·ご注文対応：平日10：00～18：00頃】
+<br /><br /><br /><br /><br /><br />
+			</dd>
+		</dl>
+	</div>
+</div>
+</body>
+</html>

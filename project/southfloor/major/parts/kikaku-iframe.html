@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+<head>
+<base target="_blank">
+<meta charset="utf-8">
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<title>Pick Up Event</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<script src="../js/jquery-2.2.4.min.js"></script>
+<link rel="stylesheet" href="../css/jquery.sidr.light.css" media="all" />
+<link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Marcellus+SC|Open+Sans|Slabo+27px" rel="stylesheet">
+<script type="text/javascript" src="../js/easing.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../js/ns-main.js" charset="UTF-8"></script>
+<script src="../js/owl.carousel2-tp.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../js/jquery.lazyload.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../js/jquery.sidr.min.js"></script>
+<script type="text/javascript" src="../js/owl.carousel2r.js"></script>
+
+<!------PCの時のみ読込------>
+<link href="../css/jungle-tp-pc-main.css" rel="stylesheet" type="text/css" media="only screen and (min-width: 700px)" />
+<!------SPの時のみ読込------>
+<link href="../css/jungle-tp-sp-main.css" rel="stylesheet" type="text/css" media="only screen and (min-width: 0px) and (max-width: 700px)" />
+<!------SPの時のみ読込------>
+<link href="../css/left_navi_ss2.css" rel="stylesheet" type="text/css" media="only screen and (min-width: 700px)">
+<link href="../css/left_navi_ss2-right.css" rel="stylesheet" type="text/css" media="only screen and (min-width: 700px)">
+
+
+<style type="text/css">
+*{
+	margin:0;
+	padding:0;
+}
+@media screen and (min-width: 701px){
+	#KikakuWrap{
+	width:1010px;
+	margin:0 auto;
+}}
+@media screen and (max-width: 700px){
+	#KikakuWrap{
+	width:100%;
+	margin:0 auto;
+}}
+</style>
+
+
+<script src="../js/jquery-2.2.4.min.js"></script>
+<SCRIPT type="text/javascript" src="../js/changeDisp.js"></SCRIPT>
+<!------lazyload------>
+<script type="text/javascript" src="../js/jquery.lazyload.js" charset="UTF-8"></script>
+<!------sidr-menu------>
+<script type="text/javascript" src="../js/jquery.sidr.min.js"></script>
+<link rel="stylesheet" href="../css/jquery.sidr.light.css" media="all" />
+<!------owl-carousel------>
+<link rel="stylesheet" href="../css/owl.carousel.css" />
+<link rel="stylesheet" href="../css/owl.theme.css" />
+<script src="../js/owl.carousel2-tp.js" charset="UTF-8"></script>
+<!------特集ページ用------>
+<script type="../js/ns-tp.js" charset="UTF-8"></script>
+<!------SPの時のみ読込------>
+<link href="../css/jungle-tp-sp-main.css" rel="stylesheet" type="text/css" media="only screen and (min-width: 0px) and (max-width: 700px)" />
+<!------PCの時のみ読込------>
+<link href="../css/jungle-tp-pc-main.css" rel="stylesheet" type="text/css" media="only screen and (min-width: 700px)" />
+
+<script src="../js/include.js"></script>
+
+
+<!--kikaku-slider-1-->
+
+
+<link rel="stylesheet" type="text/css" href="https://www.rakuten.ne.jp/gold/southfloor/major/js/slick-theme2.css" media="screen">
+<link rel="stylesheet" type="text/css" href="https://www.rakuten.ne.jp/gold/southfloor/major/js/slick.css" media="screen">
+
+<script src="https://www.rakuten.ne.jp/gold/southfloor/major/js/slick.min.js"></script>
+
+<script type="text/javascript">
+$(function() {
+	$('.slick-box4').slick({
+		centerMode: true, //センターモード
+		centerPadding: '60px', //前後のパディング
+		autoplay: true, //オートプレイ
+		autoplaySpeed: 3000, //オートプレイの切り替わり時間
+		slidesToShow: 1, 
+		responsive: [{
+			breakpoint: 700,
+			settings: {
+				arrows: false, // 前後の矢印非表示
+				centerMode: true,
+				centerPadding: '40px',
+				slidesToShow: 1
+			}
+		},
+		{
+			breakpoint: 480,
+			settings: {
+				arrows: false,
+				centerMode: true,
+				centerPadding: '40px',
+				slidesToShow: 1
+			}
+		}]
+	});
+});
+</script>
+<!--画像遅延-->
+<script src="../js/jquery.lazyload.js"></script>
+<script>
+jQuery(function($){
+  $("img.lazy").lazyload();
+});
+</script>
+</head>
+
+<body>
+
+<div id="KikakuWrap">
+
+<!--メイン固定バナー-->
+
+<iframe src="https://www.rakuten.ne.jp/gold/southfloor/major/parts/slider.html" width="1000" height="620" frameborder="0" scrolling="no"></iframe>
+
+<!--メインスライダー-->
+
+<div class="mainsldrWrap" style="margin-top:28px;"></div><!--include-->
+
+<!--サブスライダー-->
+<!--<div class="sliderWrap" style="margin-top:28px;"></div><!--include-->
+
+<!--超目玉スライダー-->
+<div class="sliderMedamaWrap" style="margin-top:28px;"></div><!--include-->
+
+
+
+<!--KikakuWrap-->
+
+
+</div>
+</body>
+</html>

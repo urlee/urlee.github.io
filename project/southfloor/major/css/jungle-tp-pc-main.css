@@ -1,0 +1,947 @@
+@charset "utf-8"; 
+
+/*-----------------------
+	ページ設定
+------------------------*/
+* {
+	border: none;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-family:"ＭＳ Ｐゴシック";
+}
+a {
+	text-decoration: none;
+	color: #ffffff;
+	font-family:"ＭＳ Ｐゴシック";
+}
+html {
+	min-width: 320px;
+	width: 100%;
+	margin: 0 auto;
+}
+.fixed {
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	z-index: 999999;
+}
+.clear {
+	display: block;
+	clear: both;
+}
+.pc-hidden{
+	display: none;
+}
+.page-top {
+	position: fixed;
+	bottom: 6%;
+	right: 1%;
+	padding: 20px;
+	background: #dddddd;
+	border-radius: 10px;
+	font-size: 12px;
+	opacity: 0.7;
+	color: #333;
+	z-index: 9999;
+}
+
+/*-----------------------
+	ヘッダー固定
+------------------------*/
+#header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 999999;
+}
+.header-wrap {
+	margin: 0 auto;
+	background: #b7aea9;
+	width: 100%;
+	height: 38px;
+}
+.header-li {
+	float: right;
+	background-color: #b7aea9;
+	padding: 8px 13px 0 0;
+}
+.logo a img {
+	float: left;
+	width: 30%;
+	max-width: 225px;
+}
+.header-li a {
+	font-size: 11px;
+}
+/*-----------------------
+	検索
+------------------------*/
+#q{
+	width: 194px;
+	height: 20px;
+	border:1px solid #ccc;
+	padding-left: 4px;
+}
+.search_bt{
+	 padding:3px 10px;
+	 border:1px solid #ccc;
+}
+/*-----------------------
+	フッター固定
+------------------------*/
+#footer {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	z-index: 9998;
+}
+.footer-wrap {
+	margin: 0 auto;
+	background: #b7aea9;
+	width: 100%;
+	height: 34px;
+}
+.footer-li {
+	float: right;
+	background-color: #b7aea9;
+	padding: 8px 13px 0 0;
+}
+.footer-li a {
+	font-size: 11px;
+}
+/*-----------------------
+	コンテンツ表示
+------------------------*/
+.wrap {
+	max-width: 1010px;
+	margin: 50px auto 100px auto;
+}
+.mainbnr {
+	max-width: 1010px;
+	margin: 50px auto 10px auto;
+	clear: both;
+	text-align: center;
+}
+.mainbnr img {
+	width: 100%;
+}
+
+/*-----------------------
+コンテンツタイトルバナー帯
+------------------------*/
+.wrap {
+	max-width: 1010px;
+	margin: 50px auto 100px auto;
+}
+.contbnr {
+	clear: both;
+	text-align:center;
+	margin-top: 190px;
+}
+.contbnr img {
+	width: 100%;
+	padding-top: 20px;
+}
+
+
+/*--------------------
+　 テキスト見出し
+--------------------*/
+
+/*----背景あり（小）----*/
+h1 {
+	margin: 35px 0 10px 0;
+	text-align: center;
+	font-size: 15px;
+	letter-spacing:1px;
+	line-height: 1.4em;
+	color:#ffffff;
+	background-color:#2c2c2c;
+	width:100%;
+	padding:10px 0 10px 0;
+}
+
+/*----背景あり（大）----*/
+h5 {
+	margin: 35px 0 120px 0;
+	text-align: center;
+	font-size: 28px;
+	letter-spacing:2px;
+	line-height: 1.4em;
+	color:#ffffff;
+	background-color:#2c2c2c;
+	width:100%;
+	padding:10px 0 10px 0;
+}
+
+/*----企画キャッチコピー（大）----*/
+h2 {
+	margin: 50px 0 10px 0;
+	text-align: center;
+	font-size: 24px;
+	letter-spacing:3px;
+	color:#2c2c2c;
+}
+
+/*----企画キャッチコピー（小）----*/
+.h2set {
+	margin: 10px 0 20px 0;
+	text-align: center;
+	font-size: 14px;
+	line-height: 1.6em;
+}
+
+/*----帯見出し（大）----*/
+
+
+.obi {
+    max-width:1010px;
+    margin:0 auto;
+}
+
+.obi h6 {
+	clear: both;
+	color: #626262;
+	display: block;
+	margin: 30px 0 -9px 0 !important;
+	position: relative;
+	text-decoration: none;
+	text-align: center;
+	font-size: 60px;
+	font-weight: normal;
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: 5px;
+}
+.obi span {
+	font-size: 17px;
+	color: #626262;
+	margin-left: 10px;
+	letter-spacing: 2px;
+}
+
+.wrap h6 {
+	clear: both;
+	color: #626262;
+	display: block;
+	margin: 30px 0 -9px 0 !important;
+	position: relative;
+	text-decoration: none;
+	text-align: center;
+	font-size: 60px;
+	font-weight: normal;
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: 5px;
+}
+
+
+
+
+
+/*----見出し（小）----*/
+.h6set {
+	margin: 10px 0 20px 0;
+	text-align: center;
+	font-size: 16px;
+	line-height: 1.6em;
+	color:#4f4f4f;
+}
+
+
+h3 {
+	clear:both;
+	margin: 5px 0 10px 0;
+	text-align: center;
+	font-size: 18px;
+	line-height: 1.4em;
+	letter-spacing:2px;
+}
+
+h4 {
+	margin: 15px 0 35px 0;
+	text-align: center;
+	font-size: 22px;
+	letter-spacing:2px;
+	line-height: 1.4em;
+	color:hsla(340,93%,47%,1.00);
+}
+
+
+/*-----------------------
+	区切り線
+------------------------*/
+.line {
+	width: 60%;
+	margin: 10px auto 50px auto;
+	border-top: 4px dotted #8c8b8b;
+	border-bottom: 4px dotted #fff;
+
+}
+
+/*-----------------------
+	商品リスト
+------------------------*/
+.itemli-wrap {
+	margin-top: 20px;
+}
+.itemli-cont {
+	clear: both;
+	width: 100%;
+	padding-top: 50px;
+}
+.itemli-img {
+	width: 40%;
+	float: left;
+	padding-right: 5%;
+	padding-left:5%;
+	padding-bottom:3%;
+}
+.itemli-img img {
+	width: 100%;
+}
+.itemli-set {
+	width: 50%;
+	float: left;
+}
+.itemli-set h5 {
+	margin-top: 5px;
+	font-size: 18px;
+	color: #cd0005;
+	background: none;
+	margin:10px 0;
+}
+.itemli-set h4 {
+    margin: 50px 0 0 0;
+    text-align: center;
+    font-size: 35px;
+	font-weight: bold;
+	color: #333;
+    line-height: 1.4em;
+    clear: both;
+}
+.itemli-set h4 a {
+	text-align: center;
+	font-size: 18px;
+	color: #333;
+	letter-spacing: 1px;
+}
+.itemli-set h4 a:hover {
+	opacity: 0.6;
+}
+.itemli-set p {
+	margin-top: 20px;
+	font-size: 13px;
+	letter-spacing: 0.5px;
+	line-height: 1.4em;
+}
+.color-img {
+	width: 40%;
+	float: left;
+}
+.color-img img {
+	margin-top: 30px;
+	width: 100%;
+}
+
+
+/*-----------------------
+	スーパーSALEヘッダー
+------------------------*/
+#menu{
+	width: 1010px;
+	margin: 0 auto;
+	display:none;
+}
+#menu a{
+	font-size: 12px;
+	text-decoration: none;
+	color: #333;
+}
+/*-----------------------
+	固定の調整
+------------------------*/
+#rc_leftArea, #rc_rightArea{
+	z-index: 9997;
+}
+div#rc_rightArea{
+	top: -90px!important;
+}
+div#rc_leftArea{
+	top: 80px!important;
+}
+
+/*------------------------------
+ランキング
+------------------------------*/
+#ranking {
+	width: 900px;
+	margin: auto;
+}
+#ranking .hyouji-kakaku {
+	font-size: 13px;
+	text-align: left;
+	width: 194px;
+}
+#ranking #box-1 .item-name2,#ranking  #box-2 .item-name2,#ranking  #box-3 .item-name2{
+	display: block;
+	color: #bf0000;
+	font-size: 29px;
+	font-weight: bold;
+	text-align: center;
+}
+#ranking #box-1 .tax,#ranking  #box-2 .tax,#ranking  #box-3 .tax {
+	font-size: 11px;
+	color: #666;
+}
+#ranking #box-1 .no-sale,#ranking  #box-2 .no-sale {
+	display: block;
+	margin: -10px auto 0 auto;
+	width: 195px;
+	text-align: center;
+}
+/*----------------------
+		1位
+----------------------*/
+
+#ranking #box-1 {
+	width: 876px;
+	height: 430px;
+	margin: 0 auto 15px auto;
+	border: solid 1px #b1a192;
+	padding: 0 10px 10px 10px;
+	background-image: url("https://image.rakuten.co.jp/junglejungle/cabinet/test/ranking-l1601d.jpg");
+	background-repeat: no-repeat;
+	background-size: 800px;
+	overflow: hidden;
+}
+#ranking #box-1 img {
+	width: 420px;
+	float: left;
+	padding-top: 10px;
+}
+#ranking #box-1 table {
+	padding-left: 30px;
+	margin: 0 auto;
+}
+#ranking .rank {
+	height: 30px;
+	margin: 0 0 0 -60px;
+	padding: 0 0 12px 90px;
+	font-size: 120%;
+	font-weight: bold;
+	text-align: center;
+	line-height: 48px;
+	background-image: url("https://image.rakuten.co.jp/junglejungle/cabinet/test/rank0116b.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	display: none;
+}
+#ranking .brand-name {
+	float: left;
+	width: 350px;
+	height: 25px;
+	font-size: 150%;
+	text-align: center;
+	margin-top: 10px;
+	padding-top: 330px;
+	padding-left: 50px;
+}
+#ranking .price {
+	height: 15px;
+	text-align: right;
+	font-weight: bold;
+	font-size: 80%;
+}
+/*----------------------
+	3列
+----------------------*/
+#ranking #box-2 {
+	width: 289px;
+	height: 380px;
+	float: left;
+	margin: 0 0px 15px 9px;
+	border: solid 1px #b1a192;
+}
+#ranking #box-2 table {
+	margin: -3px auto 0 auto;
+}
+#ranking #box-2 img {
+	padding: 0 5px 0 12px;
+	width: 270px;
+}
+#ranking .rank-2 {
+	background-image: url("https://image.rakuten.co.jp/junglejungle/cabinet/test/rank0116b.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 5px 0 2px 77px;
+	margin: 0 0 5px -30px;
+	font-size: 105%;
+	font-weight: bold;
+	color: #ffffff;
+	text-align: center;
+	line-height: 23px;
+}
+#ranking .brand-name-2 {
+	height: 5px;
+	font-size: 90%;
+	text-align: center;
+	margin-bottom: 5px;
+	padding-top: 5px;
+}
+/*----------------------
+	4列
+----------------------*/
+#ranking #box-3 {/*共通背景*/
+	width: 213px;
+	float: left;
+	margin: 0 0px 15px 10px;
+	border: solid 1px #b1a192;
+}
+#ranking #box-3 img {
+	padding: 8px 5px 0 9px;
+	width: 195px;
+}
+#ranking .rank-3 {
+	height: 17px;
+	font-size: 90%;
+	margin: 0 0 0 -40px;
+	font-weight: bold;
+	color: #666666;
+	text-align: center;
+	background-image: url("https://image.rakuten.co.jp/junglejungle/cabinet/test/rank0116b.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 0 0 13px 80px;
+	line-height: 32px;
+	color: #ffffff;
+}
+#ranking #box-3 table {
+	margin: 5px auto;
+}
+#ranking #box-3 .hyouji-kakaku {
+	width: 170px;
+	margin: 0px 0 0 -48px;
+	font-size:12px;
+}
+#ranking #ranking  #box-3 .no-sale{
+	margin:-6px 0 6px 0;
+	display: block;
+	width: 195px;
+	text-align: center;
+}
+#ranking .brand-name-3 {
+	text-align: center;
+	height: 20px;
+	font-size: 70%;
+	padding-top: 5px;
+	margin-bottom: 4px;
+	margin-right:30px;
+}
+/*------------------------------
+	特集ページ
+-------------------------------*/
+#tp{
+	width: 95%;
+	margin: 0 auto;
+	background-color: #efefef;
+	padding: 10px 0 0 1%;
+	overflow: hidden;
+}
+#tp_wrap{
+	width: 100%;
+	overflow: hidden;
+}
+.tp_b{
+	float: left;
+	width: 32%;
+	height: auto;
+	min-height: 200px;
+	margin: 0 1% 10px 0;
+	padding: 5px 1% 1% 1%;
+	background: #fff;
+	
+	box-sizing: border-box;
+	border: 1px solid #fff;
+	border-radius: 5px;
+}
+.tp_b a{
+	display:block;
+	text-align:center;
+	color: #333;
+}
+.tp_b img{
+	width:98%;
+}
+.tp_b h3{
+	width:100%;
+	font-size:12px;
+	color: #333;
+	text-align: center;
+	margin-top: 5px;
+}
+.tp_b p{
+	width:96%;
+	padding-left:2%;
+	font-size: 12px;
+	color: #333;
+	text-align: left;
+	margin: 5px 0;
+	line-height: 1.4em;
+}
+
+.bdr1px{
+	width: 24%;
+	height: 1px;
+	background-color:#333;
+	margin: 0 auto 10px auto;
+}
+
+/*------------------------------------------------------------
+	コーデリスト
+--------------------------------------------------------------*/
+.corde-wrap {
+	margin: 10px auto 0 auto;
+	width: 100%;
+}
+.corde-cont {
+	margin: 70px auto 0 auto;
+	width: 100%;
+	float: left;
+}
+.corde-cont img {
+	width: 50%;
+	max-width: 400px;
+	float:left;
+}
+.corde-item {
+	float: left;
+	margin-top: 20px;
+	font-size: 12px;
+	color: #333;
+	line-height: 1.6em;
+	width: 48%;
+	padding-left:2%;
+}
+.corde-item li {
+	height: 30px;
+	border-bottom: dashed 1px #333;
+	padding-top: 7px;
+	margin-top:10px;
+}
+.corde-item li:hover {
+	opacity: 0.8;
+}
+.corde-item li p {
+	padding-left: 10%;
+	width: 87%;
+	display:block;
+	background: url("https://image.rakuten.co.jp/junglejungle/cabinet/tp16/tp-sankaku.jpg") no-repeat right;
+	background-size: 15px;
+}
+.corde-item li p a {
+	font-size: 12px;
+	color: #333;
+	text-decoration: none;
+}
+.corde-item a:hover {
+	opacity: 0.6;
+}
+.cd_txt{
+	font-size: 17px;
+	margin:20px 0 40px 0;
+}
+
+/*-----------------------
+	キャッチ入れる
+------------------------*/
+.corde-item-c {
+	float: left;
+	margin-top: 20px;
+	font-size: 12px;
+	color: #333;
+	line-height: 1.6em;
+	width: 48%;
+	padding-left:2%;
+}
+.corde-item-c li {
+	height: 30px;
+	border-bottom: dashed 1px #333;
+	padding-bottom: 12px;
+	margin-top:10px;
+}
+.corde-item-c li:hover {
+	opacity: 0.8;
+}
+.corde-item-c li p {
+	padding-left: 10%;
+	width: 87%;
+	display:block;
+	background: url("https://image.rakuten.co.jp/junglejungle/cabinet/tp16/tp-sankaku.jpg") no-repeat right;
+	background-size: 15px;
+}
+.corde-item-c li p .catch{
+	display: block;
+	font-size: 10px;
+	color: #ff2269;
+}
+.corde-item-c li p a {
+	font-size: 12px;
+	color: #333;
+	text-decoration: none;
+}
+.corde-item-c a:hover {
+	opacity: 0.6;
+}
+
+/*-----------------------
+	コーデ詳細画像
+------------------------*/
+.cd_dtl{
+	float:left;
+	width: 48%;
+	padding-left:2%;
+	/*margin-top:30px;*/
+}
+.cd_dtl_img{
+	width:32%;
+	margin-right: 5px;
+	float: left;
+}
+
+.cd_dtl_img img{
+	width:100%;
+}
+
+/*-----------------------
+	コーデタイトル
+------------------------*/
+.cd_ttl{
+	float:left;
+	width: 48%;
+	padding-left:2%;
+	/*margin-top:30px;*/
+}
+.cd_ttl h2{
+	font-family: 'Noto Serif', serif;
+	font-size:52px;
+	letter-spacing:2px;
+	text-align: left;
+	font-weight:normal;
+}
+.cd_ttl p{
+	font-family: 'Nunito', sans-serif;
+	font-size:28px;
+	letter-spacing:4px;
+}
+
+/*-----------------------
+	2列並びのコーデ
+------------------------*/
+.corde-cont2 {
+	margin: 70px 5% 0 0;
+	width: 45%;
+	float: left;
+}
+.corde-cont2 img {
+	width: 100%;
+	max-width: 400px;
+}
+.corde-item2 {
+	margin-top: 10px;
+	font-size: 11px;
+	color: #333;
+	line-height: 1.6em;
+}
+.corde-item2 a {
+	font-size: 11px;
+	color: #333;
+	text-decoration: underline;
+}
+.corde-item2 a:hover {
+	opacity: 0.6;
+}
+
+.cd_ttl2{
+	padding-left:2%;
+}
+.cd_ttl2 h2{
+	margin-top: 15px;
+	font-family: 'Noto Serif', serif;
+	font-size:26px;
+	letter-spacing:2px;
+	text-align: left;
+	font-weight:normal;
+}
+.cd_ttl2 p{
+	font-family: 'Nunito', sans-serif;
+	font-size:14px;
+	letter-spacing:4px;
+}
+
+/*-----------------------
+各アイテムアイコンキャッチ入れる
+------------------------*/
+.tops-c {
+	background: url("https://image.rakuten.co.jp/junglejungle/cabinet/tp16/cd-tops.jpg") no-repeat 0 5px;
+}
+.tops2-c {
+	background: url("https://image.rakuten.co.jp/junglejungle/cabinet/tp16/cd-tops2.jpg") no-repeat 0 5px;
+}
+.knit-c {
+	background: url("https://image.rakuten.co.jp/junglejungle/cabinet/tp16/cd-knit.jpg") no-repeat 0 5px;
+}
+.trench-c {
+	background: url("https://image.rakuten.co.jp/junglejungle/cabinet/tp16/cd-trench.jpg") no-repeat 0 5px;
+}
+.stole-c {
+	background: url("https://image.rakuten.co.jp/junglejungle/cabinet/tp16/cd-stole.jpg") no-repeat 0 5px;
+}
+.sneaker-c {
+	background: url("https://image.rakuten.co.jp/junglejungle/cabinet/tp16/cd-sneaker.jpg") no-repeat 0 5px;
+}
+.outer-c {
+	background: url("https://image.rakuten.co.jp/junglejungle/cabinet/tp16/cd-trench.jpg") no-repeat 0 5px;
+}
+.sk-c {
+	background: url("https://image.rakuten.co.jp/junglejungle/cabinet/tp16/cd-sk.jpg") no-repeat 0 5px;
+}
+.sh-c {
+	background: url("https://image.rakuten.co.jp/junglejungle/cabinet/tp16/cd-sh2.jpg") no-repeat 0 5px;
+}
+.pumps-c {
+	background: url("https://image.rakuten.co.jp/junglejungle/cabinet/tp16/cd-pumps.jpg") no-repeat 0 5px;
+}
+.pk-c {
+	background: url("https://image.rakuten.co.jp/junglejungle/cabinet/tp16/cd-pk.jpg") no-repeat 0 5px;
+}
+.pants-c {
+	background: url("https://image.rakuten.co.jp/junglejungle/cabinet/tp16/cd-pants.jpg") no-repeat 0 5px;
+}
+.op-c {
+	background: url("https://image.rakuten.co.jp/junglejungle/cabinet/tp16/cd-op.jpg") no-repeat 0 5px;
+}
+.hat-c {
+	background: url("https://image.rakuten.co.jp/junglejungle/cabinet/tp16/cd-hat.jpg") no-repeat 0 5px;
+}
+.goods-c {
+	background: url("https://image.rakuten.co.jp/junglejungle/cabinet/tp16/cd-goods.jpg") no-repeat 0 5px;
+}
+.dv-c {
+	background: url("https://image.rakuten.co.jp/junglejungle/cabinet/tp16/cd-dv.jpg") no-repeat 0 5px;
+}
+.cd-c {
+	background: url("https://image.rakuten.co.jp/junglejungle/cabinet/tp16/cd-cd.jpg") no-repeat 0 5px;
+}
+.boots-c {
+	background: url("https://image.rakuten.co.jp/junglejungle/cabinet/tp16/cd-boots.jpg") no-repeat 0 5px;
+}
+.bag-c {
+	background: url("https://image.rakuten.co.jp/junglejungle/cabinet/tp16/cd-bag.jpg") no-repeat 0 5px;
+}
+.goods2-c {
+	background: url("https://image.rakuten.co.jp/junglejungle/cabinet/tp16/cd-goods2.jpg") no-repeat 0 5px;
+}
+.goods3-c {
+	background: url("https://image.rakuten.co.jp/junglejungle/cabinet/style_p/cd-goods3.jpg") no-repeat 0 5px;
+}
+.setup-c {
+	background: url("https://image.rakuten.co.jp/junglejungle/cabinet/tp16/cd-setup.jpg") no-repeat 0 5px;
+}
+.gile-c {
+	background: url("https://image.rakuten.co.jp/junglejungle/cabinet/tp16/cd-gile.jpg") no-repeat;
+}
+.basket-c {
+	background: url("https://image.rakuten.co.jp/junglejungle/cabinet/tp16/cd-basket.jpg") no-repeat;
+}
+.sandal-c {
+	background: url("https://image.rakuten.co.jp/junglejungle/cabinet/tp16/cd-sandal.jpg") no-repeat;
+}
+.topsh-c {
+	background: url("https://image.rakuten.co.jp/junglejungle/cabinet/tp16/cd-topsh.jpg") no-repeat;
+}
+.shoes-c {
+	background: url("https://image.rakuten.co.jp/junglejungle/cabinet/tp16/cd-shoes2.jpg") no-repeat;
+}
+
+
+/*-----------------
+ 新テンプレート版
+ ------------------*/
+/*----------会場用共通設定----------*/
+.chk-img{
+	width: 96%;
+	display: block;
+	margin: 5px auto;
+}
+.chk-img img{ width: 100%; }
+.chk-kkk{
+	color: #333;
+	font-size: 12px;
+    margin: 5px auto 5px auto;
+    overflow: hidden;
+    width: 90%;
+}
+.item-name2{
+	font-size: 32px;
+	color: #bf0000;
+	font-weight: bold;	
+	display: block;
+	text-align: center;
+	margin-top: 5px;
+}
+.tax{ font-size: 11px; }
+.push{
+	display: block;
+	overflow: hidden;
+	clear: both;
+	margin-bottom: 5px;
+	text-align: center;
+}
+.push img{
+	width: 100%;
+	max-width: 250px;
+}
+
+/*----------3列2列共通 ----------*/
+#main-cat3 ,#main-cat2,
+#main-cat3red ,#main-cat2red{
+	width: 1010px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#main-cat3 ul li , #main-cat2 ul li,
+#main-cat3red ul li , #main-cat2red ul li{
+	float: left;
+	border: solid 1px #333;
+	margin: 0 3% 25px 0;
+	box-sizing: border-box;
+}
+
+#main-cat3 ul li:nth-child(3n) , #main-cat2 ul li:nth-child(2n),
+#main-cat3red ul li:nth-child(3n) , #main-cat2red ul li:nth-child(2n){ margin: 0px 0 15px 0; }
+
+/*----------3列共通----------*/
+#main-cat3 ul li,
+#main-cat3red ul li { width: 31%; }
+
+/*----------2列共通----------*/
+#main-cat2 ul li,
+#main-cat2red ul li { width: 48%; }
+
+/*----------2列 『赤線』----------*/
+/*#main-cat3red ul li { border: solid 3px #b01414; }*/
+
+/*----------1列『赤線』----------*/
+/*#main-cat2red ul li { border: solid 3px #b01414; }*/
+
+
+.hoge { text-align: center; }
+
+
+<!--企画css-->
+
+
+

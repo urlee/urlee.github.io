@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* 楽天SP common CSS */
+
+*{
+	margin:0;
+	padding:0;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	 color: #333; 
+}
+
+
+dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,fieldset,legend,p,blockquote,th,td{
+	margin:0;
+	padding:0;
+	}
+
+
+.clearfix{
+	clear: both;
+}
+
+
+
+
+/*		パンくずリスト
+----------------------------------*/
+.pankuzu{
+	color:#666;
+	font-size:11px;
+	text-align:left;
+	padding:0px 5px 5px 10px;
+}
+
+.pankuzu a{
+	color:#666;
+}
+
+
+.pankuzu_list{
+	color:#666;
+	font-size:11px;
+	text-align:left;
+	padding:0px 5px 5px 3px;
+}
+
+.pankuzu_list h1{
+	font-size:11px;
+	font-weight: normal;
+}
+
+.pankuzu_list p{
+	padding-left: 5px;
+	color: #999;
+}
+
+.pankuzu_list ol{
+	list-style:none;
+	padding:0;
+	margin:0 5px;
+}
+
+.pankuzu_list li{
+	display:inline-block;
+}
+
+.pankuzu_list li:after{
+	content:">";
+	padding:0 2px;
+}
+
+.pankuzu_list li:last-child:after{
+        /* 最初のliだけcontentを消す */
+        content:none;
+}
+
+.pankuzu_list li a{
+	color:#666;
+}
+
+
+
+/*		TOPへ戻る
+----------------------------------*/
+.pagetopLink img{
+	width:50px;
+	margin:10 auto;
+}

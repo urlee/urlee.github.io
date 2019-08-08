@@ -1,0 +1,530 @@
+@charset "UTF-8";
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+/* ここから共通CSS
+*****/
+.cat_detail_wrapper * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.cat_detail_wrapper img ,
+.cat_itemdetail_list li a img{
+  max-width: 100%;
+}
+.cat_itemdetail_list {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1050px;
+}
+.cat_detail_pickup h3,
+.cat_detail_item_wrapper h3 {
+  margin: 0 0 35px;
+}
+.cat_detail_ranking h3 + p {
+  font-size: 12px;
+  margin: 5px auto 35px;
+  max-width: 1050px;
+  text-align: right;
+}
+.cat_detail_pickup h3::after,
+.cat_detail_ranking h3::after,
+.cat_detail_item_wrapper h3::after {
+  background: url(../images/uvlace_20.jpg) repeat-x;
+  content: "";
+  display: block;
+  margin: 15px 0 0;
+  width: 100%;
+  height: 10px;
+}
+
+/* ここからキャッチコピーCSS
+*****/
+.cat_detail_catchcopy {
+  background: #FF822E;
+  margin: 0 0 75px;
+  padding: 20px 0;
+}
+.cat_detail_catchcopy p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cat_detail_catchcopy span {
+  color: #fff;
+}
+/* ここからUVに関する説明
+*****/
+.cat_detail_description {
+  margin: 0 0 45px;
+  text-align: center;
+}
+.cat_detail_description h3 {
+  margin: 0 0 25px;
+  text-align: center;
+}
+.cat_detail_description p {
+  font-size: 14px;
+  margin: 10px auto 0;
+  text-align: left;
+  width: 100%;
+  max-width: 961px;
+}
+/* ここから非表示コンテンツCSS
+*****/
+.cat_detail_hide_contents {
+  margin: 0 auto 50px;
+  width: 100%;
+  max-width: 1050px;
+}
+.cat_detail_hide_contents h3 {
+  font-size: 36px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+}
+.cat_detail_hide_contents h3 img {
+  margin: 0 15px 0 0;
+}
+.pulldown_partsdetail_btn {
+  border: 2px solid #387BCA;
+  border-radius: 50px;
+  color: #387BCA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500 !important;
+  margin: 30px auto 0;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+  max-width: 1050px;
+}
+.pulldown_partsdetail_btn i {
+  font-size: 30px;
+}
+.pulldown_partsdetail_inner {
+  text-align: center;
+}
+.pulldown_partsdetail_inner .cat_itemdetail_list {
+  justify-content: space-between;
+  margin: 0 0 30px;
+}
+.cat_detail_topics.double {
+  width: 47.5%;
+}
+.cat_detail_topics.single {
+  margin: 30px 0;
+  width: 100%;
+}
+.cat_detail_topics.single.bg {
+  background: #efefef;
+  border-radius: 8px;
+  margin: 0 0 15px;
+  padding: 15px 20px;
+}
+.cat_detail_topics h5 {
+  border-bottom: 2px dotted #333;
+  font-size: 22px;
+  margin: 25px 0 20px;
+  padding: 0 0 8px;
+  text-align: left;
+}
+.cat_detail_topics h6 {
+  font-size: 16px;
+  margin: 0 0 5px;
+  text-align: left;
+}
+.cat_detail_topics .cat_detail_bg_text {
+  font-size: 20px;
+}
+.cat_detail_topics .cat_detail_bg_text br {
+  display: none;
+}
+.cat_detail_topics .cat_detail_bg_text.uva {
+  background: #fffb7e;
+}
+.cat_detail_topics .cat_detail_bg_text.uvb {
+  background: #85e3ef;
+}
+.cat_detail_topics p {
+  text-align: left;
+}
+/* ここからピックアップ商品CSS
+*****/
+.cat_detail_pickup {
+  margin: 0 0 70px;
+}
+.cat_detail_pickup h3 {
+  text-align: center;
+}
+.cat_detail_pickup .cat_detail_headding_small {}
+.cat_detail_pickup ul {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.cat_detail_pickup ul li {
+  margin: 0 0 25px;
+  width: 48%;
+}
+.cat_detail_pickup ul li a {
+  display: block;
+  overflow: hidden;
+  height: 300px;
+  position: relative;
+}
+
+.cat_detail_pickup ul .teijin.sangetsu::before,
+.cat_detail_pickup ul .teijin.sangetsu::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 10px;
+  z-index: 9999;
+}
+
+.cat_detail_pickup ul li a img {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+.cat_detail_pickup ul li a .cat_itemdetail_icon img {
+  position: relative;
+  top: inherit;
+  left: inherit;
+  right: inherit;
+  bottom: inherit;
+  margin: inherit;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+.cat_detail_pickup ul li .cat_itemdetail_description {
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 0 10px;
+  white-space: pre-wrap;
+}
+.cat_detail_pickup ul li .cat_itemdetail_description img {
+  margin: 0 10px 0 0;
+}
+.cat_detail_pickup ul li .cat_itemdetail_price {
+  font-size: 14px;
+  margin: 5px 0 0;
+  text-align: right;
+}
+/* ここからランキングCSS
+*****/
+.cat_detail_ranking {
+  margin: 0 0 70px;
+}
+.cat_detail_ranking h3 {
+  text-align: center;
+}
+.cat_detail_ranking ul {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.cat_detail_ranking ul li {
+  margin: 0 0 30px;
+  position: relative;
+  width: 32%;
+}
+.cat_detail_ranking ul li a {
+  position: relative;
+}
+.cat_detail_ranking ul li a img{
+	width: 100%;
+}
+.cat_detail_ranking .cat_itemdetail_icon {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+.cat_detail_ranking ul li .cat_itemdetail_price {
+  font-size: 14px;
+  margin: 5px 0;
+  text-align: right;
+}
+.cat_ranking_icon::after {
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  display: block;
+  padding: 10px 19px;
+  border-radius: 50%;
+  font-size: 20px;
+}
+.cat_rank_no_1::after {content: "1";background: #C4B455; border-color: #C4B455; color: #fff;}
+.cat_rank_no_2::after {content: "2"; background: #A7A5A6; border-color: #A7A5A6; color: #fff;}
+.cat_rank_no_3::after {content: "3"; background: #9B7F67; border-color: #9B7F67; color: #fff;}
+.cat_rank_no_4::after {content: "4"; background: #fff; border: 1px solid #333;}
+.cat_rank_no_5::after {content: "5"; background: #fff; border: 1px solid #333;}
+.cat_rank_no_6::after {content: "6"; background: #fff; border: 1px solid #333;}
+.cat_rank_no_7::after {content: "7"; background: #fff; border: 1px solid #333;}
+.cat_rank_no_8::after {content: "8"; background: #fff; border: 1px solid #333;}
+.cat_rank_no_9::after {content: "9"; background: #fff; border: 1px solid #333;}
+/* ここから商品一覧CSS
+*****/
+.cat_detail_item_wrapper h3 {
+  text-align: center;
+}
+.cat_detail_item_wrapper ul {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+}
+.cat_detail_item_wrapper ul::before,
+.cat_detail_item_wrapper ul::after {
+  content: "";
+  display: block;
+  width: 24%;
+}
+.cat_detail_item_wrapper ul::before {
+  order: 1;
+}
+.cat_detail_item_wrapper ul li {
+  margin: 0 0 15px;
+  width: 24%;
+}
+.cat_detail_item_wrapper ul li a {
+  display: block;
+  position: relative;
+}
+.cat_detail_item_wrapper ul li .cat_itemdetail_icon {
+  color: #FF822E;
+  font-size: 28px;
+  font-weight: bold !important;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  line-height: 1em;
+  text-align: right;
+  text-shadow: #fff 1px 1px 0px, #fff -1px 1px 0px, #fff 1px -1px 0px, #fff -1px -1px 0px;
+}
+.cat_detail_item_wrapper ul li .cat_itemdetail_icon .cat_itemdetail_icon_small {
+  font-size: 20px;
+}
+.cat_detail_item_wrapper ul li .cat_itemdetail_icon[data-uvcut=""] {
+  display: none;
+}
+.cat_detail_item_wrapper ul li .cat_itemdetail_price {
+  font-size: 14px;
+  margin: 5px 0 0;
+  text-align: right;
+}
+/* ここからスマホCSS
+*****/
+@media all and (max-width: 680px) {
+  /* ここから共通CSS
+  *****/
+  .cat_detail_pickup h3::after,
+  .cat_detail_ranking h3::after,
+  .cat_detail_item_wrapper h3::after {
+    margin: 8px 0 0;
+  }
+  /* ここから看板CSS
+  *****/
+  .cat_detail_sign {
+    line-height: 0;
+  }
+  .cat_detail_sign h2 {
+    background: none;
+    padding: 0;
+  }
+  /* ここからキャッチコピーCSS
+  *****/
+  .cat_detail_catchcopy {
+    background: #fff5af;
+    margin: 0 0 75px;
+    padding: 20px;
+  }
+  .cat_detail_catchcopy p {
+    text-align: center;
+  }
+  .cat_detail_catchcopy span {
+    color: #333;
+    font-size: 12px;
+  }
+  /* ここからUVに関する説明
+  *****/
+  .cat_detail_description {
+    margin: 0 0 45px;
+    padding: 0 20px;
+  }
+  .cat_detail_description h3 {
+    margin: 0 0 15px;
+  }
+  /* ここから非表示コンテンツCSS
+  *****/
+  .cat_detail_hide_contents {
+    margin: 0 auto 50px;
+  }
+  .cat_detail_hide_contents h3 {
+    font-size: 18px;
+    margin: 0 0 15px;
+  }
+  .cat_detail_hide_contents h3 img {
+    margin: 0 8px 0 0;
+    width: 50px;
+  }
+  .pulldown_partsdetail_btn {
+    font-size: 12px;
+    margin: 30px auto 0;
+    padding: 10px 20px;
+    max-width: 95%;
+  }
+  .pulldown_partsdetail_btn i {
+    font-size: 24px;
+  }
+  .pulldown_partsdetail_inner {
+    padding: 0 20px;
+    text-align: center;
+  }
+  .pulldown_partsdetail_inner .cat_itemdetail_list {
+    display: block;
+  }
+  .cat_detail_topics.double {
+    margin: 0 0 25px;
+    width: 100%;
+  }
+  .cat_detail_topics h5 {
+    font-size: 18px;
+    margin: 15px 0 10px;
+  }
+  .cat_detail_topics h6 {
+    font-size: 14px;
+  }
+  .cat_detail_topics .cat_detail_bg_text {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 1.8em;
+  }
+  /* ここからピックアップ商品CSS
+  *****/
+  .cat_detail_pickup {
+    margin: 0 0 70px;
+  }
+  .cat_detail_pickup h3 img {
+    padding: 0 30px;
+  }
+  .cat_detail_pickup ul {
+    padding: 0 10px;
+  }
+  .cat_detail_pickup ul li {
+    margin: 0 0 25px;
+    width: 48.5%;
+  }
+  .cat_detail_pickup ul li a {
+    height: 120px;
+  }
+  .cat_detail_pickup ul .teijin::before {
+    background-size: cover;
+    width: 80px;
+    height: 14px;
+  }
+  .cat_detail_pickup ul .teijin.sangetsu::before,
+  .cat_detail_pickup ul .teijin.sangetsu::after {
+    background-size: cover;
+    left: 10px;
+  }
+  .cat_detail_pickup ul .teijin.sangetsu::before {
+    width: 80px;
+    height: 14px;
+    top: 40px;
+  }
+  .cat_detail_pickup ul .teijin.sangetsu::after {
+    width: 96px;
+    height: 17px;
+    top: 10px;
+  }
+  .cat_detail_pickup ul li .cat_itemdetail_description {
+    font-size: 14px;
+    margin: 5px 0 0;
+  }
+  .cat_detail_pickup ul li .cat_itemdetail_price {
+    font-size: 12px;
+  }
+  .cat_detail_pickup ul li a .cat_itemdetail_icon img {
+    width: 70px !important;
+  }
+  /* ここからランキングCSS
+  *****/
+  .cat_detail_ranking h3 + p {
+    margin: 5px 5px 35px 0;
+  }
+  .cat_detail_ranking {
+    margin: 0 0 70px;
+  }
+  .cat_detail_ranking h3 {
+  }
+  .cat_detail_ranking h3 img {
+    padding: 0 30px;
+  }
+  .cat_detail_ranking ul {
+    padding: 0 10px;
+  }
+  .cat_detail_ranking ul li {
+    margin: 0 0 30px;
+    position: relative;
+    width: 48.5%;
+  }
+  .cat_detail_ranking .cat_itemdetail_icon {
+    bottom: 5px;
+    right: 5px;
+    width: 45%;
+  }
+  .cat_detail_ranking ul li .cat_itemdetail_price {
+    font-size: 12px;
+    margin: -5px 0 0;
+  }
+  .cat_ranking_icon::after {
+    top: -10px;
+    left: -8px;
+    padding: 6px 13px;
+    font-size: 14px;
+  }
+  /* ここから商品一覧CSS
+  *****/
+  .cat_detail_item_wrapper h3 img {
+    padding: 0 80px;
+  }
+  .cat_detail_item_wrapper ul {
+    padding: 0 10px;
+  }
+  .cat_detail_item_wrapper ul li {
+    width: 48.5%;
+  }
+  .cat_detail_item_wrapper ul li .cat_itemdetail_icon {
+    font-size: 20px;
+  }
+  .cat_detail_item_wrapper ul li .cat_itemdetail_icon .cat_itemdetail_icon_small {
+    font-size: 14px;
+  }
+  .cat_detail_item_wrapper ul li .cat_itemdetail_price {
+    font-size: 12px;
+    margin: -5px 0 0;
+  }
+  
+}
+.cat_detail_item_wrapper dl{
+  	max-width: 1200px;
+  	margin: 0 auto;
+  }
+  .cat_detail_item_wrapper dl a{
+  	display: block;
+  	margin-bottom: 20px;
+  }

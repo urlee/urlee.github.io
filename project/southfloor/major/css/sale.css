@@ -1,0 +1,182 @@
+@charset "utf-8";
+
+.sale_main img {
+	width: 100%;
+	max-width: 1010px;
+	display: block;
+	margin: 0 auto;
+}
+/* スマホメニュー*/
+#sale_menu {
+	position: fixed;
+	top: 0;
+	left: -190px; /* メニューのwidth + padding */
+	width: 170px; /* メニューのwidth */
+	height: 100%;
+	padding: 10px;
+	transition: left .5s, right .5s; /* アニメーション */
+	background-color: rgba(86, 86, 86, .2);
+}
+.toggle {
+	font-size: 0px;
+	cursor: pointer;
+	padding: 2px 20px 20px 20px;
+	background:url(../img/menu.jpg);
+	background-size:70px;
+	text-align: center;
+	z-index:99999;
+}
+.toggle:hover {
+	text-decoration: underline;
+}
+#open {
+	z-index: 999;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 20px;
+}
+#open {
+	display: none;
+}
+/* :checked 擬似クラスを使って、#openがチェック状態になった時に、#sale_menuが「left: 0;」になります。 */
+#open:checked + #sale_menu {
+	left: 0;
+	z-index:9999;
+}
+label.toggle {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: #fff;
+	height: 200px;
+	width: 30px;
+	font-size: 30px;
+	text-align: center;
+}
+label.toggle i {
+	display:none;
+	font-size: 30px;
+	margin-top: 10px;
+}
+#open {
+	display: none;
+}
+.floating_right_sp {
+	width: 200px;
+	position: fixed;
+	top: 50px;
+	left: 10px;
+}
+.floating_right_sp {
+	width: 170px;
+	position: fixed;
+	top: 50px;
+	left: 10px;
+	border-radius: 5px;
+	background: #a90f31;
+	font-weight: bold;
+}
+.floating_right_sp ul li {
+	width: 150px;
+	border-radius: 5px;
+	text-align: center;
+	background: #ffffff;
+	font-size: 12px;
+	margin: 5px;
+	padding: 12px 5px;
+	color: #fff;
+	font-weight: bold;
+	line-height: 1;
+}
+.floating_right_sp ul li:first-child {
+	background: #cd1d1f;
+}
+.floating_right_sp a {
+	color: #333333;
+	font-weight: bold;
+}
+.floating_right_sp ul li:hover {
+	background: #cd1d1f8f;
+}
+.floating_right_sp ul li:hover a{
+	color: #ffffff;
+}
+.floating_right_sp ul li:first-child:hover {
+	background: #cd1d1f8f;
+}
+#float_bottom {
+	position: fixed;
+	bottom: 0;
+	background: #000;
+	width: 100%;
+}
+#float_bottom img {
+	width: 100%;
+	max-width: 1010px;
+	display: block;
+	margin: 0 auto;
+}
+
+.floating-right {
+	z-index:9999;
+}
+
+/**タブレット用CSS
+------------------------------------------------**/
+@media (max-width: 1400px) and (min-width: 768px) {
+.floating-right {
+	width: 120px;
+	position: fixed;
+	bottom: 230px;
+	right: 0px;
+}
+
+.page-top{
+	bottom:16% !important;
+}
+}
+
+/**スマホ用CSS
+------------------------------------------------**/
+@media (max-width: 767px) {
+.floating-right {
+	width: 60px;
+	position: fixed;
+	bottom: 115px;
+	right: 0px;
+}
+
+.page-top{
+	bottom:10% !important;
+}
+}
+
+/**PC用CSS
+------------------------------------------------**/
+@media (min-width: 1401px) {
+.pc_hidden {
+	display: none;
+}
+#floating_left {
+	display: block;
+	background: url("");
+	width: 150px;/*画像幅*/
+	height: 890px;/*画像高さ*/
+	text-indent: -9999px;
+	position: fixed;
+	left: 0px;
+	top: 3px;
+}
+.floating-right {
+	width: 120px;
+	position: fixed;
+	bottom: 150px;
+	right: 0px;
+}
+
+#float_bottom {
+	display:none !important;
+}
+
+

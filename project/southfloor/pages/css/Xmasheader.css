@@ -1,0 +1,87 @@
+@charset "utf-8";
+	.wrapper{
+		max-width: 980px;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+	.head .wrapper img{
+		display: block;
+		width: 100%;
+	}
+	.head .wrapper .head_logo{
+		float: left;
+		width: 24%;
+	}
+	.head .wrapper .deli_star{
+		padding-top: 60px;
+		float: left;
+		width: 39%;
+	}
+	.head .wrapper .deli_bnr{
+		padding-top: 18px;
+		float: right;
+		width: 22%;
+	}
+	.wrapper .info {
+		float: right;
+		overflow: hidden;
+	}
+	.wrapper .info li{
+		float: left;
+		font-size: 12px;
+	}
+	.wrapper .info li a{
+		color: #333333;
+		text-decoration: none;
+	}
+	
+	#search_area{
+		max-width: 960px;
+		margin: 20px auto;
+		padding: 10px;
+		background-color: #333333;
+	}
+	#search_area #backblock,
+	#search_area ul li{
+		float: left;
+	}
+	#search_area form{
+		padding-top: 8px;
+	}
+	#search_area #textarea{
+		 display:block;
+		 width: 250px;
+		 height:24px;
+		 padding: 0;
+		 border-radius:2px;border:none;
+	}
+	#search_area #submit{
+		width:28px;
+		height:28px;
+		background-size:100% 100%;
+		display: block;
+		margin-left: 250px;
+		margin-top:-24px;
+		border: none;
+		background:url('https://www.rakuten.ne.jp/gold/southfloor/main-pc/header/img/head_search_ico.png') no-repeat;
+	}
+	#search_area ul{
+		padding-top: 6px;
+		float: right;
+		margin-top: 0;
+	}
+	#search_area ul li{
+		padding: 0 4px;
+		height: 28px;
+		line-height: 28px;
+		margin: 2px;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;
+		background-color: #FFFFFF;
+	}
+	#search_area ul li a{
+		font-size: 12px;
+		color: #666666;
+		text-decoration: none;
+	}
