@@ -1,0 +1,143 @@
+
+
+.p-header-point {
+    font-size: 1.4rem;
+	background-color: #ffffff;
+    padding-bottom: 3%;
+
+}
+@media(min-width: 768px) {
+.p-header-point {
+        font-size: 2rem;
+        padding-bottom: 1%;
+
+}
+    }
+.p-header-point__text {
+        border: 0;
+        color: #cf0000;
+        text-align: center;
+        font-weight: bold;
+        width: 100%;
+        max-height: 70px;
+        line-height: 35px;
+        margin: 0;
+        padding: 0;
+    }
+.p-header-point__timer {
+        color: #ffffff;
+        background-color: #cf0000;
+        text-align: center;
+        font-weight: bold;
+        width: 100%;
+        max-height: 50px;
+        line-height: normal;
+        margin: 0;
+        padding: 10px 0;
+        border-radius: 30px;
+        border: 2px solid #cf0000;
+    }
+.p-header-count {
+    font-size: 1.4rem;
+}
+@media(min-width: 768px) {
+.p-header-count {
+        font-size: 2rem
+}
+    }
+.p-header-count__timer {
+        border: 0;
+        color: #ffffff;
+        background-color: #fdbc30;
+        text-align: center;
+        font-weight: bold;
+        width: 100%;
+        max-height: 60px;
+        line-height: normal;
+        margin: 0;
+        padding: 10px 0;
+
+    }
+
+
+/*セール終了カウント2*/
+
+
+.p-header-point2 {
+    font-size: 1.4rem;
+	background-color: #ffffff;
+    padding-bottom: 3%;
+
+}
+@media(min-width: 768px) {
+.p-header-point {
+        font-size: 2rem;
+        padding-bottom: 1%;
+
+}
+    }
+.p-header-point__text2 {
+        border: 0;
+        color: #cf0000;
+        text-align: center;
+        font-weight: bold;
+        width: 100%;
+        max-height: 70px;
+        line-height: 50px;
+        margin: 0;
+        padding: 0;
+    }
+.p-header-point__timer2 {
+        color: #ffffff;
+        background-color: #cf0000;
+        text-align: center;
+        font-weight: bold;
+        width: 100%;
+        max-height: 50px;
+        line-height: normal;
+        margin: 0;
+        padding: 10px 0;
+        border-radius: 30px;
+        border: 2px solid #cf0000;
+    }
+.p-header-count2 {
+    font-size: 1.4rem;
+}
+@media(min-width: 768px) {
+.p-header-count2 {
+        font-size: 2rem
+}
+    }
+.p-header-count__timer2 {
+        border: 0;
+        color: #ffffff;
+        background-color: #000000;
+        text-align: center;
+        font-weight: bold;
+        width: 100%;
+        max-height: 60px;
+        line-height: normal;
+        margin: 0;
+        padding: 10px 0;
+
+    }
+
+/*.p-header-count__timer2:not(:target) {
+		padding: 20px;
+	    line-height: 30px;/* IE9, IE10, IE11 
+}
+
+*/ 
+
+
+
+
+
+
+
+
+
+
+
+
+

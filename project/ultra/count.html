@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>countdown</title>
+	<meta name="robots" content="noindex">
+
+	<!-- ▼ ここから全ページ必ず入れる -->
+	<link rel="stylesheet" href="css/html5reset_new.css">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/yahoo.css">
+	<!-- ▲ ここまで全ページ必ず入れる -->
+
+	<!-- ▼ ここからこのページのみ必要なCSS -->
+	<link rel="stylesheet" href="css/header-point-count.css">
+  <!-- ▲ ここまでこのページのみ必要なCSS -->
+</head>
+
+<body>
+
+	<div class="p-header-count">
+		<form name="tbox">
+			<input name="dspday" type="text" class="p-header-count__timer">
+		</form>
+	</div>
+	<!--▲カウントダウンタイマー▲-->
+
+
+	<!-- ▼ ここから全ページ必ず入れる -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- ▲ ここまで全ページ必ず入れる -->
+
+	<script>
+		<!--
+		window.onload = showday;
+		year = 2019;
+		mon = 08;
+		day = 13;
+		time = 12;
+		xday = new Date(year, mon - 1, day, time, 00, 00); //基準になる年月日
+		function showday() {
+			nowday = new Date();
+			passtime = xday.getTime() - nowday.getTime();
+
+			cnt_day = Math.floor(passtime / (1000 * 60 * 60 * 24));
+			passtime = passtime - (cnt_day * (1000 * 60 * 60 * 24));
+
+			cnt_hour = Math.floor(passtime / (1000 * 60 * 60));
+			passtime = passtime - (cnt_hour * (1000 * 60 * 60));
+
+			cnt_min = Math.floor(passtime / (1000 * 60));
+			passtime = passtime - (cnt_min * (1000 * 60));
+
+			cnt_sec = Math.floor(passtime / 1000);
+			passtime = passtime - (cnt_sec * (1000));
+
+			cnt_millisec = Math.floor(passtime / 10);
+
+			// 分、秒、ミリ秒を２桁で表示する。
+			if (cnt_min < 10) {
+				cnt_min = '0' + cnt_min;
+			}
+			if (cnt_sec < 10) {
+				cnt_sec = '0' + cnt_sec;
+			}
+			if (cnt_millisec < 10) {
+				cnt_millisec = '0' + cnt_millisec;
+			}
+
+			if ((xday - nowday) > 0) {
+				document.tbox.dspday.value = "3連休大暴走企画 終了まで " + cnt_day + "日" + cnt_hour + "時間" + cnt_min + "分" + cnt_sec + "秒" + cnt_millisec + ""
+			} else {
+				document.tbox.dspday.value = "3連休大暴走企画 終了しました！"
+			}
+			timerID = setTimeout('showday()', 10);
+		}
+
+		// -->
+	</script>
+
+</body>
+
+</html>

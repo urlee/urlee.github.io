@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>countdown</title>
+  <meta name="robots" content="noindex">
+  <link rel="stylesheet" href="css/html5reset_new.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/yahoo.css">
+  <link rel="stylesheet" href="css/header-point-count.css">
+  <style type="text/css">
+  	.p-header-point{background-color: transparent;}
+  </style>
+</head>
+
+
+
+<body style="background-color: transparent;">
+  <!-- ▼トップバナー＆時間▼ -->
+  <div class="p-header-point">
+    <p class="p-header-point__text" data-timer='{"start": "", "end": "2022/08/18 23:59"}'>＼★2022/08/18(日)はTポイント失効日★／</p>
+    <form name="tbox">
+      <input name="dspday" type="text" class="p-header-point__timer">
+    </form>
+  </div>
+  <!-- ▲トップバナー＆時間▲ -->
+
+  <!-- ▼ ここから全ページ必ず入れる -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/bundle.min.js"></script>
+  <script src="js/yahoo.js"></script>
+  <!-- ▲ ここまで全ページ必ず入れる -->
+
+  <script>
+    <!--
+    window.onload = showday;
+    year = 2022;
+    mon = 08;
+    day = 18;
+    time = 00;
+    xday = new Date(year, mon - 1, day, time, 00, 00); //基準になる年月日
+    function showday() {
+      nowday = new Date();
+      passtime = xday.getTime() - nowday.getTime();
+
+      cnt_day = Math.floor(passtime / (1000 * 60 * 60 * 24));
+      passtime = passtime - (cnt_day * (1000 * 60 * 60 * 24));
+
+      cnt_hour = Math.floor(passtime / (1000 * 60 * 60));
+      passtime = passtime - (cnt_hour * (1000 * 60 * 60));
+
+      cnt_min = Math.floor(passtime / (1000 * 60));
+      passtime = passtime - (cnt_min * (1000 * 60));
+
+      cnt_sec = Math.floor(passtime / 1000);
+      passtime = passtime - (cnt_sec * (1000));
+
+      cnt_millisec = Math.floor(passtime / 10);
+
+      // 分、秒、ミリ秒を２桁で表示する。
+      if (cnt_min < 10) {
+        cnt_min = '0' + cnt_min;
+      }
+      if (cnt_sec < 10) {
+        cnt_sec = '0' + cnt_sec;
+      }
+      if (cnt_millisec < 10) {
+        cnt_millisec = '0' + cnt_millisec;
+      }
+
+      if ((xday - nowday) > 0) {
+        document.tbox.dspday.value = "Tポイントが失効するまであと " + cnt_day + "日" + cnt_hour + "時間" + cnt_min + "分" + cnt_sec + "秒" + cnt_millisec + ""
+      } else {
+        document.tbox.dspday.value = "次のTポイント失効日は8/25！"
+      }
+      timerID = setTimeout('showday()', 10);
+    }
+    -->
+  </script>
+
+</body>
+</html>

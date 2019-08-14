@@ -1,0 +1,330 @@
+@charset "utf-8";
+
+body{
+	font-family: Lucida Grande,"游ゴシック Medium","メイリオ","Meiryo","Meiryo UI","ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+/*---------------PC/SP共通CSS---------------*/
+
+
+/* 6時間----------------------------------------------------------- */
+
+.att {
+	font-size: 1em;
+	line-height: 1.4em;
+	color: #666;
+	margin: 2% 0;
+	text-align: left;
+}
+
+/* メイン------------------------------------------------ */
+/* メインレイアウト--------- */
+.main-contents a:hover {
+	text-decoration: none;
+}
+
+.sale6h_main {
+	width:1100px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.sale6h_main li {
+	margin-bottom: 3%;
+	background-color:#FFFFFF;
+}
+
+.sale6h_warap {
+	border: 2px solid #d94168;
+	padding: 1%;
+	background-color:#FFFFFF;
+}
+
+.sale6h_left {
+	width: 45%;
+	float:left;
+}
+
+.sale6h_left img {
+	width: 100%;
+}
+
+.sale6h_right {
+	width: 55%;
+	float: right;
+}
+
+.sale6h_subimg img {
+	width: 48%;
+	margin: 0 0 2% 2%;
+	float: left;
+}
+
+/* メイン文字--------- */
+
+.sale6h_item_desc {
+	font-size: 1em;
+	line-height: 1.5em;
+	color: #333;
+}
+
+.sale6h_item_desc2 {
+	font-size: 1.2em;
+	line-height: 1.6em;
+	color: #D94168;
+}
+
+
+
+
+
+.sale6h_item_desc3 {
+	font-size: 1em;
+	line-height: 1em;
+	color: #D94168;
+	margin-bottom:12px;
+}
+
+.sale6h_date {
+	width: 100%;
+	font-size: 1.4em;
+	font-weight: bold;
+	padding: 1% 0;
+	margin-bottom: 2%;
+	color: #fff;
+	background: #d94168;
+	line-height: 25px;
+}
+
+.sale6h_date span, .sale6h_price {
+	font-family: 'Lato', sans-serif;
+}
+
+.sale6h_date span, .sale6h_price, .sale6h_price_yen {
+	font-weight: bold;
+}
+
+.sale6h_date span {
+	font-size: 1.5em;
+}
+
+.sale6h_price {
+	font-size: 4em;
+	color: #d94168;
+	line-height: 1.2em;
+}
+
+.sale6h_price_yen {
+	font-size: 3em;
+	color: #d94168;
+}
+
+.sale6h_icon {
+	margin: 1% 0;
+}
+
+.icon {
+	vertical-align:super;
+
+}
+
+.shipfee {
+	font-size: 1.3em;
+	color: #fff;
+	background: #d94168;
+	padding: 1%;
+	margin: 0% 1%;
+}
+
+.point {
+	font-size: 1.3em;
+	color: #fff;
+	background: #d97741;
+	padding: 1%;
+	margin: 0% 1%;
+}
+
+.sale6h_buy {
+	width: 70%;
+	font-size: 1.4em;
+	margin: 2% auto;
+	padding: 3%;
+	background: #666;
+	color: #fff;
+	border-radius: 10px;
+}
+
+
+/* サブ------------------------------------------------ */
+/* サブレイアウト--------- */
+.sale6h_sub {
+	text-align: center;
+	width:1100px;
+	margin:0 auto;
+}
+
+.sale6h_sub li {
+	width: 46%;
+	margin: 0 2% 3%;
+	float: left;
+	text-decoration: none;
+}
+
+
+@media screen and (max-width:640px) {
+
+.sale6h_sub {
+	text-align: center;
+	width:100%;
+	margin:0 auto;
+}
+
+.sale6h_sub li {
+	width: 46%;
+	margin: 0 2% 3%;
+	float: left;
+	text-decoration: none;
+}
+}
+
+/* サブ文字-（一部のみ小さく）-------- */
+
+.sale6h_sub .sale6h_date {
+	font-size: 1.2em;
+	padding: 2.5% 0;
+}
+
+
+.sale6h_sub .sale6h_buy {
+	width: 70%;
+	font-size: 1.2em;
+}
+
+/* SP新着---------------------------------------------*/
+.title-block-big {
+	color :#777;
+	text-align: center;
+	background: #fff;
+	margin: 6% auto 0;
+	padding: 5px 0;
+}
+
+.btn {
+	width: 60%;
+	background: #3e3e3e;
+	border: 1px solid #bbb;
+	margin: 10px auto 30px;
+	padding: 10px 0;
+}
+
+.btn p {
+	text-align: center;
+	color: #fff;
+}
+
+.btn p:before {
+	font-family: FontAwesome;
+	content: "\f101";
+}
+ .pc_footer_link {
+	text-align: center;
+}
+
+/*------▲arrivalアイフレーム▲------*/
+
+
+/*===============================================
+●PC 画面の横幅が769px以上
+===============================================*/
+
+@media screen and (min-width: 769px) {
+	.sp_footer_link {
+		display: none;
+	}
+
+	/*---------------文字----------------*/
+	html{
+		font-size: 100%;
+	}
+}
+
+
+/*===============================================
+●タブレット 画面の横幅が768pxまで
+===============================================*/
+@media screen and (max-width: 768px) {
+	/*---------------文字----------------*/
+	html{
+		font-size: 87.5%;
+	}
+}
+
+/*===============================================
+●SP  画面の横幅が640pxまで
+===============================================*/
+@media screen and (max-width:640px) {
+	/*---------------文字----------------*/
+	html {
+		font-size: 75%;
+	}
+
+	/* レイアウト--------- */
+	.sale6h_main {
+		width:98%;
+	}
+
+	.sale6h_left, .sale6h_right {
+		width: 100%;
+	}
+
+	/* メイン文字-（一部のみ小さく）-------- */
+	.sale6h_main .sale6h_date {
+		font-size: 1.2em;
+		font-weight: normal;
+		padding: 2.5% 0;
+	}
+
+	/* サブ文字-（一部のみ小さく）-------- */
+	.sale6h_sub .sale6h_date {
+		font-size: 0.8em;
+		font-weight: normal;
+		padding: 2.5% 0;
+	}
+
+	.sale6h_sub .sale6h_item_desc {
+		font-size: 0.8em;
+		line-height: 1.4em;
+		margin-bottom: 1.3%;
+	}
+
+
+.sale6h_item_desc3 {
+	font-size: 0.8em;
+	line-height: 1em;
+	color: #D94168;
+	margin-bottom:4px;
+}
+
+
+
+	.sale6h_sub .sale6h_price {
+		font-size: 1.9em;
+	}
+
+	.sale6h_price_yen {
+		font-size: 1em;
+	}
+
+	.sale6h_sub .shipfee, .sale6h_sub .point {
+		font-size: 1em;
+		line-height:1.5em;
+	}
+
+	.sale6h_sub .sale6h_buy {
+		width: 55%;
+		font-size: 0.8em;
+	}
+	.pc_footer_link {
+		display: none;
+	}
+}

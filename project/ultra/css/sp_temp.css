@@ -1,0 +1,1229 @@
+@charset "utf-8";
+
+/*
+
+==========================================================
+
+
+/*
+	Site Name: 
+	Description: css_set02
+	Version: 2.0(20080518)
+	Author: hongo
+*/
+
+/*
+===== CONTENTS ===========================================
+
+	0: SINGLE-COLUMN TEMPLATE
+
+==========================================================
+*/
+
+
+
+/*
+===== 5: SINGLE-COLUMN ==========================================
+*/
+body {
+    color: #333333;
+    font-size: 14px;
+    line-height: 1.3;
+    font-family: ArialMT, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3"; /* iPhoneバンドル */
+     -webkit-text-size-adjust: none; /* 文字の拡大縮小を防ぐ */
+}
+
+
+body#two-column02{
+	color:#333333;
+}
+body#single-column div#content{
+
+}
+body#single-column div#container{
+	width: 840px;
+	padding: 0 10px;
+	margin: 0 auto;
+	text-align:left;
+}
+body#single-column div#main{
+	width:840px;
+	margin:0 auto;
+	padding-bottom:50px;
+}
+/*見出し
+------------------------------------------*/
+body#two-column02 h2.ttl,
+body#single-column h2.ttl{
+	background: url(http://shopping.c.yimg.jp/lib/kobelettuce/bg_full_title.jpg) no-repeat 0 center;
+	font-size:1.15em;
+	font-weight:bold;
+	color:#FFF;
+	margin-bottom:2em;
+	padding:9px 0 9px 20px;
+}
+body#two-column02 h3.ttl,
+body#single-column h3.ttl{
+	background: url(http://shopping.c.yimg.jp/lib/kobelettuce/bg_full_s_title.jpg) no-repeat 0 center;
+	font-size:1.15em;
+	font-weight:bold;
+	margin-bottom:1em;
+	padding:0 0 33px 20px;
+}
+
+.ttl1 {
+	background: none repeat scroll 0 0 #000000;
+	color: #FFFFFF;
+	font-size: 120%;
+	font-weight: bold;
+	line-height: 1.1;
+	padding: 10px;
+	text-align: center;
+}
+
+/* button 修正
+------------------------------------------------------------------*/
+
+body#two-column02 ul.btn,
+body#single-column ul.btn{
+    zoom:1;/*for IE 5.5-7*/
+}
+
+body#two-column02 ul.btn:after,
+body#single-column ul.btn:after{/*for modern browser*/
+    content:".";
+    display: block;
+    height:0px;
+    clear:both;
+    visibility:hidden;
+}
+
+* html body#two-column02 ul.btn,
+* html body#single-column ul.btn{
+	display:inline-table;
+	/*\*/display:block;/**/
+}
+
+body#two-column02 ul.btn{
+	width:500px;
+	margin:2em auto;
+}
+
+body#single-column ul.btn{
+	width:580px;
+	margin:2em auto;
+}
+
+body#two-column02 ul.btn li{
+	display:inline;
+	float:right;
+	width:230px;
+}
+body#single-column ul.btn li{
+	display:inline;
+	float:right;
+	width:242px;
+}
+body#two-column02 ul.btn li.lft,
+body#single-column ul.btn li.lft{
+	margin-right:30px;
+	float:left;	
+}
+body#two-column02 ul.btn li.lft/*2こ並びの左側のボタンにクラス名追加*/,
+body#single-column ul.btn li.lft{
+	margin-right:30px;
+}
+body#two-column02 ul.btn li input,
+body#two-column02 ul.btn-single li input,
+body#single-column  ul.btn li input,
+body#single-column ul.btn-single li input,{
+	display:block;
+}
+body#two-column02 ul.btn-single,
+body#single-column ul.btn-single{
+	width:242px;
+	margin:2em auto;
+}
+body#two-column02 ul.btn li.form-right/*formが間にあるときのcss*/,
+body#single-column ul.btn li.form-right{
+	float:right;
+	margin-left:30px;
+}
+/* button 
+------------------------------------------------------------------*/
+
+.btn_n {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 5px 0;
+}
+
+div#button{
+	margin: 0 auto;
+	padding: 20px;
+	text-align:center;
+}
+.centerbtn{
+	text-align:center;
+	margin:20px auto;
+}
+div#button img{
+	text-align:center;
+	margin:0 auto;
+}
+div#button input{
+	display:block;
+ 	margin:0 auto 20px;
+}
+div#button form{
+	width:140px;
+	display:inline;
+}
+div#button a:hover{
+	background:none;
+}
+div#button2{
+	width:630px;
+	margin: 0 auto;
+	padding: 20px;
+}
+div#button3{
+	width:520px;
+	margin: 0 auto;
+	padding: 20px;
+}
+div#button_regist{
+	width:440px;
+	margin:0 auto;
+	padding: 20px;
+}
+div#button2 p,
+div#button3 p{
+	width:242px;
+	margin: 20px;
+}
+div#button2 p.left_float,
+div#button3 p.left_float{
+	float:left;
+}
+div#button2 p.right_float,
+div#button3 p.right_float{
+	float:right;
+}
+div#button2 input,
+div#button3 input{
+	float:left;
+	width:242px;
+}
+div#button_regist input{
+	float:left;
+	width:210px;
+}
+/*カート系のボタン対策*/
+.cart_button{/*共通*/
+	width: 242px;
+	height: 57px;
+	border: 0;
+	text-indent: -999em;
+	cursor: pointer;
+}
+
+
+.cart_button_detail {/*共通*/
+	width: 242px;
+	height: 70px;
+	border: 0;
+	text-indent: -999em;
+	cursor: pointer;
+}
+
+.cart_button_regist{/*共通*/
+	width: 210px;
+	height: 74px;
+	border: 0;
+	text-indent: -999em;
+	cursor: pointer;
+}
+.cart_button_big{/*共通*/
+	width: 242px;
+	height: 70px;
+	border: 0;
+	text-indent: -999em;
+	cursor: pointer;
+}
+
+.cart_button_big_n{/*共通*/
+	width: 135px;
+	height: 47px;
+	border: 0;
+	text-indent: -999em;
+	cursor: pointer;
+}
+
+.cart_button_null{/*共通*/
+	width: 140px;
+	height: 30px;
+	border: 0;
+	text-indent: -999em;
+	cursor: pointer;
+}
+.cart_button_mini{/*共通*/
+	width: 49px;
+	height: 25px;
+	border: 0;
+	text-indent: -999em;
+	cursor: pointer;
+}
+.bt_00{/*戻る*/
+	background: url(http://shopping.c.yimg.jp/lib/kobelettuce/btn_back.png) no-repeat top left;
+	background-size: 100%;
+}
+.bt_00_3{/*買い物に戻る*/
+	background: url(http://shopping.c.yimg.jp/lib/kobelettuce/btn_order_back.png) no-repeat top left;
+	background-size: 100%;
+	width: 242px;
+	height: 70px;
+	border: 0;
+	text-indent: -999em;
+	cursor: pointer;
+	display: block;
+}
+.bt_01{/*配送先選択へ（会員用）*/
+	background: url(http://shopping.c.yimg.jp/lib/kobelettuce/btn_order_ad.png) no-repeat top left;
+	background-size: 100%;
+}
+.bt_01_n{/*配送先選択へ（非会員用）*/
+	background: url(http://shopping.c.yimg.jp/lib/kobelettuce/btn_order_login_n.png) no-repeat top left;
+	background-size: 100%;
+}
+.bt_02{/*お支払い方法選択へ*/
+	background: url(http://shopping.c.yimg.jp/lib/kobelettuce/btn_order_pay.png) no-repeat top left;
+	background-size: 100%;
+}
+.bt_03{/*注文内容確認*/
+	background: url(http://shopping.c.yimg.jp/lib/kobelettuce/bt_cart_button03.jpg) no-repeat top left;
+}
+.bt_04{/*注文内容確認*/
+	background: url(http://shopping.c.yimg.jp/lib/kobelettuce/bt_cart_button04.jpg) no-repeat top left;
+}
+.bt_05{/*再計算*/
+	background: url(http://shopping.c.yimg.jp/lib/kobelettuce/btn_re_calcul.png) no-repeat top left;
+	background-size: 100%;
+}
+.bt_06{/*削除*/
+	background: url(http://shopping.c.yimg.jp/lib/kobelettuce/btn_del_mini.png) no-repeat top left;
+	background-size: 100%;
+}
+.bt_07{/*カートを空にする*/
+	background: url(http://shopping.c.yimg.jp/lib/kobelettuce/btn_del_cart.png) no-repeat top left;
+	background-size: 100%;
+}
+.bt_08{/*新規登録（WEB）*/
+	background: url(http://shopping.c.yimg.jp/lib/kobelettuce/btn_member.png) no-repeat top left;
+	background-size: 100%;
+}
+.bt_09{/*新規登録（TEL）*/
+	background: url(http://shopping.c.yimg.jp/lib/kobelettuce/bt_regist_beta.jpg) no-repeat top left;
+}
+.bt_10{/*ログインして注文*/
+	background: url(http://shopping.c.yimg.jp/lib/kobelettuce/btn_order_login.png) no-repeat top left;
+	background-size: 100%;
+}
+.bt_11{/*ログインする(login.php)*/
+	background: url(http://shopping.c.yimg.jp/lib/kobelettuce/btn_login.png) no-repeat top center;
+	background-size: 100%;
+}
+.bt_12{/*ログアウトする(login.php)*/
+	background: url(http://shopping.c.yimg.jp/lib/kobelettuce/btn_logout.png) no-repeat top left;
+	background-size: 100%;
+}
+.bt_13{/*確認画面へ*/
+	background: url(http://shopping.c.yimg.jp/lib/kobelettuce/bt_confirm.jpg) no-repeat top left;
+}
+.bt_14{/*登録する*/
+	background: url(http://shopping.c.yimg.jp/lib/kobelettuce/btn_touroku.png) no-repeat top left;
+	background-size: 100%;	
+}
+.bt_15{/*パスワードを送信する*/
+	background: url(http://shopping.c.yimg.jp/lib/kobelettuce/bt_send.jpg) no-repeat top left;
+}
+.bt_16{/*カートに入れる*/
+	background: url(http://shopping.c.yimg.jp/lib/kobelettuce/bt_cart_mid.jpg) no-repeat top left;
+}
+.bt_17{/*同意して次へ進む（TEL会員）*/
+	background: url(http://shopping.c.yimg.jp/lib/kobelettuce/bt_agree.jpg) no-repeat top left;
+}
+.bt_18{/*同意して次へ進む（WEB会員 メルマガ会員）*/
+	background: url(http://shopping.c.yimg.jp/lib/kobelettuce/btn_doui.png) no-repeat top left;
+	background-size: 100%;
+}
+.bt_oneclick{/*ワンクリック決済*/
+	background: url(http://shopping.c.yimg.jp/lib/kobelettuce/btn_order_1click.png) no-repeat top left;
+	background-size: 100%;
+}
+div#info dl {
+	margin:0 0 2em;
+	padding:0;
+}
+div#info dt {
+	border-bottom:1px solid #E5E5E5;
+	font-weight:bold;
+	margin:2em 0 0.5em;
+	padding:0.25em 0.5em;
+}
+div#info dd {
+	padding:0 0.5em;
+}
+/*フロー
+------------------------------------------*/
+ul.flow{
+	margin-top:20px;
+}
+ul.flow li{
+	padding:5px 15px;
+	float:left;
+	border:1px solid #E3E3E3;
+	color:#999;
+	background:#F9F9F9;
+}
+ul.flow li.normal{
+	padding:5px;
+	float:left;
+	border:solid 1px #DFB586;
+	color:#DFB586;
+	background:#F5EADC ;
+}
+ul.flow li.arrow{
+	width:15px;
+	margin:0 0 0 -1px;
+	padding:5px 0;
+	border:none;
+	text-indent:-9999px;
+	background: url(http://shopping.c.yimg.jp/lib/kobelettuce/ic_arrow_li.jpg) repeat-y top left;
+	background-color:#fff;
+}
+ul.flow li.arrow_now{
+	width:18px;
+	margin:0 0 0 -3px;	padding:10px 0 13px;
+	border:none;
+	text-indent:-9999px;
+	background: url(http://shopping.c.yimg.jp/lib/kobelettuce/ic_arrow_li_now.jpg) repeat-y top left;
+	background-color:#FFF;
+	position:relative;top:-13px;_left:-3px;
+}
+ul.flow li.now{
+	padding:10px 15px;
+	background: #FFFFFF;
+	border:2px solid #DFDFDF;
+	color:#333;
+	font-weight:bold;
+	position:relative;top:-13px;
+}
+/* table(カラム用)
+------------------------------------------------------------------*/
+table{
+	clear:both;
+	margin:0 0 20px;
+	width:100%;
+}
+
+table.w0,
+table.w30,
+table.w40{
+	border-top: #999999 1px solid;
+	border-left: #999999 1px solid;
+	border-bottom: #999999 1px solid;
+	border-collapse:collapse;
+}
+table caption{
+	text-align: left;
+	color: #FFFFFF;
+	background:#333;
+	padding:0.5em;
+	margin-left:-1px;
+}
+table.w30 th,
+table.w40 th,
+table.w0 th{
+	background: #F6F6F6;
+	border-bottom: #999999 1px dotted;
+	border-left: #999999 1px solid;
+	border-right: #999999 1px solid;
+	border-top: none ;
+	color: #333;
+	padding:0.3em 0.5em;
+	text-align:left;
+}
+table.w80 th{
+	background-color: #F6F6F6;
+	border: #999999 1px solid;
+	text-align:center;
+	font-weight: bold;
+	color:#333;
+	padding:0.3em 0.5em;
+}
+table.w80 td{
+	width:;
+	border-bottom: #999999 1px solid;
+	border-left: #999999 1px solid;
+	border-right: #999999 1px solid;
+	padding:0.3em 0.5em;
+}
+table.w30 th{
+	width:30%;
+}
+table.w40 th{
+	width:40%;
+}
+table.w30 td,
+table.w40 td,
+table.w0 td{
+	border-bottom: #999999 1px dotted;
+	border-left: none;
+	border-right: #999999 1px solid;
+	padding:0.3em 0.5em;
+}
+table.w30 td{
+	width:70%;
+}
+table.w40 td{
+	width:60%;
+}
+table.w0 td{
+	font-weight:normal;
+	background-color: #FFF;
+}
+table#exAddress{
+	width:100%;
+	border-collapse: collapse;
+	border-bottom: #999999 1px solid;
+	margin:0 0 20px;
+}
+table.border_none{
+	width:100%;
+	border-collapse: collapse;
+	border:none;
+	margin:0 0 20px;
+	clear: both;
+}
+table.border_none td{
+	border: none;
+}
+table.border_none th{
+	border: none;
+}
+table th.goods-list_delete {
+	width:15%;
+}
+table th.goods-list_name{
+	width:45%;
+}
+table th.goods-list_price{
+	width:10%;
+}
+table th.goods-list_piece{
+	width:15%;
+}
+table th.goods-list_price2{
+	width:15%;
+}
+table th.goods-list_delete{
+	width:15%;	
+}
+body#single-column table td.check-style dt{
+	font-weight:bold;
+	border-bottom:1px dotted #CCCCCC;
+	margin-top:5px;
+	margin-bottom:5px;
+	padding-bottom:5px;
+	clear:left;
+}
+body#single-column table td.check-style dd{
+	display:inline;
+	float:left;
+	margin-bottom:5px;
+	margin-right:5px;
+	white-space:nowrap;
+}
+/* お問い合わせのお問い合わせフォーム
+--------------------------------------------------------*/
+table td strong{
+	margin-bottom:0.5em;
+}
+table td input{
+	vertical-align:middle;
+	margin-right:3px;
+}
+table td label span{
+	margin:0 3px;
+}
+
+/* ガイドボックス　（利用規約・プライバシーポリシー）
+------------------------------------------------------------------*/
+div#guide_box3{
+	float:left;
+	padding:18px;
+}
+div#guide_box3 ul.title{
+	font-weight:bold;
+	margin-bottom:1em;
+	border-bottom: #7F7F7F 1px solid;
+}
+div#guide_box3 ul{
+	margin-bottom:2em;
+}
+div#guide_box3 ul li{
+	margin-bottom:0.5em;
+}
+div#Layer{
+	position:static;height:200px;z-index:1;overflow: auto;padding:0px;left: 0px;
+	border:1px solid #999999;
+	border-bottom:none;
+}
+div.box{
+	border:1px solid #CCCCCC;
+	margin:0 auto 1em;
+	padding:1em;
+	
+}
+/* comment
+------------------------------------------------------------------*/
+#comment_main{/* 通常コメント　グレー枠　 ----------------------------*/
+	padding: 20px;
+	border:2px solid #CCCCCC;
+	margin: 0 0 20px;
+	color: #333;
+	text-align:left;
+}
+#comment_main2{/* 通常コメント　ベタ枠　 ----------------------------*/
+	width:  ;
+	padding: 20px;
+	background: #333;
+	margin: 0 0 20px;
+	color: #FFFFFF;
+	text-align:left;
+}
+div#comment_main2 p.title{
+	font-weight:bold;
+	margin-bottom:1em;	
+}
+div#comment_main2 p.read{
+	margin-bottom:1em;
+}
+div#comment_main2 ul.various-list li{
+	margin-bottom:0.25em;
+}
+
+/* pass_guide(20110720)-------------------*/
+#pass_guide{
+	text-align: center;
+}
+
+.pagetop {
+    padding: 1em;
+    text-align: right;
+}
+/*エラー・注意系
+------------------------------------------*/
+#comment_error {
+	border:1px solid #CC0000;
+	color:#CC0000;
+	font-weight:bold;
+	margin:0 0 10px;
+	padding:1em 2em;
+	background:#FFF;
+}
+.hidden {
+	display:none;
+}
+.center_txt {
+	text-align:center;
+}
+.left_txt {
+	text-align:left;
+}
+.left_float {
+	float:left;
+}
+.right_txt {
+	text-align:right;
+}
+.right_float {
+	float:right;
+}
+.txt_indent05 {
+	margin-left:0.5em;
+}
+.txt_indent1 {
+	margin-left:1em;
+}
+.txt_indent2 {
+	margin-left:2em;
+}
+.txt_indent3 {
+	margin-left:3em;
+}
+.txt_indent95 {
+	margin:1em auto 0;
+	width:95%;
+}
+.txt_indent250 {
+	margin-left:250px;
+}
+
+.bold {
+	font-weight:bold;
+}
+.line_height11 {
+	line-height:1.1;
+}
+.line_height12 {
+	line-height:1.2;
+}
+.bg_yellow {
+	background:#FFF9E0 none repeat scroll 0 0;
+}
+.bg_th {
+	background:#F6F6F6 none repeat scroll 0 0;
+}
+.th_30 {
+	width:30%;
+}
+.f10em {
+	color:#1F1F1F;
+	font-size:1em;
+}
+.f12em {
+	color:#1F1F1F;
+	font-size:1.2em;
+}
+.f14em {
+	color:#1F1F1F;
+	font-size:1.4em;
+}
+.f16em {
+	color:#1F1F1F;
+	font-size:1.6em;
+}
+.f18em {
+	color:#1F1F1F;
+	font-size:1.8em;
+}
+.ime_J {
+	ime-mode:active;
+}
+.ime_E_N {
+	ime-mode:inactive;
+}
+.ime_E {
+	ime-mode:disabled;
+}
+/* カート
+------------------------------------------------------------------*/
+p.txt_cart_null{
+	width:130px;
+	margin:0.25em 0 0.75em; padding:5px;
+	font-size:0.8em;
+	background: #F7F7E6;
+	border:1px solid #D8D8C6;
+	line-height:1;
+}
+body#single-column dl.mypage dt{
+	float:left;
+	width:200px;
+}
+body#single-column dl.mypage dt a{
+	background:url(http://shopping.c.yimg.jp/lib/kobelettuce/ico_arrow_black.gif) no-repeat  0 center;
+	line-height:1.6;
+	padding-left:10px;
+}
+body#single-column dl.mypage dd{
+	margin-bottom:1em;
+	padding-bottom:0.5em;
+	border-bottom:1px dotted #000000;
+}
+/*カートの中の商品*/
+body#single-column table.cart-item{
+	border-bottom:none;
+	margin-bottom:0;
+	width:90%;
+}
+/*配送先登録について
+-----------------------------------*/
+body#single-column div#delivery-select{
+	float:left;
+	width:300px;
+	margin:1em;
+}
+body#single-column div#delivery-about{
+	float:right;
+	width:300px;
+	padding:10px 20px;
+	background: #F6F6F6;
+	margin:1em;
+	border:1px solid #999999;
+}
+body#single-column div#delivery-about p.bold{
+	padding-bottom:0.5em;
+	margin-bottom:0.5em;
+	border-bottom:1px solid #CCCCCC;
+}
+
+
+/* お支払・送料
+------------------------------------------------------------------*/
+body#single-column div#info.pay h3{
+	margin-bottom:1.5em;
+}
+body#single-column div#info.pay h4{
+	background:#E8E8E8;
+	font-size:1em;
+	font-weight:bold;
+	margin:1.5em 0 1.5em;
+	padding:5px 8px;
+}
+body#single-column div#info.pay p{
+	margin-bottom:1em;
+}
+body#single-column div#info.pay p.title{
+	font-weight:bold;
+	margin-bottom:0.25em;
+}
+body#single-column div#info.pay ul.card-img{
+	margin-bottom:1em;
+}
+body#single-column div#info.pay ul.card-img li{
+	display:inline;
+	float:left;
+	margin-right:10px;
+}
+body#single-column div#info.pay table{
+	border-left:1px solid #353535;
+	border-top:1px solid #353535;
+}
+body#single-column div#info.pay table th{
+	
+}
+body#single-column div#info.pay table td{
+	border-bottom:1px solid #353535;
+	border-right:1px solid #353535;
+	padding:5px 8px;
+}
+body#single-column div#info.pay table th{
+	background:#666666;
+	color:#FFFFFF;
+	padding:5px 8px;
+	border-left:1px solid #353535;
+	border-bottom:1px solid #353535;
+}
+body#single-column div#info.pay table.postage th{
+	white-space:nowrap;
+	text-align:center;
+}
+body#single-column div#info.pay table.postage td{
+	white-space:nowrap;
+	font-size:0.85em;
+}
+body#single-column div#info.pay ul.attention{
+	font-size:0.85em;
+	margin-bottom:1em;
+}
+body#single-column div#info.pay div.table-wrap,
+body#single-column div#info.pay div.table-wrap th{
+	width:50%;
+}
+body#single-column div#info.pay div.section{
+	margin-bottom:2em;
+}
+
+
+/* レビュー機能
+------------------------------------------------------------------*/
+body#single-column dl.review-item{
+	margin-bottom:2em;
+}
+body#single-column dl.review-item dt{
+	float: left;
+	width:140px;
+	margin-right:20px;
+}
+body#single-column dl.review-item dd{
+	float: left;
+	width:500px;
+	margin-bottom:0.5em;
+}
+body#single-column dl.review-item dd.regist{
+	background:url(http://shopping.c.yimg.jp/lib/kobelettuce/ico_review.gif) no-repeat 0 0;
+	padding-left:25px;
+}
+body#single-column dd.value{
+	margin-top:0.5em;
+}
+body#single-column dd.value span{
+	color:#FF0066;
+	font-weight:bold;
+	line-height:1;
+}
+/*レビューを書く*/
+body#single-column dd.value span.score{
+	font-size:3em;
+	margin-right:10px;
+}
+body#single-column table span.supli{
+	font-weight:normal;
+	font-size:0.85em;
+}
+/*レビュー・お気に入りボックスのページャー*/
+body#single-column div.headline p.total{
+	float:left;
+	width:160px;
+	font-weight:bold;	
+}
+body#single-column div.headline p.total span{
+	font-size:1.85em;
+	color:#FF0066;
+}
+body#single-column div.headline div.pager{
+	float:right;
+	width:300px;
+	margin-top:12px;
+}
+body#single-column div.headline p.page-all{
+	float:right;
+	white-space:nowrap;	
+}
+body#single-column div.headline p.page-all strong{
+	margin-right:5px;
+}
+body#single-column div.headline p.page-all span{
+	margin-left:15px;	
+}
+/*レビュー一覧*/
+body#single-column div.review-box{
+	background:#E8E8E8;
+	padding:1em 2em 1em;
+}
+body#single-column div.review-box ul.name{
+	background:#000;	
+}
+body#single-column div.review-box ul.name li{
+	display:inline;
+	color:#FFFFFF;
+	text-align:right;
+	padding:5px;
+}
+body#single-column div.review-box ul.name li.name{
+	float:left;
+}
+body#single-column div.review-box ul.name li.date{
+	float:right;
+}
+body#single-column div.review-box div.section{
+	border:1px solid #666666;
+	background:#FFFFFF;
+	margin-bottom:2em;
+}
+body#single-column div.review-box div.section p{
+	background:#000;
+	color:#FFFFFF;
+	text-align:right;
+	padding:5px;
+}
+body#single-column div.review-box div.section dl{
+	padding:20px;
+}
+body#single-column div.review-box div.section dt{
+	font-weight:bold;
+	border-bottom:1px dotted #999;
+	padding-bottom:1em;
+	margin-bottom:1em;
+}
+body#single-column div.review-box div.section dt img{
+	padding-left:10px;
+	vertical-align:top;
+}
+/* お気に入りボックス
+------------------------------------------------------------------*/
+body#single-column div.favorite-box{
+	margin:1em;
+}
+body#single-column div.favorite-box p{
+	float:left;
+	width:90px;
+	margin-right:10px;
+}
+body#single-column div.favorite-box ul.box-list{
+	float:left;
+	width:400px;
+}
+body#single-column div.favorite-box ul.box-list li{
+	margin-bottom:0.5em;
+}
+body#single-column div.favorite-box ul.box-list li.stock{
+	font-size:0.85em;
+	color:#999;
+}
+body#single-column table.w80.favorite td {
+	border-bottom:1px solid #999999;
+}
+/* リクエスト
+------------------------------------------------------------------*/
+body#single-column div#request-table table{
+	border-bottom:
+	border-collapse:collapse;
+	clear:both;
+	margin:0 0 20px;
+	width:100%;
+}
+
+/*goods_list7で使用
+------------------------------------------------------------------*/
+body#two-column ul.topicpass{
+	margin-top:-5px;
+	padding-bottom:10px;
+}
+body#two-column ul.topicpass li{
+	display:inline;
+	font-size:0.85em;
+}
+div.result{
+	
+}
+div.item-img{
+	float:left;
+	width:200px;height:;
+	margin:0 20px 0 0 ;padding:0;
+	background: url(http://shopping.c.yimg.jp/lib/kobelettuce/im_noimg200.jpg) no-repeat top;
+	display:block;
+}
+div.item-img img{
+	margin:0 ;padding:0;
+}
+
+div.item-img ul li{
+	display:inline;
+	float:left;
+}
+
+div.item-img ul li.lft{
+	padding-right:16px;
+}
+
+div.item-img p{
+	padding-bottom:16px;
+}
+body#two-column div.item-info{
+	float:left;
+	width:425px;	
+}
+body#two-column div.item-info ul.icon-list{
+	margin-bottom:1em;	
+}
+body#two-column div.item-info h2#head{
+	font-size:1.5em;
+	color:#000000;
+	padding-bottom:0.5em;
+	width:500px;
+}
+body#two-column div.item-info p{
+	margin-bottom:0.5em;
+}
+body#two-column div.item-info p#goods_catch{
+	font-weight:bold;
+	font-size:1.2em;
+	width:500px;
+	}
+
+
+body#two-column div.item-info li.number{
+	background:#F2F2F2;
+	padding-left:0.25em;
+	margin-bottom:1em;
+}
+body#two-column div.item-info li.maker-price{
+	font-size:1.1em;
+	color:#000000;
+	font-weight:bold;
+}
+body#two-column div.item-info li.sakusaku-price{
+	font-size:1.65em;
+	font-weight:bold;	
+}
+body#two-column div.item-info li.sakusaku-price span{
+	font-size:2em;
+	color:#FF0000;
+}
+body#two-column div.item-info li.sakusaku-price span.tax{
+	font-weight:normal;
+	font-size:0.5em;
+	color:#999999;
+}
+body#two-column div.wrap-note table{
+	width:100%;
+	border-collapse:collapse;
+	border-left:1px solid #C5C5C5;
+	border-top:1px solid #C5C5C5;
+}
+body#two-column div.wrap-note{
+	margin:1em 0;
+}
+body#two-column div.wrap-note table th{
+	border-right:1px solid #C5C5C5;
+	border-bottom:1px solid #C5C5C5;
+	background:#F2F2F2;
+	padding: 5px;
+/* 	white-space:nowrap; */
+}
+
+body#two-column div.wrap-note table td{
+	border-right:1px solid #C5C5C5;
+	border-bottom:1px solid #C5C5C5;
+	padding:0 15px;
+}
+
+body#two-column div.wrap-note table td input{
+	height: 20px;
+}
+
+ul.bn_gl3 li{
+	margin-bottom:18px;
+}
+
+caption, th {
+    text-align: left;
+}
+address, caption, cite, code, em, strong, th {
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+/*商品詳細ページ
+-------------------------------------------------------*/
+div#item-photo-wrap{
+	float:left;
+	width:300px;
+}
+p.item-photo{
+	margin-bottom:1em;
+}
+div.detail{
+	padding:0 20px ;
+}
+div#item-detail{
+	float:right;
+	width:320px;
+}
+div#item-detail ul li{
+	margin-bottom:10px;
+}
+div#item-detail ul li.review-s{
+	background:url(http://shopping.c.yimg.jp/lib/kobelettuce/ico_review_s.gif) no-repeat 0 center;
+	padding-left:22px;
+	margin-bottom:5px;
+}
+div#item-detail ul li.review-w{
+	background:url(http://shopping.c.yimg.jp/lib/kobelettuce/ico_review_w.gif) no-repeat 0 center;
+	padding-left:22px;
+	margin-bottom:5px;
+}
+div#item-detail ul li.susumeru{
+	background:url(http://shopping.c.yimg.jp/lib/kobelettuce/ico_review_s.gif) no-repeat 0 center;
+	padding-left:22px;
+	margin-bottom:5px;
+}
+div.outside-date{
+	clear:both;
+	margin-bottom:1em;
+}
+
+/*レビュー部分 13/03/06追記*/
+
+div.eval_all_review a, ul li.review-s a, ul li.review-w a{
+	padding:3px 0;	
+	}
+ul li.review-s{
+	padding:0 0 5px;	
+	}
+
+
+
+
+input.bt_request{/*配送先選択へ（会員用）*/
+	background: url(http://shopping.c.yimg.jp/lib/kobelettuce/btn_request_sp.png) no-repeat top left;
+	background-size:100%;
+	width: 242px;
+	height: 56px;
+	border: 0;
+	text-indent: -999em;
+	cursor: pointer;
+	display:block;
+}
+
+input.bt_request_n{/*配送先選択へ（会員用)テスト0613)*/
+	background: url(http://shopping.c.yimg.jp/lib/kobelettuce/button_req.png) no-repeat top left;
+	background-size:100%;
+	width: 135px;
+	height: 47px;
+	border: 0;
+	text-indent: -999em;
+	cursor: pointer;
+	display:block;
+}
+
+input.bt_favorite{/* お気に入りボックス用ボタン */
+	background: url(http://shopping.c.yimg.jp/lib/kobelettuce/btn_favorite_box.gif) no-repeat top left;
+	width: 242px;
+	height: 56px;
+	border: 0;
+	text-indent: -999em;
+	cursor: pointer;
+	display:block;
+}
+
+
+/*商品詳細ページ 関連商品
+-------------------------------------------------------*/
+div#goods_relation p{
+	background: url(http://shopping.c.yimg.jp/lib/kobelettuce/bg_full_s_title.jpg) no-repeat scroll 0 center;
+	font-size:1.15em;
+	font-weight:bold;
+	margin-bottom:1em;
+	padding:0 0 33px 20px;
+}
+div#goods_relation dl{
+	width:100px;
+	float:left;
+	margin-right:20px;
+}
+
+/*商品名
+------------------------------*/
+div#item-detail ul li.name{
+	font-weight:bold;
+	font-size:1.20em;
+}
+div#item-detail ul li span.title{
+	margin-right:15px;
+}
+div#item-detail ul li.item-number{
+	border-top:1px dotted #000000;
+	border-bottom:1px dotted #000000;
+	padding:8px 0;
+}
+
+/*価格
+------------------------------*/
+div#item-detail ul li.price{
+	font-size:1.50em;
+	color:#CC0000;
+	font-weight:bold;
+}
+div#item-detail ul li.price span.title{
+	font-size:0.65em;
+}
+div#item-detail ul li.price span.tax{
+	font-size:0.65em;
+	margin-left:10px;
+}

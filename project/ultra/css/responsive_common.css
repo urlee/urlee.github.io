@@ -1,0 +1,103 @@
+@charset "utf-8";
+@media ( min-width:769px ) {
+
+	html{
+		font-size: 87.5%;
+	}
+}
+
+body{
+	font-family: Lucida Grande, "メイリオ", "Meiryo", "Meiryo UI", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+a {
+	text-decoration:none;
+}
+
+@media ( min-width:769px ) {
+
+	a:active {
+		opacity: 0.7;
+	}
+
+	a:hover {
+		text-decoration:underline;
+	}
+
+	a:hover img {
+		opacity:0.7;
+	}
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+	vertical-align: bottom;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+#gmenu {
+	position: static;
+	line-height: 0;
+}
+
+#gmenu.fixed {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 10000;
+}
+
+@media ( min-width:769px ) {
+
+	#sp-header{
+		display: none;
+	}
+}
+
+.top{
+	width: 40px;
+	height: 40px;
+	background: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	bottom: 15px;
+	right: 10px;
+	border-radius: 50%;
+	z-index: 100;
+	line-height: 35px;
+	text-align: center;
+}
+
+.top a {
+	display: block;
+}
+
+.main-contents {
+	width:100%;
+	margin:0 auto;
+}
+
+@media ( min-width:769px ) {
+
+	.main-contents{
+	    width: 1100px;
+		margin: 0 auto;
+	}
+}
+
+.main-contents__right {
+	width:100%;
+}
+
+@media ( min-width:769px ) {
+
+	.main-contents__right{
+		width: 750px;
+		float: right;
+	}
+}
