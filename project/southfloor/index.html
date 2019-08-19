@@ -7,7 +7,9 @@
 	<link rel="stylesheet" href="main-pc/css/fmp.css" />
 	<link rel="stylesheet" href="main-pc/css/style.css" />
 	<style type="text/css">
-		iframe{width: 100%;height: auto;}
+		iframe{
+			width: 100%;
+		}
 		body{
 			background-repeat: repeat-y;
 			background-position: left top;
@@ -20,7 +22,7 @@
 		 	right: 0; 
 			width: 6rem; 
 			display: block;
-			height: 518.625rem;
+			height: 545rem;
 			position: absolute;
 			background-repeat: repeat-y;
 			background-position: right;
@@ -31,14 +33,14 @@
 <body>
 	
 	<!-- header & main -->
-	<iframe src="main-pc/header.html" frameborder="0" scrolling="no"></iframe>
-	<iframe src="main-pc/main.html" frameborder="0" scrolling="no"></iframe>
+	<iframe src="main-pc/header.html" height="1400" frameborder="0" scrolling="no"></iframe>
+	<iframe src="main-pc/main.html" height="760" frameborder="0" scrolling="no"></iframe>
 	
 	
 	<!-- left & right-->
 	<div class="w mt30 mb30 clearfix">
-		<div class="left fl"><iframe src="main-pc/left.html" scrolling="no" frameborder="0"></iframe></div>
-		<div class="right fr"><iframe src="main-pc/right.html" scrolling="no" frameborder="0"></iframe></div>
+		<div class="left fl"><iframe src="main-pc/left.html" height="1800" scrolling="no" frameborder="0"></iframe></div>
+		<div class="right fr"><iframe src="main-pc/right.html" height="4440" scrolling="no" frameborder="0"></iframe></div>
 	</div>
 	
 	<!-- footer category & explain-->
@@ -155,7 +157,7 @@
 	
 	
 	<!-- footer -->
-	<iframe src="main-pc/footer.html" scrolling="no" frameborder="0"></iframe>
+	<iframe src="main-pc/footer.html" height="920" scrolling="no" frameborder="0"></iframe>
 	
 	<!-- fixed -->
 	<a href="https://item.rakuten.co.jp/southfloor/c/0000000369/" target="_top" class="fix-right"></a>
@@ -164,11 +166,7 @@
 	
 	<!-- js -->
 	<script src="main-pc/js/jquery.min.js"></script>
-	<script src="main-pc/js/jquery.iframe-auto-height.plugin.js"></script>
 	<script type="text/javascript">
-		$(function(){
-			jQuery("iframe").iframeAutoHeight();
-		})
 		//デバイス判定
 		var ua = navigator.userAgent;
 		if( ua.indexOf('iPhone') > -1 || ua.indexOf('iPod') > -1 || ua.indexOf('Android') > -1 ) {
@@ -176,7 +174,6 @@
 				location.href = 'smart/index.html';
 			}
 		}
-	
 	</script>
 	
 </body>
