@@ -92,37 +92,74 @@
 	border-top: 1px solid #CCCCCC;
 	border-bottom: 1px solid #CCCCCC;
 }
-.gNav li{
+.gNav>li{
+	padding: .25rem 0;
 	float: left;
+	position: relative;
 }
 .gNav a{
 	display: inline-block;
 	color: #333333;
-	padding: 0 1.16rem;
-	line-height: 2rem;
+	padding: 0 1.11rem;
 	text-decoration: underline;
 	font-family: arial !important;
 }
 .gNav a:hover{
 	text-decoration: none;
 }
-.gNav li:after{
+.gNav>li:after{
 	content: "|";
 	color: #C0C0C0;
 	line-height: 2rem;
 }
-.gNav li:last-child:after{
+.gNav>li:last-child:after{
 	content: "";
 	padding-left: 0;
 }
-.gNav li:first-child a{
+.gNav>li:first-child a{
 	font-weight: bold;
 }
-.gNav li:last-child a{
+.gNav>li:last-child a{
 	color: red;
 }
-
-
+.gNav li>ul{
+	position: absolute;
+	top: 100%;left: 0;
+	display: none;
+	padding: .5rem;
+}
+.gNav>li:hover>ul{
+	display: block;
+	width: 7rem;
+	background-color: #F8F8F8;
+}
+.gNav>li:hover>ul li{
+	font-size: .875rem;
+	line-height: 1.5rem;
+	margin-bottom: .5rem;
+}
+.gNav>li:hover>ul li a{
+	display: block;
+	padding: 0 .5rem;
+}
+.gNav>li:hover{background-color: #F8F8F8;}
+.gNav li>ul>li:hover>a,
+.gNav>li:hover>ul li a:hover{
+	background-color: #F2DEDE;
+}
+.gNav li>ul>li{
+	position: relative;
+}
+.gNav li>ul>li>ul{
+	position: absolute;
+	left: 100%;top: -.5rem;
+	display: none;
+	width: 7rem;
+	background-color: #F8F8F8;
+}
+.gNav li>ul>li:hover>ul{
+	display: block;
+}
 
 
 
