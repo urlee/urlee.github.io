@@ -43,12 +43,12 @@
 	border: solid 1px #d0d0d0;
 	background-color: #F4F4F4;
 }
-.search_form{padding-left: .625rem;}
+/*.search_form{padding-left: .625rem;}*/
 #keyword{
 	color: #666;
 	float: left;
 	outline: none;
-	width: 12.5rem;
+	width: 11rem;
 	font-size: 85%;
 	height: calc( 1rem + 1px );
 	padding: .125rem calc( .375rem - 1px );
