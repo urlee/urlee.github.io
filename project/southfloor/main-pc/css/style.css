@@ -1,7 +1,9 @@
 @charset "utf-8";
 
 
-
+.endR_mr0{
+	margin-right: 0 !important;
+}
 /*
  * header style
  */
@@ -167,7 +169,7 @@
  * main style
  */
 
-.item-list2{
+.item-list2,.item-list3{
 	overflow: hidden;
 	margin-bottom: .75rem;
 }
@@ -178,6 +180,11 @@
 }
 .item-list2 a img{
 	width: 100%;
+}
+.item-list3 a{
+	float: left;
+	width: 30%;
+	margin-right: 5%;
 }
 .item_title{
 	font-size: 1.25rem;
