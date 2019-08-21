@@ -1,0 +1,6 @@
+@charset "utf-8";
+#feeds_news{
+	float: right;
+	width: 49.75% !important;
+	border-left: 4px solid #333333;
+}
