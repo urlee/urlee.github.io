@@ -1,0 +1,456 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+<link href="css/html5reset.css" rel="stylesheet">
+
+<script type="text/javascript" src="js/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="js/sp_item_header.js"></script>
+
+
+<script>
+function Settoday(){
+  var today = new Date() ;
+  var nowtime= ("0"+today.getHours()).slice(-2) +":"+("0"+today.getMinutes()).slice(-2);
+  var weekday1 = [ "Sun1", "Mon1", "Tue1", "Wed1", "Thu1", "Fri1", "Sat1" ] ;
+
+  var startlist1 = [ "", "10:00", "10:00", "10:00", "10:00", "10:00", "" ];
+  var endlist1 = [ "", "23:59", "23:59", "23:59", "23:59", "23:59", "" ];
+
+  var starttime="00:00";
+  var endtime="24:00";
+
+  if(startlist1 [today.getDay()] != ""){
+    starttime=startlist1 [today.getDay()];
+  }
+  if(endlist1 [today.getDay()] != ""){
+    endtime=endlist1 [today.getDay()];
+  }
+  if ( nowtime >= starttime && nowtime <= endtime){
+    document.getElementById(weekday1[today.getDay()]).style.display="block";
+  }
+}
+</script>
+
+<!--▼　セール時仕様スクリプト　▼
+
+<script>
+function Settoday(){
+  var today = new Date() ;
+  var nowtime= ("0"+today.getHours()).slice(-2) +":"+("0"+today.getMinutes()).slice(-2);
+  var weekday1 = [ "Sun1", "Mon1", "Tue1", "Wed1", "Thu1", "Fri1", "Sat1" ] ;
+  var weekday2 = [ "Sun2", "Mon2", "Tue2", "Wed2", "Thu2", "Fri2", "Sat2" ] ;
+  var weekday3 = [ "Sun3", "Mon3", "Tue3", "Wed3", "Thu3", "Fri3", "Sat3" ] ;
+
+  //▼新着
+  var startlist1 = [ "", "10:00", "10:00", "10:00", "10:00", "10:00", "" ];
+  var endlist1 = [ "", "23:59", "23:59", "23:59", "23:59", "23:59", "" ];
+
+  //▼イベント6時間　朝
+  var startlist2 = [ "10:00", "10:00", "10:00", "10:00", "10:00", "10:00", "10:00" ];
+  var endlist2 = [ "15:59", "15:59", "15:59", "15:59", "15:59", "15:59", "15:59" ];
+
+  //▼イベント6時間　夜
+  var startlist3 = [ "19:00", "19:00", "19:00", "19:00", "19:00", "19:00", "19:00" ];
+  var endlist3 = [ "09:59", "09:59", "09:59", "09:59", "09:59", "09:59", "09:59" ];
+
+
+  //▼新着
+  var starttime="00:00";
+  var endtime="24:00";
+
+  if(startlist1 [today.getDay()] != ""){
+    starttime=startlist1 [today.getDay()];
+  }
+  if(endlist1 [today.getDay()] != ""){
+    endtime=endlist1 [today.getDay()];
+  }
+  if ( nowtime >= starttime && nowtime <= endtime){
+    document.getElementById(weekday1[today.getDay()]).style.display="block";
+  }
+
+  //▼イベント6時間　朝
+  starttime="00:00";
+  endtime="24:00";
+
+  if(startlist2[today.getDay()] != ""){
+    starttime=startlist2[today.getDay()];
+  }
+  if(endlist2[today.getDay()] != ""){
+    endtime=endlist2[today.getDay()];
+  }
+  if ( nowtime >= starttime&& nowtime <= endtime){
+    document.getElementById(weekday2[today.getDay()]).style.display="block";
+  }
+
+  //▼イベント6時間　夜
+  starttime="00:00";
+  endtime="24:00";
+
+  if(startlist3[today.getDay()] != ""){
+    starttime=startlist3[today.getDay()];
+  }
+  if(endlist3[today.getDay()] != ""){
+    endtime=endlist3[today.getDay()];
+  }
+  if ( nowtime >= starttime&& nowtime <= endtime){
+    document.getElementById(weekday3[today.getDay()]).style.display="block";
+  }
+}
+</script>
+
+▲　セール時仕様スクリプト▲-->
+
+
+
+<title>reca 楽天市場店</title>
+</head>
+
+<body onLoad="Settoday();" style="height: 2000px;">
+
+<style>
+.fixedmenu {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:middle;
+}
+body {
+	line-height:1.2;
+	font-family: 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
+	font-size:14px;
+	height:100px;
+	overflow:hidden;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+	display:block;
+}
+section {
+	width: 95%;
+	margin: 0 auto;
+}
+nav ul {
+    list-style:none;
+}
+blockquote, q {
+    quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    color: #555555;
+    outline: medium none;
+}
+ul {
+    list-style: none outside none;
+}
+
+/* clearfix */
+.clearfix:after {
+	content: ".";  /* 新しい要素を作る */
+	display: block;  /* ブロックレベル要素に */
+	clear: both;
+	height: 0;
+	visibility: hidden; }
+
+/*========================================
+/*Header
+========================================*/
+header.sp {
+width: 100%;
+z-index: 99;
+background-color: #FFF;
+overflow: hidden;
+}
+header.sp p.top-shadow{
+clear: both;
+display: none;
+width: 100%;
+height: 1px;
+background-color: #CCC;
+box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+-webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+-moz-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+position: absolute;
+z-index: 80;
+top: 56px;
+}
+header.sp > .logo {
+width: 150px;
+height: 50px;
+position: relative;
+z-index: 98;
+float:left;
+}
+header.sp > .logo:before, header > .logo:after {
+content: "";
+display: table;
+}
+header.sp > .logo:after {
+clear: both;
+}
+header.sp > .logo h1 {
+float: left;
+padding: 9px 0 0 10px;
+}
+h1 a img{
+	width:120%;
+}
+
+
+/*ロゴ・検索・カートボタン*/
+/*-------------------------------*/
+.top-menu{
+width:120px;
+float:right;
+margin: 5px 5px 0 0;
+}
+.top-menu:after{
+display:block;
+content:"";
+clear:both;
+}
+.top-menu li{
+text-align:center;
+width:33.3%;
+float:right;
+}
+.top-menu li p{
+font-size:10px;
+padding:25px 0 0;
+}
+.top-menu li a{
+display:block;
+height: 40px;
+text-decoration:none;
+}
+
+
+/*ヘッダーグローバルナビ*/
+/*--------------------------------------*/
+.grobal-wrap{
+	background-color:#e5004f;
+	width:100%;
+	height:50px;
+	overflow: hidden;
+	}
+#gnav{
+	width:100%;
+	height:50px;
+	padding:0;
+	top: 0;
+    left: 0;
+	position: inherit;
+}
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+#gnav ul{
+	overflow:hidden;
+	font-size:11px;
+	font-weight: normal;
+	text-align:center;
+	}
+#gnav ul li{
+	float:left;
+	width:25%;
+	height:50px;
+	-webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+         -o-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+            box-sizing: border-box;
+	border-right:2px solid #ffffff;
+	}
+#gnav ul li a{
+	display:block;
+    color: #ffffff;
+	text-decoration: none;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+         -o-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+            box-sizing: border-box;
+	height: 45px;
+	padding-top:12px
+	}
+
+
+/*アイコン*/
+/*--------------------------------------*/
+.icon{
+    font-size: 11px;
+    display: block;
+    position: relative;
+    margin: -50px 0px 0px 47px;
+    width: 28px;
+    height: 18px;
+    border-radius: 28%;
+    color: #fff;
+    line-height: 18px;
+    text-align: center;
+　  background-color:#c80507;
+}
+.icon_in{
+	font-size: 12px;
+    padding: 11px 0px 0px;
+	position: absolute;
+    width: 32px;
+    height: 13px;
+    border-radius: 28%;
+    background: #fff;
+　  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+.inner{
+    font-size: 11px;
+    display: block;
+    position: relative;
+    margin: -8px 0px 0px 2px;
+    width: 28px;
+    height: 18px;
+    border-radius: 28%;
+    color: #fff;
+    line-height: 18px;
+    text-align: center;
+    background-color:#c80507;
+}
+.asa{
+    font-size: 11px;
+    display: block;
+    position: relative;
+    margin: -50px 0px 0px 200px;
+    width: 28px;
+    height: 18px;
+    border-radius: 28%;
+    color: #fff;
+    line-height: 18px;
+    text-align: center;
+　  background-color:#FF9600;
+}
+.icon_in{
+	font-size: 12px;
+    padding: 10px 0px 0px;
+	position: absolute;
+    width: 32px;
+    height: 13px;
+    border-radius: 28%;
+    background: #fff;
+　  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+.asa_inner{
+    font-size: 11px;
+    display: block;
+    position: relative;
+    margin: -8px 0px 0px 2px;
+    width: 28px;
+    height: 18px;
+    border-radius: 28%;
+    color: #fff;
+    line-height: 18px;
+    text-align: center;
+    background-color:#FF9600;
+}
+.yoru{
+    font-size: 11px;
+    display: block;
+    position: relative;
+    margin: -50px 0px 0px 200px;
+    width: 28px;
+    height: 18px;
+    border-radius: 28%;
+    color: #fff;
+    line-height: 18px;
+    text-align: center;
+　  background-color:#1D396A;
+}
+.icon_in{
+	font-size: 12px;
+    padding: 10px 0px 0px;
+	position: absolute;
+    width: 32px;
+    height: 13px;
+    border-radius: 28%;
+    background: #fff;
+　  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+.yoru_inner{
+    font-size: 11px;
+    display: block;
+    position: relative;
+    margin: -8px 0px 0px 2px;
+    width: 28px;
+    height: 18px;
+    border-radius: 28%;
+    color: #fff;
+    line-height: 18px;
+    text-align: center;
+    background-color:#1D396A;
+}
+
+/*-----------------イベントバナー-----------------------------*/
+#banner_sale {
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 10000;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+
+</style>
+
+
+<div class="fixedmenu">
+<div class="grobal-wrap">
+
+<nav id="gnav">
+	<ul class="clearfix">
+		<li><a href="../new.html" target="_top">新作アイテム</a></li>
+		<li><a href="javascript:;" target="_top">麻混素材の<br>ワイドパンツ</a></li>
+		<li><a href="javascript:;" target="_top">今1番人気！<br>ロゴTシャツ</a></li>
+		<li><a href="javascript:;" target="_top">LINE@登録で<br>クーポンGET！</a></li>
+	</ul>
+</nav>
+
+</div>
+</div>
+</body>
+</html>

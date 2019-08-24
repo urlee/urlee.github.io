@@ -1,0 +1,323 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin:0;
+	padding:0;
+	border:0;
+}
+body {
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	text-align:center;
+}
+a:hover img {
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.80;
+    opacity: 0.80;
+}
+div#wrapper {
+	text-align:left;
+}
+.clear {
+	clear:both;
+}
+
+/*-----------------------------------------------
+clearfix
+-----------------------------------------------*/
+.clearfix:after {
+  content: ".";  /* 新しい要素を作る */
+  display: block;  /* ブロックレベル要素に */
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.clearfix {
+  min-height: 1px;
+}
+
+* html .clearfix {
+  height: 1px;
+  /*\*//*/
+  height: auto;
+  overflow: hidden;
+  /**/
+}
+
+
+/*-----------------------------------------------
+header
+-----------------------------------------------*/
+div#header {
+	width:1000px;
+	margin:0 auto;
+	position:relative;
+	overflow:hidden;
+}
+div#header h1 {
+	margin:30px 0 0 0;
+	float:left;
+}
+div#header .text_area {
+	float:right;
+	margin:30px 0 0 0;
+}
+div#header .text_area h2 {
+	font-size:22px;
+	font-weight:700;
+}
+div#header .text_area h2 span {
+	color:#eb6877;
+}
+div#header .text_area .text_area_box {
+	position:absolute;
+	right:0;
+	margin:10px 0 0 0;
+}
+div#header .text_area .text_area_box ul {
+	list-style:none;
+}
+div#header .text_area .text_area_box ul li {
+	float:left;
+	font-size:12px;
+}
+div#header .text_area .text_area_box ul .textlink {
+	padding:3px 15px;
+	border-right:1px solid #999;
+}
+div#header .text_area .text_area_box ul .textlink a {
+	color:#333;
+	text-decoration:none;
+}
+div#header .text_area .text_area_box ul .textlink a:hover {
+	color:#333;
+	text-decoration:underline;
+}
+div#header .text_area .text_area_box ul li:nth-child(5) {
+	margin:0 12px 0 20px;
+}
+div#header .text_area .text_area_box ul li:nth-child(6) {
+	margin:0 10px 0 0; 
+}
+
+
+
+/*-----------------------------------------------
+gnavi
+-----------------------------------------------*/
+div#gnavi {
+	background-color:#999;
+	width:100%;
+	text-align:center;
+	margin:30px 0 0 0;
+}
+div#gnavi ul {
+	list-style:none;
+	width:1000px;
+	margin:0 auto;
+	text-align:left;
+}
+div#gnavi ul li {
+	float:left;
+	width:199px;
+	border-left:1px solid #fff;
+}
+div#gnavi ul li:last-child {
+	width:198px;
+	border-right:1px solid #fff;
+}
+
+
+/*-----------------------------------------------
+search
+-----------------------------------------------*/
+div#search {
+	width:100%;
+	text-align:center;
+	background-color:#eee;
+}
+div#search .search_area {
+	width:1000px;
+	margin:0 auto;
+	padding:10px 0;
+	text-align:left;
+}
+div#search .search_area form {
+	position:relative;
+	width:250px;
+	float:left;
+}
+div#search .search_area form .text {
+	width:250px;
+	height:30px;
+	padding:0 0 0 10px;
+	border-radius:6px;/* CSS3草案 */  
+    -webkit-border-radius:6px;/* Safari,Google Chrome用 */  
+    -moz-border-radius:6px;/* Firefox用 */
+}
+div#search .search_area form .search_btn {
+	position:absolute;
+	right:5px;
+	top:6px;
+}
+div#search .search_area .search_word h3 {
+	float:left;
+	font-size:14px;
+	margin:5px 10px 0 40px;
+}
+div#search .search_area .search_word ul {
+	list-style:none;
+}
+div#search .search_area .search_word ul li {
+	float:left;
+	margin:3px 10px 0 0;
+}
+div#search .search_area .search_word ul li a {
+	font-size:13px;
+	text-decoration:none;
+	color:#333;
+	background-color:#fff;
+	padding:3px 10px;
+	border-radius:6px;/* CSS3草案 */  
+    -webkit-border-radius:6px;/* Safari,Google Chrome用 */  
+    -moz-border-radius:6px;/* Firefox用 */
+	border:1px solid #999;
+}
+div#search .search_area .search_word ul li a:hover {
+	font-size:13px;
+	text-decoration:none;
+	color:#fff;
+	background-color:#666;
+	padding:3px 10px;
+	border-radius:6px;/* CSS3草案 */  
+    -webkit-border-radius:6px;/* Safari,Google Chrome用 */  
+    -moz-border-radius:6px;/* Firefox用 */
+	border:1px solid #999;
+}
+
+
+/*-----------------------------------------------
+attention
+-----------------------------------------------*/
+div#attention {
+	width:1000px;
+	margin:20px auto;
+	text-align:center;
+	border:1px solid #ccc;
+}
+div#attention p {
+	font-weight:600;
+}
+div#attention p a {
+	display:block;
+	color:#6a3906;
+	font-size:14px;
+	text-decoration:none;
+	background-color:#fff;
+	padding:5px 0;
+}
+div#attention p a:hover {
+	color:#333;
+	font-size:14px;
+	text-decoration:none;
+	background-color:#eee;
+	padding:5px 0;
+}
+
+
+/*-----------------------------------------------
+slider
+-----------------------------------------------*/
+#slider {
+  position:relative;
+  overflow: hidden;
+}
+#slide_wrapper {
+  background: #fff;
+  width: 100%;
+  height: 667px;
+  overflow: hidden;
+}
+#slider #slide_wrapper ul {
+	list-style:none;
+}
+#carousel li {
+  float: left;
+}
+#prev, #next {
+  background-color: #fff;
+  opacity:0.7;
+  filter: alpha(opacity=70);/* ie 6 7 */
+  -ms-filter: "alpha(opacity=70)";/* ie 8 */
+  zoom:1;
+  display: block;
+  height: 667px;
+  width: 50%;
+  top: 0;
+  position: absolute;
+}
+#prev:hover, #next:hover {
+  opacity:0.4;
+  filter: alpha(opacity=40);/* ie 6 7 */
+  -ms-filter: "alpha(opacity=40)";/* ie 8 */
+  zoom:1;
+}
+#prev {
+  left: -500px;/* スライドする画像の横半分の値 */
+  background:#fff url(../img/arrow_left.png ) 95% center no-repeat;
+}
+#next {
+  background:#fff url( ../img/arrow_right.png ) 5% center no-repeat;
+  right: -500px;/* スライドする画像の横半分の値 */
+}
+#prev img {
+  right:20px;
+  top:120px;
+  position:absolute;
+}
+#next img {
+  left:20px;
+  top:120px;
+  position:absolute;
+}
+#pager {
+  text-align:center;
+  padding:10px;
+}
+#pager a {
+  border: 2px solid #ccc;
+  border-radius:5px;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  margin: 0 5px 0 0;
+}
+#pager a:hover {
+  background:#eee ;
+}
+#pager a span {
+  display: none;
+}
+#pager a.selected {
+  background-color: #ccc;
+}
+
+
+
+/*-----------------------------------------------
+sale
+-----------------------------------------------*/
+div#sale {
+	width:900px;
+	margin:40px auto 0;
+}
+div#sale ul {
+	list-style:none;
+	margin:15px 0 0 0;
+}
+div#sale ul li {
+	float:left;
+	width:20%;
+}

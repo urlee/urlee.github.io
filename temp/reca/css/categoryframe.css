@@ -1,0 +1,240 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+img {
+    border: medium none;
+    margin: 0;
+    padding: 0;
+    vertical-align: bottom;
+}
+
+
+
+/* フレームが1段増えるごとにheightを　+200px */
+#frame{
+width:750px;
+height:1000px;
+}
+
+/* フレーム3段の場合　画像タイトル末尾に -3 をつける */
+#staff{
+background: url("../img/frame/bg-f-staff.gif") no-repeat;
+width:750px;
+height:400px;
+padding:50px 15px;
+}
+
+
+#shipping{
+background: url("../img/frame/bg-f-free.gif") no-repeat;
+width:750px;
+height:600px;
+padding:50px 15px;
+}
+
+
+
+.f-one{
+width:150px;
+float:left;
+margin:10px 15px 0px 15px;
+}
+
+
+.f-catch{
+font-size:11px;
+color:#333333;
+margin-top:2px;
+}
+
+.en{
+font-size:13px;
+}
+
+
+.f-price{
+font-size:20px;
+color:#BB0000;
+font-weight: bold;
+margin-top:1px;
+
+}
+
+.f-line{
+clear:both;
+}
+
+
+
+.clearfix:after { 
+	    display:block;
+	    clear:both;
+	    height:0px;
+	    visibility:hidden;
+	    content:".";
+	}
+	.clearfix {
+	    min-height: 1px; 
+	}
+	* html .clearfix {
+	    height: 1px;
+	    
+	    height: auto;
+	    overflow: hidden;
+	    
+	}
+
+
+
+
+
+/* ここからカテゴリーランキング用 */
+
+
+
+#cateran table{
+width:750px;
+padding:15px;
+border:1px solid #cccccc;
+}
+
+
+#cateran td{
+width:170px;
+}
+
+#cateran p{
+font-size:11px;
+color:#333333;
+}
+
+
+
+#cateran a {
+text-decoration:none;
+}
+
+#cateran a:hover img {
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+}
+
+#catelink{
+margin:10px 0px;
+}
+
+
+/* ここからコーディネートアイテム用 */
+
+#coodi-item{
+width:750px;
+height:746px;
+}
+
+#coodi-item table{
+width:750px;
+height:710px;
+padding:3px;
+border:1px solid #cccccc;
+}
+
+#coodi-item table td{
+width:366px;
+height:346px;
+margin:auto;
+}
+
+#coodi-item a:hover img {
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+}
+
+
+
+
+
+/* ここから201306スーパーセールアイテム一覧用 */
+
+
+
+#ssitem table{
+width:750px;
+padding:15px;
+border:1px solid #cccccc;
+}
+
+
+#ssitem td{
+width:170px;
+}
+
+#ssitem .sspr{
+color:#FF0000;
+font-size:25px;
+font-weight:bold;
+}
+
+
+
+#ssitem p{
+font-size:11px;
+color:#333333;
+}
+
+
+
+#ssitem a {
+text-decoration:none;
+}
+
+#ssitem a:hover img {
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+}
+
+#ssitemlink{
+margin:10px 0px;
+}
+
+
+
+
+/* ここから同梱用 */
+
+
+
+#doukon table{
+width:750px;
+padding:15px;
+background: #FB6567;
+margin-top:5px;
+}
+
+
+#doukon td{
+width:170px;
+}
+
+#doukon p{
+font-size:11px;
+color:#FFFFFF;
+}
+
+
+
+
+
+#doukon a:hover img {
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+}
+
+
+

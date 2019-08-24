@@ -1,0 +1,520 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin:0;
+	padding:0;
+	border:0;
+}
+body {
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	text-align:center;
+}
+a:hover img {
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.80;
+    opacity: 0.80;
+}
+div#wrapper {
+	text-align:left;
+	width:1000px;
+	margin:0 auto;
+}
+.clear {
+	clear:both;
+}
+/*-----------------------------------------------
+margin/padding
+-----------------------------------------------*/
+.mt5 { margin-top:5px !important;}
+.mt10 { margin-top:10px !important;}
+.mt15 { margin-top:15px !important;}
+.mt20 { margin-top:20px !important;}
+
+.mb5 { margin-bottom:5px !important;}
+.mb10 { margin-bottom:10px !important;}
+.mb15 { margin-bottom:15px !important;}
+.mb20 { margin-bottom:20px !important;}
+
+
+/*-----------------------------------------------
+clearfix
+-----------------------------------------------*/
+.clearfix:after {
+  content: ".";  /* 新しい要素を作る */
+  display: block;  /* ブロックレベル要素に */
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.clearfix {
+  min-height: 1px;
+}
+
+* html .clearfix {
+  height: 1px;
+  /*\*//*/
+  height: auto;
+  overflow: hidden;
+  /**/
+}
+
+
+
+/*-----------------------------------------------
+new arrival / re arrival
+-----------------------------------------------*/
+div.newarrival ,
+div.rearrival {
+	width:1000px;
+	margin-bottom:50px;
+}
+div.newarrival h3 ,
+div.rearrival h3 {
+	text-align:center;
+}
+div.newarrival h3 img ,
+div.rearrival h3 img {
+	margin:0 auto;
+	width:70%;
+}
+div.newarrival .itembox ,
+div.rearrival .itembox {
+	margin:30px 0 0 0;
+	overflow:hidden;
+}
+div.newarrival .itembox h4 ,
+div.rearrival .itembox h4 {
+	text-align:center;
+	font-size:20px;
+	font-weight:400;
+	color:#333;
+}
+div.newarrival ul ,
+div.rearrival ul {
+	list-style:none;
+	margin-top:10px;
+}
+div.newarrival ul li ,
+div.rearrival ul li {
+	float:left;
+	width:192px;
+	margin-right:10px;
+}
+div.newarrival ul li:nth-child(5n) ,
+div.rearrival ul li:nth-child(5n) {
+	margin-right:0 !important;
+}
+div.newarrival ul li:nth-child(n+6) ,
+div.rearrival ul li:nth-child(n+6) {
+	margin-top:20px;
+}
+div.newarrival ul li a ,
+div.rearrival ul li a {
+	text-align:center;
+	font-size:13px;
+	color:#333;
+	text-decoration:none;
+}
+div.newarrival ul li a:hover ,
+div.rearrival ul li a:hover {
+	color:#666;
+	text-decoration:underline;
+}
+div.newarrival ul li a h6 ,
+div.rearrival ul li a h6 {
+	text-align:center;
+	font-size:13px;
+	font-weight:400;
+	color:#fc5997;
+}
+div.newarrival h5 ,
+div.rearrival h5 {
+	text-align:center;
+	margin-top:30px;
+}
+div.newarrival h5 a ,
+div.rearrival h5 a {
+	margin:0 10px;
+}
+
+
+
+/*-----------------------------------------------
+ranking
+-----------------------------------------------*/
+div#ranking {
+	width:1000px;
+	background-color:#eee;
+	margin:20px 0 0 0;
+	padding:0 0 20px 0;
+}
+div#ranking h3 {
+	text-align:center;
+	margin:0 10px;
+	padding:20px 0;
+	border-bottom:1px solid #ccc;
+}
+div#ranking ul {
+	list-style:none;
+	margin:0 20px;
+}
+div#ranking ul li {
+	float:left;
+	width:184px;
+	margin:20px 10px 0 0;
+	text-align:center;
+}
+div#ranking ul li:nth-child(5) {
+	margin-right:0 !important;
+}
+div#ranking ul li .icon {
+	width:100px;
+	margin:0 auto 10px;
+}
+div#ranking ul li a {
+	color:#333;
+	font-size:13px;
+	font-weight:400;
+	text-decoration:none;
+}
+div#ranking ul li a:hover {
+	text-decoration:underline;
+}
+
+
+
+/*-----------------------------------------------
+coordinate
+-----------------------------------------------*/
+div#coordinate {
+	width:1000px;
+	margin:100px 0 0 0;
+}
+div#coordinate h3 {
+	text-align:center;
+	margin:0 0 20px 0;
+}
+div#coordinate ul {
+	list-style:none;
+}
+div#coordinate ul li p {
+	text-align:center;
+	color:#333;
+}
+div#coordinate ul li p a {
+	font-size:13px;
+	font-weight:400;
+	color:#333;
+	text-decoration:none;
+	margin:0 5px;
+}
+div#coordinate ul li p a:hover {
+	text-decoration:underline;
+	color:#999;
+}
+.bx-wrapper {
+     position: relative;
+     margin: 0 auto 30px;
+     padding: 0;
+     *zoom: 1;
+}
+
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto {
+     position: absolute;
+     width: 100%;
+}
+
+/* Pager部分 */
+
+.bx-wrapper .bx-pager {
+     text-align: center;
+     font-size: .85em;
+     font-family: Arial;
+     font-weight: bold;
+     color: #666;
+     padding-top: 5px;
+}
+
+.bx-wrapper .bx-pager .bx-pager-item,
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+     display: inline-block;
+     *zoom: 1;
+     *display: inline;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+     background: #ccc;
+     text-indent: -9999px;
+     display: block;
+     width: 10px;
+     height: 10px;
+     margin: 0 5px;
+     outline: 0;
+     -moz-border-radius: 5px;
+     -webkit-border-radius: 5px;
+     border-radius: 5px;
+}
+
+
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+     background: #333;
+}
+
+/*「Next」と「Prev」 */
+
+.bx-wrapper .bx-prev {
+     left:10px;
+}
+
+.bx-wrapper .bx-next {
+     right:10px;
+	 text-align:center;
+}
+
+.bx-wrapper .bx-prev:hover {
+     background-position: 0 0;
+}
+
+.bx-wrapper .bx-next:hover {
+     background-position: -43px 0;
+}
+
+.bx-wrapper .bx-controls-direction a {
+     position: absolute;
+     outline: 0;
+     width:20px;
+     height:20px;
+	 padding:10px;
+     top:170px;
+     text-decoration: none;
+     font-size: 15px;
+     color:#333;
+     z-index: 9999;
+     background: #fff;
+     -moz-border-radius: 25px;
+     -webkit-border-radius: 25px;
+     border-radius: 25px;
+}
+
+.bx-wrapper .bx-controls-direction a.disabled {
+     display: none;
+}
+
+
+
+/*-----------------------------------------------
+category
+-----------------------------------------------*/
+div#category {
+	width:1000px;
+	margin:100px 0 0 0;
+}
+div#category h3 {
+	text-align:center;
+	margin-bottom:20px;
+}
+div#category .category_bnr {
+	list-style:none;
+}
+div#category .category_bnr li {
+	float:left;
+	margin:0 20px 20px 0;
+	width:320px;
+	line-height:0;
+}
+div#category .category_bnr li:nth-child(3n) {
+	margin-right:0 !important;
+}
+div#category .category_list {
+	overflow:hidden;
+}
+div#category .category_list ul {
+	list-style:none;
+	float:left;
+	width:320px;
+	margin-right:20px;
+}
+div#category .category_list .end {
+	margin-right:0 !important;
+}
+div#category .category_list ul li {
+	margin-bottom:1px;
+}
+div#category .category_list ul li span {
+	margin:0 3px 0 0;
+}
+div#category .category_list ul .title a {
+	color:#fff;
+	background-color:#666 !important;
+}
+div#category .category_list ul .title a:hover {
+	color:#fff;
+	background-color:#999 !important;
+}
+div#category .category_list ul li a {
+	display:block;
+	font-size:14px;
+	font-weight:400;
+	color:#333;
+	text-decoration:none;
+	background-color:#eee;
+	padding:10px 0 10px 10px;
+}
+div#category .category_list ul li a:hover {
+	background-color:#ccc;
+}
+
+
+
+/*-----------------------------------------------
+information
+-----------------------------------------------*/
+div#information {
+	width:1000px;
+	margin:100px 0 0 0;
+}
+div#information h3 {
+	text-align:center;
+	margin:0 0 20px 0;
+}
+div#information .infor_box {
+	width:480px;
+	float:left;
+	margin:20px 10px 0;
+}
+div#information .infor_box ul {
+	list-style:none;
+	margin:0 0 20px 0;
+}
+div#information .infor_box ul li {
+	font-size:14px;
+	font-weight:400;
+	color:#333;
+	line-height:1.6em;
+	letter-spacing:2px;
+	margin:0 0 12px;
+}
+div#information .infor_box ul li span {
+	color:#e5004f;
+	font-weight:600;
+}
+div#information .infor_box p {
+	font-size:12px;
+	font-weight:400;
+	color:#333;
+	line-height:1.6em;
+}
+div#information .infor_sub {
+	border-top:1px solid #999;
+}
+div#information .infor_sub ul {
+	list-style:none;
+	padding:20px 0;
+	border-bottom:1px solid #999;
+}
+div#information .infor_sub ul li {
+	font-size:13px;
+	font-weight:400;
+	color:#333;
+	letter-spacing:2px;
+	line-height:1.6em;
+}
+div#information .infor_sub p {
+	margin:50px 0 0 0;
+}
+
+
+/*-----------------------------------------------
+footer
+-----------------------------------------------*/
+div#footer {
+	width:1000px;
+	margin:50px 0 0 0;
+}
+div#footer #foot_inner {
+	background-color:#eee;
+	padding:30px 0;
+}
+div#footer #foot_inner .foot_box {
+	width:290px;
+	float:left;
+	margin:0 10px;
+}
+div#footer #foot_inner .last {
+	width:360px;
+}
+div#footer #foot_inner .foot_box h5 {
+	font-size:15px;
+	font-weight:600;
+	color:#333;
+	margin-bottom:10px;
+}
+div#footer #foot_inner .foot_box h5 img {
+	float:right;
+	margin-top:2px;
+}
+div#footer #foot_inner .foot_box h6 {
+	font-size:14px;
+	font-weight:600;
+	color:#333;
+	margin:0 0 3px 0;
+}
+div#footer #foot_inner .foot_box p {
+	color:#333;
+	font-size:11px;
+	font-weight:400;
+	line-height:1.6em;
+	letter-spacing:2px;
+	border-top:1px solid #999;
+	padding:5px 1px 5px 4px;
+}
+div#footer #foot_inner .foot_box ul {
+	list-style:none;
+	border-bottom:1px solid #999;
+	border-top:1px solid #999;
+	padding:0 10px;
+}
+div#footer #foot_inner .foot_box ul li {
+	float:left;
+	line-height:0;
+	margin:10px 8px 10px 0;
+}
+div#footer #foot_inner .foot_box .atten {
+	border:0 !important;
+	font-size:11px !important;
+	padding:0 !important;
+}
+div#footer .company {
+	margin:50px 0 0 0;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	padding:40px 0;
+}
+div#footer .company p {
+	float:left;
+	margin-left:100px;
+}
+div#footer .company ul {
+	float:left;
+	list-style:none;
+	margin:5px 0 0 40px;
+}
+div#footer .company ul li {
+	font-size:11px;
+	font-weight:400;
+	color:#333;
+	line-height:2.0em;
+	letter-spacing:2px;
+}
+div#footer .company ul li span {
+	margin:0 0 0 15px;
+}
+div#footer #copyright {
+	text-align:center;
+	font-size:11px;
+	font-weight:400;
+	color:#333;
+	padding:20px 0;
+}
