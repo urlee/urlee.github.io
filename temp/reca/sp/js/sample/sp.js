@@ -1,6 +1,6 @@
 // JavaScript Document
 
-//èª­ã¿è¾¼ã¿ã®å´©ã‚Œé˜²æ­¢
+//“Ç‚İ‚İ‚Ì•ö‚ê–h~
 $(function() {
 		$('#drawer_menu').fadeIn(1000);
 		$('#banner').fadeIn(1000);
@@ -17,7 +17,7 @@ $(function() {
 
 
 
-//ã‚¹ãƒ©ã‚¤ãƒ€ãƒ¼ï¼ˆã‚­ãƒ¼ãƒ“ã‚¸ãƒ¥ã‚¢ãƒ«ï¼‰
+//ƒXƒ‰ƒCƒ_[iƒL[ƒrƒWƒ…ƒAƒ‹j
 $(document).ready(function(){
 	$('#key_visual_mini').slick({
   slidesToShow: 1,
@@ -28,7 +28,7 @@ $(document).ready(function(){
 	});
 });
 
-//ã‚¹ãƒ©ã‚¤ãƒ€ãƒ¼ï¼ˆã‚³ãƒ¼ãƒ‡ã‚£ãƒã‚¤ãƒˆï¼‰
+//ƒXƒ‰ƒCƒ_[iƒR[ƒfƒBƒlƒCƒgj
 $(document).ready(function(){
 	$('#key_visual').slick({
   slidesToShow: 1,
@@ -40,7 +40,7 @@ $(document).ready(function(){
 });
 
 
-//ã‚«ãƒ†ã‚´ãƒªåˆ¥æ¤œç´¢
+//ƒJƒeƒSƒŠ•ÊŒŸõ
 $(function(){
 	$(".accordion dt").click(function(){
 			$(this).next("dd").slideToggle();

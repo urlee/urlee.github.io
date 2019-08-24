@@ -79,11 +79,11 @@
 }
 .slick-prev:before
 {
-    content: 'â†';
+    content: '¢«';
 }
 [dir='rtl'] .slick-prev:before
 {
-    content: 'â†’';
+    content: '¢ª';
 }
 
 .slick-next
@@ -97,11 +97,11 @@
 }
 .slick-next:before
 {
-    content: 'â†’';
+    content: '¢ª';
 }
 [dir='rtl'] .slick-next:before
 {
-    content: 'â†';
+    content: '¢«';
 }
 
 /* key_visual_mini */
@@ -134,8 +134,8 @@
 }
 #key_visual .slick-prev:before
 {
-	content:"ã€€";
-	background:url(../../img/top/bnr_slide_prev.png) no-repeat 4px center; 
+	content:"¡¡";
+	background:url(http://www.rakuten.ne.jp/gold/reca/sp/img/top/bnr_slide_prev.png) no-repeat 4px center; 
 	background-size:90% auto;
 	display:inline-block;
 	vertical-align:middle;
@@ -144,8 +144,8 @@
 }
 #key_visual [dir='rtl'] .slick-prev:before
 {
-	content:"ã€€";
-	background:url(../../img/top/bnr_slide_prev.png) no-repeat 4px center; 
+	content:"¡¡";
+	background:url(http://www.rakuten.ne.jp/gold/reca/sp/img/top/bnr_slide_prev.png) no-repeat 4px center; 
 	background-size:90% auto;
 	display:inline-block;
 	vertical-align:middle;
@@ -163,8 +163,8 @@
 }
 #key_visual .slick-next:before
 {
-	content:"ã€€";
-	background:url(../../img/top/cord_next.png) no-repeat 0 center; 
+	content:"¡¡";
+	background:url(http://www.rakuten.ne.jp/gold/reca/sp/img/top/cord_next.png) no-repeat 0 center; 
 	background-size:90% auto;
 	display:inline-block;
 	vertical-align:middle;
@@ -173,8 +173,8 @@
 }
 #key_visual [dir='rtl'] .slick-next:before
 {
-	content:"ã€€";
-	background:url(../../img/top/cord_next.png) no-repeat 0 center; 
+	content:"¡¡";
+	background:url(http://www.rakuten.ne.jp/gold/reca/sp/img/top/cord_next.png) no-repeat 0 center; 
 	background-size:90% auto;
 	display:inline-block;
 	vertical-align:middle;
@@ -237,7 +237,7 @@
 }
 .slick-dots li button:before
 {
-		content: 'â—';
+		content: '¡ü';
     font-size: 9px;
 		font-size: 0.9rem;
     line-height: 20px;
