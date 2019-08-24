@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8" />
+<title>ワイエムワールド - Yahoo!ショッピング - Ｔポイントが貯まる！使える！ネット通販</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript">
+	<link href="../common/css/design.css" rel="stylesheet" type="text/css" media="all">
+	<script type="text/javascript" src="../common/js/jquery-1.10.2.min.js" charset="Shift-JIS"></script>
+	<script type="text/javascript">
+	$(function(){
+	  if($('.name').length > 0){
+	    var count = 20; // デフォルトで表示する文字数
+	    $('.name').each(function(){
+	      var target = $(this),
+	          fullTxt = target.text();
+	      if(fullTxt.length > count){
+	        target.text(fullTxt.substr(0,count) + ' … ');
+	      }
+	    });
+	  }
+	});
+	</script>
+	<style type="text/css">
+	.ranking_area .ranking {
+		padding: 30px 0 0 0;
+	}
+	</style>
+	<style type="text/css">
+		p.item__product{
+			height: 48px;
+		}
+	</style>
+</head>
+<body>
+<!--- brand ranking start --->
+<div class="ranking_area">
+  <div class="ranking">
+    <div id="tabContents">
+      <!-- Fashion -->
+      <div class="tab_content02" id="tab10">
+        <ul>
+          <li>
+            <h5><img src="../common/img/ranking_01.gif" alt="No.1"></h5>
+						<a href="javascript:;" target="_top">
+							<img src="images/sj-guildo-ecma_1.jpg" class="jhover">
+							<span class="name">
+								セントジェームス 長袖ボーダーTシャツ 2501 MP GUILDO RA ギルド 男女兼用バスクシャツ ECRU/MARINE OUESSANT/ウエッソン後継モデル
+							</span>
+							<span class="price">5,980円（税込）</span>
+						</a>
+          </li>
+          <li>
+            <h5><img src="../common/img/ranking_02.gif" alt="No.2"></h5>
+						<a href="javascript:;" target="_top">
+							<img src="images/sj-guildo-napi_1.jpg" class="jhover">
+							<span class="name">
+								セントジェームス 長袖ボーダー Tシャツ 2501 DJ GUILDO RA ギルド 男女兼用 バスクシャツ NAVY/PIN OUESSANT/ウエッソン後継モデル
+							</span>
+							<span class="price">6,380円（税込）</span>
+						</a>
+          </li>
+          <li>
+            <h5><img src="../common/img/ranking_03.gif" alt="No.3"></h5>
+						<a href="javascript:;" target="_top">
+							<img src="images/sj-guildo-maec_1.jpg" class="jhover">
+							<span class="name">
+								セントジェームス 長袖ボーダーTシャツ 2501 MP GUILDO RA ギルド 男女兼用バスクシャツ MARINE/ECRU OUESSANT/ウエッソン後継モデル
+							</span>
+							<span class="price">5,980円（税込）</span>
+						</a>
+          </li>
+          <li>
+            <h5><img src="../common/img/ranking_04.gif" alt="No.4"></h5>
+						<a href="javascript:;" target="_top">
+							<img src="images/sj-guildo-ectu_1.jpg" class="jhover">
+							<span class="name">
+								セントジェームス 長袖ボーダーTシャツ 2501 MP GUILDO RA ギルド 男女兼用バスクシャツ ECRU/TULIPE OUESSANT/ウエッソン後継モデル
+							</span>
+							<span class="price">6,380円（税込）</span>
+						</a>
+          </li>
+          <li>
+            <h5><img src="../common/img/ranking_05.gif" alt="No.5"></h5>
+						<a href="javascript:;" target="_top">
+							<img src="images/sj-naval2-negi_1.jpg" class="jhover">
+							<span class="name">
+								セントジェームス Tシャツ SAINT JAMES 2186 90 NAVAL 2 ナヴァル/ナバル メンズ/レディース兼用 長袖ボーダーシャツ NEIGE/GITANE
+							</span>
+							<span class="price">9,480円（税込）</span>
+						</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!--- brand ranking end --->
+</body>
+</html>

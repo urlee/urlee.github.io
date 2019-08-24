@@ -1,0 +1,1363 @@
+@charset"utf-8";
+
+/* guide page
+----------------------------------------------------------------------------- */	
+
+/*  guide page 蜈ｱ騾� --------------------------------------------------------- */
+p,ul,li,input,h1,h2,h3,iframe{
+margin:0px;
+padding:0px;
+color: #333333;
+}
+
+
+/*  繝ｪ繝ｳ繧ｯ  */
+a,a:link,a:visited,a:active{
+color:#333333;
+text-decoration:none;
+}
+
+a:hover{
+color: #0066CC;
+}
+
+
+a.blue,a:link.blue,a:visited.blue,a:active.blue{
+color: #0066CC;
+text-decoration:none;
+}
+
+a:hover.blue{
+color: #0066CC;
+text-decoration:underline;
+}
+
+.under{
+	text-decoration:underline;
+}
+
+
+/*  譁�ｭ励し繧､繧ｺ  */
+.fs10{
+font-size:10px;
+line-height:16px;
+}
+
+/*  譁�ｭ励き繝ｩ繝ｼ  */
+.c-red{
+color:#CC0000;
+font-weight:bold;
+}
+.bold{
+	font-weight: bold;
+}
+.f-red,
+.red{
+color:#CC0000;
+}
+
+.c-o{
+color:#FF9900;
+font-weight:bold;
+}
+
+.c-w{
+color:#FFFFFF;
+font-weight:bold;
+}
+
+.fb{
+font-weight:bold;
+}
+
+
+span.zozei8 {
+font-size:10px;
+font-weight:normal;
+color:#FFFFFF;
+background-color: #CC0000;
+padding:0 4px;
+margin:0 4px 0 2px;
+}
+
+
+/*  繝�く繧ｹ繝�align  */
+.text-c{
+text-align:center;
+}
+
+.text-r{
+text-align:right;
+}
+
+
+/*  邂ｱ  */
+.cell10{
+padding-bottom:10px;
+}
+
+.cell15{
+padding-bottom:15px;
+}
+
+.cell20{
+padding-bottom:20px;
+}
+
+.cell25{
+padding-bottom:25px;
+}
+
+.cell30{
+padding-bottom:30px;
+}
+
+.cell40{
+padding-bottom:40px;
+}
+
+.cell50{
+padding-bottom:50px;
+}
+
+.cell-g{
+padding:15px;
+border:1px solid #CCCCCC;
+background-color:#F0F0F0;
+}
+
+/*  繧ｰ繝ｬ繝ｼ邂ｱ  */
+.bg-g{
+padding:8px;
+background-color:#ECF9FC;
+}
+
+
+
+/*  繝懊�繝繝ｼ  */
+#contents p.border-tg{
+margin-top:15px;
+padding-top:15px;
+border-top:1px solid #CCCCCC;
+font-weight:bold;
+}
+
+.boder-none{
+border:none;
+}
+
+
+/*  逕ｻ蜒城�鄂ｮ  */
+.vm{
+vertical-align:middle;
+}
+
+.vt{
+vertical-align:top;
+}
+
+
+/*  蟇�○  */
+.f-left{
+float:left;
+}
+
+.f-right{
+float:right;
+}
+
+/*  蟇�○隗｣髯､  */
+.clear{
+clear:both;
+}
+
+.clearfix:after {
+content: "."; 
+display: block; 
+height: 0; 
+clear: both; 
+visibility: hidden;
+}
+.clearfix {
+display: inline-table;
+min-height: 1%;
+}
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* End hide from IE-mac */
+
+
+
+/*  譌･莉�  */
+.guide-date{
+font-size:18px;
+font-weight:bold;
+}
+
+.guide-date-s{
+font-size:12px;
+font-weight:bold;
+}
+
+/* --------------------------------------------------------------------- */
+
+
+#category #main a{
+color: #333333 !important;
+}
+
+#main{
+margin:0 auto;
+width:980px;
+text-align:left;
+}
+
+/*  繧ｵ繧､繝峨Γ繝九Η繝ｼ ------------------------------------------------------ */
+#area-side{
+width:180px;
+float:left;
+}
+
+#area-side iframe{
+width:180px;
+height:1500px;
+}
+
+
+#nav-side{
+margin-top:-8px;
+}
+
+
+#nav-side dl{
+/*margin-bottom:17px;*/
+}
+
+#nav-side dt{
+padding-bottom:10px;
+font-size:12px;
+font-weight:bold;
+}
+
+#nav-side dd{
+line-height:1.3;
+border-bottom:1px solid #CCCCCC;
+}
+
+#nav-side dd a{
+display:block;
+padding:10px 0 9px 0;
+color: #333333;
+font-size:12px;
+}
+
+#nav-side dd span{
+display:block;
+padding:10px 0 9px 0;
+font-size:12px;
+}
+
+#nav-side dd a:hover{
+color:#0066cc;
+}
+
+
+#nav-side dd ul{
+padding:5px 6px 0 0;
+}
+
+/*#nav-side ul{
+padding:0 6px;
+}*/
+
+#nav-side dd li {
+font-size:10px;
+padding:0 0 8px 12px;
+}
+
+#nav-side dd li a{
+background-image:none;
+display:inline;
+padding:0;
+font-size:10px;
+}
+
+.title-contact{
+padding-bottom:15px;
+font-size:12px;
+font-weight:bold;
+}
+
+.mail{
+/*background:url(https://www.rakuten.ne.jp/gold/e-zakkamania/images/shop_design/footer/icon_mail.gif) no-repeat 0 0.3em;
+padding-left:20px;
+vertical-align:middle;*/
+}
+
+
+/* 繝｡繧､繝ｳ繧ｨ繝ｪ繧｢ -------------------------------------------------------- */
+#area-main,
+.area-main{
+width:750px;
+float:right;
+
+margin-bottom: 200px;
+}
+
+#area-main p,
+.area-main p
+{
+margin:0px;
+padding:0px;
+}
+
+/* 繝｡繧､繝ｳ繝懊ち繝ｳ ------------------- */
+.nav-main{
+margin-bottom:40px;
+padding:12px 0 20px 20px;
+border:1px solid #CCCCCC;
+background-color:#F0F0F0;
+}
+
+h1.title-main{
+margin:0px;
+padding:0px;
+font-size:37px;
+line-height:42px;
+font-weight:bold;
+}
+
+h2.sub-title-main{
+margin:0px;
+padding:0px;
+font-weight:bold;
+font-size:22px;
+line-height:40px;
+font-weight:bold;
+}
+
+.btn-main{
+padding-top:14px;
+}
+
+.btn-main ul{
+margin:0px;
+padding:0px;
+}
+
+.btn-main li{
+margin-right:20px;
+width:342px;
+/*height:45px;*/
+float:left;
+list-style:none;
+background-color:#FFFFFF;
+border:1px solid #CCCCCC;
+font-size:16px;
+line-height:16px;
+font-weight:bold;
+text-align:center;
+vertical-align:middle;
+}
+
+.btn-main li a{
+padding-top:14px;
+padding-bottom:14px;
+/*height:31px;*/
+display:block;
+color: #333333;
+text-decoration:none;
+/*background:url(../img/arrow-btn-main.gif) no-repeat 20px 0.8em;*/
+}
+
+.btn-main li a:hover{
+color: #0066cc;
+}
+
+
+#area-main h2.title,
+.area-main h2.title{
+margin-top:0 !important;
+margin-bottom:10px;
+padding:20px 0 16px 0;
+border-top:1px solid #CCCCCC;
+background-color:#FFFFFF !important;
+font-size:14px;
+color: #333333 !important;
+font-weight:bold;
+text-indent:0;
+}
+
+#area-main h2.title span,
+.area-main h2.title span{
+border-left: 5px solid #CCCCCC; padding-left:10px;
+}
+
+/* 繧医￥縺ゅｋ雉ｪ蝠� ------------------- */
+.w365{
+width:365px;
+}
+
+.cell-qa ul{
+margin-left:18px;
+padding:0px;
+}
+
+.icon-qa{
+padding-bottom:15px;
+font-weight:bold;
+}
+
+.icon-qa span{
+margin-right:10px;
+padding:4px;
+background-color:#454545;
+color:#FFFFFF;
+}
+
+.cell-qa li{
+line-height:20px;
+list-style:disc;
+}
+
+
+/* 縺疲ｳｨ譁� ------------------- */
+.w748{
+width:748px;
+}
+
+#cell-guide{
+border-top:1px solid #CCCCCC;
+display:inline-block;
+}
+
+.cell-guide-inner{
+border-left:1px solid #CCCCCC;
+}
+
+.cell-guid-list{
+border-bottom:solid #CCCCCC;
+border-right:solid #CCCCCC;
+border-width:0 1px 1px 0;
+float:left;
+width:248px;
+min-height:240px;
+position: relative;
+}
+
+.title-guid{
+margin:1px;
+background-color:#E5E5E5;
+padding:10px 10px 10px 10px;
+position: relative;
+}
+
+.cell-guid-list-inner{
+padding:10px 10px 0 10px;
+}
+
+.icon-guid{
+/*position:absolute;
+left:15px;
+top:10px;*/
+font-size:14px;
+line-height:16px;
+font-weight:bold;
+vertical-align:middle;
+}
+
+.cell-guid-list ul{
+margin-left:16px;
+padding:0px;
+}
+
+.cell-guid-list li{
+margin:0px;
+padding:0px;
+list-style:disc;
+}
+
+
+
+/* 縺顔衍繧峨○ ------------------- */
+.information ul{
+margin-left:16px;
+padding:0px;
+}
+
+.information li{
+margin-bottom:30px;
+padding:0px;
+list-style:disc;
+}
+
+.information li span{
+font-weight:bold;
+}
+
+.information li.end{
+margin:0px;
+}
+
+
+
+/* 蝠�刀諠��ｱ縺ｫ髢｢縺励※ ------------------- */
+.goodslist{
+margin-right:-20px;
+overflow:hidden;
+}
+
+.goodslist li{
+float:left;
+margin-bottom:20px;
+margin-right:20px;
+width:365px;
+list-style:none;
+}
+
+.goodslist li a{
+border:1px solid #CCCCCC;
+display:block;
+height:103px;
+padding:15px;
+text-decoration:initial;
+}
+
+.goodslist li img{
+display:inline;
+float:left;
+margin-right:10px;
+vertical-align:top;
+}
+
+.goodslist li span.title{
+font-size:14px;
+font-weight:bold;
+line-height:25px;
+/*margin-bottom:5px;*/
+}
+
+.goodslist li span.text{
+/*padding-bottom:15px;*/
+}
+
+
+/* 縺雁撫蜷医ｏ縺� ------------------- */
+.contact ul{
+}
+
+li.mail{
+background:url(https://www.rakuten.ne.jp/gold/e-zakkamania/images/shop_design/footer/icon_mail.gif) no-repeat 0 5px;
+font-size:14px;
+font-weight:bold;
+padding-left:25px;
+padding-bottom:15px;
+list-style:none;
+}
+
+li.tel{
+background:url(https://www.rakuten.ne.jp/gold/e-zakkamania/images/shop_design/footer/icon_tell.gif)no-repeat 0 2px;
+font-size:18px;
+font-weight:bold;
+padding-left:25px;
+padding-bottom:15px;
+}
+
+
+
+/* 荳ｭ髱｢ -------------------------------------- */
+h1.help{
+margin:0 !important;
+padding-bottom:17px;
+background-color:#FFFFFF !important;
+font-size:18px;
+color: #202020 !important;
+font-weight:bold;
+text-indent:0;
+}
+
+.case h2.sub-title{
+position:absolute;
+padding-top:20px;
+top:15px;
+left:0;
+width:150px;
+font-weight:bold;
+font-size:12px;
+background-color:#FFFFFF;
+color:#202020;
+border:none;
+margin:0px;
+}
+
+h2.case-sub-title-border{
+/*margin-top:15px;*/
+padding-top:15px;
+border-top:1px solid #CCCCCC;
+font-weight:bold;
+font-size:12px;
+padding-bottom:5px;
+}
+
+/*
+.case h3.sub-title{
+position:absolute;
+top:15px;
+left:0;
+width:150px;
+font-weight:bold;
+font-size:12px;
+background-color:#FFFFFF;
+color:#202020;
+border:none;
+margin:0px;
+}
+*/
+
+
+h3.case-title{
+font-weight:bold;
+font-size:12px;
+border:none;
+margin:0px;
+padding-bottom:10px;
+}
+
+h3.case-sub-title{
+padding-top:40px;
+font-weight:bold;
+font-size:12px;
+border:none;
+margin:0px;
+padding-bottom:10px;
+}
+
+h3.case-sub-title-border{
+margin-top:15px;
+padding-top:15px;
+border-top:1px solid #CCCCCC;
+font-weight:bold;
+font-size:12px;
+padding-bottom:5px;
+}
+
+h4.case-title{
+font-weight:bold;
+font-size:12px;
+border:none;
+margin:0px;
+padding-bottom:5px;
+}
+
+h4{
+font-weight:bold;
+font-size:12px;
+border:none;
+margin:0px;
+padding-bottom:5px;
+}
+
+
+h4.sub-title{
+padding-top:30px;
+}
+
+
+h5{
+background-color:#ECF9FC;
+color:#000000;
+font-size:12px;
+font-weight:bold;
+padding:10px 10px;
+margin-bottom:10px;
+}
+
+.nav-category{
+margin-bottom:7px;
+padding:10px 0px 0px 0;
+}
+
+.nav-category ul{
+margin-left:2px;
+}
+
+.nav-category li{
+/*margin-right:10px;*/
+padding:0 8px 8px 12px;
+width: 227px;
+/*border-right:1px solid #CCCCCC;*/
+font-size:12px;
+list-style:none;
+float:left;
+background: url(../img/arrow-under.gif) no-repeat 0 0.5em;
+}
+
+
+.case{
+position:relative;
+padding:15px 0 15px 180px;
+border-top:1px solid #CCCCCC;
+clear:both;
+}
+
+.case-sub{
+	border:none;
+}
+.case-sub hr{
+	color:#ffffff;
+}
+
+.case p{
+margin:0px;
+padding:0px;
+}
+
+
+
+#contents p.pb15{
+padding-bottom:15px;
+}
+
+#contents p.pb20{
+padding-bottom:20px;
+}
+
+.case ol li{
+margin:1px 0 1px 30px
+}
+
+.case ul,
+.case ol{
+margin:0px;
+padding:0px;
+}
+
+.case ul{
+margin-left:19px;
+}
+
+.case li{
+padding-bottom:5px;
+list-style:disc;
+line-height:18px;
+}
+
+.case li.end{
+padding:0px;
+}
+
+table.border{
+border-top:1px solid #CCCCCC;
+border-left:1px solid #CCCCCC;
+}
+
+table.center td{
+	text-align:center;
+}
+
+.border td{
+padding:8px 10px 8px 10px;
+border-right:1px solid #CCCCCC;
+border-bottom:1px solid #CCCCCC;
+}
+
+
+
+table.border02{
+padding-top:25px;
+border-top:1px solid #CCCCCC;
+}
+
+
+.td-title{
+background-color:#F0F0F0;
+text-align:center;
+}
+
+.td-title-left{
+background-color:#F0F0F0;
+text-align:left;
+}
+
+
+/* 縺疲ｳｨ譁� ------------------- */
+/* search */
+#searchBox{
+width:310px;
+line-height:1.8;
+vertical-align:middle !important;
+float:left;
+}
+
+#searchBox #txtArea{
+width:200px;
+height:20px;
+margin:0 3px 0 10px;
+padding-left:20px;
+border:1px solid #dddddd;
+background: url("../../images/shop_design/newhead/icon_search.gif") no-repeat scroll 0 2px transparent;
+}
+
+#searchBtn{
+position:relative;
+top:8px;
+left:0;
+}
+
+
+.cell-order-flow img{
+/*margin-right:15px;
+/*margin-bottom:15px;*/
+/*min-height:40px;*/
+margin-right:15px;
+float:left;
+}
+
+.cell-order-flow p.order-flow{
+padding-left:62px;
+}
+
+.order-step{
+margin-bottom:15px;
+}
+
+.order-step p{
+float:left;
+font-size:12px;
+line-height:1.33;
+}
+
+.order-step ol li{
+margin:0px;
+padding:0px;
+float:left;
+list-style:none;
+}
+
+/* 繧ｹ繝�ャ繝� ------------------- */
+.step{
+border:1px solid #CCCCCC;
+margin-bottom:10px;
+padding:10px;
+}
+
+.end{
+margin:0px;
+}
+
+.step h5{
+background-color:#F0F0F0;
+border-bottom:1px solid #CCCCCC;
+font-size:12px;
+font-weight:bold;
+position:relative;
+left:-10px;
+padding:10px;
+top:-10px;
+width:548px;
+margin:0px;
+/*margin:0 -20px 0 0;*/
+}
+
+.step p{
+margin:0px;
+padding:0px;
+}
+
+.step-arrow{
+margin-bottom:10px;
+}
+
+.payment{
+margin-bottom:10px;
+padding:10px;
+width:228px;
+border:1px solid #CCCCCC;
+}
+
+.payment h5{
+background-color:#ECF9FC;
+border-bottom:1px solid #CCCCCC;
+font-size:12px;
+font-weight:bold;
+position:relative;
+left:-10px;
+padding:10px;
+top:-10px;
+width:228px;
+margin:0px;
+/*margin:0 -20px 0 0;*/
+}
+
+
+/* 驟埼＃ ------------------- */
+table.delivery{
+border-top:1px solid #CCCCCC;
+border-left:1px solid #CCCCCC;
+}
+
+.delivery td{
+padding:5px;
+border-right:1px solid #CCCCCC;
+border-bottom:1px solid #CCCCCC;
+font-size:10px;
+line-height:16px;
+}
+
+/* 蜷梧｢ｱ繝ｻ縺雁叙繧顔ｽｮ縺� ------------------- */
+.step-keep{
+background-color:#CC0000;
+padding:5px;
+}
+
+.step02-keep{
+background-color:#FFFFCC;
+padding:5px;
+font-weight:bold;
+}
+
+
+/* 繧医￥縺ゅｋ雉ｪ蝠� ------------------- */
+
+.nav-category-qa{
+margin-bottom:15px;
+padding:10px 0px 10px 0;
+}
+
+.nav-category-qa h2{
+padding-top:15px;
+padding-bottom:15px;
+border-top:1px solid #CCCCCC;
+font-weight:bold;
+font-size:12px;
+}
+
+.nav-category-qa ul{
+margin-left:2px;
+margin-bottom:5px;
+}
+
+.nav-category-qa li{
+/*margin-right:10px;*/
+padding:0 0 8px 12px;
+/*width: 227px;*/
+/*border-right:1px solid #CCCCCC;*/
+font-size:12px;
+list-style:none;
+/*float:left;*/
+
+}
+
+.cell-qa02{
+border-left:1px solid #CCCCCC;
+border-top:1px solid #CCCCCC;
+width:750px;
+}
+
+.qa{
+border-bottom:1px solid #CCCCCC;
+border-right:1px solid #CCCCCC;
+margin:0;
+padding:15px;
+/*width:720px;*/
+}
+
+.qa h5{
+background-color:#E5E5E5;
+border-bottom:1px solid #CCCCCC;
+font-size:12px;
+font-weight:bold;
+left:-15px;
+/*margin:0 -20px 0 0;*/
+margin:0px;
+padding:10px 15px;
+position:relative;
+top:-15px;
+width:719px;
+}
+
+.qa p{
+margin:0;
+width:auto;
+}
+
+.cell-qa02 ul{
+margin-left:15px;
+}
+
+.cell-qa02 li{
+list-style:disc;
+}
+
+
+
+/* 750陦ｨ遉ｺ ------------------- */
+h2.title-border{
+margin-top:15px;
+padding-top:15px;
+padding-bottom:15px;
+border-top:1px solid #CCCCCC;
+font-weight:bold;
+font-size:12px;
+}
+
+h2.750-title{
+margin-top:30px;
+/*padding-top:30px;*/
+padding-bottom:15px;
+font-weight:bold;
+font-size:12px;
+}
+
+
+ul.list-disc{
+margin-left:19px;
+}
+
+.list-disc li{
+padding-bottom:5px;
+list-style:disc;
+line-height:18px;
+}
+
+.list-disc li.end{
+padding:0px;
+}
+
+
+
+
+/* 繧｢繝代Ξ繝ｫ逕ｨ隱櫁ｾ槫� ------------------- */
+h2.ap-title{
+margin-top:20px;
+/*padding-top:30px;*/
+padding-bottom:15px;
+font-weight:bold;
+font-size:12px;
+}
+
+ul.ap-icon{
+margin-bottom:20px;
+padding:0px;
+}
+
+ul.ap-icon li{
+margin-right:12px;
+float:left;
+}
+
+ul.ap-icon li span{
+margin-right:5px;
+}
+
+
+.word{
+margin-bottom:60px;
+}
+
+.word td{
+vertical-align:top;
+width:20%;
+}
+
+.word-tr{
+background:#F0F0F0;
+}
+
+.word-tr td{
+padding-left:11px;
+}
+
+.word td li{
+margin-bottom:10px;
+font-size:10px;
+line-height:18px;
+}
+
+.word-detail{
+margin-bottom:60px;
+}
+
+.word-detail td{
+vertical-align:top;
+}
+
+.word-detail img{
+margin-left:12px;
+float:right;
+}
+
+table.word-detail p.point img{
+float:left;
+margin:0 3px 0 0;
+vertical-align:top;
+}
+
+
+
+
+span.jeans{
+	font-size:10px;
+	padding:2px 5px;
+	color:#FFFFFF;
+	background-color:#003366;
+	line-height:20px;
+}
+span.lace{
+	font-size:10px;
+	padding:2px 5px;
+	color:#FFFFFF;
+	background-color:#C3AF96;
+	line-height:20px;
+}
+span.neckline{
+	font-size:10px;
+	padding:2px 5px;
+	color:#FFFFFF;
+	background-color:#8FDAB5;
+	line-height:20px;
+}
+span.tops{
+	font-size:10px;
+	padding:2px 5px;
+	color:#FFFFFF;
+	background-color:#FFCCCC;
+	line-height:20px;
+}
+span.bottoms{
+	font-size:10px;
+	padding:2px 5px;
+	color:#FFFFFF;
+	background-color:#CC99CC;
+	line-height:20px;
+}
+span.parts{
+	font-size:10px;
+	padding:1px 4px;
+	color:#999999;
+	background-color:#FFFF66;
+	line-height:20px;
+	border:1px solid #CCCCCC;
+}
+span.sozai{
+	font-size:10px;
+	padding:2px 5px;
+	color:#FFFFFF;
+	background-color:#FF8484;
+	line-height:20px;
+}
+span.design{
+	font-size:10px;
+	padding:2px 5px;
+	color:#FFFFFF;
+	background-color:#87CEEB;
+	line-height:20px;
+}
+
+
+
+
+.size-photo-img{
+margin-right:10px;
+margin-bottom:10px;
+}
+
+.size-photo-img02{
+margin-bottom:10px;
+}
+
+.size-photo-text{
+width:300px;
+}
+
+
+
+h3.size-title{
+padding:10px;
+background-color:#F0F0F0;
+text-align:left;
+border-top:1px solid #CCCCCC;
+border-right:1px solid #CCCCCC;
+border-left:1px solid #CCCCCC;
+}
+
+h3.size-title-bottom{
+margin-bottom:10px;
+padding:10px;
+background-color:#F0F0F0;
+text-align:left;
+border:1px solid #CCCCCC;
+}
+
+.cell-size{
+padding-bottom:50px;
+}
+
+.size-left{
+float:left;
+width:250px;
+text-align:center;
+}
+
+.size-right{
+float:right;
+width:460px;
+}
+
+
+.cell-shoes-size{
+padding-bottom:30px;
+margin-right:-20px;
+}
+
+.shoes-size-table{
+margin-bottom:20px;
+}
+
+.shoes-size-left{
+margin-right:20px;
+margin-bottom:20px;
+float:left;
+width:365px;
+}
+div.footimg{
+  width: 365px;
+  height: 150px;
+}
+.shoes-size-left:nth-of-type(2n) {
+    margin-right: 0;
+}
+
+.shoes-size-left:nth-of-type(2n+1){
+    clear: both;
+}
+.shoes-size-left .staff{
+border-top:1px solid #CCCCCC;
+border-left:1px solid #CCCCCC;
+border-bottom:1px solid #CCCCCC;
+background-color:#eeeeee;
+}
+
+.table-border,.table-border02{
+border-top:1px solid #CCCCCC;
+border-left:1px solid #CCCCCC;
+height:122px;
+}
+
+.table-border td{
+width:25%;
+}
+
+.table-border02 td{
+width:16%;
+}
+
+.shoes-size-data,
+.table-border02 td:nth-of-type(2n-1){
+font-size:10px;
+padding:5px 0 5px 2px;
+box-sizing:border-box;
+border-bottom:1px solid #CCCCCC;
+}
+
+.shoes-size-data02,
+.table-border02 td:nth-of-type(2n){
+font-size:10px;
+text-align:right;
+box-sizing:border-box;
+padding:5px 0 5px 5px;
+border-right:1px solid #CCCCCC;
+border-bottom:1px solid #CCCCCC;
+}
+
+.cell-shoes-size ul{
+margin:0px 0px 0px 20px;
+padding:0px;
+clear:both;
+}
+
+.cell-shoes-size ul li{
+list-style-image:url(https://www.rakuten.ne.jp/gold/e-zakkamania/images/shop_design/item_page/icon_review.gif);
+line-height:140%;
+margin:0 0 0.8em 0;
+padding:0;
+text-align:left;
+color:#333333;
+font-size:11px;
+}
+
+
+
+div.sizeIllustBox{
+	margin:10px 0;
+	padding:10px;
+	width:230px;
+	float:left;
+	text-align:center;
+}
+
+div.sizeIllustBox img{
+	margin:5px 0;
+}
+
+
+
+
+/* 豢玲ｿｯ陦ｨ遉ｺ ------------------- */
+h2.wash-title-border{
+/*margin-top:15px;*/
+padding-top:15px;
+padding-bottom:15px;
+border-top:1px solid #CCCCCC;
+font-weight:bold;
+font-size:12px;
+}
+
+h2.wash-title{
+margin-top:30px;
+/*padding-top:30px;*/
+padding-bottom:15px;
+font-weight:bold;
+font-size:12px;
+}
+
+td.wash-border{
+border:1px solid #CCCCCC;
+}
+
+
+.centering{
+display:block;
+margin:10px auto 5px;
+text-align:center;
+}
+
+/* 繧｢繝�Φ繧ｷ繝ｧ繝ｳ繝懊ャ繧ｯ繧ｹ ------------------- */
+p.attentionBox {
+    background-color: #F5F5F5;
+    border: 1px solid #E3E3E3;
+    color: #333333;
+    font-size: 12px;
+    line-height: 1.8;
+    margin: 20px 0 20px !important;
+    padding: 10px !important;
+}
+
+.news_title{
+	font-weight:bold;
+	font-size:14px;
+}
+/* 繝壹�繧ｸ繝医ャ繝� ------------------- */
+.pagetop-category{
+margin:20px 0 20px 0;
+text-align:right;
+
+}
+
+
+/*  2015.12.11 added 
+.end{
+  color:#999999;
+}*/
+.attentionBox .title,

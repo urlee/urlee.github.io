@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="shortcut icon" href="images/axes_favicon.ico" type="image/vnd.microsoft.icon">
+		<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript">
+			 $(function(){
+			 	 $('a[href*=#],area[href*=#]').click(function() {  
+                console.log(this.pathname)  
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {  
+                    var $target = $(this.hash);  
+                    $target = $target.length && $target || $('[name=' + this.hash.slice(1) + ']');  
+                    if ($target.length) {  
+                        var targetOffset = $target.offset().top;  
+                        $('html,body').animate({  
+                                    scrollTop: targetOffset  
+                                },  
+                                500);  
+                        return false;  
+                    }  
+                }  
+            }); 
+			 });
+           
+		</script>
+		<style>
+			.all {
+				width: 970px;
+				margin: 0 auto;
+				padding-top: 100px;
+				padding-bottom: 100px;
+			}
+			.divleft {
+				width: 200px;
+				margin-right: 20px;
+				float: left;
+			}
+			.commsptop {
+				display: none;
+			}
+			@media screen and (max-width:756px){
+			#topheader {
+				width: 100%;
+				height: 150px;
+				margin-bottom: 20px;
+			}
+			.divleft {
+				display: none;
+			}
+			.all {
+				width: 100%;
+				padding-top: 0px;
+			}
+			.nav-category {
+				display: none;
+			}
+			.area-main {
+				width: 100%;
+			}
+			.case {
+				padding: 0px;
+			}
+			.case h2.sub-title {
+				top: 0px;
+				width: 100%;
+				position: relative;
+			}
+			img {
+				width: 100%;
+			}
+			.mr5 {
+				width: 26px;
+			}
+			.commsptop {
+				display: block;
+			}
+	}
+		</style>
+	</head>
+	<body>
+		<div class="all">
+			<iframe id="topheader" src="top.html" width="970" height="220" frameborder="0" scrolling="no" marginwidth="0" marginheight="0"></iframe>
+		<div class="divleft">
+			<iframe src="left.html" width="200" height="500" frameborder="0" scrolling="no" marginwidth="0" marginheight="0"></iframe>
+		</div>
+
+		<div class="area-main copy">
+			
+    <h1 class="help">返品・交換</h1>
+
+    <div class="nav-category clearfix">
+    <ul>
+    <li><a href="#return_01">返品・交換条件</a></li>
+    <li><a href="#return_02">返品・交換依頼</a></li>
+    <li><a href="#return_04">返金について</a></li>
+    
+    
+    <li><a href="#return_07">不良品・誤送・輸送中の破損について</a></li>
+    <li><a href="#return_08">返送後のご案内について</a></li>
+    </ul>
+    <div class="clear"></div>
+    </div>
+    <!-- / category-nav -->
+    <br><br>
+
+    <!-- case -->
+
+    
+
+    <a name="return_01" id="return_01"></a>
+    <div class="case clearfix">
+    <h2 class="sub-title">返品・交換条件</h2>
+
+    <h4 class="case-title">下記に該当する場合は、返品をお受けできません。</h4>
+    <ul>
+    <li>お届けから<span class="c-red">14日以上</span>経過した商品</li>
+    <li>お客様がご使用になられた商品</li>
+    <li>お客様が汚損･破損された商品</li>
+    <li>お客様が試着等で汚された・タバコ等匂いのついた商品</li>
+    <li>お届け後､お洗濯、修理、クリーニング等された商品</li>
+    <li>商品のタグ等（説明書、箱入り商品の箱、付属品など）を汚損・破損・紛失・破棄された場合</li>
+    <li><span class="c-red">特別企画商品</span></li>
+    <li><span class="c-red">クーポンを使用してご購入いただいた商品</span>(ただし交換は可)</li>
+    
+    <li>返品目的でサイズ違いや色違いを多数購入された場合</li>
+    <li>他商品との交換</li>
+    
+    </ul>
+		 
+    
+
+    <h3 class="case-sub-title">当店商品について</h3>
+    <p class="pb20">当店では入荷後すべての商品を1点ずつ心を込めて検品させて頂いております。<br>
+        機械による生産過程において、どうしても"生地を織る際の糸の継ぎ目"や多少の"ほつれ"、他繊維の"混紡"などが生じている場合がございますが、品質上の問題があるものはお届けしておりません。<br>
+        また、同じ商品でも生産時期やカラーにより形やサイズに多少の"誤差"が生じる場合もございますが、著しく違いが見られるものはお届けしておりませんのでご安心くださいませ。</p>
+
+    <p>PVC やPUなどのフェイクレザーの商品は、素材の性質上、染料の匂いが強いものがございます。<br>
+        当店ではメーカーから密閉した状態で入荷後、検品の上再度袋詰め致しておりますので、店頭にある商品とは違い匂いが多少強く感じられるものもございます。<br>
+        数日のご使用や陰干しなどで気になる匂いはほとんど感じられなくなりますので、お試しくださいませ。</p>
+    <div class="clear"></div>
+    </div>
+    <!-- / case -->
+
+
+    <!-- case -->
+    <a name="return_02" id="return_02"></a>
+    <div class="case clearfix">
+    <h2 class="sub-title">返品・交換依頼</h2>
+    <p class="pb10"><span class="c-red">商品到着から14日以内</span>に、下記より必要事項をご入力の上、返品・交換のご希望をご連絡ください。<br>
+        当店から改めて、受付の確認と、返品のご案内を返信いたしますので、ご案内に沿ってご返送いただきますようお願いいたします。</p>
+
+    
+
+    <p class="pb10">  ※離島、沖縄へのお届けは別途地域料680円を頂戴いたします。
+    </p>
+    
+		
+
+
+    <div class="cell10">
+    <table width="100%" border="0" cellpadding="0" cellspacing="0" class="border">
+    <tr>
+    <td width="150" class="td-title-left">配送業者</td>
+    <td>ご返送の際の配送業者の指定はございません。</td>
+    </tr>
+    <tr>
+    <td class="td-title-left">送料</td>
+    <td>初期不良の場合は当社が負担いたします。<br />
+お客様都合の場合はお客様にご負担いただきます。
+    </td>
+    </tr>
+    <tr>
+    <td class="td-title-left">条件</td>
+    <td>「返品・交換の条件」を満たしていること。<br>
+    <a href="#return_01" class="blue" target="_blank">&gt;&gt;　返品・交換の条件</a></td>
+    </tr>
+    </table>
+    </div>
+
+    <ul>
+    <li>商品到着後14日以上経過した場合の返品・交換は、いかなる場合でもお受け致しかねますのでご注意ください。</li>
+    <li>未使用に限ります。</li>
+    <li><span class="c-red">特別企画商品返品・交換をお受け致しかねます。</span></li>
+    </ul>
+
+    <h3 class="case-sub-title">返送先について</h3>
+		<p style="margin-bottom: 5px;">返品先は別なので、ご返品ご希望の場合は、<font color="cc0000"><b>必ず事前に当店へご連絡下さい。</b></font></p>
+		<p style="margin-bottom: 5px;">事前にお知らせ頂いていない返品は受け付け出来ませんのでご注意下さい</p>
+		<p style="margin-bottom: 5px;">当店連絡先　 ismyahoo2017@fclasspupu.sakura.ne.jp</p>
+    
+
+   
+    </ul>
+
+
+    <h3 class="case-sub-title"><img src="img/at.gif" alt="" class="mr5">ご注意ください</h3>
+    <p>悪質とみなされた場合</p>
+    <p class="pb30">あきらかに購入の意思が無く、何度も返品・交換が繰り返された場合、または受け取り拒否などの場合、当方の商品趣旨にご理解をいただけないお客さまは、非常に残念な事ですが今後のご注文・返品などをお断りする場合がございます。</p>
+
+
+    <p>買占め防止について</p>
+    <p class="pb30">買占め防止の為、当店で定めましたある一定期間内でのご利用通算でご返品商品点数が多くなってしまった場合、以降のご注文はお受けできませんのでご了承くださいませ。</p>
+
+    <p>買占め防止（キャンセル）</p>
+    <p>当店ではご注文の買占め防止などの為、ある一定期間内でのキャンセル率がご注文実績に対する一定の率を超えられました場合は、その後のご注文をお断りさせて頂くケースもございますので、予めご了承くださいませ。</p>
+
+    <div class="clear"></div>
+    </div>
+    <!-- / case -->
+
+
+    <!-- case -->
+    <a name="return_04" id="return_04"></a>
+    <div class="case clearfix">
+    <h2 class="sub-title">返金について</h2>
+    <p class="pb10">ご注文のお支払い方法によりご返金方法が異なります。 </p>
+
+    <ul>
+    <li><strong>クレジットカード決済</strong><br>
+        クレジットご請求の再手続き、または、請求取消処理。<br>※カード処理手数料100円を頂戴いたします。</li>
+    <li class="end"><strong>その他のお支払い方法</strong><br>
+        ご希望銀行口座へのご返金。<br>
+        ※ご返金の振込手数料はお客様負担とさせていただきます。<br><br>
+     </li>
+    <li>
+    	<strong>現金書留</strong>
+    	<br />
+    	<font color="#cc0000"><b> ご対応いたしません、ご注意下さい。</b></font><br /><br />
+        銀行の場合　　　　　　　 324円 <br>
+    </li>
+    </ul>k
+    <h3 class="case-sub-title">行きの送料・代引手数料が発生する場合</h3>
+    <ul>
+    <li>お支払い方法に関わらず、返品後、ご注文合計が7,200円未満となる場合、ご返送料とは別にお届けにかかりました送料を頂戴します。<br>
+        代金引換のお客様は返品後10,000円未満となる場合、代引手数料324円が発生いたします。<br>
+    </li>
+    <li>送料無料イベントでご注文頂いた商品を返品後、返品後の商品合計金額がイベント規定価格を下回る場合は、イベントの適用外となりますためご返送料とは別にお届けにかかりました送料を頂戴いたします。</li>
+    <li>送料無料商品を返品後、ご注文合計が8,000円未満となる場合、ご返送料とは別にお届けにかかりました送料を頂戴いたします。</li>
+    <li class="end">返品後のご請求額、及びご返金額については別途ご案内いたします。</li>
+    </ul>
+
+
+
+    <div class="clear"></div>
+    </div>
+    <!-- / case -->
+
+
+    <!-- case -->
+    <a name="return_07" id="return_07"></a>
+    <div class="case clearfix">
+    <h2 class="sub-title">不良品・誤送・輸送中の破損について</h2>
+    <p class="pb10">万一商品の破損・汚損やお届け違い等ございましたら、<span class="c-red">商品到着から14日以内</span>に、下記より必要事項をご入力の上、返品・交換のご希望をご連絡ください。<br>
+        すぐに、返品・交換をさせてきただきます。</p>
+
+    <p>返送・交換商品の送料・手数料は全て当社が負担いたします。</p>
+
+    <div class="cell10"><ul>
+    <li> 注文した商品とは異なる商品が届いた。</li>
+    <li>商品の破損・汚れ・キズ等がある。<br>※但し、予め商品ページに記載のある場合は交換対象となりません。</li>
+    </ul></div>
+
+    
+
+
+    <p class="pb10">大変お手数ですが、ご返送については当社よりお送り致します返品・交換についてのメールに詳しいご返送・交換のご案内を致しますので、そちらを必ずご確認きただきご返送の程お願い致します。</p>
+
+
+    <p>交換をご希望の場合は原則、同一商品での交換となりますが、交換品がご用意できない場合、また返品をご希望の場合は、返品についてのご案内をお送り致しますので、ご確認くださいませ。 <br>
+        ※原則交換ご希望の場合は、<span class="c-red">同一商品との交換</span>となります。</p>
+    <div class="clear"></div>
+    </div>
+    <!-- / case -->
+
+    <!-- case -->
+    <a name="return_08" id="return_08"></a>
+    <div class="case clearfix">
+    <h2 class="sub-title">返送後のご案内について</h2>
+    <p class="pb10">返品商品が到着次第、順次当店よりメールにてお知らせいたします。</p>
+    <p>土日祝当社休業日を挟む場合や商品到着が混み合った場合、ご返送頂きました商品の到着確認までに少しお時間を頂戴する場合がございます。<br>
+        順次確認させて頂いておりますので、宜しくお願い申し上げます。</p>
+    <div class="clear"></div>
+    </div>
+    <!-- / case -->
+</div>
+    </div>
+	</body>
+</html>

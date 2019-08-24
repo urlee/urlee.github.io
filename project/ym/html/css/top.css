@@ -1,0 +1,589 @@
+@charset "euc-jp";
+
+/*======================================
+	�ؑփ��C���G���A�@main
+=======================================*/
+/*----�@�S��  ---*/
+#mainbox {
+width:950px;
+margin:0 0 38px 0;
+padding:0;
+}
+
+/*----�@�ؑփG���A  ---*/
+
+#mainbox #mainAreaBg02{
+margin:0; padding:0;
+width:950px;
+}
+#mainbox #mainImg02{
+width:950px;
+height:375px;
+overflow:hidden;
+margin:0; padding:0;
+}
+
+#mainbox ul {
+width:950px;
+height:375px;
+margin:0; padding:0;
+}
+#mainbox ul li {
+margin:0; padding:0;
+width:950px;
+height:375px;
+}
+
+#mainbox #slideshow {margin:0; padding:0;}
+
+
+#mainbox ul#slidethumb {
+width:938px;
+height:75px;
+border-top:#707070 solid 4px;
+border-bottom:#707070 solid 4px;
+border-right:#707070 solid 6px;
+border-left:#707070 solid 6px;
+margin:0;
+padding:0;
+}
+#mainbox ul#slidethumb li {
+margin:0; padding:0;
+width:134px;
+height:75px;
+float:left;
+}
+
+#mainbox ul#slidethumb li img{
+display:block;
+}
+
+
+/*======================================
+	����
+=======================================*/
+#top_m {
+width:640px;
+margin:0 0 0px 0;
+padding:0 0 0 0;
+clear:both;
+}
+#top_m:after {
+content:"";
+display:block;
+clear:both;
+}
+
+#top_m .ttl{
+width:640px;
+height:50px;
+background:url(../../img/renewal/center/ttlbg.gif) repeat-x 0 0;
+margin-bottom:20px;
+}
+
+#top_m .ttl .txt03{
+float:right;
+margin:8px 0 0 0;
+padding:0;
+line-height:1.5em;
+font-size:10px;
+}
+
+#top_m .ttl .txt03 span{
+font-weight:bold;
+color:#d20000;
+}
+
+#top_m ul.new_l{
+width:640px;
+margin-bottom:30px;
+}
+
+#top_m ul.new_l li{
+width:176px;
+margin:0 10px;
+padding:0;
+float:left;
+line-height:1.2em;
+}
+
+#top_m ul.new_l li.first{
+margin:0 10px 0 5px;
+}
+
+#top_m ul.new_l li.last{
+margin:0 6px 0 10px;
+}
+
+#top_m ul.new_l li p{
+width:176px;
+margin:13px 0px;
+padding:0;
+}
+
+#top_m ul.new_l li p span{
+font-weight:bold;
+}
+
+#top_m #reviewarea{
+margin:0 0 30px 0;
+}
+
+#top_m #reviewarea .reviewbox{
+margin:0 0 0 0;
+padding:20px 0 0 30px;
+}
+
+#top_m #reviewarea .txt_area{
+width:640px;
+height:103px;
+margin:0 0 0 0;
+padding:0px 0 0 0px;
+float:left;
+background:url(../../img/renewal/center/review_box.gif) no-repeat 0 0;
+position:relative;
+}
+
+#top_m #reviewarea .txt_area p.txt{
+position:absolute;
+left:53px;
+top:19px;
+margin:0;
+padding:0;
+}
+
+#top_m #reviewarea .txt_area p.detail{
+position:absolute;
+left:25px;
+top:46px;
+margin:0;
+padding:0;
+}
+
+#top_m #reviewarea .txt_area p.detail a{
+color:#d20000;
+}
+
+#top_m #reviewarea .txt_area p.detail span{
+font-size:11px;
+}
+
+#top_m #reviewarea .txt_area p.date{
+position:absolute;
+left:25px;
+top:72px;
+margin:0;
+padding:0;
+font-size:11px;
+}
+
+#top_m #reviewarea .txt_area .itmimg{
+position:absolute;
+left:587px;
+top:11px;
+margin:0;
+padding:0;
+}
+
+#top_m .pickup{
+width:775px;
+height:240px;
+overflow:hidden;
+position:relative;
+clear:both;
+}
+
+#top_m .pickup ul#picklist {
+margin:0;
+padding:10px 0 0 20px;
+}
+
+#top_m .pickup ul#picklist:after {
+content:"";
+display:block;
+clear:both;
+}
+
+#top_m .pickup ul#picklist2 {
+margin:0;
+padding:10px 0 0 20px;
+}
+
+#top_m .pickup ul#picklist2:after {
+content:"";
+display:block;
+clear:both;
+}
+
+#top_m .pickup ul li{
+float:left;
+font-size:11px;
+text-align:center;
+margin:0 0 30px 0;
+width:122px;
+}
+
+#top_m .pickup ul li p{
+margin:0;
+width:110px;
+padding:0 5px;
+line-height:1.6em;
+}
+
+#top_m .pickup ul li p span{
+font-weight:bold;
+}
+
+#top_m .pickup ul li p a{
+line-height:1.3em;
+}
+
+#top_m .pickup #pick_btnl{
+position:absolute;
+top:100px;
+left:5px;
+}
+
+#top_m .pickup #pick_btnr{
+position:absolute;
+top:100px;
+right:5px;
+}
+
+#top_m .pickup #pick_btnl2{
+position:absolute;
+top:100px;
+left:5px;
+}
+
+#top_m .pickup #pick_btnr2{
+position:absolute;
+top:100px;
+right:5px;
+}
+
+#top_m  ul.brandlist{
+float:left;
+width:760px;
+padding-left:15px;
+}
+
+#top_m  ul.brandlist a:link,#top_m  ul.brandlist a:visited,#top_m  ul.brandlist a:active{color:#000; text-decoration:none;}
+#top_m  ul.brandlist a:hover{color:#000; text-decoration:underline;}
+
+#top_m  ul.brandlist li{
+float:left;
+width:152px;
+height:60px;
+}
+
+#top_m  ul.brandlist .itm_img{
+float:left;
+margin:0;
+padding:0 7px 0 0;
+}
+
+#top_m  ul.brandlist p.name{
+float:left;
+font-size:12px;
+font-weight:bold;
+line-height:1.1em;
+margin:0;
+padding:0;
+}
+
+#top_m  ul.brandlist p.name span{
+font-size:11px;
+line-height:1.0em;
+color:#ab773d;
+font-weight:normal;
+margin:0;
+padding:0;
+}
+
+/*---- ���G���A ---*/
+#top_m .top_m_c {
+width:600px;
+margin:0 15px 0 0;
+padding:0 0px 0 0px;
+float:left;
+}
+
+/*
+* html #top_m .top_m_c {
+width:610px;
+margin:0;
+padding:0 2px 0 15px;
+float:left;
+}
+*/
+
+#top_m .top_m_c #new{
+margin:0 0 40px 0;
+width:600px;
+}
+
+#top_m .top_m_c #new .newttl{
+width:588px;
+background:#acacac;
+margin:0 0 20px 0;
+padding:7px 0 7px 12px;
+font-weight:bold;
+}
+
+#top_m .top_m_c #new .newttl span{
+color:#fff;
+}
+
+#top_m .top_m_c #new ul{
+width:600px;
+}
+
+#top_m .top_m_c #new ul li{
+float:left;
+font-size:11px;
+text-align:center;
+margin:0 0 30px 0;
+width:120px;
+}
+
+#top_m .top_m_c #new ul li p{
+margin:0;
+width:110px;
+padding:0 5px;
+line-height:1.6em;
+}
+
+#top_m .top_m_c #new ul li p span{
+font-weight:bold;
+}
+
+#top_m .top_m_c #new ul li p a{
+line-height:1.3em;
+}
+
+#top_m .top_m_c .ttl{
+width:600px;
+height:50px;
+background:url(../../img/renewal/center/ttlbg.gif) no-repeat 0 0;
+margin-bottom:20px;
+}
+
+#top_m .top_m_c .ttl .txt03{
+float:right;
+margin:8px 0 0 0;
+padding:0;
+line-height:1.5em;
+font-size:10px;
+}
+
+#top_m .top_m_c .ttl .txt03 span{
+font-weight:bold;
+color:#d20000;
+}
+
+#top_m .top_m_c #bss ul{
+width:600px;
+}
+
+#top_m .top_m_c #bss ul.line{
+background:url(../../img/renewal/center/line.gif) no-repeat bottom;
+margin-bottom:25px;
+}
+
+#top_m .top_m_c #bss ul li{
+float:left;
+margin:0px 0 0px 0;
+width:200px;
+}
+
+#top_m .top_m_c #bss ul li p{
+padding:0;
+width:176px;
+font-size:12px;
+text-align:left;
+line-height:1.2em;
+}
+
+#top_m .top_m_c #bss ul li p.one{
+margin:13px 0 20px 5px;
+}
+
+#top_m .top_m_c #bss ul li p.two{
+margin:13px 0 20px 11px;
+}
+
+#top_m .top_m_c #bss ul li p.three{
+margin:13px 0 20px 19px;
+}
+
+#top_m .top_m_c .ttl02{
+width:600px;
+height:50px;
+background:url(../../img/renewal/center/ttlbg.gif) no-repeat 0 0;
+margin-bottom:10px;
+}
+
+#top_m .top_m_c .ttl02 .txt03{
+float:right;
+margin:8px 0 0 0;
+padding:0;
+line-height:1.5em;
+font-size:10px;
+}
+
+#top_m .top_m_c .ttl02 .txt03 span{
+font-weight:bold;
+color:#d20000;
+}
+
+#top_m .top_m_c .catettl{
+margin:0px 0 10px 0;
+padding:0 0 0px 0;
+background:url(../../img/renewal/center/line.gif) no-repeat  bottom;
+position:relative;
+width:600px;
+height:46px;
+overflow:hidden;
+}
+
+#top_m .top_m_c .dis_non{
+display:none;
+}
+
+#top_m .top_m_c .catettl ul.txt04{
+font-weight:bold;
+color:#d20000;
+font-size:10px;
+padding:20px 0 0 4px;
+float:left;
+}
+
+#top_m .top_m_c #itm_rank{
+width:600px;
+margin-bottom:20px;
+}
+
+#top_m .top_m_c #itm_rank ul#tab{
+width:366px;
+height:26px;
+background:url(../../img/renewal/center/tab_bg.gif) no-repeat left bottom;
+position:absolute;
+bottom:2px;
+right:0;
+}
+
+#top_m .top_m_c #itm_rank ul#tab li{
+float:left;
+cursor:pointer;
+width:61px;
+height:26px;
+display:block;
+}
+
+#top_m .top_m_c #itm_rank ul#tab img{
+display:block;
+}
+
+#top_m .top_m_c #itm_rank ul#tab img.dis_non{
+display:none;
+}
+
+#top_m .top_m_c .itmrank{
+text-align:center;
+line-height:1.5em;
+font-size:11px;
+width:600px;
+}
+
+#top_m .top_m_c .itmrank p{
+margin:10px 0 20px 0;
+padding:0 5px;
+}
+
+#top_m .top_m_c .itmrank p span{
+font-weight:bold;
+}
+
+#top_m .top_m_c ul.itmrank li{
+float:left;
+width:120px;
+}
+
+#top_m .top_m_c #itm_rank ul.line{
+background:url(../../img/renewal/center/line.gif) no-repeat bottom;
+margin:20px 0 5px 0;
+}
+
+
+/*---- �E�G���A ---*/
+#top_m .top_m_r {
+width:160px;
+float:left;
+padding:0;
+margin:0;
+}
+
+#top_m .top_m_r .keyword {
+width:160px;
+line-height:1.5em;
+font-size:11px;
+margin-bottom:25px;
+}
+
+#top_m .top_m_r .keyword p{
+padding:0;
+margin:0;
+}
+
+#top_m .top_m_r .keyword p span{
+width:160px;
+color:#d20000;
+}
+
+#top_m .top_m_r .rrank {
+width:160px;
+line-height:1.2em;
+font-size:11px;
+margin-bottom:20px;
+text-align:center;
+}
+
+#top_m .top_m_r .rrank .rrank_img{
+border:#acacac solid 1px;
+}
+
+#top_m .top_m_r .rrank p {
+padding:0 5px;
+margin:5px 0 0 0;
+}
+
+#top_m .top_m_r .rrank p.txt_r {
+color:#d20000;
+margin:10px 0 10px 0;
+}
+
+#top_m .top_m_r .rrank p.txt_r a {
+color:#d20000;
+}
+
+#top_m .top_m_r .rrank ul li {
+background:url(../../img/renewal/left-navi/dot.gif) repeat-x bottom;
+padding:0 0 5px 0;
+}
+
+#top_m .top_m_r .rrank ul li.end {
+background:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+

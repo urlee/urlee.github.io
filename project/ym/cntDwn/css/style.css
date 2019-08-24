@@ -1,0 +1,101 @@
+/* CSS Document */
+html {
+	font-size: 0.75rem;
+}
+p {
+	font-size: 1.4rem;
+}
+
+.contentsArea {
+	position: relative;
+	width: 870px;
+	height: 207px;
+	margin: 0;
+	padding: 0;
+	
+}
+.contentsArea .map,
+.contentsArea .timer,
+.contentsArea .abox,
+.contentsArea .bbox,
+.contentsArea .cbox {
+	position: absolute;
+}
+.map {
+}
+.contentsArea .timer {
+	top: 20px;
+	left: 40px;
+	width: 150px;
+	height: 100px;
+	text-align: center;
+}
+.contentsArea .time, .contentsArea .delivery {
+	letter-spacing: 3.5px;
+	color: #fe016c;
+	font-size: 1.6rem;
+	font-weight: 500;
+}
+.contentsArea .time {
+	padding-top: 14px;
+}
+.contentsArea .delivery {
+	padding-top: 40px;
+}
+.contentsArea .abox {
+	letter-spacing: 0.1rem;
+	font-weight: 500;
+	position: absolute;
+  top:84px;
+  left: 318px;
+	width: 120px;
+	height: 100px;
+	color: #FFF;
+	padding: 0px 0 0 0;
+	line-height: 3.5rem;
+	text-align: center;
+}
+.abox p{
+	font-size:2rem;
+	text-align: center;
+
+}
+.contentsArea .bbox,
+.contentsArea .cbox {
+	color: #FFF;
+	font-weight: 500;
+	letter-spacing: 0.1rem;
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	line-height: 2.0rem;
+}
+.contentsArea .bbox p,
+.contentsArea .cbox p{
+	margin-top: 0;
+	padding-top: 10px;
+	font-size:1.2rem;
+}
+.contentsArea .bbox {
+    top: 54px;
+    left: 744px;
+}
+.contentsArea .cbox {
+    top: 168px;
+    left: 744px;
+}
+/*
+.contentsArea .abox p {
+	font-size: 1.8rem;
+}
+*/
+.contentsArea .m1Font {
+	font-size: 1.8rem;
+}
+.contentsArea .m2Font {
+	font-size: 1.5rem;
+}
+.fS {
+	font-size: 1.2rem;
+	font-weight: 300;
+}

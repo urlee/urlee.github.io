@@ -1,0 +1,301 @@
+@charset "utf-8";
+/* https://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    /*vertical-align: baseline;*/
+    background: transparent;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*category_list*/
+
+div#category_main h1 {
+    font-size: 2.25em;
+    font-weight: bold;
+    color: #111;
+    padding: 10px 0;
+    border-bottom: 1px solid #111;
+    margin:0 0 30px;
+    font-family: Times New roman;
+    font-weight: normal;
+}
+div#category_main h1 span{
+    font-size:12px;
+    line-height: 2em;
+    vertical-align: middle;
+    padding-left: 2em;}
+nav#category_nav ul {
+    /* border-bottom:#999 solid 1px; */
+    margin: 0 0 80px;
+    max-width: 750px;
+    text-align: justify;
+    padding: 0 0 10px;
+}
+
+nav#category_nav ul:after {
+    content:"";
+    display:inline-block;
+    width:100%;
+}
+nav#category_nav ul li {
+    display: inline-block;
+    width: 206px;
+    margin: 0 0 9px;
+    font-size:13px;
+    background:#eeeeee;
+}
+nav#category_nav ul li a{
+    text-decoration:none;
+    padding: 10px;
+    display: block;
+    line-height:18px;
+}
+nav#category_nav ul li a span{
+    display:block;
+    font-size: 10px;
+}
+div#category_main h2 {
+    margin: 0 0 40px 0;
+    color: #333;
+    border-bottom: 1px solid #dcdcdc;
+    padding: 0 0 9px;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+div#category_main h3 {
+    margin:0 0 20px 0;
+    color: #333333;
+    font-size: 16px;
+    font-weight: normal;
+}
+.category_box {
+    margin: 0 0 120px 0;
+}
+.category_box ul {
+    width:640px;
+    letter-spacing:-0.8em;
+    /* border-top: solid 1px #ccc; */
+    /* border-left: solid 1px #ccc; */
+    text-align: left;
+    margin: 0 0 25px 0;
+}
+.category_box ul li {
+    width: 206px;
+    display: inline-block;
+    margin: 0 7px 7px 0;
+    text-align: left;
+    border: #ccc solid 1px;
+    letter-spacing:0;
+}
+.category_box ul li.si-top {
+    background:#efefef;
+}
+.category_box ul li:nth-of-type(3n) {
+        margin: 0 0 7px;
+    }
+.category_box ul li a {
+    display: block;
+    padding: 15px 10px;
+    font-size: 13px;
+    text-decoration:none;
+    width: 100%;
+    vertical-align: middle;
+}
+p#page-top {
+    width:84px;
+    height:108px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+p#page-top a {
+    display: block;
+    background: url(../../brand_list/img/top.png?d=201505271615)no-repeat;
+    width: 84px;
+    height: 108px;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+}
+p#page-top a:hover {
+    /* background-position:bottom; */
+}
+@media screen and (max-width:767px) {
+    div#category_main h1 {
+   float:left;
+   border-bottom: #959595 solid 1px;
+   height: 68px;
+   width: 100%;
+   font-size: 36px;
+   font-family: Times New roman;
+   color: #000;
+   padding-bottom: 0em;
+   text-align: center;
+   margin: 25px 0 10px;
+}
+div#category_main h1 span{
+    font-size:12px;
+    line-height: 2em;
+    vertical-align: middle;
+    padding-left: 0;
+    display: block;
+}
+div#category_main h2 {
+      /* background: #626262; */
+    line-height: 2em;
+    padding: 0 0 0 12px;
+    /* color: #fff; */
+    font-size: 20px;
+    border-bottom: 5px solid #434343;
+}
+
+div#category_main h3 {
+    margin: 0;
+    color: #333333;
+    font-size: 16px;
+    font-weight: normal;
+    border-bottom: #a0a0a0 solid 2px;
+    line-height: 2em;
+    padding: 0 0 0 12px;
+}
+    nav#category_nav ul {
+    border-bottom:#999 solid 1px;
+    margin: 0 0 50px;
+    padding: 0 0 10px;
+}
+nav#category_nav ul li {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    margin: 0 0 10px 0;
+    font-size: 14px;
+    background: url(../../brand_list/img/brand_arrow.png) no-repeat 95% #eee;
+    background-size: auto 30%;
+}
+nav#category_nav ul li a{
+    display:block;
+    padding: 1em 0 1em 0.5em;
+    height: 2em;
+    line-height:18px;
+}
+nav#category_nav ul li a span{
+    display:block;
+    font-size:12px;
+}
+    .category_box {
+        margin: -90px 0 0 0;
+        padding: 90px 0 0 0;
+    }
+    .category_box iframe{
+        height:300px;
+    }
+    .category_box ul {
+    width:100%;
+    letter-spacing:-0.8em;
+    /* border-top: solid 1px #ccc; */
+    border-left: solid 1px #ccc;
+    text-align: left;
+    margin: 0 0 50px 0;
+    }
+.category_box ul li {
+    width: 100%;
+    padding: 0;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    border-top: 0;
+    border-right: #ccc solid 1px;
+    border-bottom: #ccc solid 1px;
+    letter-spacing:0;
+    vertical-align: middle;
+    font-size: 12px;
+    background: url(../../brand_list/img/brand_arrow.png) no-repeat 95%;
+    background-size: auto 30%;
+}
+.category_box ul li.si-top {
+    background: url(../../brand_list/img/brand_arrow.png) no-repeat 95% #eee;
+    background-size: auto 30%;
+}
+.category_box ul li a {
+    display: block;
+    padding: 10px 5px;
+    font-size: 13px;
+    text-decoration:none;
+    height: 2em;
+    /* width: 90%; */
+    text-align: left;
+    vertical-align: middle;
+}
+.category_box ul li a span{
+    display:table-cell;
+    vertical-align:middle;
+    height: 2em;
+}
+.category_box ul li:nth-of-type(n+3) {
+        border-top:0;
+    }
+    p#page-top {
+    width: 42px;
+    height: 54px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+    p#page-top a {
+    display: block;
+    width: 42px;
+    height: 54px;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    background-size: cover;
+}
+}

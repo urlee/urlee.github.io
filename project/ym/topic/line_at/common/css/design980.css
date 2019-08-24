@@ -1,0 +1,48 @@
+@media screen and (min-width:501px) and (max-width:980px){
+	.brand01 {
+    padding-right: 16px;
+	
+    border-right: 1px solid #dcdddd;
+    float:left;
+    width: 100%;
+}
+.brand01 a {
+	width: 425px;
+	height:24px;
+	display:block;
+	background: url(../img/more_brand_01.png) no-repeat;
+	margin: 0 auto;
+}
+.brand01 a:hover {
+	background-position:bottom;
+}
+
+.brand02 {
+	float:left;
+	border-right: 1px solid #dcdddd;
+	padding: 0 0px;
+	width: 49%;
+}
+.brand02 a {
+	width:200px;
+	height:24px;
+	display:block;
+	background: url(../img/more_brand_02.png) no-repeat;
+	margin: 0 auto;
+}
+.brand02 a:hover {
+	background-position:bottom;
+}
+.brand02 li:first-child {
+	border-bottom:1px solid #dcdddd;
+	padding-bottom: 9px;
+}
+.budget ul li {
+  /* float: left; */
+  /* padding-right: 10px; */
+  display: inline-block;
+  width:30%;
+}
+
+}
+}

@@ -1,0 +1,46 @@
+
+	<script>
+		var DENA_EC={};
+		DENA_EC.sc_data={};
+	</script>
+	<style>
+		.ds-contents-display{
+			display: block;
+		}
+
+		.aus-contents-display{
+			display: none;
+		}
+	</style>
+
+ 
+　<div id="footerContents"></div>  
+  <footer id="footer">  
+   
+    <div class="footerNavi03">
+<!--    <a href="guide_question.html">Q&A</a>｜
+    <a href="dreamv/">PCサイト</a><Br>
+    <a href="/" class="rakuten">DeNAショッピング トップ</a>-->
+    </div>
+
+     
+  </footer>
+  
+
+  <script src="jscript/sp-slidemenu.js" type="text/javascript"></script>
+  <script src="jscript/common.js" type="text/javascript"></script> 
+  <script charset="utf-8" src="jscript/scrollsmoothly.js" type="text/javascript"></script>
+  
+
+<script>
+	(function (){
+		// 繧ｿ繧ｰ繧貞炎髯､
+		var delSite = 'aus';
+		var deleteElm = document.querySelectorAll('.' + delSite + '-contents-display');
+		for(var i = 0;i <deleteElm.length;i++){
+			deleteElm[i].parentNode.removeChild(deleteElm[i]);
+		}
+	})();
+</script>
+<script>_satellite.pageBottom();</script>
+

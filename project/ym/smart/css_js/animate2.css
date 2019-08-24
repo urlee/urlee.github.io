@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+
+	.Codetank-20161130
+	{
+		margin: 40px 0;
+		margin: 2.5rem 0;
+	}
+	.contents-area
+	{
+		border-bottom: dotted 1px #ccc;
+		margin: 40px 0;
+		margin: 2.5rem 0;
+		padding-bottom: 40px;
+		padding-bottom: 2.5rem;
+	}
+	.output-lists
+	{
+		list-style: none;
+	}
+	.sample-box {
+		background: #fe980f;
+		display: inline-block;
+		height: 100px;
+		width: 100px;
+	}
+	.animation-bounce
+	{
+		animation:
+			bounce 2s ease infinite normal 0s none running
+		;
+		-webkit-animation:
+			bounce 2s ease infinite normal 0s none running
+		;
+		-ms-animation:
+			bounce 2s ease infinite normal 0s none running
+		;
+	}
+	@keyframes bounce {
+		0%, 100%, 20%, 50%, 80% {
+		    transform: translateY(0px);
+		}
+		40% {
+		    transform: translateY(-15px);
+		}
+		60% {
+		    transform: translateY(-8px);
+		}
+	}
+	@-webkit-keyframes bounce {
+		0%, 100%, 20%, 50%, 80% {
+		    transform: translateY(0px);
+		}
+		40% {
+		    transform: translateY(-15px);
+		}
+		60% {
+		    transform: translateY(-8px);
+		}
+	}

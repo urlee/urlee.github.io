@@ -1,0 +1,71 @@
+
+<!doctype html>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta content="width = device-width, user-scalable = no" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<title>document</title>
+<link rel="stylesheet" href="stylesheets/common_base.css">
+<link rel="stylesheet" href="stylesheets/top_layout.css">
+<link rel="stylesheet" href="stylesheets/fotorama.dev.min.css" />
+
+<script src="jscript/satelliteLib.js"></script>
+	<script>
+		var DENA_EC={};
+		DENA_EC.sc_data={};
+	</script>
+	<style>
+		.ds-contents-display{
+			display: block;
+		}
+
+		.aus-contents-display{
+			display: none;
+		}
+	</style>
+
+</head>
+<body>
+
+<div data-width="100%" data-navwidth="100%" data-click="false" data-stopautoplayontouch="false" data-height="" data-ratio="640/500" class="fotorama" data-autoplay="5000" data-loop="true" data-maxwidth="100%">
+
+<div><a target="_top" href="https://wowma.jp/item/277691247?l=true&e=llA&e2=listing_flpro"> 
+	<span style="background-image:url(img/slider_01.jpg);">パンプス</span> </a> 
+</div>
+
+<div><a target="_top" href="https://wowma.jp/item/296924731?l=true&e=llA&e2=listing_flpro">
+ 	<span style="background-image:url(img/slider_02.jpg);">ワンピ</span> </a> 
+</div>
+
+<div><a target="_top" href="https://wowma.jp/item/304978105?l=true&e=llA&e2=listing_flpro"> 
+	<span style="background-image:url(img/slider_03.jpg);">ボトム特集</span> 
+</a></div>
+
+<div><a target="_top" href="https://wowma.jp/item/296955850?l=true&e=llA&e2=listing_flpro"> 
+	<span style="background-image:url(img/slider_04.jpg);">スーツ特集</span> 
+</a></div>
+
+<div><a target="_top" href="https://wowma.jp/item/353303922?l=true&e=llA&e2=listing_flpro">
+	<span style="background-image:url(img/slider_05.jpg);">春先取り特集</span>
+</a> </div>
+
+
+</div>
+
+<script src="jscript/jquery-1.10.2.min.js"></script>
+<script src="jscript/fotorama.dev.min.js"></script>
+<script>
+	(function (){
+		// 繧ｿ繧ｰ繧貞炎髯､
+		var delSite = 'aus';
+		var deleteElm = document.querySelectorAll('.' + delSite + '-contents-display');
+		for(var i = 0;i <deleteElm.length;i++){
+			deleteElm[i].parentNode.removeChild(deleteElm[i]);
+		}
+	})();
+</script>
+<script>_satellite.pageBottom();</script>
+
+</body>
+</html>

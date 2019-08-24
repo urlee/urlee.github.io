@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8" />
+<title>ワイエムワールド - Yahoo!ショッピング - Ｔポイントが貯まる！使える！ネット通販</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript">
+	<link class="item__link" href="../smp/common/css/style.css" rel="stylesheet" type="text/css" media="all">
+	<script type="text/javascript" src="../common/js/jquery-1.10.2.min.js"></script>
+	<!--<script type="text/javascript" src="../common/js/ranking.js" charset="utf-8"></script>-->
+	<script type="text/javascript">
+	$(function(){
+		if($('.item__product').length > 0){
+			var count = 20; // デフォルトで表示する文字数
+			$('.item__product').each(function(){
+				var target = $(this),
+				fullTxt = target.text();
+				if(fullTxt.length > count){
+					target.text(fullTxt.substr(0,count) + ' … ');
+				}
+			});
+		}
+	});
+	</script>
+
+	<!--<style type="text/css">
+		p.item__product{
+			height: 48px;
+		}
+	</style>-->
+</head>
+
+<body>
+<!--- brand ranking start --->
+<div class="ranking_area">
+  <div class="ranking">
+    <div id="tabContents">
+      <!-- Accessory -->
+      <div class="main" style="background:none;">
+	    	<div class="ranking-main__slide">
+	        <ul class="item pure-g">
+	          <li class="item__list item__list-rank pure-u-1-3">
+	          	<a class="item__link" href="https://store.shopping.yahoo.co.jp/yhworld/t035070006020.html" target="_top">
+							<img src="https://item-shopping.c.yimg.jp/i/l/yhworld_t035070006020" class="jhover">
+							<p class="item__product">TPE高級ヨガマット　6mm</p>
+							<p class="item__price">&yen;2,682</p>
+						</a></li>
+	          <li class="item__list item__list-rank pure-u-1-3">
+	          	<a class="item__link" href="https://store.shopping.yahoo.co.jp/yhworld/t155070009x50.html" target="_top">
+							<img src="images/imgrc0071235583.jpg" class="jhover">
+							<p class="item__product">吸盤式 腹筋マシーン　機器</p>
+							<p class="item__price">&yen;2,200</p>
+						</a></li>
+	          <li class="item__list item__list-rank pure-u-1-3">
+	          	<a class="item__link" href="https://store.shopping.yahoo.co.jp/yhworld/t15507000fz50.html" target="_top">
+	          	<img src="https://item-shopping.c.yimg.jp/i/l/yhworld_t15507000fz50" class="jhover">
+							<p class="item__product">ヨガホイール ピラティスリング</p>
+							<p class="item__price">&yen;1,500</p>
+	          </a></li>
+	          <li class="item__list item__list-rank pure-u-1-3">
+	          	<a class="item__link" href="https://store.shopping.yahoo.co.jp/yhworld/t15507000b160.html" target="_top">
+	          	<img src="images/imgrc0071437048.jpg" class="jhover">
+							<p class="item__product">2個セット お得！！軽量 yoga </p>
+							<p class="item__price">&yen;1,499</p>
+	          </a></li>
+	          <li class="item__list item__list-rank pure-u-1-3">
+	          	<a class="item__link" href="https://store.shopping.yahoo.co.jp/yhworld/t15507000b160.html" target="_top">
+	          	<img src="images/imgrc0071437100.jpg" class="jhover">
+							<p class="item__product">ヨガボール　ホットヨガ</p>
+							<p class="item__price">&yen;1,599</p>
+	          </a></li>
+	          
+	        </ul>
+	      </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- brand ranking end -->
+</body>
+</html>

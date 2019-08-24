@@ -1,0 +1,19 @@
+<svg id="s-campaign.svg" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #ccc;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        font-size: 36px;
+        fill: #ccc;
+        font-family: Karla;
+      }
+    </style>
+  </defs>
+  <circle id="楕円形_697" data-name="楕円形 697" class="cls-1" cx="25" cy="25" r="24"/>
+  <text id="P" class="cls-2" x="15.999" y="36">P</text>
+</svg>

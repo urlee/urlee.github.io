@@ -1,0 +1,283 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background: url(../../img/bg_vd.gif) repeat-y fixed;
+	background-size: 100%;
+	overflow: hidden;
+}
+img {
+	width: 100%;
+}
+
+
+
+/* 右にあるタブ */
+
+
+#right-top {
+  width: 120px;
+  height: 92px;
+  position: fixed; 
+  display:block;
+  bottom: 40px; 
+  right: -2px;
+  z-index:90000;
+}
+
+
+#right-top a.move {
+  display: block;
+  background: url("https://shopping.geocities.jp/axes/topic/valentine2015/img/totop.png") no-repeat transparent;  
+  background-position: 5px 0px;
+  width: 120px;
+  height: 92px;
+  z-index:90000;
+}
+
+#right-top a.move:hover{
+  display: block;
+  background: url("https://shopping.geocities.jp/axes/topic/valentine2015/img/totop2.png") no-repeat transparent;  
+  background-position: 5px 0px;
+  width: 120px;
+  height: 92px;
+  z-index:90000;
+
+}
+
+
+* html body #right120-1{
+  background: url(../../../valentine2015%20-%20Copy/common/css/null) fixed;
+  
+}
+
+img {
+	border: none;
+}
+
+div#header-wrap {
+	width: 100%;
+	position: absolute;
+    top: 0;
+	z-index: 999;
+}
+div#header-wrap #header-iframe {
+	display: block;
+	width: 100%;
+	height: 322px;
+	border: 0;
+}
+div#header-wrap #header_frame_sp {
+	display: none;
+}
+#sale_container {
+	width: 100%;
+	max-width: 980px;
+	margin: 0 auto 0;
+	padding: 0;
+	background-color: #FFF;
+	overflow: hidden;
+}
+.v_message {
+	font-family:'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+	text-align:center;
+	color:#000000;
+	font-size:20px;
+	margin: 10px 60px;
+	line-height:150%;
+}
+
+/* 20160105　追加　林   */
+section h3 {
+	width: 100%;
+	max-width: 950px;
+	background: none!important;
+	margin: 20px auto 10px;
+	border: none;
+}
+ul {
+	text-align: center;
+}
+ul.itemList, ul.v_ranking, ul.PickUp{
+	width: 100%;
+	max-width: 860px;
+	margin: 0 auto;
+}
+ul.PickUp_s, ul.ad_items  {
+	width: 100%;	
+	margin: 0 auto;
+}
+.itemList li {
+	float: left;
+	width: 14%;
+	margin: 0 0 0 2%;
+}
+
+.itemList li img {
+	width: 100%;
+}
+
+ul.v_ranking li {
+	float: left;
+}
+ul.v_ranking li img {
+	width: 100%;
+}
+ul.v_ranking li img.number {
+	max-width: 55px;
+}
+
+ul.v_ranking li.top3 {
+	width: 29%;
+	margin: 0 2%;
+}
+
+ul.v_ranking li span {
+	display: block;
+}
+
+ul.v_ranking li.top47 {
+	width: 21%;
+	margin: 0 2%;
+}
+ul.PickUp {
+	margin: 20px auto 50px;
+}
+ul.PickUp li {
+	float:left;
+	width: 21%;
+	margin: 0 2%;
+}
+ul.PickUp li span, ul.ad_items li span {
+	display: block
+}
+ul.PickUp_s li {
+	width: 46%;
+	float: left;
+	margin: 0 2% 2%;
+}
+ul.ad_items li {
+	float: left;
+	width: 12%;
+	margin: 0 2% 5% 2%;
+}
+section h2 {
+	max-width: 940px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+    padding: 10px 0;
+    border-top: #000 solid 1px;
+    border-bottom: #000 solid 1px;
+    text-align: center;
+    width: 98%;
+    font-family: Bell MT,"メイリオ", Meiryo, Osaka;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 1em;
+    clear: both;
+}
+img.top {
+	width: 100%;
+}
+#footer-sp {
+	display: none;
+}
+
+@media screen and (max-width: 768px) {
+	#sale_container {
+		padding: 0;
+	}
+	#header-iframe {
+		display: none!important;
+	}
+	#header_frame_sp {
+		display: block!important;
+		width: 100%;
+		z-index: 9999px;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 9999;
+	}
+	
+	ul.ad_items li {
+		width: 21%;
+	}
+	#footer-pc {
+		display: none;
+	}
+	div#footer-area iframe {
+		width: 100%;
+	}
+	.v_message {
+		font-size: 14px;
+		margin: 10px auto;
+	}
+	#footer-sp {
+		display: block;
+	}
+}
+
+
+@media screen and (max-width: 480px) {
+	.v_message {
+		font-size: 14px;
+	}
+	section h3 {
+		display: block;
+		width: 100%;
+		overflow: hidden;
+	}
+	section h3 img {
+		width: 950px!important;
+		max-width: 950px!important;
+	}
+	.itemList li {
+		width: 29%;
+		margin-bottom: 10px;
+	}
+	.v_ranking li {
+		width: 46%!important;
+		height: 310px;
+	}
+	.v_ranking li.last {
+		display: none;
+	}
+	.PickUp li {
+		width: 46%!important;
+		margin-bottom: 20px!important;
+	}
+	ul.PickUp_s li {
+		width: 100%;
+		float: none;
+		margin: 0 0 10px 0;
+	}
+	.PickUp img {
+		width: 100%;
+	}
+	ul.ad_items li {
+		width: 29%;
+	}
+	#right-top {
+		width: 80px;
+		height: 60px;
+		bottom: 0px;
+		right: 0px;	
+	}
+	#right-top a.move {
+		background-size: 60px!important;
+		width: 80px;
+		height: 60px;
+	}
+}
+
+
+@media screen and (max-width: 320px) {
+	ul.v_ranking li {
+		height: 305px;	
+	}
+	}
+
+	
+
+
