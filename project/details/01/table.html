@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="css/zzsc02.css"/>
+</head>
+<body>
+	<div class="img-list">
+		<img src="img/111.jpg" alt="" />
+		<img src="img/222.jpg" alt="" />
+		<img src="img/333.jpg" alt="" />
+		<img src="img/444.jpg" alt="" />
+		<img src="img/555.jpg" alt="" />
+		<img src="img/666.jpg" alt="" />
+		<img src="img/777.jpg" alt="" />
+		<img src="img/888.jpg" alt="" />
+		<img src="img/999.jpg" alt="" />
+		<img src="img/1000.jpg" alt="" />
+		<img src="img/1111.jpg" alt="" />
+	</div>
+	<div class="main">
+		<div  class="slider-scroll f-c">  
+			<div id="showArea">
+				<a href="#" target="_blank"><img src="img/img_05.jpg" style="background:#096;"  width="550" height="550" alt=""/></a>
+				<a href="#" target="_blank"><img src="img/img_06.jpg" style="background:#F60;"  width="550" height="550" alt=""/></a>
+				<a href="#" target="_blank"><img src="img/img_07.jpg" style="background:#CF0;" width="550" height="550" alt=""/></a>
+				<a href="#" target="_blank"><img src="img/img_08.jpg" style="background:#3FC;"  width="550" height="550" alt=""/></a>
+				<a href="#" target="_blank"><img src="img/img_09.jpg" style="background:#990;" width="550" height="550"  alt=""/></a>
+			</div>
+			<div id="scrollDiv"><ul>
+				<li class="on"><img src="img/img_05.jpg" style="background:#096;" width="80" height="80" /></li>
+	      <li><img src="img/img_06.jpg" style="background:#F60;" width="80" height="80" /></li>
+	      <li><img src="img/img_07.jpg" style="background:#CF0;" width="80" height="80" /></li>
+	      <li><img src="img/img_08.jpg" style="background:#3FC;" width="80" height="80" /></li>
+	      <li><img src="img/img_09.jpg" style="background:#990" width="80" height="80" /></li>
+	    </ul></div> 
+		</div>
+	</div>
+	<div class="sale_desc"><img src="img/title_spec.gif" alt="" /></div>
+	<table border="0" cellpadding="0" cellspacing="1" class="itemSpec"><tbody>
+		<tr>
+			<th>表記サイズ</th><td>子供《110cm》《120cm》《130cm》《140cm》《150cm》<br>
+	大人《Sサイズ》《Mサイズ》《Lサイズ》《XLサイズ》《XXLサイズ》</td>
+		</tr>
+		<tr>
+			<th><a href="javascript:;" target="_blank"></a>素材</th>
+			<td>ポリエステル
+			</td>
+		</tr>
+		<tr>
+			<th><a href="javascript:;" target="_blank"></a>洗濯表示</th>
+			<td>
+				<img src="img/wash132.gif">
+				<img src="img/wash200.gif">
+				<img src="img/wash300.gif">
+				<img src="img/wash415.gif">
+				<img src="img/wash510.gif">
+				<img src="img/wash600.gif">
+				<img src="img/wash712.gif"><br>
+			</td>
+		</tr>
+		<tr><th>生産国</th><td>中国製</td></tr>
+		<tr><th>セット内容</th><td>Tシャツ　ミニスカート</td></tr>
+		<tr></tr>
+		<tr><th>カラー</th><td>レッド　ブルー</td></tr>
+		<tr>
+			<th>生地の伸縮</th>
+			<td>ストレッチあり</td>
+		</tr>
+		<tr><th>サイズ詳細</th><td>【S】ウエスト68cm バスト 86cm ヒップ 88cm 参考身長155-160cm 体重40-45kg<br>
+	                                   【M】ウエスト72cm バスト 90cm ヒップ 92cm 参考身長158-165cm 体重47.5-52.5kg<br>
+	                                   【L】ウエスト76cm バスト 94cm ヒップ 96cm 参考身長163-168cm 体重52.5-57.5kg<br>
+	                                   【XL】ウエスト80cm バスト 98cm ヒップ 100cm 参考身長168-172cm 体重57.5-62.5kg<br>
+	                                   【XXL】ウエスト84cm バスト 102cm ヒップ 104cm 参考身長172-175cm 体重62.5-67.5kg<br>
+	<br></td></tr>
+		<tr>
+			<th>注意事項：</th>
+			<td>
+	
+				<b>※装飾品の中に安全ピンを使用したものがございますので、<br>
+				<b>ご着用やお洗濯等のお取り扱いに十分ご注意ください。<br>
+				<b>※色落ちや色移りすることがございますので、他のものとは分けて洗濯してください。<br>
+				<b>※PC環境・光の具合により、色や素材のイメージが写真と若干異なる場合がございます。<br>
+				<b>※モデル・写真に使用されているアクセサリー・小物は別途記載が無い限り付属いたしません。<br>
+				
+			</td>
+		</tr>
+	</tbody></table>
+
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/slider_2.js"></script>
+	<script type="text/javascript"> 
+	//home  顶部大图切换 
+	$(document).ready(function(){  
+		$.manualScroll({  
+			objId:"scrollDiv",  
+			showArea:"showArea",  
+			showWidth:550, // 大图宽度  
+			showHeight:550, // 大图高度  
+			showTitle: true,  
+			picTimer:0,
+			interval:5000 
+		});
+	});  
+	</script> 
+	</body>
+</html>
