@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+<a href="http://huaban.com/" target="_blank" id="myUrl">
+	<img src="img/bnr_slider_01.jpg" id="imgid" alt="" />
+</a>
+<script type="text/javascript">
+	function images (){
+		arrSrc = [{
+			"sUrl":"http://huaban.com/",
+			"src":"img/bnr_slider_01.jpg"
+		},{
+			"sUrl":"http://www.xueui.cn/",
+			"src":"img/bnr_slider_02.jpg",
+		},{
+			"sUrl":"http://www.uisdc.com/",
+			"src":"img/bnr_slider_03.jpg"
+		},{
+			"sUrl":"https://www.csdn.net/",
+			"src":"img/bnr_slider_04.jpg"
+		},{
+			"sUrl":"https://www.w3cschool.cn/",
+			"src":"img/bnr_slider_05.jpg"
+		},{
+			"sUrl":"http://www.58pic.com/",
+			"src":"img/bnr_slider_06.jpg"
+		},{
+			"sUrl":"https://www.behance.net/",
+			"src":"img/bnr_slider_07.jpg"
+		},{
+			"sUrl":"http://www.iconfont.cn/",
+			"src":"img/bnr_slider_08.jpg"
+		}]
+		srcKey = Math.floor(Math.random()*arrSrc.length);
+		
+		val = arrSrc[srcKey].src;
+		myU = arrSrc[srcKey].sUrl;
+		
+		myUrl = document.getElementById("myUrl");
+		imgObj = document.getElementById("imgid");
+		
+		myUrl.href = myU;
+		imgObj.src = val;
+	}
+	window.onload = function(){
+		images();
+	}
+</script>
+</body>
+</html>
