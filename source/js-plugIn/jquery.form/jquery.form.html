@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<form id="form1" action="ajaxOperation.ashx?Action=formUpload" method="post" enctype="multipart/form-data">
+			<div>附件名字：<input type="text" name="fileName" /></div>
+			<div>附件：<input type="file" name="document" /></div>
+			<div><input type="submit" value="模拟iframe提交表单"/></div>
+		</form>
+		<label id="responseText"></label>
+		<script src="js/jquery1.10.2.min.js"></script>
+		<script src="js/jquery.form.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				var options = {
+					success: function (data) {
+						$("#responseText").text(data);
+					}
+				};
+				
+				$("#form1").ajaxForm(options);
+			})
+		</script>
+	</body>
+</html>
