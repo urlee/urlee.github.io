@@ -1,0 +1,52 @@
+/* 公共样式 */
+.w{
+    width: 12rem;
+    margin: 0 auto;
+}
+
+
+
+/* header css */
+#header{
+    background-color: #222222;
+}
+#header .w{
+    height: .8rem;
+    line-height: .8rem;
+}
+#header a{
+    color: #ffffff;
+    display: block;
+    text-decoration: none;
+}
+#header #logo img{
+    display: block;
+    height: .4rem;
+}
+#header #logo{
+    float: left;
+    padding: .2rem 0;
+}
+#header #g_main,#header #g_icon{float: right;}
+#header #g_main li,#header #g_icon li{float: left;}
+#header #g_main a{
+    width: 100px;
+    text-align: center;
+}
+#header #g_icon i{
+    height: .32rem;
+    width: .32rem;
+    color: #222222;
+    text-align: center;
+    line-height: .32rem;
+    border-radius: .16rem;
+    background-color: #ffffff;
+}
+#header #g_icon li:nth-child(2){
+    margin: 0 .16rem;
+}
+
+#g_main .active{
+    color: #222222;
+    background-color: #ffcc00;
+}
