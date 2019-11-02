@@ -1,3 +1,6 @@
+document.writeln("    <link rel=\'stylesheet\' href=\'./common/css/reset.css\'>");
+document.writeln("    <link rel=\'stylesheet\' href=\'./common/font-awesome/css/font-awesome.min.css\'>");
+document.writeln("    <link rel=\'stylesheet\' href=\'./common/css/style.css\'>");
 document.writeln("<div id=\'header\'>");
 document.writeln("    <div class=\'w\'>");
 document.writeln("        <div id=\'logo\'><a href=\'index.html\'><img src=\'./common/img/logo.png\' alt=\'榆畔\'></a></div>");
