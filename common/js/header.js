@@ -26,7 +26,7 @@ $(function () {
     $("#g_main li").click(function () {
         var pathName = window.location.pathname;
         var urlMainLi = $(this).children("a").attr("href");
-        alert(urlMainLi);
+        alert(pathName);
         $(this).addClass("active").siblings().removeClass("active");
     })
 })
