@@ -46,7 +46,7 @@
     margin: 0 .16rem;
 }
 
-#g_main .active{
+#g_main .active a{
     color: #222222;
     background-color: #ffcc00;
 }

@@ -10,7 +10,7 @@ document.writeln("            <li><a href=\'javascript:;\'><i class=\'fa fa-wech
 document.writeln("            <li><a href=\'javascript:;\'><i class=\'fa fa-weibo\'></i></a></li>");
 document.writeln("        </ul>");
 document.writeln("        <ul id=\'g_main\'>");
-document.writeln("            <li><a class=\'active\' href=\'./index.html\' target=\'_top\'>首页</a></li>");
+document.writeln("            <li class=\'active\'><a href=\'./index.html\' target=\'_top\'>首页</a></li>");
 document.writeln("            <li><a href=\'./i_product.html\' target=\'_top\'>作品</a></li>");
 document.writeln("            <li><a href=\'./i_daily.html\' target=\'_top\'>日志</a></li>");
 document.writeln("            <li><a href=\'./i_about.html\' target=\'_top\'>关于</a></li>");
@@ -22,3 +22,8 @@ document.writeln("</div>");
 
 
 document.writeln("<script src=\'./common/js/jquery-3.2.1.min.js\'></script>");
+// $(function () {
+//     $("#g_main li").click(function () {
+//         $(this).addClass("active").siblings().removeClass("active");
+//     })
+// })
