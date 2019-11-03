@@ -22,8 +22,11 @@ document.writeln("</div>");
 
 
 document.writeln("<script src=\'./common/js/jquery-3.2.1.min.js\'></script>");
-// $(function () {
-//     $("#g_main li").click(function () {
-//         $(this).addClass("active").siblings().removeClass("active");
-//     })
-// })
+$(function () {
+    $("#g_main li").click(function () {
+        var pathName = window.location.pathname;
+        var urlMainLi = $(this).children("a").attr("href");
+        alert(urlMainLi);
+        $(this).addClass("active").siblings().removeClass("active");
+    })
+})
