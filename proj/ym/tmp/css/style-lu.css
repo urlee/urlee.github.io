@@ -1,0 +1,103 @@
+body {
+	margin: 0;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+	font-weight: 800;
+}
+#nav {
+	position: fixed;
+	z-index: 999;
+	background: #000741;
+	border-radius: 5px 5px 0 0;
+	padding: 15px 0 10px 0;
+	width: 100%;
+}
+#nav a {
+	font-size: 10px;
+	letter-spacing: 3px;
+	color: #FFF;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+.women-inner > p {
+	font-size: 10px;
+	padding: 6px 10px 4px 10px;
+	background: #EAC3C8;
+	width: 80px;
+	text-align: center;
+	margin: 20px 0 20px 20px;
+}
+.men-inner > p {
+	font-size: 10px;
+	padding: 6px 10px 4px 10px;
+	background: #B2DDF0;
+	width: 80px;
+	text-align: center;
+	margin: 20px 0 20px 20px;
+}
+.kids-inner > p {
+	font-size: 10px;
+	padding: 6px 10px 4px 10px;
+	background: #CAE2C4;
+	width: 80px;
+	text-align: center;
+	margin: 20px 0 20px 20px;
+}
+
+.goods-inner > p {
+	font-size: 10px;
+	padding: 6px 10px 4px 10px;
+	background: #E8E8E8;
+	width: 80px;
+	text-align: center;
+	margin: 20px 0 20px 20px;
+}
+.Rushguard-lineup {
+	width: 75px;
+	height: 150px;
+	float: left;
+	margin: 10px 0 0 20px;
+}
+.Rushguard-lineup p {
+	font-size: 10px;
+	padding-top: 0;
+	margin: 0;
+	text-align: center;
+	line-height: 12px;
+}
+ul {
+	display: flex;
+	text-align: center;
+	margin: 0;
+	padding: 0 0 0 30px;
+}
+li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+	width: 90px;
+	border-left: solid 1px #44475D;
+}
+li:last-child {
+	border-right: solid 1px #44475D;
+}
+#nav li.on {
+	background-color: #0D9DCE;
+}
+.cf {
+	clear: both;
+}
+.women, .mens, .kids, .goods {
+	padding-top: 70px;
+}
+.women-inner, .mens-inner, .kids-inner {
+	padding: 0 10px 0 10px;
+}
+.dummy {
+	height: 500px;
+}
+img:hover {
+	opacity: 0.5;
+}

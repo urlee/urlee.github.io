@@ -1,0 +1,125 @@
+@charset 'utf-8';
+div#pc_header
+{
+    position: absolute;
+    z-index: 502;
+    top: 0;
+
+    width: 100%;
+}
+#sp_header
+{
+    display: none;
+}
+
+#footer_frame_sp
+{
+    display: none;
+}
+div#responsive_wrap
+{
+    width: 980px;
+    margin: 400px auto 0;
+}
+div#responsive_wrap #side
+{
+    float: left;
+
+    width: 340px;
+}
+
+div#responsive_wrap #responsive_main
+{
+    float: left;
+    width: 640px;
+    margin: 0 0 100px;
+}
+
+div#responsive_wrap #responsive_main .breadnav { margin:0; padding:0 0 15px 0; clear:both; }
+
+div#responsive_wrap #responsive_main .breadnav ul {margin:0 0 0 15px;padding:0;float: left;}
+
+
+div#responsive_wrap #responsive_main .breadnav li {float:left;margin:0;padding:0;background:none;color:#000000;font-size:11px;font-weight:normal;white-space:nowrap;display:block;line-height:24px;color:#000000;list-style:none;}
+
+
+div#responsive_wrap #responsive_main .breadnav h2 { 
+float:left; margin:0 0 0 5px; padding:0; 
+background:none; color:#000000; 
+font-size:11px; font-weight:normal; 
+white-space:nowrap; display:block;
+line-height:24px;
+color:#000000; list-style:none;}
+
+
+div#responsive_wrap #responsive_main .breadnav li a {display:block;padding:0 20px 0 0;background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKBAMAAAB/HNKOAAAAKlBMVEUAAAAzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMjZDADAAAADnRSTlMABhMUHiYnOElZb+/1+1AcS30AAAAoSURBVAhbY2CYxgACPgEgkuUoEofjIojULgASTNtBTGsQk2E5AwwAAMdrBhc7Cq32AAAAAElFTkSuQmCC) right 50% no-repeat;/* width: 100%; */}
+
+
+div#responsive_wrap #responsive_main a.breadnav_link {
+display:block;
+font-size:11px;
+color:#000000;
+line-height:24px;
+text-decoration:none;
+margin-left:10px;
+padding:0;
+}
+
+div#responsive_wrap #responsive_main a.breadnav_link:link,
+
+div#responsive_wrap #responsive_main a.breadnav_link:visited {text-decoration:none;color:#000000;}
+
+div#responsive_wrap #responsive_main a.breadnav_link:hover {text-decoration:underline;color:#000000;}
+
+@media screen and (max-width:767px)
+{
+    body
+    {
+        background: #fff;
+    }
+    div#pc_header
+    {
+        display: none;
+    }
+    iframe#footer_area
+    {
+        display: none;
+    }
+    #sp_header
+    {
+        display: block;
+    }
+    #top_m
+    {
+        clear: both;
+
+        width: 100%;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+    }
+    div#wrapper.subpage
+    {
+        width: 100%;
+        margin: -30px auto 0;
+        padding: 30px 0 0 0;
+    }
+    #footer_frame_sp
+    {
+        display: block;
+    }
+    #sidenavi
+    {
+        display: none;
+    }
+    div#responsive_wrap
+    {
+        width: 90%;
+        margin: 30px auto 0;
+    }
+    div#responsive_wrap #responsive_main
+    {
+        float: left;
+
+        width: 100%;
+    }
+}

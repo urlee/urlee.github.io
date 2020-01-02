@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="../common/css/reset.css"/>
+	<link rel="stylesheet" href="css/pickup.css" />
+	<script src="js/jquery.min.js"></script>
+	<script type="text/javascript">
+	$(function(){
+		$(".frame").hide();
+		$(".frame").eq(0).show();
+		var e = $("ul.pickup_tab li a");
+		
+    var f = "active";
+    $(e).click(function(a){
+    	a.preventDefault();
+    	$(e).removeClass(f);
+    	$(this).addClass(f);
+    	var index = $(this).parent().index();
+    	$(".frame").hide();
+    	$(".frame").eq(index).fadeIn(300);
+    })
+	})
+	</script>
+</head>
+<body>
+<div class="pickup-wrapper">
+	<h2 class="title-label">
+		<span class="en">PICK UP ITEMS</span>
+		<span class="label-text">テーマに沿ってアイテムをピックアップ！</span>
+	</h2>
+	<ul class="pickup_tab" id="pickup_tab">
+		<li><a href="#panel_pickup-1" class="active">新作アイテム続々</a></li>
+		<li><a href="#panel_pickup-2">フィットネスアイテム</a></li>
+		<li><a href="#panel_pickup-3">UVカットUPF50+アイテム</a></li>
+		<li><a href="#panel_pickup-4">吸汗速乾・冷感SUMMER</a></li>
+	</ul>
+	<div id="pickupContents">
+		<div class="frame" id="panel_pickup-1" style="display: block;">
+			<div class="column">
+				<div class="large"><a href="" target="_blank">
+					<img src="../tab_pages/img/1.jpg" alt="" />
+				</a></div>
+				<div class="small">
+					<a href="" target="_blank">
+						<img src="../tab_pages/img/1.jpg" alt="" />
+					</a>
+					<a href="" target="_blank">
+						<img src="../tab_pages/img/1.jpg" alt="" />
+					</a>
+				</div>
+			</div>
+			<div class="column">
+				<div class="small">
+					<a href="" target="_blank">
+						<img src="../tab_pages/img/1.jpg" alt="" />
+					</a>
+					<a href="" target="_blank">
+						<img src="../tab_pages/img/1.jpg" alt="" />
+					</a>
+				</div>
+				<div class="large"><a href="" target="_blank">
+					<img src="../tab_pages/img/1.jpg" alt="" />
+				</a></div>
+			</div>
+			<div class="column">
+				<div class="large"><a href="" target="_blank">
+					<img src="../tab_pages/img/1.jpg" alt="" />
+				</a></div>
+				<div class="small">
+					<a href="" target="_blank">
+						<img src="../tab_pages/img/1.jpg" alt="" />
+					</a>
+					<a href="" target="_blank">
+						<img src="../tab_pages/img/1.jpg" alt="" />
+					</a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="frame" id="panel_pickup-2">
+			<div class="column">
+				<div class="large"><a href="" target="_blank">
+					<img src="../tab_pages/img/1.jpg" alt="" />
+				</a></div>
+				<div class="small">
+					<a href="" target="_blank">
+						<img src="../tab_pages/img/1.jpg" alt="" />
+					</a>
+					<a href="" target="_blank">
+						<img src="../tab_pages/img/1.jpg" alt="" />
+					</a>
+				</div>
+			</div>
+			<div class="column">
+				<div class="small">
+					<a href="" target="_blank">
+						<img src="../tab_pages/img/1.jpg" alt="" />
+					</a>
+					<a href="" target="_blank">
+						<img src="../tab_pages/img/1.jpg" alt="" />
+					</a>
+				</div>
+				<div class="large"><a href="" target="_blank">
+					<img src="../tab_pages/img/1.jpg" alt="" />
+				</a></div>
+			</div>
+			<div class="column">
+				<div class="large"><a href="" target="_blank">
+					<img src="../tab_pages/img/1.jpg" alt="" />
+				</a></div>
+				<div class="small">
+					<a href="" target="_blank">
+						<img src="../tab_pages/img/1.jpg" alt="" />
+					</a>
+					<a href="" target="_blank">
+						<img src="../tab_pages/img/1.jpg" alt="" />
+					</a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="frame" id="panel_pickup-3">
+			<div class="column">
+				<div class="large"><a href="" target="_blank">
+					<img src="../tab_pages/img/1.jpg" alt="" />
+				</a></div>
+				<div class="small">
+					<a href="" target="_blank">
+						<img src="../tab_pages/img/1.jpg" alt="" />
+					</a>
+					<a href="" target="_blank">
+						<img src="../tab_pages/img/1.jpg" alt="" />
+					</a>
+				</div>
+			</div>
+			<div class="column">
+				<div class="small">
+					<a href="" target="_blank">
+						<img src="../tab_pages/img/1.jpg" alt="" />
+					</a>
+					<a href="" target="_blank">
+						<img src="../tab_pages/img/1.jpg" alt="" />
+					</a>
+				</div>
+				<div class="large"><a href="" target="_blank">
+					<img src="../tab_pages/img/1.jpg" alt="" />
+				</a></div>
+			</div>
+			<div class="column">
+				<div class="large"><a href="" target="_blank">
+					<img src="../tab_pages/img/1.jpg" alt="" />
+				</a></div>
+				<div class="small">
+					<a href="" target="_blank">
+						<img src="../tab_pages/img/1.jpg" alt="" />
+					</a>
+					<a href="" target="_blank">
+						<img src="../tab_pages/img/1.jpg" alt="" />
+					</a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="frame" id="panel_pickup-4">
+			<div class="column">
+				<div class="large"><a href="" target="_blank">
+					<img src="../tab_pages/img/1.jpg" alt="" />
+				</a></div>
+				<div class="small">
+					<a href="" target="_blank">
+						<img src="../tab_pages/img/1.jpg" alt="" />
+					</a>
+					<a href="" target="_blank">
+						<img src="../tab_pages/img/1.jpg" alt="" />
+					</a>
+				</div>
+			</div>
+			<div class="column">
+				<div class="small">
+					<a href="" target="_blank">
+						<img src="../tab_pages/img/1.jpg" alt="" />
+					</a>
+					<a href="" target="_blank">
+						<img src="../tab_pages/img/1.jpg" alt="" />
+					</a>
+				</div>
+				<div class="large"><a href="" target="_blank">
+					<img src="../tab_pages/img/1.jpg" alt="" />
+				</a></div>
+			</div>
+			<div class="column">
+				<div class="large"><a href="" target="_blank">
+					<img src="../tab_pages/img/1.jpg" alt="" />
+				</a></div>
+				<div class="small">
+					<a href="" target="_blank">
+						<img src="../tab_pages/img/1.jpg" alt="" />
+					</a>
+					<a href="" target="_blank">
+						<img src="../tab_pages/img/1.jpg" alt="" />
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,541 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "https://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+<title>YM WORLD</title>
+<style type="text/css">
+
+body{
+font-family:メイリオ,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro',Meiryo,Osaka,'ＭＳ Ｐゴシック','MS PGothic',sans-serif;
+     margin:0px;          /* ページ全体のmargin */
+     padding:0px;         /* ページ全体のpadding */
+text-align:center;
+}
+
+a:link { color: #353535; }
+a:visited { color: #353535; }
+a:active { color: #7f7f7f;}
+A{text-decoration:none;}
+a:hover {text-decoration: underline;}
+img{ vertical-align:bottom; } 
+
+div#maru2 {
+padding: 5px 0 5px 15px;
+border: 1px solid #CCCCCC;
+background-color: #f3f3f3;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+font-size:18px;
+}
+
+div#maru {
+width: 98%;
+margin: 5px 0px 5px 0px;
+padding: 5px 5px 5px 10px;
+border: 1px solid #CCCCCC;
+background-color: #f3f3f3;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+font-size:18px;
+}
+
+span#red {
+color: #950000;
+font-weight: bold;
+}
+
+span#red2 {
+color: #ff0000;
+font-weight: bold;
+}
+
+span#red3 {
+color: #ff0000;
+font-weight: bold;
+}
+
+span#red4 {
+color: #fff;
+background-color: #ff0000;
+font-weight: bold;
+}
+
+div#ans {
+width: 98%;
+margin: 5px 0px 5px 0px;
+padding: 5px;
+border: 1px solid #000;
+font-size:14px;
+}
+
+span#ans {
+color: #fff;
+background-color: #950000;
+font-weight: bold;
+}
+
+div#sita {
+width: 97%;
+margin: 5px 0px 5px 0px;
+padding: 5px 20px 5px 5px;
+border: 1px solid #000;
+font-size:14px;
+text-align: right;
+}
+
+#menu {
+width: 99%;
+margin: 5px 0px 5px 0px;
+padding: 5px;
+border: 1px solid #000;
+font-size:14px;
+}
+
+#main_space{
+margin-left:auto;
+margin-right:auto;
+text-align:left;
+width:970px;
+}
+.btn1{
+	font-size: 14px;
+	margin-left:10px repeat-x; 
+	padding: 10px;
+	border: 1px solid #C9C9C9; 
+	-webkit-border-radius: 5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	background: #f4f4f4; 
+	color:#777777; 
+	cursor: pointer;
+}
+.btn2{
+	font-size: 14px; 
+	margin-left:10px repeat-x; 
+	padding: 10px; 
+	border: 1px solid #C9C9C9; 
+	-webkit-border-radius: 5px;
+	-moz-border-radius:5px; 
+	border-radius: 5px; 
+	background: #f4f4f4; 
+	color:#777777; 
+	cursor: pointer;
+}
+</style>
+<!-- jQuery.jsの読み込み -->
+</head>
+<body>
+<!--ここから本文-->
+<div id="main_space">
+	<iframe src="top.html" width="970" height="220" frameborder="0" scrolling="no" marginwidth="0" marginheight="0"></iframe>
+	
+	<hr style="border:dotted gray thin;">
+	<hr size="1">
+	<table id="menu">
+		<tbody>
+			<tr>
+				<td>Ｑ&amp;Ａ</td>
+				<td align="right">
+					<input class="btn1" id="btn1" value="Ｑ＆Ａ内検索" onClick="javascript:void(s=prompt(':','検索するワードを入力してください'));s='('+s+')';x=new RegExp(s,'gi');rn=Math.floor(Math.random()*100);rid='z' + rn;b = document.body.innerHTML;b=b.replace(x,'<span name=' + rid + ' id=' + rid + ' style=\'color:#fff;background-color:#ff0080; font-weight:bold;\'>$1</span>');void(document.body.innerHTML=b);alert(document.getElementsByName(rid).length + '　件見つかりました。');window.scrollTo(0,document.getElementsByName(rid)[0].offsetTop);" type="button">
+					<input class="btn2" id="btn2" value="リセット" onClick="location.reload()" type="button">
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<table style="table-layout: fixed;" cellpadding="0" cellspacing="5" width="940">
+		<tbody>
+			<tr valign="top">
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr valign="top">
+				<td>
+					<div id="maru2">商品について</div>
+					<font size="2">
+						<a href="#qa1">１．海外と国内のサイズはどう違う？</a><br>
+						<a href="#qa2">２．同じように見える商品が別々に掲載されていますがどう違うのですか？また、なぜ価格が違うのですか？</a><br>
+						<a href="#qa3">３．再入荷はありますか？</a><br>
+					</font>
+					<a href="#qa4"></a><br>
+					<div id="maru2">ご注文について</div>
+					<font size="2">
+						<a href="#qb1">１．電話/メールによる注文はできますか？</a><br>
+						<a href="#qb2">２．値引きして欲しい。大量購入するので割引してほしい。 </a><br>
+						<a href="#qb3">３．店舗からメールが届きません。</a><br>
+						<a href="#qb4">４．サイズ・色・個数等注文内容を変更したい。</a><br>
+						<a href="#qb5">５．ご注文の追加</a><br>
+						<a href="#qb6">６．ご注文のキャンセル</a><br>
+						<a href="#qb7">７．ラッピングサービスについて</a>
+					</font><br>
+					<p></p>
+					<div id="maru2">送料について</div>
+					<font size="2">
+						<a href="#sl1">１．送料を自動修正していない。</a><br>
+					</font>
+					<p></p>
+					<div id="maru2">お届け不在連絡について</div>
+					<font size="2">
+						<a href="#bz1">１．お届け不在連絡について</a><br>
+					</font>
+				</td>
+			
+				<td>
+					<div id="maru2">お支払いについて</div>
+					<font size="2">
+						<a href="#qc1">１．代引き/現金書留はできますか？</a><br>
+						<a href="#qc2">２．支払方法を変更したい。</a><br>
+						<a href="#qc3">３．クレジットカードの請求はいつされるのか。</a><br>
+						<a href="#qc4">４．注文者と振込人名が違うのですが利用可能ですか？</a><br>
+						<a href="#qc5">５．キャンセルになった場合ポイントはどうなるのか。</a><br>
+						<a href="#qc6">６．利用したポイントを変更したい。</a><br>
+						<a href="#qc7">７．お支払い番号のメールが届きません。</a><br>
+						<a href="#qc8"></a><br><br>
+						<div id="maru2">配送について</div>
+						<a href="#qd1">１．配送業者の指定は出来ますか？</a><br>
+						<a href="#qd2">２．納期はどれぐらいかかりますか？</a><br>
+						<a href="#qd3">３．着日の指定はできますか？</a><br>
+						<a href="#qd4">４．海外に住んでいますので直接海外の住所に送ってもらえませんか？</a><br>
+						<a href="#qd5">５．荷物が届きません。</a><br><br>
+						<div id="maru2">返品・交換について</div>
+						<a href="#qe1">１．サイズが合わなかった場合交換してもらえますか</a><br>
+						<a href="#qe2">２．不良商品、商品が違っていた、個数が少ない。</a><br>
+						<a href="#qe3">３．商品が思ってたのと違うので返品したい。</a><br>
+						<a href="#qe4">４．返品のお手続き </a><br>
+						<a href="#qe5">５．サイズが不安なので2つ注文し合わない方を返品出来ますか？</a><br>
+					</font>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+<!--上部-->
+<!--下部-->
+
+<hr style="border:dotted gray thin;">
+
+<div id="maru">商品について</div>
+<font color="#ffffff"><a id="qa1">Q</a></font><br>
+<span id="red">Ｑ１.</span>海外と国内のサイズはどう違う？
+<div id="ans">
+	<span id="ans">&nbsp;Answer.&nbsp;</span><br>
+	<span>国内と海外とのサイズの違いについてわからない方はまずサイズガイドをご覧くださいませ。<br></span>
+</div>
+
+
+<!--<font color="#ffffff"><a id="qa2">Q</a></font><br>
+<span id="red">Ｑ２.</span>同じように見える商品が別々に掲載されていますがどう違うのですか？また、なぜ価格が違うのですか？<div id="ans">
+<span id="ans">&nbsp;Answer.&nbsp;</span><br>
+当社は複数の仕入れ先より商品を入荷しております為、同じ商品でも仕入先の違いにより価格に差が生じます。  
+お客様にはよりお得な価格の方からご購入をお勧めしております。
+</div>
+-->
+<font color="#ffffff"><a id="qa3">Q</a></font><br>
+<span id="red">Ｑ２.</span>再入荷はありますか？
+<div id="ans">
+<span id="ans">&nbsp;Answer.&nbsp;</span><br>
+再入荷するかは商品によって異なります。<br>
+ただ多くの商品は季節ごとに入れ替わりがありますので、もし気になる商品があればできるだけそのタイミングでご判断されることをおススメします。もしどうしても探したいという商品があれば、見つかるように最大の努力をさせていただきますので商品ページよりお問い合わせくださいませ。
+</div>
+
+
+
+<br> 
+
+<hr style="border:dotted gray thin;">
+
+<div id="maru">ご注文について
+</div>
+
+<font color="#ffffff"><a id="qb1">Q</a></font><br>
+<span id="red">Ｑ１.</span>電話/メールによる注文はできますか？
+<div id="ans">
+<span id="ans">&nbsp;Answer.&nbsp;</span><br>
+誠に申し訳ございませんが、お電話/メールでのご注文は受け付けておりません。
+お手数ではございますが、Yahoo!ショッピングの商品ページよりご注文いただけますようお願いいたします。
+</div>
+
+<font color="#ffffff"><a id="qb2">Q</a></font><br>
+<span id="red">Ｑ２.</span>値引きして欲しい。大量購入するので割引してほしい。 
+<div id="ans">
+<span id="ans">&nbsp;Answer.&nbsp;</span><br>
+本店では
+商品何点でも構わないで、買い上げ合計税抜8000円（8000円含）（送料除外）以上、店内全品送料無料に修正いたします。<br />
+２点以上商品を買う時に、画面に出る送料はシステム自動加算する結果でございます、店舗側に受付する時に、送料を修正いたします、ご了承くださいませ。
+<br />大量注文したい場合、メール/お電話でお問い合わせください。
+</div>
+
+<font color="#ffffff"><a id="qb3">Q</a></font><br>
+<span id="red">Ｑ３.</span>店舗からメールが届きません。
+<div id="ans">
+<span id="ans">&nbsp;Answer.&nbsp;</span><br>
+迷惑メールフォルダに紛れていませんか？<br>
+ゴミ箱フォルダに紛れていませんか？<br>
+メール受信設定をご確認ください  
+携帯メールアドレスを登録されている場合。<br>
+お客様がお使いの携帯電話のメール受信設定にて<span id="red2">「URL付きメール拒否設定」</span>が自動に設定されている場合がございます。<br>
+お手数ですが、URL付きメール拒否設定をご確認くださいますようようお願い申し上げます。
+</div>
+
+<font color="#ffffff"><a id="qb4">Q</a></font><br>
+<span id="red">Ｑ４.</span>サイズ・色・個数等注文内容を変更したい。
+<div id="ans">
+<span id="ans">&nbsp;Answer.&nbsp;</span><br>
+当店からの受注承認メール送信前でしたら変更可能です。すぐに電話又はメールでご連絡お願い致します。<br>
+ご注文確定後の受注承認メール送信後の変更はお受け出来ませんのでご了承願います。
+</div>
+
+<font color="#ffffff"><a id="qb5">Q</a></font><br>
+<span id="red">Ｑ5.</span>ご注文の追加
+<div id="ans">
+<span id="ans">&nbsp;Answer.&nbsp;</span><br>
+追加注文はできます、再度注文お願いします。<br />
+確認次第送料を修正し、同梱発送いたします。
+
+
+</div>
+
+<font color="#ffffff"><a id="qb6">Q</a></font><br>
+<span id="red">Ｑ6.</span>ご注文のキャンセル
+<div id="ans">
+<span id="ans">&nbsp;Answer.&nbsp;</span><br>
+発送前であればキャンセルできます。発送した場合、キャンセル不可です。<br>
+欠品など店舗都合でキャンセルとなった場合、返金手数料は当店で負担いたします。<br>
+お客様のご都合でキャンセルとなった場合、返金手数料はお客様のご負担となっております。</div>
+
+<font color="#ffffff"><a id="qb7">Q</a></font><br>
+<span id="red">Ｑ7.</span>ラッピングサービスについて
+<div id="ans">
+<span id="ans">&nbsp;Answer.&nbsp;</span><br>
+大変申し訳ございません。現在ラッピングは承っておりません。</div>
+
+<br>
+
+
+  <hr style="border:dotted gray thin;">
+  <div id="maru">送料について
+</div>
+<font color="#ffffff"><a id="sl1">Q</a></font><br>
+<span id="red">Ｑ１.</span>送料を自動修正していない。
+<div id="ans">
+<span id="ans">&nbsp;Answer.&nbsp;</span><br>
+<span id="red2">１．件名：【Yahoo!ショッピング】注文内容ご確認（自動配信メール）</span><br>
+ご注文されますとYahoo!ショッピングより自動的に配信されますメールです。<br>
+こちらのメールはYahoo!ショッピングのシステムで自動配信されるメールの為送料の割り引きが反映されないまま初期のステイタスでの配信となってしまいます。<br>
+
+<span id="red2">２．件名：ご注文ありがとうございます</span> <br>
+ご注文内容を確認して手動でお送りするメールです。<br>
+こちらのメールをお送りする際に割引等の請求金額の修正を行っております。<br>
+お振込みの際は2通目に表記されます金額でお振込み下さいませ。<br>
+※2通目のメールはご注文頂いてから翌営業日までにはお送りいたしますが、注文状況によっては遅れる場合がございます。<br>
+※土日祝日は休業日となっておりますので翌営業日までお待ち下さいませ。<br>
+通目のメールで請求金額が間違っていた場合、御手数ですが?
+<span id="red2">ご注文番号・ご注文時のお名前</span>を添えて
+<span id="red2">ismyahoo2017@fclasspupu.sakura.ne.jp</span>までご連絡下さいませ。<br>
+</span>
+</div>
+<br> 
+
+<hr style="border:dotted gray thin;">
+
+<div id="maru">お届け不在連絡について
+</div>
+<font color="#ffffff"><a id="bz1">Q</a></font><br>
+<span id="red">Ｑ１.</span>お届け不在連絡について
+<div id="ans">
+<span id="ans">&nbsp;Answer.&nbsp;</span><br>
+ご不在の際はご不在連絡票が投函されますので、保管期限までに宅配業者に再配達をご依頼ください。<br> 
+期限内にご連絡されない場合、当社へ返送されます。<br>
+期限は【発送日より1週間以内】となっております。<br>
+商品発送後、長期不在や受取拒否にて商品が返却された場合、手数料\2000をご請求させて頂きます。<br><br>
+
+一度返却されたお荷物の再発送はできません。<br>
+■発送後お受取いただけないご注文が発生した場合、当社よりご注文の受付をお断りさせていただく場合がございます。<br>
+</span>
+</div>
+<br> 
+<hr style="border:dotted gray thin;">
+<div id="maru">お支払いについて
+
+</div>
+
+<font color="#ffffff"><a id="qc1">Q</a></font><br>
+<span id="red">Ｑ１.</span>代引き/現金書留はできますか？ 
+<div id="ans">
+<span id="ans">&nbsp;Answer.&nbsp;</span><br>
+誠に申し訳ございませんが、現金書留は当社では承っておりません。 <br>
+代引きにつきましては、メール便商品は対応しておりませんが、他の商品には対応いたしております。
+</div>
+
+<font color="#ffffff"><a id="qc2">Q</a></font><br>
+<span id="red">Ｑ２.</span>支払方法を変更したい。
+<div id="ans">
+<span id="ans">&nbsp;Answer.&nbsp;</span><br>
+クレジットカードから銀行振込・コンビニ払い・代金引換への変更は可能です。<br>他お支払方法からクレジットカードへの変更は個人情報の為店舗側ではお受けできません。
+
+</div>
+
+<font color="#ffffff"><a id="qc3">Q</a></font><br>
+<span id="red">Ｑ３.</span>クレジットカードの請求はいつされるのか。
+<div id="ans">
+<span id="ans">&nbsp;Answer.&nbsp;</span><br>
+クレジットカードの決済処理の流れ。<br>ご注文を受けますと、まずYahoo!ショッピングシステム上でクレジットカードの使用不可を審査する「オーソリ」という工程がございます。<br> オーソリ可となりましたら、店舗側は受注承認、商品手配へと進み商品発送後に請求を行います。
+</div>
+
+<font color="#ffffff"><a id="qc4">Q</a></font><br>
+<span id="red">Ｑ４.</span>注文者と振込人名が違うのですが利用可能ですか？
+<div id="ans">
+<span id="ans">&nbsp;Answer.&nbsp;</span><br>
+必ずご連絡お願い致します。ご連絡がない場合入金の確認ができずキャンセルとさせて頂く場合がございます。
+<br>
+
+
+
+</span>
+
+</div>
+
+<font color="#ffffff"><a id="qc5">Q</a></font><br>
+<span id="red">Ｑ５.</span>キャンセルになった場合ポイントはどうなるのか。
+<div id="ans">
+<span id="ans">&nbsp;Answer.&nbsp;</span><br>
+ポイント未承認・承認済みに関わらず、キャンセル日が締め日<span id="red2">（注文日の翌月末）</span>より前であれば、お客様にはキャンセル処理と同時にポイントが返還されます。
+<br>
+<span id="red2">※期間限定ポイントの場合</span><br>
+欠品など店舗都合でキャンセルとなった場合、Yahoo!ショッピングにてしばらくの間、一括再付与が行われます。<br>
+ポイントの付与は、注文月翌々月の25日頃となります（例：2月のご注文の場合、4月25日頃）<br>
+お客様都合でのキャンセルの場合は、有効期限を過ぎてからキャンセルおよび注文内容の変更を行っても、ポイントの返還はされません。<br>（通常ポイントと同時に利用している場合は通常ポイントのみ返還されます）</div>
+
+<font color="#ffffff"><a id="qc6">Q</a></font><br>
+<span id="red">Ｑ６.</span>利用したポイントを変更したい。 
+<div id="ans">
+<span id="ans">&nbsp;Answer.&nbsp;</span><br>
+店舗側ではポイントの操作は出来ない為変更は出来ません。
+</div>
+
+<font color="#ffffff"><a id="qc7">Q</a></font><br>
+<span id="red">Ｑ７.</span>お支払い番号のメールが届きません。
+<div id="ans">
+<span id="ans">&nbsp;Answer.&nbsp;</span><br>
+ご注文を受けますと、お支払い番号を発行いたします。<br>
+発行したあと、Yahoo!ショッピング「件名：お支払い番号のお知らせ」/「ワイエムワールド からのお支払い番号のお知らせ」のメールを送りいたします。</div>
+
+
+<hr style="border:dotted gray thin;">
+
+
+
+
+<div id="maru">配送について
+</div>
+
+<font color="#ffffff"><a id="qd1">Q</a></font><br>
+<span id="red">Ｑ１.</span>配送業者の指定は出来ますか？ 
+<div id="ans">
+<span id="ans">&nbsp;Answer.&nbsp;</span><br>
+申し訳ございませんが、お受けしておりません。</div>
+
+<font color="#ffffff"><a id="qd2">Q</a></font><br>
+<span id="red">Ｑ２.</span>納期はどれぐらいかかりますか？ 
+<div id="ans">
+<span id="ans">&nbsp;Answer.&nbsp;</span><br>
+商品ページにて「ご入金確認後、7営業日以内に発送予定。」と表記されている商品につきましては当社倉庫からの取り寄せとなります。<br />
+納期は平均してご注文確定から約6-10日間となっております。予めご了承下さいませ。<br />
+商品ページにて「1～4日お届け」と表記されている商品につきましては、１２時までにご入金を確認できれば即日発送できます。（土日祝日ぬく）
+
+</div>
+
+<font color="#ffffff"><a id="qd3">Q</a></font><br>
+<span id="red">Ｑ３.</span>着日の指定はできますか？ 
+<div id="ans">
+<span id="ans">&nbsp;Answer.&nbsp;</span><br>
+ご注文の際に「お支払い・配送方法」ページの「配送日時指定」にてご希望の「配送希望時間」を選択してください。<br />
+午前 12時-14時　14時-16時　16時-18時 18時-20時 19時-21時ただし時間を指定された場合でも、事情により指定時間内に配達ができない事もございます。<br />
+ご希望の配達日時がない場合は、最短で発送させていただきます。
+
+<font color="#ffffff"><a id="qd4">Q</a></font><br>
+<span id="red">Ｑ４.</span>海外に住んでいるので直接海外の住所に送ってもらえませんか？? 
+<div id="ans">
+<span id="ans">&nbsp;Answer.&nbsp;</span><br>
+直接海外の住所に発送することができかねます。
+</div>
+
+<font color="#ffffff"><a id="qd5">Q</a></font><br>
+<span id="red">Ｑ５.</span>荷物が届きません。
+<div id="ans">
+<span id="ans">&nbsp;Answer.&nbsp;</span><br>
+荷物がなかなか届かないという場合は まずは配送予定日をご確認くださいませ。<br>
+通常ご注文いただいてから、お取り寄せ商品の場合は商品届けまで約12-15日間かかります。また、通常追跡番号をメールにて送らせていただいております。
+</div>
+
+
+<br> 
+<hr style="border:dotted gray thin;">
+
+<div id="maru">返品・交換について
+</div>
+
+<font color="#ffffff"><a id="qe1">Q</a></font><br>
+<span id="red">Ｑ１.</span>サイズが合わなかった場合交換してもらえますか？
+<div id="ans">
+<span id="ans">&nbsp;Answer.&nbsp;</span><br>
+サイズ交換に関しましては返品対応できませんが、交換対応できます。<br />
+未使用の商品のみ到着日から14日以内にご連絡頂ければ交換対応させて頂きます。<br />
+再発送料と返送料はお客様から負担となっておりますので、ご了承くださいませ。
+
+
+</div>
+
+<font color="#ffffff"><a id="qe2">Q</a></font><br>
+<span id="red">Ｑ２.</span>不良商品、商品が違っていた、個数が少ない。
+<div id="ans">
+<span id="ans">&nbsp;Answer.&nbsp;</span><br>
+未使用の商品のみ到着日から14日以内にご連絡頂ければ対応させて頂きます。
+</div>
+
+<font color="#ffffff"><a id="qe3">Q</a></font><br>
+<span id="red">Ｑ３.</span>商品が思ってたのと違うので返品したい。
+<div id="ans">
+<span id="ans">&nbsp;Answer.&nbsp;</span><br>
+商品のイメージ違いに関しましては返品できます。<br> 
+発送料、返金手数料と返送料はお客様から負担となっておりますので、ご了承くださいませ。<br>
+</div>
+
+<font color="#ffffff"><a id="qe4">Q</a></font><br>
+<span id="red">Ｑ４.</span>返品のお手続き
+<div id="ans">
+<span id="ans">&nbsp;Answer.&nbsp;</span><br>
+メールでご連絡ください。当社より確認後メールにて返送方法等ご案内させていただきます。 <br />
+※ご連絡をいただきます際、不良箇所の画像を添付いただきますと、お問合せ後の対応がスムーズになります。<br />
+ご協力の程お願い申し上げます。<br />
+サイズ交換やお客様のご都合で返品の場合、当社契約の配送業者(佐川急便)がご自宅まで引き取りに伺います。<br />
+※交換をご希望いただきましても、在庫のない場合、ご返金を案内させていただく事がございます。
+</div>
+
+<font color="#ffffff"><a id="qe5">Q</a></font><br>
+<span id="red">Ｑ５.</span>サイズが不安なので2つ注文し合わない方を返品出来ますか？
+<div id="ans">
+<span id="ans">&nbsp;Answer.&nbsp;</span><br>
+申し訳ございませんが、返品前提でのご注文はお受けしておりません。<br>
+そのような場合に返品されましても返金は商品価格の50％とさせていただきます。</div>
+
+
+<br>
+
+<!--本文ここまで-->
+
+<!--フッター-->
+<hr style="border:dotted gray thin;">
+
+
+<div id="sita">
+-ワイエムワールド
+</div>
+
+<hr size="1">
+
+</div>
+</body>
+</html>

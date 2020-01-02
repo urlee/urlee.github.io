@@ -1,0 +1,223 @@
+@charset "utf-8";
+/* CSS Document */
+
+.clearfix:after{
+	content:"";
+	clear:both;
+	display:block;	
+}
+
+
+#bag_container{
+	width:100%;
+	max-width: 950px;
+	height:100%;
+	margin: 0 auto;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+#bag_container h2{
+	margin-bottom:36px;
+}
+#bag_container section{
+	margin-bottom:100px;
+	
+}
+
+#bag_container section figure{
+	width:100%;
+	text-align:center;
+}
+#bag_container section figure img{
+	width:100%;
+	max-width:603px;
+	text-align:center;
+}
+
+#bag_container section h3{
+	border-top:none;
+	border-bottom:none;
+	width:80%;
+	max-width:464px;
+	margin:0 auto 10px;
+}
+#bag_container section h3 img{
+	width:100%;
+	max-width:464px;
+	height:auto;
+}
+.bag_tx{
+	width:96%;
+	max-width:603px;	
+	margin:0 auto 20px;
+	font-size:15px;
+	line-height:1.6;
+	padding:0 2%;
+}
+.bag_r{
+	width:70%;
+	padding-left:30%;
+}
+.bag_l{
+	width:70%;
+	padding-right:30%;
+}
+.all_list{
+	width:96%;
+	max-width:603px;
+	margin:0 auto;
+	font-size:22px;
+	text-align:center;	
+	/*background-image:url(../images/bag_41.jpg) no-repeat right 40px center,#b25994;*/
+	background-image:url(../images/bag_41.jpg);
+	background-repeat:no-repeat;
+	background-position:90% center;
+	background-color:#b25994;
+	color:#fff;
+	padding:0;
+}
+.all_list a{
+	color:#fff;
+	padding:13px 0;
+	display:block;
+	border: 1px solid #b25994;
+}
+.all_list a:hover{
+	color:#b25994;
+	background:#f3f1f2;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
+
+.all_list:hover{
+	background:url(../images/bag_41.jpg) no-repeat right 30px center,#f3f1f2;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
+
+/*各ブランドの画像指定*/
+.bag1{
+	background:url(../images/bag_03.jpg) no-repeat bottom left;
+}
+.bag2{
+	background:url(../images/bag_07.jpg) no-repeat bottom right;
+}
+.bag3{
+	background:url(../images/bag_09.jpg) no-repeat bottom left;	
+}
+.bag4{
+	background:url(../images/bag_12.jpg) no-repeat bottom right;	
+}
+
+.bag5{
+	background:url(../images/bag1_05.jpg) no-repeat bottom left;	
+}
+.bag6{
+	background:url(../images/bag1_17.jpg) no-repeat bottom right;	
+}
+.bag7{
+	background:url(../images/bag1_29.jpg) no-repeat bottom left;	
+}
+
+
+
+.plus_s h4{
+	text-align:center;
+	font-size:51px;
+	color:#5e3a67;
+	margin-bottom:40px;
+}
+.plus_s h4 img{
+	margin-bottom:20px;
+}
+.plus_s li{
+	width:29.3%;
+	padding:0 2%;
+	float:left;	
+	text-align:center;
+	height:240px;
+	margin-bottom:50px;
+}
+.plus_s li a img{
+	margin-bottom:10px;
+}
+.plus_s li a:hover{
+	opacity:0.8;
+}
+.plus_s li p{
+	padding:0;
+	line-height:1.8;
+}
+
+.bag_price span{
+	color:red;	
+	font-weight:bold;
+}
+
+
+@media screen and (max-width:979px){
+	
+}
+
+@media screen and (max-width:767px){
+.bag_r,.bag_l{
+    width: 96%;
+	margin:0 2%;
+	padding:0;
+}
+/*各ブランドの画像指定*/
+.bag1{
+	background:none;
+}
+.bag2{
+	background:none;
+}
+.bag3{
+	background:none;	
+}
+.bag4{
+	background:none;	
+}
+.bag5{
+	background:none;	
+}
+.bag6{
+	background:none;	
+}
+.bag7{
+	background:none;	
+}
+.all_list{
+	width:100%;
+	max-width:603px;
+	margin:0 auto;
+}
+
+
+.plus_s h4{
+	font-size:37px;	
+}
+
+
+}
+
+@media screen and (max-width:479px){
+.all_list{
+	font-size:15px;	
+	background:url(../images/bag_41.jpg) no-repeat right 20px center,#b25994;
+	background-size:21px;
+	
+}
+.plus_s h4{
+	font-size:24px;	
+}
+
+.all_list:hover{
+	background:url(../images/bag_41.jpg) no-repeat right 10px center,#f3f1f2;
+	background-size:21px;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+	
+	
+}
+}

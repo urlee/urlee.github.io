@@ -1,0 +1,503 @@
+header
+{
+    position: fixed;
+    z-index: 9999;
+
+    width: 100%;
+    height: 60px;
+
+    background-color: #111;
+}
+.sb-active
+{
+    position: fixed;
+
+    overflow: hidden;
+
+    width: 100%;
+    height: 100vh;
+}
+div#head_inner
+{
+    position: relative;
+
+    display: block;
+
+    width: 100%;
+    max-width: 950px;
+    height: 60px;
+    margin: 0 auto;
+}
+div#head_inner ul
+{
+    /* display: none; */
+    z-index: 100;
+    /* display: block; */
+}
+div#head_inner ul li ul
+{
+    z-index: 100;
+
+    display: block;
+    overflow: hidden;
+
+    min-height: 250px;
+    /* padding: 5px 0 0 0; */
+
+    background-color: #fff;
+}
+div#head_inner ul li ul.border
+{
+    border-right: 1px solid #ccc;
+}
+div#head_inner h1
+{
+    position: absolute;
+    top: 0;
+    left: 70px;
+
+    display: block;
+}
+div#head_inner h1 a
+{
+    display: block;
+}
+li#i_hum
+{
+    position: absolute;
+
+    width: 60px;
+    height: 60px;
+}
+/* li#i_hum:hover {
+  overflow:hidden;
+  visibility: visible;
+  height:325px;
+} */
+/* li#i_hum:hover ul li {
+  overflow:hidden;
+  visibility: visible;
+} */
+.humberger
+{
+    display: block;
+
+    width: 60px;
+    height: 60px;
+    margin: 0 10px 0 0;
+
+    cursor: pointer;
+    -webkit-transition: all linear .3s;
+       -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+         -o-transition: all linear .3s;
+            transition: all linear .3s;
+
+    background: url(https://www.axes-net.com/sale_new/common/img/humberger.gif)no-repeat;
+}
+.humberger:hover
+{
+    display: block;
+
+    background-color: #333;
+}
+
+li#i_hum:hover #pc_list
+{
+    z-index: 100;
+
+    display: block;
+    visibility: visible;
+
+    margin: 0;
+
+    color: #111;
+    background: #fff;
+}
+ul#pc_list
+{
+    visibility: hidden;
+    overflow: hidden;
+
+    width: 738px;
+    padding: 30px 15px;
+
+    -webkit-transition: all ease-in-out .2s;
+       -moz-transition: all ease-in-out .2s;
+        -ms-transition: all ease-in-out .2s;
+         -o-transition: all ease-in-out .2s;
+            transition: all ease-in-out .2s;
+
+    border: solid 1px #ccc;
+}
+ul#pc_list > li
+{
+    font-family: Century;
+    font-size: 1em;
+    line-height: 2em;
+
+    float: left;
+
+    width: 230px;
+    padding: 1em 0 0 1em;
+
+    background: #fff;
+}
+ul#pc_list li ul li
+{
+    padding: 0 0 0 1em;
+}
+ul#pc_list li a
+{
+    display: block;
+
+    color: #111;
+}
+ul#pc_list li.active
+{
+    background: #111;
+}
+ul#pc_list li.active a
+{
+    color: #111;
+    background: #fff;
+}
+ul#pc_list li ul li:hover
+{
+    color: #fff;
+    background: #111;
+}
+ul#pc_list > li ul li:hover a
+{
+    -webkit-transition: all linear .3s;
+       -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+         -o-transition: all linear .3s;
+            transition: all linear .3s;
+
+    color: #fff;
+    background: #111;
+}
+
+div#headsmp_inner
+{
+    display: none;
+}
+/* header-sns */
+ul.header-sns
+{
+    position: absolute;
+    top: 5px;
+    right: 0;
+
+    overflow: hidden;
+
+    width: 50%;
+    padding: 0 0 0 15px;
+}
+ul.header-sns li
+{
+    float: right;
+
+    width: 41px;
+    height: 40px;
+    margin: 0 5px 11px;
+
+    background: url(https://www.axes-net.com/common/img/side-sns.png)no-repeat;
+}
+ul.header-sns li:hover
+{
+    background-position: bottom:;;
+}
+ul.header-sns li a
+{
+    display: block;
+    overflow: hidden;
+
+    height: 40px;
+
+    white-space: nowrap;
+    text-indent: 200%;
+}
+ul.header-sns li.head-a
+{
+    background: url(https://www.axes-net.com/common/img/side-sns.png);
+}
+ul.header-sns li.head-l
+{
+    background-position: -55px 0;
+}
+ul.header-sns li.head-l:hover
+{
+    background-position: -55px -40px;
+}
+ul.header-sns li.head-t
+{
+    background-position: -109px 0;
+}
+ul.header-sns li.head-t:hover
+{
+    background-position: -109px -40px;
+}
+ul.header-sns li.head-f
+{
+    background-position: 0 -88px;
+}
+ul.header-sns li.head-f:hover
+{
+    background-position: 0 -129px;
+}
+ul.header-sns li.head-m
+{
+    background-position: -55px -88px;
+}
+ul.header-sns li.head-m:hover
+{
+    background-position: -55px -129px;
+}
+ul.header-sns li.head-i
+{
+    background-position: -109px -88px;
+}
+ul.header-sns li.head-i:hover
+{
+    background-position: -109px -129px;
+}
+div#sb-site
+{
+    position: relative;
+    z-index: 1;
+    left: 0;
+
+    padding: 60px 0 0 0;
+
+    transition: .4s;
+
+    background: none;
+    background: #fff;
+}
+.sb-slidebar
+{
+    display: none;
+}
+@media screen and (max-width:768px)
+{
+    header
+    {
+        position: fixed;
+        top: 0;
+        left: 0;
+
+        height: 50px;
+
+        background-color: #111;
+    }
+    div#head_inner
+    {
+        display: none;
+
+        width: 100%;
+        max-width: 950px;
+        height: 50px;
+        margin: 0 auto;
+    }
+    div#head_inner ul
+    {
+        z-index: 100;
+
+        display: none;
+        /* display: block; */
+    }
+    div#headsmp_inner h1
+    {
+        display: block;
+        float: left;
+
+        margin-top: 8px;
+    }
+    div#headsmp_inner h1 img
+    {
+        width: auto;
+        height: 36px;
+    }
+    div#head_inner h1 a
+    {
+        display: block;
+    }
+
+    .humberger
+    {
+        float: left;
+
+        width: 40px;
+        height: 40px;
+        margin: 4px 5px 0 10px;
+
+        cursor: pointer;
+        -webkit-transition: all linear .3s;
+           -moz-transition: all linear .3s;
+            -ms-transition: all linear .3s;
+             -o-transition: all linear .3s;
+                transition: all linear .3s;
+
+        background: url(https://www.axes-net.com/sale_new/common/img/humberger.gif)no-repeat;
+        background-size: 40px;
+    }
+    .sb-active .humberger:after
+    {
+        position: fixed;
+        left: 70%;
+
+        width: 100%;
+        height: 100%;
+
+        content: '';
+    }
+    .humberger a
+    {
+        display: block;
+
+        height: 50px;
+    }
+    .humberger:hover
+    {
+        background-color: #111;
+    }
+
+    .humberger:hover #pc_list
+    {
+        z-index: 100;
+
+        display: block;
+
+        width: 300px;
+        margin: 60px 0 0 0;
+
+        -webkit-transition: all linear 1s;
+           -moz-transition: all linear 1s;
+            -ms-transition: all linear 1s;
+             -o-transition: all linear 1s;
+                transition: all linear 1s;
+
+        color: #fff;
+        border: solid 1px #ccc;
+        background: #fff;
+    }
+    ul#pc_list
+    {
+    }
+    ul#pc_list li
+    {
+        font-family: Century;
+        font-size: 1.5em;
+        line-height: 2em;
+
+        padding: 0 0 0 1em;
+    }
+    ul#pc_list li.active
+    {
+        background: #111;
+    }
+    ul#pc_list li.active a
+    {
+        color: #fff;
+        background: #111;
+    }
+    ul#pc_list li:hover
+    {
+        color: #fff;
+        background: #111;
+    }
+    ul#pc_list li:hover a
+    {
+        -webkit-transition: all linear .3s;
+           -moz-transition: all linear .3s;
+            -ms-transition: all linear .3s;
+             -o-transition: all linear .3s;
+                transition: all linear .3s;
+
+        color: #fff;
+        background: #111;
+    }
+
+    div#headsmp_inner
+    {
+        display: block;
+
+        height: 50px;
+    }
+    div#headsmp-bottom
+    {
+        display: block;
+
+        padding: 3% 5%;
+
+        text-align: center;
+
+        color: #fff;
+        background: #333;
+    }
+    div#headsmp-bottom a
+    {
+        color: #fff;
+    }
+    div#headsmp-bottom p:after
+    {
+        font-size: 12px;
+
+        content: '\25b6';
+    }
+    .sb-slidebar.sb-left ul li
+    {
+        font-size: 15px;
+        line-height: 48px;
+
+        display: block;
+
+        margin: 0;
+
+        border-top: 1px solid #4d4d4d;
+        border-bottom: 1px solid #1a1a1a;
+    }.sb-slidebar.sb-left ul li a
+    {
+        display: block;
+
+        padding: 0 15px;
+
+        text-decoration: none;
+
+        color: #fff;
+    }
+    #sb-site,
+    .sb-site-container
+    {
+        padding: 50px 0 0 0!important;
+    }
+    .sb-active #sb-site
+    {
+        position: relative;
+        left: 70%;
+    }
+    .sb-slidebar
+    {
+        font-family: 'ヒラギノ角ゴ Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+
+        position: fixed;
+        z-index: 0;
+        top: 50px;
+
+        display: none;
+        overflow: scroll;
+
+        width: 70%;
+        height: 90%;
+
+        background-color: #222;
+    }
+    .sb-active .sb-slidebar
+    {
+        display: block;
+
+        transition: .4s;
+    }
+}

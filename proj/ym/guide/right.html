@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/style.css" />
+<link rel="shortcut icon" href="images/axes_favicon.ico" type="image/vnd.microsoft.icon">
+		<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript">
+			 $(function(){
+			 	 $('a[href*=#],area[href*=#]').click(function() {  
+                console.log(this.pathname)  
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {  
+                    var $target = $(this.hash);  
+                    $target = $target.length && $target || $('[name=' + this.hash.slice(1) + ']');  
+                    if ($target.length) {  
+                        var targetOffset = $target.offset().top;  
+                        $('html,body').animate({  
+                                    scrollTop: targetOffset  
+                                },  
+                                500);  
+                        return false;  
+                    }  
+                }  
+            }); 
+			 });
+           
+		</script>
+		<style>
+			.all {
+				width: 970px;
+				margin: 0 auto;
+				padding-top: 100px;
+			}
+			.divleft {
+				width: 200px;
+				margin-right: 20px;
+				float: left;
+			}
+			.commsptop {
+				display: none;
+			}
+			@media screen and (max-width:756px){
+			#topheader {
+				width: 100%;
+				height: 150px;
+				margin-bottom: 20px;
+			}
+			.divleft {
+				display: none;
+			}
+			.all {
+				width: 100%;
+				padding-top: 0px;
+			}
+			.nav-category {
+				display: none;
+			}
+			.area-main {
+				width: 100%;
+			}
+			.case {
+				padding: 0px;
+			}
+			.case h2.sub-title {
+				top: 0px;
+				width: 100%;
+				position: relative;
+			}
+			img {
+				width: 100%;
+			}
+			.mr5 {
+				width: 26px;
+			}
+			#yh {
+				width: 56px;
+				height: 27px;
+			}
+	}
+		</style>
+	</head>
+	<body>
+		<div class="all">
+			<iframe id="topheader" src="top.html" width="970" height="220" frameborder="0" scrolling="no" marginwidth="0" marginheight="0"></iframe>
+			<div class="divleft">
+			<iframe src="left.html" width="200" height="500" frameborder="0" scrolling="no" marginwidth="0" marginheight="0"></iframe>
+		</div>
+		 <div class="area-main copy">
+		 	
+      <h1 class="help">お支払いについて</h1>
+      <!-- category-nav -->
+      <div class="nav-category clearfix">
+        <ul>
+          <li><a href="#payment_01">お支払い方法一覧</a></li>
+          <li><a href="#payment_02">クレジットカード</a></li>
+          <li><a href="#payment_03">代金引換</a></li>
+          <li><a href="#payment_04">銀行振込</a></li>
+          <li><a href="#payment_11">Yahoo!マネー/預金払い</a></li>
+          <li><a href="#payment_10">コンビニ決済</a></li>
+          <li><a href="#payment_12">ソフトバンク支払い</a></li>
+          <li><a href="#payment_14">ドコモ ケータイ払い</a></li>
+          <li><a href="#payment_13">auかんたん決済</a></li>
+        </ul>
+        <div class="clear"></div>
+      </div>
+      <!-- / category-nav -->
+
+      <!-- case -->
+      <!--<a id="payment_01"></a>-->
+      <span id="payment_01">
+      	
+      </span>
+      <div class="case clearfix">
+        <h2 class="sub-title">お支払い方法一覧</h2>
+        <p class="pb10">商品代金のお支払い方法は以下の方法からお選びいただけます。</p><br>
+          <!--（ ※4月1日より施行された消費税率改定に伴い、各種手数料が一部変更となっております。 </span> <a href="https://www.rakuten.ne.jp/gold/e-zakkamania/guide/openwin/info0307.html" target="_blank" class="blue">&gt;&gt;　詳しくはこちら</a> ）</p>-->
+        <table width="100%" border="0" cellpadding="0" cellspacing="0" class="border">
+          <tr>
+            <td width="120" class="td-title">お支払い方法一覧</td>
+            <td colspan="2" class="td-title">手数料</td>
+            <td class="td-title">メール便</td>
+            
+          </tr>
+          <tr>
+            <td>
+              <a href="#payment_02" class="blue">クレジットカード決済</a>
+            </td>
+            <td colspan="2" align="center" valign="middle">無料</td>
+            <td align="center" valign="middle">○</td>
+            
+          </tr>
+          <tr>
+            <td rowspan="3">
+              <a href="#payment_03" class="blue">代金引換</a>
+            </td>
+            <td width="120" align="center" valign="middle">税込10,000円以下</td>
+            <td width="80" align="center" valign="middle">324円</td>
+            <td rowspan="3" align="center" valign="middle">×</td>
+            
+          </tr>
+          <tr>
+            <td align="center" valign="middle">10000～29999円</td>
+            <td align="center" valign="middle">432円 </td>
+          </tr>
+          <tr>
+          	<td align="center" valign="middle">30000円以上</td>
+          	<td align="center" valign="middle">対応不可</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#payment_04" class="blue">銀行振込（ペイジー）</a>
+            </td>
+            <td colspan="2" align="center" valign="middle">振込手数料はお客様負担</td>
+            <td align="center" valign="middle">○</td>
+            
+          </tr>
+          
+          <tr>
+            <td rowspan="2">
+              <a href="#payment_10" class="blue">コンビニ決済</a>
+            </td>
+            <td align="center" valign="middle">29,999円以下</td>
+            <td align="center" valign="middle">155円</td>
+            <td rowspan="2" align="center" valign="middle">○</td>
+          </tr>
+          <tr>
+            <td align="center" valign="middle">30,000円以上</td>
+            <td align="center" valign="middle">257円</td>
+          </tr>
+           <tr>
+            <td>
+              <a href="#payment_11" class="blue">Yahoo!マネー/預金払い</a>
+            </td>
+            <td colspan="2" align="center" valign="middle"> 無料</td>
+            <td align="center" valign="middle">○</td>
+          </tr>
+          <tr>
+          	<td><a href="#payment_12" class="blue">ソフトバンク・ワイモバイルまとめて支払い</a></td>
+          	<td colspan="2" align="center" valign="middle"> 無料</td>
+            <td align="center" valign="middle">○</td>
+          </tr>
+          <tr>
+          	<td><a href="#payment_13" class="blue">auかんたん決済</a></td>
+          	<td colspan="2" align="center" valign="middle"> 無料</td>
+            <td align="center" valign="middle">○</td>
+          </tr>
+        </table>
+        <br>
+        <div class="clear"></div>
+      </div>
+      <!-- / case -->
+
+      <!-- case -->
+      <a name="payment_02" id="payment_02"></a>
+      <div class="case clearfix">
+        <h2 class="sub-title">クレジットカード</h2>
+        <p class="pb30">お支払い総額は以下の通りです。<br>
+          ご注文後に、<a href="r04.html" target="_blank" class="blue">【ご注文の確認とお礼】メール</a>にて、お支払い総額をお知らせ致します。</p>
+        <p class="pb10"><strong>【ご請求金額の内訳】</strong>　<span class="fb">商品代金合計（税込）＋送料（税込）</span></p>
+        <p class="pb10">ポイントをご利用の場合等、Yahoo!ショッピングから自動で配信される確認メールの金額と異なる場合がございます。<br>
+          後ほど当店からお送りするメールをご確認の上、お手続きください。</p>
+        <p>
+          <a href="r02.html" target="_blank" class="blue">&gt;&gt;　送料について</a>
+        </p>
+        
+        <table border="0" cellspacing="0" cellpadding="0" class="border">
+          <tr>
+            <td width="120" class="td-title">利用可能カード</td>
+            <td>
+            	<img src="https://s.yimg.jp/images/store/common/c_logo_01.gif" width="50" height="50" alt="VISA">
+            	<img src="https://s.yimg.jp/images/store/common/c_logo_02.gif" width="50" height="50" alt="Master">
+            	<img src="https://s.yimg.jp/images/store/common/c_logo_03.gif" width="50" height="50" alt="JCB">
+            	<img src="https://s.yimg.jp/images/store/common/c_logo_04.gif" width="50" height="50" alt="DINERS">
+            	<img src="https://s.yimg.jp/images/store/common/c_logo_05.gif" width="50" height="50" alt="AMEX">
+            	<img src="https://s.yimg.jp/images/payment/common/pc_ico_yj.png" width="50" height="50" alt="Yahoo! JAPANカード">
+            </td>
+          </tr>
+          <tr>
+            <td class="td-title">お支払い回数</td>
+            <td>1,3,6回が可能です</td>
+          </tr>
+          <tr>
+            <td class="td-title">与信処理のタイミング</td>
+            <td>ご注文時点で与信処理します。</td>
+          </tr>
+          <tr>
+            <td class="td-title">請求処理のタイミング</td>
+            <td>発送完了後に処理します。</td>
+          </tr>
+          
+          <tr>
+            <td class="td-title">注意事項</td>
+            <td>
+              <ul>
+                <li>クレジット決済の際にエラーが出た場合には発送手配をお止めし、メールにてご連絡いたします。</li>
+                <li>お客様と異なる名義のクレジットカードはご利用いただけません。</li>
+                <li>弊社ではSSLというシステムを利用しておりますので、カード番号は暗号化されて送信されます。</li>
+               
+              </ul>
+            </td>
+          </tr>
+        </table>
+        <div class="clear"></div>
+      </div>
+      <!-- / case -->
+
+      <!-- case -->
+      <a name="payment_03" id="payment_03" ></a>
+      <div class="case clearfix">
+        <h2 class="sub-title">代金引換</h2>
+        <p class="pb30">お支払い総額は以下の通りです。</p>
+        <p class="pb10"><strong>【ご請求金額の内訳】</strong>　<span class="fb">商品代金合計（税込）＋送料（税込）＋代引手数料<!--：324円-->（税込）</span></p>
+        <p class="pb10">※代引手数料に関しましては、税込10,000円以下<span class="c-red">一律324円</span>です。
+        10000～29999円<span class="c-red">一律432円</span>です。
+        <br />購入総額が税込30000円以上の場合は
+          <span class="c-red">対応不可</span>になります。<br>
+          <!--（ <span class="f-red">4月1日より施行された消費税率改定に伴い、各種手数料が一部変更となっております。</span> <a href="https://www.rakuten.ne.jp/gold/e-zakkamania/guide/openwin/info0307.html" target="_blank" class="blue">&gt;&gt;　詳しくはこちら</a> ）-->
+          </p><br>
+        <p class="pb10">ポイントをご利用の場合等、Yahoo!ショッピングから自動で配信される確認メールの金額と異なる場合がございます。<br>
+          後ほど当店からお送りするメールをご確認の上、お手続きください。</p>
+        <p>
+          <a href="r02.html" target="_blank" class="blue">&gt;&gt;　送料について</a>
+        </p>
+        
+        <table width="100%" border="0" cellpadding="0" cellspacing="0" class="border">
+          <tr>
+            <td width="120" class="td-title">配送業者</td>
+            <td>佐川急便(他の運送会社の可能性あり)<br>
+              ※配送業者はお選びいただけません。</td>
+          </tr>
+          <tr>
+            <td class="td-title">お支払いのタイミング</td>
+            <td>商品配達時に配送員にお支払いください。</td>
+          </tr>
+          <tr>
+            <td class="td-title">代引手数料</td>
+            <td>
+              <p>※代引手数料に関しましては、税込10,000円以下一律324円です。<br>
+                10000～29999円一律432円です。<br />
+              	<span class="fb">購入総額が税込30000円以上の場合は<span class="c-red"><b>対応不可</b></span>になります。</span>
+              </p>
+            </td>
+          </tr>
+          
+          <tr>
+            <td class="td-title">注意事項</td>
+            <td>
+              <ul>
+                <li>代引きの場合は、現金のみの取り扱いとなります。</li>
+                <li>代引きの上限金額は30万円となります。</li>
+                <li>【翌日配達】対応が可能です。</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+        <div class="clear"></div>
+      </div>
+      <!-- / case -->
+
+      <!-- case -->
+      <a name="payment_04" id="payment_04"></a>
+      <div class="case clearfix">
+        <h2 class="sub-title">銀行振込</h2>
+
+        <p class="pb10"> 【ご請求金額の内訳】　商品金額合計（税込）＋送料（税込）</p>
+        <p class="pb10"><span class="fb">各金融機関ごとにお支払い限度額が異なります。お客様がご契約の金融機関にお確かめください。</span><br>
+          <br>
+          <span class="fb">銀行振込（ペイジー）は左記のペイジーマークがあるATMやインターネットバンキングからお支払いいただける決済サービスです。国内のほとんどの金融機関（郵便局、銀行、信用金庫、労働金庫、農漁協）でご利用いただけます。</span><br>
+          <br>
+        </p>
+        <p>※詳細については<a href="https://www.yahoo-help.jp/app/answers/detail/p/599/a_id/40205/" class="blue">ヘルプ</a>をご参照ください。<br /><br />
+        </p>
+        
+        <table border="0" cellspacing="0" cellpadding="0" class="border">
+
+          <tr>
+            <td class="td-title">お振込先</td>
+            <td>
+三井住友銀行<br />
+砂町支店<br />
+普通<br />
+口座番号　3993671<br />
+名義　ヤマダイサム<br />
+
+            </td>
+          </tr>
+          <tr>
+            <td class="td-title">お支払いのタイミング</td>
+            <td><span class="fb">ご注文後5営業日以内</span>にお願い致します。</td>
+          </tr>
+          <tr>
+            <td class="td-title">振込手数料</td>
+            <td>お客様のご負担となります。お振込時にお確かめくださいませ。</td>
+          </tr>
+          <tr>
+            <td class="td-title">入金確認</td>
+            <td>ご入金確認後、入金確認と発送のご連絡メールを送信しております。<br>
+              お振込から<span class="fb">通常1営業日</span>お時間をいただいております。</td>
+          </tr>
+          
+          <tr>
+            <td class="td-title">注意事項</td>
+            <td>
+              <ul>
+                <li><span class="fb">ご注文日から7営業日以内にご入金のない場合、キャンセルとみなします。</span>ご注意くださいませ。</li>
+                <li>ご入金確認の目安につきましては、金融機関の営業日その他諸事情により若干前後する場合がございます。</li>
+                <li>長期休暇を挟む場合、システム上通常より入金確認にお時間を頂戴する場合がございます。</li>
+                <li>当店では専用の振込用紙を発行しておりません。ATMをご利用いただくか、窓口からお振込される場合は各金融機関に備え付けの振込用紙をご利用ください。</li>
+                <li>【翌日配達】対応できません。</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+        <div class="clear"></div>
+      </div>
+      <!-- / case -->
+
+
+      <!-- case -->
+      <a name="payment_10" id="payment_10"></a>
+      <div class="case clearfix">
+        <h2 class="sub-title">コンビニ決済</h2>
+
+        <table border="0" cellspacing="0" cellpadding="0" class="border">
+          <tr>
+            <td width="120" class="td-title">コンビニ（セブン-イレブン、  ファミリーマート、ローソン、その他）</td>
+            <td>
+              <img src="https://s.yimg.jp/images/store/cart/cart_ic_02.gif" alt="">
+              <img src="https://s.yimg.jp/images/store/cart/cart_ic_03.gif" alt="">
+              <img src="https://s.yimg.jp/images/store/cart/cart_ic_04.gif" alt="">
+              <img src="https://s.yimg.jp/images/store/cart/cart_ic_05.gif" alt="">
+              <img src="https://s.yimg.jp/images/store/cart/cart_ic_06.gif" alt="">
+              <img src="https://s.yimg.jp/images/store/cart/cart_ic_07.gif" alt="">
+              <img src="https://s.yimg.jp/images/shp_front/pc/_library/images/common/ico_logo_01.png" width="80" height="20" alt="">
+            </td>
+          </tr>
+          <tr>
+            <td class="td-title">決済手数料</td>
+            <td>お客様のご負担となります。</td>
+          </tr>
+          <tr>
+            <td class="td-title">入金確認</td>
+            <td>
+            	 ご入金確認後、入金確認と発送のご連絡メールを送信しております。<br />お振込から通常1営業日お時間をいただいております。
+
+            </td>
+          </tr>
+          <tr>
+            <td class="td-title">注意事項</td>
+            <td>
+              <ul>
+                <li><span class="fb">※詳細については<a href="https://www.yahoo-help.jp/app/answers/detail/p/599/a_id/40204/" class="blue">ヘルプ</a>をご参照ください。 </span></li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+        <div class="clear"></div>
+      </div>
+      <!-- / case -->
+      
+      
+      
+      <!-- case -->
+      <a name="payment_11" id="payment_11"></a>
+      <div class="case clearfix">
+        <h2 class="sub-title">Yahoo!マネー/預金払い</h2>
+        
+        <p><span class="fb">【ご請求金額の内訳】　商品代金合計（税込）＋送料（税込）</span></p><br />
+        <table border="0" cellspacing="0" cellpadding="0" class="border">
+          <tr>
+            <td width="120" class="td-title">Yahoo!マネー/預金払いについて</td>
+            <td>
+            「Yahoo!マネー」は、1円単位でお買い物に利用できる電子マネーです。チャージは預金払いに対応している口座から行うことができます。<br />
+「預金払い」は、銀行などの預金残高を利用して手数料無料で支払いができます。<br />
+Yahoo!マネー/預金払いのご利用方法、詳細は <a href="https://wallet.yahoo.co.jp/promotion/campaign/" class="blue">こちら</a>をご確認ください。<br />
+            </td>
+          </tr>
+          <tr>
+            <td class="td-title">処理のタイミング</td>
+            <td>ご注文時点で処理します。</td>
+          </tr>
+          <tr>
+            <td class="td-title">引き落とし名義</td>
+            <td>
+            	 ワイエムワールド
+            </td>
+          </tr>
+          <tr>
+            <td class="td-title">注意事項</td>
+            <td>
+              <ul>
+                <li>万が一、決済エラーが出た場合には発送手配をお止めし、メールにてご連絡いたします。</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+        <div class="clear"></div>
+      </div>
+      <!-- / case -->
+      
+      
+      <!-- case -->
+      <a name="payment_12" id="payment_12"></a>
+      <div class="case clearfix">
+        <h2 class="sub-title">ソフトバンク・ワイモバイルまとめて支払い</h2>
+        
+        <p><span class="fb">【ご請求金額の内訳】　商品代金合計（税込）＋送料（税込）</span></p><br />
+        <table border="0" cellspacing="0" cellpadding="0" class="border">
+          <tr>
+            <td width="120" class="td-title"><img src="https://s.yimg.jp/images/store/common/c_logo_softbank.gif" alt="" /></td>
+            <td>
+Yahoo!ショッピングのお買い物代金を月々の携帯電話やスマートフォンのご利用料金と一緒にお支払いいただけます。<br />
+詳細は<a href="https://www.yahoo-help.jp/app/answers/detail/p/599/a_id/40206" class="blue">ヘルプ</a>でご確認ください。
+            </td>
+          </tr>
+          <tr>
+            <td class="td-title">お支払いのタイミング</td>
+            <td>ご注文後3営業日以内にお願い致します。【ご注文確認とお礼】メールにて期限日をご案内します。</td>
+          </tr>
+          <tr>
+            <td class="td-title">入金確認のタイミング</td>
+            <td>
+            	 お振込から通常1営業日お時間をいただいております。ご入金確認後、入金確認と発送のご連絡メールを送信します。
+            </td>
+          </tr>
+          <tr>
+            <td class="td-title">注意事項</td>
+            <td>
+              <ul>
+                <li>※ご注文時点にお支払い手続きが完了していない場合は、注文履歴画面からお支払い手続きを行ってください。</li>
+                <li>【ご注文の確認とお礼】メールにてご案内しております期限までにご入金確認ができない場合、キャンセル手続きをさせていただきます。 </li>
+                <li>※金額変更・修正はできません。金額変更となるご注文の場合は自動的にキャンセルとなります。</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+        <div class="clear"></div>
+      </div>
+      <!-- / case -->
+      
+      
+      
+      <!-- case -->
+      <a name="payment_14" id="payment_14"></a>
+      <div class="case clearfix">
+        <h2 class="sub-title">ドコモ ケータイ払い</h2>
+        
+        <p><span class="fb">【ご請求金額の内訳】　商品代金合計（税込）＋送料（税込）</span></p><br />
+        <table border="0" cellspacing="0" cellpadding="0" class="border">
+          <tr>
+            <td width="120" class="td-title"><img src="https://s.yimg.jp/images/store/common/c_logo_docomo.gif" alt="" /></td>
+            <td>
+Yahoo!ショッピングのお買い物代金を月々の携帯電話やスマートフォンのご利用料金と一緒にお支払いいただけます。
+詳細は<a href="https://www.yahoo-help.jp/app/answers/detail/p/599/a_id/40206" class="blue">ヘルプ</a>でご確認ください。
+            </td>
+          </tr>
+          <tr>
+            <td class="td-title">お支払いのタイミング</td>
+            <td>ご注文後3営業日以内にお願い致します。【ご注文確認とお礼】メールにて期限日をご案内します。</td>
+          </tr>
+          <tr>
+            <td class="td-title">入金確認のタイミング</td>
+            <td>
+            	 お振込から通常1営業日お時間をいただいております。ご入金確認後、入金確認と発送のご連絡メールを送信します。
+            </td>
+          </tr>
+          <tr>
+            <td class="td-title">注意事項</td>
+            <td>
+              <ul>
+                <li>※ご注文時点にお支払い手続きが完了していない場合は、注文履歴画面からお支払い手続きを行ってください。 </li>
+                <li>【ご注文の確認とお礼】メールにてご案内しております期限までにご入金確認ができない場合、キャンセル手続きをさせていただきます。 </li>
+                <li>※金額変更・修正はできません。金額変更となるご注文の場合は自動的にキャンセルとなります。</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+        <div class="clear"></div>
+      </div>
+      <!-- / case -->
+      
+      
+      <!-- case -->
+      <a name="payment_13" id="payment_13"></a>
+      <div class="case clearfix">
+        <h2 class="sub-title">auかんたん決済</h2>
+        
+        <p><span class="fb">【ご請求金額の内訳】　商品代金合計（税込）＋送料（税込）</span></p><br />
+        <table border="0" cellspacing="0" cellpadding="0" class="border">
+          <tr>
+            <td width="120" class="td-title"><img src="https://s.yimg.jp/images/store/common/c_logo_au_wallet.gif" alt="" /></td>
+            <td>
+Yahoo!ショッピングのお買い物代金を月々の携帯電話やスマートフォンのご利用料金と一緒にお支払いいただけます。
+詳細は<a href="https://www.yahoo-help.jp/app/answers/detail/p/599/a_id/40206" class="blue">ヘルプ</a>でご確認ください。
+            </td>
+          </tr>
+          <tr>
+            <td class="td-title">お支払いのタイミング	</td>
+            <td>ご注文後3営業日以内にお願い致します。【ご注文確認とお礼】メールにて期限日をご案内します。</td>
+          </tr>
+          <tr>
+            <td class="td-title">入金確認のタイミング</td>
+            <td>
+            	 お振込から通常1営業日お時間をいただいております。ご入金確認後、入金確認と発送のご連絡メールを送信します。
+            </td>
+          </tr>
+          <tr>
+            <td class="td-title">注意事項</td>
+            <td>
+              <ul>
+                <li>※ご注文時点にお支払い手続きが完了していない場合は、注文履歴画面からお支払い手続きを行ってください。 </li>
+                <li>【ご注文の確認とお礼】メールにてご案内しております期限までにご入金確認ができない場合、キャンセル手続きをさせていただきます。 </li>
+                <li>※金額変更・修正はできません。金額変更となるご注文の場合は自動的にキャンセルとなります。</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+        <div class="clear"></div>
+      </div>
+      <!-- / case -->
+      
+      <!-- case -->
+      <a name="payment_15" id="payment_15"></a>
+      <div class="case clearfix">
+        <h2 class="sub-title">ご請求金額について</h2>
+        
+        <p>
+        	ご注文後に、当店より 【ご注文の確認とお礼】メール を送付致します。メールに記載のお支払い総額が最終確定金額になりますので、必ずメールをご確認お願いします。<br />
+※請求金額は注文後すぐに届くYahoo!ショッピングの自動配信メールの内容とは異なる場合がございます。
+        </p><br />
+        
+        <div class="clear"></div>
+      </div>
+      <!-- / case -->
+      
+      
+      
+    </div>
+    </div>
+	</body>
+</html>

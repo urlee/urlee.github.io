@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+<title>ワイエムワールド - Yahoo!ショッピング - Ｔポイントが貯まる！使える！ネット通販</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="../common/css/reset.css" rel="stylesheet">
+<link href="../common/css/style.css" rel="stylesheet">
+<link href="../common/css/header20180322.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div id="search">
+	<form action="https://store.shopping.yahoo.co.jp/yhworld/search.html#CentSrchFilter1" method="get" target="_top">
+  	<p class="search-botton">
+	  	<input type="hidden" name="sv" value="6" />
+	  	<input class="search" type="text" name="p" autocapitalize="off">
+	  	<label class="submit">
+	    	<input src="../common/img/main-search.png" type="image" value="????">
+	    </label>
+  	</p>
+  	<!--<p class="search__head">価格</p>
+  	<div class="search-price pure-g">
+    	<div class="search-price__list pure-u-1-2">
+    		<input id="price-min" name="min" type="text" value="" size="10" maxlength="8" class="search-price__text">
+      	<label for="price-min" class="search-price__label">円</label>
+      </div>
+      <div class="search-price__list pure-u-1-2">
+      	<input id="price-min" name="max" type="text" value="" size="10" maxlength="8" class="search-price__text">
+      	<label for="price-min" class="search-price__label">円</label>
+      </div>
+  	</div>
+  	<div class="search-price__flex">
+    	<input type="submit" class="search-price__submit" value="検索" />
+    	<input type="reset" class="search-price__reset" value="×リセット" />
+    </div>-->
+	</form>
+  <!-- <p class="search__detail"><a href="/gold/culture/html/sp/search.html">詳細検索はこちら</a></p> -->
+  <div id="search-rank">
+  	<p class="side__head side__head-kana">人気検索ワード</p>
+  	<ul id="r-search-rank">
+  		<li><a href="https://store.shopping.yahoo.co.jp/yhworld/coolulu.html" target="_top">
+  			<span class="number">1</span>coolulu(クルル)
+  		</a></li>
+    	<li><a href="javascript:;" target="_top"><span class="number">2</span>マイケルコース</a></li>
+    	<li><a href="javascript:;" target="_top"><span class="number">3</span>フルラ 財布</a></li>
+    	<li><a href="javascript:;" target="_top"><span class="number">4</span>2018秋冬新作</a></li>
+    	<li><a href="javascript:;" target="_top"><span class="number">5</span>プリアージュ</a></li>
+    	<li><a href="javascript:;" target="_top"><span class="number">6</span>レスポートサック</a></li>
+    	<li><a href="javascript:;" target="_top"><span class="number">7</span>時計 レディース</a></li>
+    	<li><a href="javascript:;" target="_top"><span class="number">8</span>マークジェイコブス</a></li>
+    	<li><a href="javascript:;" target="_top"><span class="number">9</span>マフラー</a></li>
+    	<li><a href="javascript:;" target="_top"><span class="number">10</span>モンクレール</a></li>
+    	<li><a href="javascript:;" target="_top">モンクレール</a></li>
+    </ul>
+  </div>
+  <!-- search-rank -->
+</div>
+<!-- search -->
+
+<script src="../../common/js/jquery.min.js"></script>
+<script charset="utf-8" src="../common/js/header-2.js" type="text/javascript"></script>
+<script>
+$(function() {
+    $("a#modal").on("click touchstart", function() {
+        $("#r-nav-search").toggle(false);
+        $("#r-camp").toggle(true)
+    })
+});
+$(function() {
+    $("a#h-s-btn").on("click touchstart", function() {
+        $("#r-camp").toggle(false);
+        $("#r-nav-search").toggle(true)
+    })
+});
+</script>
+</body>
+</html>

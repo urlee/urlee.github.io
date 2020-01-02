@@ -1,0 +1,184 @@
+﻿@charset "utf-8";
+
+/*--リセット--*/
+a:active {
+	color: #666;
+	opacity: 0.7;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #f69;
+	text-decoration:underline;
+}
+a:hover {
+	color: #f69;
+	text-decoration:underline;
+}
+
+a:hover img {
+	opacity: 0.7;
+}
+
+.shopName a:hover {
+	color: #666;
+	text-decoration: none;
+}
+
+.category_itemnamelink {
+	color: #f69;
+	text-decoration:none;
+}
+.category_itemnamelink:active {
+	color: #f69;
+	opacity: 0.7;
+	text-decoration:underline;
+}
+.category_itemnamelink:hover {
+	color: #f69 !important;
+	text-decoration:underline;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+a img, img a {
+	border: none;
+}
+
+.mcode_title {
+	margin-top: 10px;
+}
+
+.mcode_bg {
+	width: 750px;
+	background-color: #efede6;
+	margin: 0 auto 10px;
+	padding-bottom: 5px;
+}
+
+.mcode_box {
+	width: 736px;
+	margin: 0 auto;
+	padding: 7px;
+}
+
+.mcode_item {
+	width: 300px;
+	text-align: left;
+	float: left;
+	margin-right: 0;
+}
+
+.mcode_item ul {
+	list-style: none;
+	margin: 5px 0;
+	padding: 0;
+}
+
+.mcode_item li {
+	float: left;
+	margin: 0 5px 0 0;
+	padding: 0;
+}
+
+.mcode_item li img {
+	width: 65px;
+	height: 94px;
+	background: url(../img/noitem.gif) no-repeat;
+	border: 0;
+}
+
+.mcode_item ul li a{
+	border-style: none;
+}
+
+.mcode_model2 {
+	font-size: 12px;
+	line-height: 15px;
+	margin: 5px 0 5px 15px;
+	padding: 0;
+}
+
+.mcode_model{
+	font-size: 15px;
+	font-weight: bold;
+	margin: 5px 0;
+	padding: 0;
+}
+
+/*--------------商品ページ上部リンク--------------------------*/
+
+.hd_btn{
+    position: absolute;
+    top: 195px;
+    left: 0;
+}
+
+.hd{
+	position: fixed;
+	top:0;
+	left:0;
+	z-index:2;
+}
+
+/*-----------------イベントバナー-----------------------------*/
+#banner_sale {
+	width:100%;
+	background: #fff;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index:9999;
+	display:block;
+	overflow: hidden;
+}
+
+/*-------------------楽天仕様を消す--------------------------------*/
+
+#itemImageSlider{
+	margin:53px 0 32px 0;
+}
+
+#itemReview .blockWrap, #relatedKeywords {
+	display:none
+}
+
+#ipnsh-header {
+    position: relative;
+    background: #fff;
+    z-index: 999;
+}
+
+#rstTopSearch{
+    z-index: 999;
+    background: #fff;
+    position: relative;
+}
+
+/*.ris-point-display-banner {
+	z-index:60008523645856442 !important;
+}
+
+.ris-point-disp-wrap {
+	z-index:60008523645856442 !important;
+}*/
+
+/*#shopInformation{
+	display:none;
+}*/
+
+.itemIcons{
+	display: none;
+}
+
+.RVideoPF-Player-Html5Player .RVideoPF-Player-Html5Player-Video {
+	background-color:#FFFFFF;important
+}
+
+.RVideoPF-Player-TitleImagePlugin {
+    background-color:#FFFFFF;important
+}

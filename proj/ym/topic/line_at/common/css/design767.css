@@ -1,0 +1,61 @@
+@media screen and (min-width:501px) and (max-width:767px){
+	#main_contents ul{
+	width: 500px;
+	margin: 0 auto 76px;
+	text-align: justify;
+	display: inline-block;
+}
+#main_contents ul li{
+	display:inline-block;
+	width: 150px;
+	height:150px;
+	margin: 0 1%;
+}
+#main_contents ul li a{
+	display:block;
+	height:150px;
+	width:150px;
+}
+#main_contents .mainimg01 {
+	background-size:150px;
+}
+#main_contents .mainimg02 {
+	background-size:150px;
+}
+#main_contents .mainimg03 {
+	background-size:150px;
+}
+div#ranking1_left {
+  width: 50%;
+  float: left;
+  /* position: relative; */
+  overflow: hidden;
+}
+div#ranking1_right {
+  width: 50%;
+  float: left;
+  /* position: relative; */
+}
+div#ranking1 {
+	position:relative;
+	margin: 0 auto;
+}div#ranking1 h3{
+	width:50%;
+	float: none;
+}
+div#ranking1 p {
+	width:90%;
+	margin: 0 auto;
+}
+div#ranking1 a {
+  width: 190px;
+  height: 25px;
+  background: url(../img/more_rank.png);
+  margin: 0 auto 20px;
+  float: none;
+  display: block;
+}
+.imgrank01 {
+	width:100%;
+}
+}

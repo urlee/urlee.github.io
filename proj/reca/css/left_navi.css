@@ -1,0 +1,194 @@
+* {
+	margin:0;
+	list-style:none;
+	font-family:"ヒラギノ逞ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+	padding:0;
+}
+
+a img { 
+	border:none;
+}
+
+.left_navi {
+	width:170px;
+	margin-right:100px;
+}
+
+
+#searchs ul{
+	list-style:none;
+	padding:0px 10px;
+	margin:10px 0px;
+	width:168px;
+	}
+	
+#searchs li{
+	list-style:none;
+	font-size:12px;
+	font-family:"ＭＳ Ｐゴシック", Osaka, "ヒラギノ逞ゴ Pro W3";
+	line-height:20px;
+	width:170px;
+	}
+	
+#searchs li a{
+	text-decoration:none;
+	color: #696969;
+	}
+	
+#searchs li a:hover {
+    color:#696969;
+    text-decoration:underline;
+    }
+	
+#searchs span{
+	font-size:10px;
+	}
+	
+#searchs .select{
+	color: #FFFFFF;
+	list-style:none;
+	font-weight:bold;
+	font-size:12px;
+	font-family:"ＭＳ Ｐゴシック", Osaka, "ヒラギノ逞ゴ Pro W3";
+	line-height:20px;
+	margin: 0px;
+	width:130px;
+	}
+		
+
+.leftrenew {
+	padding:0px;
+	width:170px;
+	}
+
+.leftrenew li {
+		list-style:none;
+
+}
+
+.leftrenew li img{
+	margin-bottom:6px;
+	padding:0px;
+	width:168px;
+	}
+	
+	
+	.leftrenew p a{
+	text-decoration:none;
+	color: #696969;
+	}
+	
+	.leftrenew p a:hover {
+    color:#696969;
+    text-decoration:underline;
+    }
+	
+	.leftrenew p {
+		color: #696969;
+	font-size:12px;
+	font-family:"ＭＳ Ｐゴシック", Osaka, "ヒラギノ逞ゴ Pro W3";
+	}
+	
+	
+	
+	
+	#all{
+	margin:10px;
+	}
+
+#box{
+	background-color:#FFFFFF;
+	width:150px;
+	margin:10px 10px 20px 10px;
+	}
+
+#box ul{
+	list-style:none;
+	margin:0px;
+	padding:10px;
+	width:150px;
+	}
+
+#box li{
+	list-style:none;
+	font-size:12px;
+	font-family:"ＭＳ Ｐゴシック", Osaka, "ヒラギノ逞ゴ Pro W3";
+	line-height:18px;
+	margin:0px;
+	width:130px;
+	}
+	
+#reco {
+	width:168px;
+	padding:0px;
+	margin-bottom:0px;
+	border:solid 1px #000000;
+	background:url(../img/left/reco_tit.gif) no-repeat left top;
+	}
+
+#reco_box{
+	width:168px;
+	margin:0px;
+	padding-top:46px;
+	text-align:center;
+	}
+
+#reco-box{
+	width:170px;
+	margin:0px;
+	text-align:center;
+	font-size:10px;
+	font-family:"ＭＳ Ｐゴシック", Osaka, "ヒラギノ逞ゴ Pro W3";
+	line-height:14px;
+	text-align:center;
+	}
+	
+#reco-box td img{
+	border:solid 1px #999999;
+	}
+
+#reco_box ul{
+	list-style:none;
+	margin:0px;
+	padding:10px 8px 10px 8px;
+	width:168px;
+	background-color:#FFFFFF;
+	border-bottom:1px solid #000000;
+	}
+
+#reco_box li{
+	list-style:none;
+	font-size:10px;
+	font-family:"ＭＳ Ｐゴシック", Osaka, "ヒラギノ逞ゴ Pro W3";
+	line-height:14px;
+	text-align:center;
+	margin:0px;
+	width:150px;
+	text-decoration: none;
+	}
+	
+#reco_box li img{
+	margin:0px;
+	padding:0px;
+	width:150px;
+	}
+	
+.reco_p{
+	font-size:12px;
+	font-weight:bold;
+	font-family:"ＭＳ Ｐゴシック", Osaka, "ヒラギノ逞ゴ Pro W3";
+	line-height:14px;
+	margin:0px;
+	width:150px;
+	color:#ff6699;
+	text-decoration: none;
+	}
+
+#ranking #box li{
+	margin:0px 0px 15px 0px;
+	}
+
+	
+#box ul img{
+	margin-bottom:5px;
+	}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="shortcut icon" href="images/axes_favicon.ico" type="image/vnd.microsoft.icon">
+		<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript">
+			 $(function(){
+			 	 $('a[href*=#],area[href*=#]').click(function() {  
+                console.log(this.pathname)  
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {  
+                    var $target = $(this.hash);  
+                    $target = $target.length && $target || $('[name=' + this.hash.slice(1) + ']');  
+                    if ($target.length) {  
+                        var targetOffset = $target.offset().top;  
+                        $('html,body').animate({  
+                                    scrollTop: targetOffset  
+                                },  
+                                500);  
+                        return false;  
+                    }  
+                }  
+            }); 
+			 });
+           
+		</script>
+		<style>
+			.all {
+				width: 900px;
+				float: left;
+				margin: 0 auto;
+				
+			}
+			.divleft {
+				width: 200px;
+				margin-right: 20px;
+				float: left;
+			}
+			.lr {
+				width: 1120px;
+				margin: 0 auto;
+			}
+		</style>
+	</head>
+	<body>
+		<div style="height: 100px;">
+			
+		</div>
+		<div style="margin: 0 auto;width: 970px;">
+			<iframe src="top.html" width="970" height="220" frameborder="0" scrolling="no" marginwidth="0" marginheight="0"></iframe>
+		</div>
+		<div class="lr">
+			<div class="divleft">
+			<iframe src="left.html" width="200" height="500" frameborder="0" scrolling="no" marginwidth="0" marginheight="0"></iframe>
+		</div>
+		<div class="all">
+		<div class="nav-category clearfix">
+    <ul>
+    <li><a href="#mailmag_01">ご注文内容の確認方法と購入履歴</a></li>
+    <li><a href="#mailmag_02">ご注文確定後の内容変更・キャンセルについて</a></li>
+    <li><a href="#mailmag_03">出荷後のキャンセル・再発送</a></li>
+    </ul><div class="clear"></div>
+    </div>
+    
+    
+		<div class="case clearfix">
+    <h2 class="sub-title" id="mailmag_01">ご注文内容の確認方法と購入履歴</h2><br />
+	    <p class="pb10"><span class="fb">Yahoo!JAPAN ID・パスワードを利用してお買い物している場合</span></p><br />
+	    <p class="pb10"><a href="https://odhistory.shopping.yahoo.co.jp/cgi-bin/history-list" class="blue">>>　購入履歴</a> ご注文履歴をご確認できます。</p><br>
+	    <p class="pb10">ご注文受付状況の確認について</p>
+	    <p class="pb10">「注文詳細を確認する」のボタンから、お届け先や利用ポイント数、合計金額、受付状況などご確認いただけます。</p><br />
+	    <p class="pb10"><span class="fb">Yahoo!JAPAN IDなしでお買い物をしている場合</span></p>
+	    <p class="pb10">当店からお送りしている注文確認メールにてご確認ください。</p><br />
+	    <p class="pb10"><span class="fb">注文確認メール</span></p>
+	    <p class="pb10">ご注文が確定すると「ご注文受付完了のお知らせ」メールが送られます。こちらで注文の内容がご確認いただけます。</p><br />
+	<br /><br />
+	    <div class="clear"></div>
+    </div>
+    
+		 <div class="case clearfix">
+    <h2 class="sub-title" id="mailmag_02">ご注文確定後の内容変更・キャンセルについて</h2><br />
+    <p class="pb10">基本的に受け付けておりません。</p><br /><br />
+<br /><br />
+    
+    <div class="clear"></div>
+    </div>
+   
+    <div class="case clearfix">
+    <h2 class="sub-title" id="mailmag_03">出荷後のキャンセル・再発送</h2><br />
+    <p class="pb20">
+<span class="c-red">商品発送後のキャンセルは</span>原則としてお受けしておりません。<br />
+キャンセルが続く場合は、キャンセルに掛かりました費用をご請求させていただくことや、<br />
+新たなご購入をお断りすることがありますのでご注意ください。<br /><br />
+長期ご不在等により、商品が引き戻った場合の再発送はいたしておりません。<br />
+ご注文はキャンセルさせていただきます。<br />
+商品をご購入いただける際には、お手数をお掛けいたしますが、新たにご注文下さい。
+    </p><br /><br /><br /><br />
+    </div>
+
+
+    </div>
+    </div>
+	</body>
+</html>

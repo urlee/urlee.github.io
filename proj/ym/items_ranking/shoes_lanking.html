@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8" />
+<title>ワイエムワールド - Yahoo!ショッピング - Ｔポイントが貯まる！使える！ネット通販</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript">
+	<link class="item__link" href="../smp/common/css/style.css" rel="stylesheet" type="text/css" media="all">
+	<script type="text/javascript" src="../common/js/jquery-1.10.2.min.js"></script>
+	<!--<script type="text/javascript" src="../common/js/ranking.js" charset="utf-8"></script>-->
+	<script type="text/javascript">
+	$(function(){
+		if($('.item__product').length > 0){
+			var count = 20; // デフォルトで表示する文字数
+			$('.item__product').each(function(){
+				var target = $(this),
+				fullTxt = target.text();
+				if(fullTxt.length > count){
+					target.text(fullTxt.substr(0,count) + ' … ');
+				}
+			});
+		}
+	});
+	</script>
+	<style type="text/css">
+		p.item__product{
+			height: 48px;
+		}
+	</style>
+</head>
+
+<body>
+
+<!--- brand ranking start --->
+<div class="ranking_area">
+  <div class="ranking">
+    <div id="tabContents">
+      <!-- Shoes -->
+      <div class="main" style="background:none;">
+     	<div class="ranking-main__slide">
+        <ul class="item pure-g">
+          <li class="item__list item__list-rank pure-u-1-3">
+<a class="item__link" href="javascript:;" target="_top"><img src="images/fp-i73-001_1.jpg" class="jhover">
+<p class="item__product">フィットフロップ スニーカー fitflop I73 001 ブラック</p>
+<p class="item__price">&yen;16,632</p></a>
+          </li>
+          <li class="item__list item__list-rank pure-u-1-3">
+<a class="item__link" href="javascript:;" target="_top"><img src="images/fp-509-001_1.jpg" class="jhover">
+<p class="item__product">フィットフロップ サンダル fitflop 509 001 NOVY SLIDE サンダル BLACK</p>
+<p class="item__price">&yen;11,340</p></a>
+          </li>
+          <li class="item__list item__list-rank pure-u-1-3">
+<a class="item__link" href="javascript:;" target="_top"><img src="images/fp-a32-001_1.jpg" class="jhover">
+<p class="item__product">フィットフロップ シューズ fitflop A32 001 SPORTY MARY JANE BLACK</p>
+<p class="item__price">&yen;20,520</p></a>
+          </li>
+          <li class="item__list item__list-rank pure-u-1-3">
+<a class="item__link" href="javascript:;" target="_top"><img src="images/fp-c45-277_1.jpg" class="jhover">
+<p class="item__product">フィットフロップ ブーツ fitflop C45 277 ブラウン</p>
+<p class="item__price">&yen;19,656</p></a>
+          </li>
+          <li class="item__list item__list-rank pure-u-1-3">
+<a class="item__link" href="javascript:;" target="_top"><img src="images/fp-b88-091_1.jpg" class="jhover">
+<p class="item__product">フィットフロップ シューズ fitflop B88 091 SHUV FELT KHAKI</p>
+<p class="item__price">&yen;9,720</p></a>
+          </li>
+          <li class="item__list item__list-rank pure-u-1-3">
+<a class="item__link" href="javascript:;" target="_top"><img src="images/fp-i65-486_1.jpg" class="jhover">
+<p class="item__product">フィットフロップ シューズ fitflop I65 486 ブラック</p>
+<p class="item__price">&yen;17,388</p></a>
+          </li>
+          <li class="item__list item__list-rank pure-u-1-3">
+<a class="item__link" href="javascript:;" target="_top"><img src="images/fp-i73-137_1.jpg" class="jhover">
+<p class="item__product">フィットフロップ スニーカー fitflop I73 137 ベージュ</p>
+<p class="item__price">&yen;16,632</p></a>
+          </li>
+          <li class="item__list item__list-rank pure-u-1-3">
+<a class="item__link" href="javascript:;" target="_top"><img src="images/fp-c63-054_1.jpg" class="jhover">
+<p class="item__product">フィットフロップ fitflop C63 054 グレー</p>
+<p class="item__price">&yen;10,584</p></a>
+          </li>
+          <li class="item__list item__list-rank pure-u-1-3">
+<a class="item__link" href="javascript:;" target="_top"><img src="images/fp-b88-240_1.jpg" class="jhover">
+<p class="item__product">フィットフロップ シューズ fitflop B88 240 SHUV FELT BUNGEE CORD</p>
+<p class="item__price">&yen;9,720</p></a>
+          </li>
+        </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- brand ranking end -->
+</body>
+</html>

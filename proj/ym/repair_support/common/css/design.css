@@ -1,0 +1,788 @@
+@font-face {
+	font-family: 'crimsontextroman';
+	src: url(./font/face/crimsontext-roman.ttf);
+}
+body {
+	font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", sans-serif;
+}
+#header {
+	width:950px;
+	margin:0 auto;
+}
+
+/* for PC */
+
+#head_navi, #footer_frame {
+	width: 100%;
+}
+#header_frame {
+	width: 100%;
+}
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.pcb{display:block;}
+.spb{display:none;}
+#pc_header, #pc_footer {
+	display: block;
+}
+
+#sp_header, #sp_footer {
+	display: none;
+}
+
+#wrapper {
+	background: url(../img/patan_gray.png);
+	background-attachment: fixed;
+}
+.container1 {
+	max-width: 950px;
+	margin: 0 auto 0;
+	padding: 80px 0;
+}
+.container2 {
+	max-width: 100%;
+	margin: 0 auto 0;
+	padding: 90px 0 100px;
+}
+#main_contents h1 {
+	margin-bottom: 82px;
+	margin: 0 -50% 0;
+}
+.mainhead {
+	position:relative;
+	top: 0;
+	left: 0;
+	right: 0;
+	font-size:20px;
+	color: #000;
+}
+#main_contents{
+	max-width: 100%;
+	text-align:center;
+}
+#main_contents > img {
+	max-width: 100%;
+}
+#main_contents .points ul{
+	width: 780px;
+	margin: 0 auto 50px;
+	text-align: justify;
+	display: inline-block;
+}
+#main_contents .points ul:after{
+	  content: "";
+      display: inline-block;
+      width: 100%;
+      line-height: 0;
+      height: 0;
+}
+#main_contents .points ul li{
+	display:inline-block;
+	width: 30%;
+	margin: 0 1%;
+	text-align: center;
+}
+#main_contents .points ul li div.circle {
+	text-align: center;
+	display:inline-block;
+	width: 115px;
+	height: 115px;
+	margin: 0 1%;
+	border: 3px solid #000;
+	border-radius: 50%;
+	margin-bottom: 20px;
+	font-family: 'Crimson Text', serif;
+	font-size: 48px;
+	line-height: 1.3
+}
+#main_contents .points ul li div.circle p {
+	font-family:"ÓÎÃ÷³¯", YuMincho, "¥Ò¥é¥®¥ÎÃ÷³¯ ProN W3", "Hiragino Mincho ProN", "HGÃ÷³¯E", "£Í£Ó £ÐÃ÷³¯", "£Í£Ó Ã÷³¯", serif;
+	font-size: 17px;
+	padding: 15px 0 5px;
+	font-weight: bold;
+}
+#main_contents .points ul li div.circle span {
+	border-bottom: 2px solid #000;
+	display: block;
+	width: 20px;
+	margin: 0 auto;
+}
+#main_contents .points ul li div.circle span.kone {
+	font-size: 12px;
+	position: relative;
+	bottom: 5px;
+}
+#main_contents .points ul li p.point_box {
+	font-weight: bold;
+    font-size: 20px;
+    line-height: 1.9;
+    background-size: 5px 38px;
+    background-repeat: repeat;
+    /* background-image: linear-gradient( 180deg, transparent 37px, #666 19px ); */
+    padding-bottom: 10px;
+    background-image: linear-gradient( 90deg, transparent 2px, #fff 1px ), linear-gradient( 180deg, transparent 36px, #d5d5d5 14px );
+}
+.point01 .kome {
+	font-size: 14px;
+	position: relative;
+	bottom: 5px;
+}
+.gray {
+	background-color: #f6f6f6;
+	padding: 90px 0 100px;
+}
+.caution {
+	line-height: 2;
+	font-size: 13px;
+}
+.contact {
+	width: 980px;
+	margin: 0 auto;
+	border: 3px solid #000;
+	padding: 70px 0 45px;
+	position: relative;
+}
+.contact h2 {
+    background-color: #f6f6f6;
+    font-size: 25px;
+    position: absolute;
+    top: -25px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: inline-block;
+    width: 66%;
+}
+.contact h2 span {
+    background-color: #f6f6f6;
+    font-size: 25px;
+    margin: 0 auto;
+    display: inline-block;
+    width: 93%;
+}
+.contact .tel, .notes .tel {
+	height: 48px;
+    width: 36px;
+	display: inline-block;
+}
+.contact a.tel_num, .notes a.tel_num {
+	font-family: 'Crimson Text', serif;
+    font-size: 60px;
+    display: inline-block;
+    color: #000;
+    position: relative;
+    top: -7px;
+    /*border-bottom: 1px solid #000;*/
+    line-height: 0.7;
+    font-weight: normal;
+}
+.contact p.red, .notes p.red {
+	color: #d84444;
+	font-size: 13px;
+	font-weight: bold;
+	margin-top: 10px;
+	letter-spacing: 0.1em;
+	font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", sans-serif;
+}
+.c_txt1 {
+	margin: 25px 0 40px;
+	font-weight: bold;
+}
+.text_s {
+	font-size: 13px;
+	line-height: 1.8;
+	font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", sans-serif;
+}
+.font16 {
+	font-size: 16px;
+}
+.font20 {
+	font-size: 20px;
+}
+.service h2,.about h2,.notes h2 {
+	font-size: 48px;
+	position: relative;
+	margin-bottom: 50px;
+	font-family: 'Playfair Display', serif;
+	font-weight: normal;
+}
+.service h2 span,.about h2 span,.notes h2 span {
+	font-size: 18px;
+    position: absolute;
+    top: 76px;
+    left: 0;
+    right: 0;
+}
+.service img.img2 {
+	margin: 70px auto 0;
+    width: 73%;
+}
+p.gothic {
+	font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", sans-serif;
+}
+.about img.img3 {
+	width: 240px;
+	height: 240px;
+	margin: 30px 0 30px;
+}
+.about ul {
+	text-align: center;
+	width: 530px;
+	margin: 40px auto;
+	box-sizing: border-box;
+}
+.about ul li {
+	float: left;
+	box-sizing: border-box;
+}
+.about ul li + li{
+	margin-left: 30px;
+}
+.about ul li a {
+	display: inline-block;
+	color: #000;
+	width: 250px;
+	font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 10px 0;
+	border: 3px solid #000;
+	border-radius: 5px;
+	box-sizing: border-box;
+	position: relative;
+}
+.arrow::before{
+	left: 3px;
+	width: 8px;
+	height: 8px;
+	border-top: 2px solid #313131;
+	border-right: 2px solid #313131;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.btn{
+	position: relative;
+	display: inline-block;
+	padding: 0 0 0 16px;
+	color: #000;
+	vertical-align: middle;
+	text-decoration: none;
+	font-size: 15px;
+}
+.btn::before,
+.btn::after{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 89%;
+	margin: auto;
+	content: "";
+	vertical-align: middle;
+}
+.about p.f13 {
+	font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 2;
+}
+.repair_bg {
+	/*background: url(../img/bg01.png);
+	background-size: cover;*/
+	position: relative;
+}
+#main_contents .repair .repair01 {
+	width: 453px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: -999;
+}
+#main_contents .repair .repair02 {
+	width: 130px;
+	position: absolute;
+	bottom: 0;
+	left: 10%;
+	z-index: -999;
+}
+.repair {
+	text-align: left;
+}
+.repair h3 {
+	text-align: center;
+	font-size: 28px;
+	font-weight: normal;
+	margin-bottom: 60px;
+	font-family: "Yu Mincho", "YuMincho", serif;
+
+}
+.repair div:first-child {
+	border-bottom: 2px dotted #eee;
+	margin-bottom: 50px;
+}
+.container1 .repair div.box {
+	width: 780px;
+	margin: 0 auto 60px;
+	padding: 0 4%;
+}
+
+.repair ul,.notes ul {
+	font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", sans-serif;
+	text-align: left;
+}
+.repair ul {
+	margin-bottom: 80px;
+}
+.repair ul li,.notes ul li {
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+.repair ul li p, .repair ul li sub,.notes ul li p, .notes ul li sub {
+	padding-left: 17px;
+}
+
+.repair ul li p,.notes ul li p {
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.8;
+	margin-bottom: 3px;
+}
+.repair ul li p.sub {
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 1.8;
+	display: block;
+	margin-bottom: 15px
+}
+.notes ul li p.sub {
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 1.8;
+	display: block;
+	margin-bottom: 5px;
+}
+.repair .box_btm ul {
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 1.8;
+	display: block;
+	margin-bottom: 10px
+}
+.repair .box_btm ul li {
+	font-weight: normal;
+	margin-bottom: 40px;
+	font-size: 14px;
+}
+.repair .box_btm ul li p, .repair .box_btm ul li sub {
+    padding-left: 0;
+}
+.repair .box_btm ul li p.sub {
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 1.8;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.notes {
+	width: 960px;
+	margin: 0 auto;
+	border: 3px solid #000;
+	padding: 80px 100px 50px;
+}
+.notes h2 {
+	border-bottom: 2px dotted #cfcfcf;
+    padding-bottom: 70px;
+}
+.notes ul li {
+	padding-left: 35px;
+}
+.notes ul li p.tel2 {
+	display: inline-block;
+}
+.notes .tel_box {
+	margin: 30px 0 20px 17px;
+	border-top: 2px dotted #cfcfcf;
+	border-bottom: 2px dotted #cfcfcf;
+	padding: 20px 0;
+	display: inline-block;
+	width: 47%;
+}
+.notes .t_time {
+	padding-left: 60px;
+}
+.notes ul.inner_ul {
+	padding-left: 60px;
+	list-style-type: disc;
+	padding: 0;
+	font-weight: normal;
+}
+.notes p.red {
+	color: #d84444;
+	font-size: 14px;
+	margin-top: 0;
+}
+.container1 p.bold, .container2 p.bold {
+	font-weight: bold;
+}
+/*pagetop*/
+#page-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 77%;
+    z-index: 1;
+    text-align: center;
+}
+#page-top a {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #313131;
+    border-radius: 50%;
+    line-height: 80px;
+    display: block;
+    color: #333;
+    font-size: 20px;
+    font-family: 'Crimson Text', serif;
+    background: #fff;
+    opacity: 0.8;
+}
+/*#page-top a {
+    text-decoration: none;
+    width: 100px;
+    display: block;
+}*/
+#page-top a:hover {
+}
+
+/*rotate360*/
+.btn01 {
+    text-decoration: none;
+    display: block;
+        transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+}
+div.notes ul li a.tel_num2 {
+	    display: block;
+	    padding-left: 18px;
+	    color: #000;
+	    width: 100%;
+	    font-size: 14px;
+	}
+
+
+@media screen and (max-width:1375px) {
+#main_contents .repair .repair01 {
+	width: 350px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: -999;
+}
+#main_contents .repair .repair02 {
+	width: 100px;
+	position: absolute;
+	bottom: 0;
+	left: 5%;
+	z-index: -999;
+}
+.sub_ml40 {
+	padding-left:17px;
+	padding-bottom: 15px;
+}
+}
+
+
+
+@media screen and (max-width:767px) {
+	#pc_header, #pc_footer {
+		display: none;
+	}
+	#sp_header, #sp_footer {
+		display: block;
+	}
+	.pcb{display:none;}
+	.spb{display:block;}
+	#sb-site, .sb-site-container {
+	    padding: 45px 0 0 0;
+	}
+	#main_contents .points ul li div.circle {
+	    width: 90px;
+	    height: 90px;
+	    margin-bottom: 20px;
+	    font-size: 40px;
+	    line-height: 1;
+	}
+	.container1 {
+		max-width: 100%;
+		padding: 25px 15px;
+	}
+	.container2 {
+		max-width: 100%;
+		padding: 50px 15px 30px;
+	}
+	#main_contents .points ul{
+		width: 100%;
+		margin: 0 auto 0;
+	}
+	#main_contents .points ul li {
+	    display: inline-block;
+	    width: 100%;
+	    margin: 0 1%;
+	    float: none;
+	    min-height: auto;
+	    margin-bottom: 30px;
+	}
+	.contact {
+	    width: 100%;
+	    margin: 0 auto;
+	    border: 3px solid #000;
+	    padding: 60px 15px 45px;
+    	box-sizing: border-box;
+	}
+	.contact h2 {
+	    top: -25px;
+	    left: 0;
+	    right: 0;
+	    margin: 0 auto;
+	    display: inline-block;
+	    width: 92%;
+	}
+	.contact h2 span {
+	    font-size: 17px;
+	    display: block;
+	    width: 100%;
+	}
+	.contact .tel{
+	    height: auto;
+	    width: 9%;
+	    display: inline;
+	}
+	.notes .tel {
+	    height: auto;
+	    width: 64%;
+	    display: inline;
+	}
+	.contact a.tel_num, .notes a.tel_num {
+	    font-size: 39px;
+	    top: -7px;
+	    line-height: 0.7;
+	}
+	.font16 {
+	    font-size: 12px;
+	}
+	.font20 {
+	    font-size: 16px;
+	}
+	.c_txt1 {
+	    margin: 20px 0 20px;
+	}
+	.service h2, .about h2, .notes h2 {
+	    font-size: 30px;
+	    position: relative;
+	    margin-bottom: 50px;
+	}
+	.notes h2 {
+	    margin-bottom: 0;
+	    padding-bottom: 45px;
+	}
+
+	.service h2 span, .about h2 span, .notes h2 span {
+	    font-size: 15px;
+	    top: 43px;
+	}
+	.about img.img3 {
+	    width: 40%;
+	    height: auto;
+	    margin-top: 0;
+	    margin-bottom: 10px;
+	}
+	.about ul {
+		text-align: center;
+		width: 100%;
+		margin: 40px auto;
+		box-sizing: border-box;
+	}
+	#main_contents ul {
+	    width: 100%;
+	    margin: 25px auto 25px;
+	}
+	#main_contents ul li a.tel_num {
+	    height: auto;
+	    width: 70%;
+	    font-size: 25px;
+	    display: inline-block;
+	}
+	#main_contents ul li {
+	    width: 100%;
+	    height: auto;
+	    letter-spacing: normal;
+	    text-align: left;
+	}
+	#main_contents .about ul li {
+	    width: 49%;
+	    height: auto;
+	    letter-spacing: normal;
+	    text-align: center;
+	}
+	#main_contents a.about li:first-child{
+		margin-right: 2%;
+	}
+	#main_contents .about ul li a {
+	    width: 100%;
+	    font-size: 13px;
+	    padding: 10px 0;
+	    border: 2px solid #000;
+	}
+	#main_contents .about ul li + li {
+	    margin-left: 2%;
+	}
+	#main_contents .repair_bg {
+		position: relative;
+	}
+	.repair h3 {
+	    text-align: center;
+	    font-size: 19px;
+	    font-weight: bold;
+	    margin-bottom: 0;
+	}
+	.repair_bg {
+	    background: none;
+	    
+	}
+	.notes {
+	    width: 100%;
+	    margin: 0 auto;
+	    border: none;
+	    padding: 0;
+	    box-sizing: border-box;
+	}
+	.notes ul li {
+	    padding-left: 0px;
+	    margin-bottom: 20px!important;
+	}
+	.repair ul li p, .notes ul li p {
+	    font-size: 13px;
+	    font-weight: normal;
+	    line-height: 1.5;
+	    margin-bottom: 0;
+	}
+	.repair ul li sub, .notes ul li sub {
+	    line-height: 1.5;
+	    margin-bottom: 0;
+	}
+	#main_contents .repair .box ul li.sp60 {
+		width: 72%;
+	}
+	#main_contents .repair .repair01 {
+		width: 30%;
+		position: absolute;
+		top: 48px;
+		right: 0;
+	}
+	#main_contents .repair .repair02 {
+		width: 24%;
+		position: absolute;
+		bottom: 0;
+		left: 10px;
+	}
+	.container1 .repair div.box {
+	    margin: 0 auto 30px;
+	}
+	
+	#main_contents .repair div.box {
+	    width: 100%;
+	    box-sizing: border-box;
+	}
+	#main_contents .repair div.box ul li {
+	    line-height: 1.5;
+	    margin-bottom: 20px;
+	}
+	.notes p.red {
+	    font-size: 13px;
+	}
+	.notes .tel_box {
+	    margin: 30px 0 20px 17px;
+	    border-top: 2px dotted #cfcfcf;
+	    border-bottom: 2px dotted #cfcfcf;
+	    padding: 20px 0;
+	    display: inline-block;
+	    width: 91%;
+	}
+	.notes .t_time {
+	    padding-left: 0;
+	    font-size: 11px;
+	}
+	#main_contents .points ul li p.point_box {
+	    width: 88%;
+	    margin: 0 auto;
+	}
+	.service img.img2 {
+		margin: 0 auto 0;
+	    width: 90%;
+	}
+	#page-top a {
+	    width: 70px;
+	    height: 70px;
+	    border: 2px solid #313131;
+	    border-radius: 50%;
+	    line-height: 70px;
+	    display: block;
+	    color: #333;
+	    font-size: 20px;
+	    font-family: 'Crimson Text', serif;
+	    background: #fff;
+	    opacity: 0.8;
+	}
+	#main_contents .notes ul li a.tel_num2 {
+	    height: auto;
+	    width: 100%;
+	    font-size: 14px;
+	    display: inline-block;
+	    color: #000;
+	}
+	#main_contents .repair .box .sp_ml40 {
+		margin-left: 73px;
+	}
+	.sub_ml40 {
+		margin-left: 73px;
+		padding-bottom: 20px;
+	}
+/*	#main_contents ul li a {
+	    display: block;
+	    padding-left: 18px;
+	    color: #000;
+	    width: 100%;
+	    font-size: 14px;
+	}
+*/}
+
+@media screen and (max-width:360px) {
+	.container1 .repair div.box {
+		margin: 0 auto 0;
+		padding: 0 15px;
+	}
+	.repair h3 {
+	    margin-top: 30px;
+	}
+}
+
+@media screen and (max-width:320px) {
+	.repair_bg .container1 {
+		margin-bottom: 0;
+		padding: 0;
+	}
+	#main_contents .points ul li p.point_box {
+	    font-size: 18px;
+	    line-height: 2.2;
+	}
+	#main_contents .notes ul li .tell {
+	    height: auto;
+	    width: 100%;
+	    font-size: 13px;
+	    color: #000;
+	    display: inline-block;
+	}
+}

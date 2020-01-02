@@ -1,0 +1,98 @@
+div#wrapper {
+    width: 980px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+div#wrapper.subpage {
+	margin: 400px auto;
+}
+body {
+	background:#efefef;
+	font-family: "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3", "Hiragino Kaku Gothic Pro", "ãƒ¡ã‚¤ãƒªã‚ª", Meiryo, Osaka, "ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯", "MS PGothic", sans-serif;
+	overflow-x: hidden;
+}
+a{color:#111;}
+
+a:hover {opacity:0.7;}
+img{
+	vertical-align:bottom;
+}
+
+/*slider*/
+
+#slider {
+    max-width: 1280px;
+    margin: 211px auto 80px;/*177px 207px */
+	/*ã€€1åˆ—ã‚»ãƒ¼ãƒ«ãƒãƒŠãƒ¼ã®ã¿ã€€margin: 211px auto 80px; */
+    /* display: none; */
+}
+
+/*ã€€ãƒ˜ãƒƒãƒ€ãƒ¼é«˜ã•ã‚’å¤‰æ›´ã™ã‚‹å ´æ‰€ã€€slider0119è¿½åŠ ã€€*/
+#slider2 {
+    max-width: 1280px;
+    margin: 235px auto 80px;/*290px auto 80px; */
+    /* display: none; */
+}
+#slider3 {
+	padding: 50px 32px 10px;
+}
+
+/* Browser Resets */
+.flex-container a:active,
+.flexslider a:active {outline: none;}
+.slides,
+.flex-control-nav,
+.flex-direction-nav {margin: 0; padding: 0; list-style: none;} 
+/* FlexSlider Necessary Styles
+*********************************/
+.flexslider .slides > li {display: none;} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides img {width: 100%; display: block;}
+.flex-pauseplay span {text-transform: capitalize;}
+/* Clearfix for the .slides element */
+.slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;} 
+html[xmlns] .slides {display: block;} 
+* html .slides {height: 1%;}
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+.no-js .slides > li:first-child {display: block;}
+/* FlexSlider Default Theme
+*********************************/
+.flexslider {background: #111;  position: relative; -webkit-border-radius: 5px; -moz-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; zoom: 1;}
+.flexslider .slides {zoom: 1;}
+.flexslider .slides > li {width: 1280px;position: relative;}
+/* Suggested container for "Slide" animation setups. Can replace this with your own, if you wish */
+.flex-container {zoom: 1; position: relative;}
+/* Caption style */
+/* IE rgba() hack */
+.flex-caption {background:none; -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000); zoom: 1;}
+.flex-caption {width: 96%; padding: 2%; position: absolute; left: 0; bottom: 0; background: rgba(0,0,0,.3); color: #fff; text-shadow: 0 -1px 0 rgba(0,0,0,.3); font-size: 14px; line-height: 16px;}
+/* æ¨ªã®æ¬¡ã¸å‰ã¸ã®ãƒŠãƒ“ã‚²ãƒ¼ã‚·ãƒ§ãƒ³ */
+.flex-direction-nav li a {width: 45px; height: 45px;  display: block;position: absolute; top: 50%; cursor: pointer; text-indent: -9999px;background-color: #111;-webkit-transition:all .3s ease;
+	-moz-transition:all .3s ease;
+	-ms-transition:all .3s ease;
+	-o-transition:all .3s ease;
+	transition:all .3s ease;}
+.flex-direction-nav li a.flex-prev {left:-50px;background:url(../img/arrow-circle-left.png)no-repeat;opacity:0;}
+.flex-direction-nav li a.flex-next {right:-50px;background:url(../img/arrow-circle-right.png)no-repeat;opacity:0;}
+#slider3 .flex-direction-nav li a.flex-prev {left: 0;background: url(../img/new-slider-button-l.png)no-repeat;opacity: 1;z-index: 200;width: 30px;height: 66px;}
+#slider3 .flex-direction-nav li a.flex-next {right: 0;background: url(../img/new-slider-button-r.png)no-repeat;opacity: 1;width: 30px;height: 66px;}
+.flexslider:hover .flex-direction-nav li a.flex-prev {left:10px;background:url(../img/arrow-circle-left.png)no-repeat;opacity:1;}
+.flexslider:hover .flex-direction-nav li a.flex-next {right:10px;background:url(../img/arrow-circle-right.png)no-repeat;opacity:1;}
+.flex-direction-nav li .next {background-position: -52px 0; right: -5px; background: url(images/arrow_right.png) no-repeat 0 0; }
+.flex-direction-nav li .prev {left: 5px; background: url(images/arrow_left.png) no-repeat 0 0; }
+.flex-direction-nav li .disabled {opacity: .3; filter:alpha(opacity=30); cursor: default;}
+/* ä¸‹ã®ãƒŠãƒ“ã‚²ãƒ¼ã‚·ãƒ§ãƒ³ */
+.flex-control-nav {width: 100%; position: absolute; bottom: 10px; text-align: center;}
+#slider3 .flex-control-nav {width: 100px; position: absolute;top: 80px;right: 25px; text-align: center;height: 100px;font-size: 14px;}
+.flex-control-nav li {margin: 0 0 0 5px; display: inline-block; zoom: 1; *display: inline;}
+#slider3 .flex-control-nav li {margin: 0 0 0 5px;/* display: inline-block; */ zoom: 1; *display: inline; position:absolute;width: 100px;height: 100px;top:0;left: 0;}
+.flex-control-nav li:first-child {margin: 0;}
+.flex-control-nav li a {width: 100px; height: 5px; display: block; background: #efefef; cursor: pointer; text-indent: -9999px;}
+.flex-control-nav li a:hover {background-position: 0 -13px;}
+.flex-control-nav li a.flex-active {background:#c80104; cursor: default;}
+#slider3 .flex-control-nav li a {width: 100px;height: 100px;display: none; background: none; cursor: pointer; text-indent: 0;color:#fff;opacity: 0;}
+#slider3 .flex-control-nav li a:hover {background-position: 0 -13px;}
+#slider3 .flex-control-nav li a.flex-active {background:none;cursor: default; color:#000;opacity: 1;display: block;}
+#link{ padding-top: 40px; }

@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/cal.css" />
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>		
+	<script type="text/javascript">
+	$(function(){
+		$('a[href*=#],area[href*=#]').click(function() {  
+  		console.log(this.pathname)  
+      if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {  
+      var $target = $(this.hash);  
+			$target = $target.length && $target || $('[name=' + this.hash.slice(1) + ']');  
+                    if ($target.length) {  
+                        var targetOffset = $target.offset().top;  
+                        $('html,body').animate({  
+                                    scrollTop: targetOffset  
+                                },  
+                                500);  
+                        return false;  
+                    }  
+                }  
+            }); 
+			});         
+	</script>
+	<style>
+			.all {
+				width: 970px;
+				margin: 0 auto;
+				padding-top: 100px;
+			}
+			.divleft {
+				width: 200px;
+				margin-right: 20px;
+				float: left;
+			}
+			.commsptop {
+				display: none;
+			}
+			
+			@media screen and (max-width:756px){
+			#topheader {
+				width: 100%;
+				height: 150px;
+				margin-bottom: 20px;
+			}
+			.divleft {
+				display: none;
+			}
+			.all {
+				width: 100%;
+				padding-top: 0px;
+			}
+			.nav-category {
+				display: none;
+			}
+			.area-main {
+				width: 100%;
+			}
+			.case {
+				padding: 0px;
+			}
+			.case h2.sub-title {
+				top: 0px;
+				width: 100%;
+				position: relative;
+			}
+			img {
+				width: 100%;
+			}
+			.mr5 {
+				width: 26px;
+			}
+			.commsptop {
+				display: block;
+			}
+	}
+	</style>
+</head>
+<body>
+	<div class="all">
+		<iframe id="topheader" src="top.html" width="970" height="220" frameborder="0" scrolling="no" marginwidth="0" marginheight="0"></iframe>
+		<div class="divleft">
+			<iframe src="left.html" width="200" height="550" frameborder="0" scrolling="no" marginwidth="0" marginheight="0"></iframe>
+		</div>
+		<div class="area-main copy">
+      <h1 class="help">出荷・配送について</h1>
+      <div class="nav-category clearfix"><ul>
+      	<li><a data-scroll href="#delivery_01">配送方法一覧</a></li>
+      	<li><a data-scroll href="#delivery_10">配送料金</a></li>
+      	<li><a data-scroll href="#delivery_07">配送日指定、時間指定</a></li>
+      	<li><a data-scroll href="#delivery_05">配送方法について</a>
+        	<ul style="padding-top:5px;">
+          	<li><a data-scroll href="#delivery_04">宅配便</a></li>
+            <li><a data-scroll href="#delivery_02">メール便</a></li>
+        	</ul>
+      	</li>
+      	
+        <li><a data-scroll href="#delivery_08">納品書について</a></li>
+        <li><a data-scroll href="#delivery_09">海外配送(international shipping)</a></li>
+      </ul><div class="clear"></div></div>
+        <!-- / category-nav -->
+      
+      <a name="delivery_news" id="delivery_news"></a>
+        
+				<a name="delivery_01" id="delivery_01"></a>
+				<div class="case clearfix" style="width: 100%;"><h2 class="sub-title">配送方法一覧</h2>
+					<table width="100%" border="0" cellspacing="0" cellpadding="0" class="border">
+						<tr>
+							<td class="td-title"></td>
+							<td class="td-title">送料</td>
+							<td class="td-title">決済</td>
+							<td class="td-title">日時指定</td>
+						</tr>
+						<tr>
+							<td>宅配便</td>
+							<td>880円</td>
+							<td>全決済OK</td>
+							<td>○</td>
+						</tr>
+						<tr>
+							<td>メール便</td>
+							<td>450円</td>
+							<td>代引き以外OK</td>
+							<td>×</td>
+						</tr>
+					</table><br />
+					<ul>
+						<li>お買い上げ合計が1配送につき、8,000円(税込)以上で送料無料になります。</li>
+          	<li>送料込みの商品を含むご注文は送料無料になります。</li>
+          	<li>メール便以外で、北海道全域・沖縄県へのお届けは、別途地域料680円頂戴いたします。</li>
+          </ul>
+					<div class="clear"></div>
+				</div>
+				
+				<a name="delivery_10" id="delivery_10"></a>
+				<div class="case clearfix" style="width: 100%;"><h2 class="sub-title">配送料金</h2>
+					
+					<p>【業者】 佐川急便 （他の運送会社の場合あり）</p><br />
+					<ul>
+<li>送料：商品ページの記載に従います。<br />
+（沖縄・鹿児島は是<span class="c-red">1200円~</span>）<br />
+<span class="c-red">8,000円</span>以上購入で送料無料!!<br />
+「毎週水曜日」1,500円以上購入で送料無料です。</li>
+					</ul>
+					
+					<h3 class="case-sub-title">ご注意ください</h3>
+          <ul>
+          	<li>商品のお届け時に万一ご不在だった場合は、<span class="c-red">不在票記載の運輸会社まで、必ず7日以内に直接ご連絡ください。</span></li>
+            <li>万一、不在荷物の保管期間（7日間）を超えてお荷物をお引取りいただいていない場合、お荷物は一旦当店に引き上げとなります。<font color="#cc0000"><b>その際に掛かった送料、及び再送させていただく際の往復の送料を申し受ける場合がございますので、</b></font>予めご了承の上ご利用くださいますようお願い致します。</li>
+            <li class="end">引き上げの際に掛かる送料につきましては、送料票記載の金額ではなく、荷物によって異なりますので、追ってご連絡をさせていただきます。</li>
+          </ul><br><br>
+          <p class="pb10"><strong>◆メール便</strong><br><span class="c-red">全国一律450円（沖縄・離島は680円）</span></p>
+          <div class="clear"></div>
+        </div>
+        <!-- / case -->
+        <a name="delivery_04" id="delivery_05"></a>
+        <div class="case clearfix" style="width: 100%;">
+          <p class="mb10"><strong>◆宅配便</strong><br>【業者】 佐川急便（他の運送会社の場合あり）</p>
+          <h2 class="sub-title">配送方法について</h2>
+          <div class="cell10"><ul>
+          	<li>交通事情などにより、お日にちが多少前後する場合がございますが、ご理解のほどお願い申し上げます。</li>
+            <li>【商品発送のタイミング】<br />特にご指定がない場合、
+楽天バンク決済、銀行振込、ゆうちょ振替　⇒各商品の出品ページにてご確認くださいませ。 <br />
+クレジット（準備中）、代金引換　⇒各商品の出品ページにてご確認くださいませ。
+            </li>
+            <li>【配送希望時間帯をご指定出来ます】<br />
+                    	<font color="#CC0000"><b>午前 12時-14時　14時-16時　16時-18時 18時-20時 19時-21時</b></font>
+ただし時間を指定された場合でも、事情により指定時間内に配達ができない事もございます。
+            </li>
+            <li>【受取拒否・未引取りについて】<br />
+                    	発送後のキャンセルにつきましては、一切承っておりません。 <br />
+受取拒否を含め、長期不在・住所入力間違い等お客様都合により商品をお受け取り頂けなかった場合、 往復送料・人件費など含め手数料2,000円を請求させて頂きます。<br />
+やむを得ない事情によりお受け取り頂けない場合には、必ずお早めに当店までご連絡下さい。
+            </li>
+            <li>当店ではホテルへの配送は行っておりません。</li>
+          </ul></div>
+          <p><a href="r02_2.html" target="_blank" class="blue">&gt;&gt;　不良品・誤送・輸送中の破損について</a></p><br />
+          <ul><li>
+          	<p>配送時にご不在の場合、預かり期間は7日間とさせていただきます。</p>
+            <p>お客様から配送業者への連絡がない場合、自動的にキャンセルとします。</p>
+            <p>往復の配送費及び代引手数料（代金引換の場合）はお客様負担といたします。</p>
+            <p>「受け取り拒否」「商品発送後のキャンセル」「長期不在」など、</p>
+            <p>お客様のご都合による返品につきましては、誠に恐れ入りますが、商品の性質上、</p>
+            <p>お受けすることが出来ません。予めご了承下さい。</p>
+          </li></ul>
+        </div>
+
+        <a name="delivery_rakuten_box" id="delivery_rakuten_box"></a>
+        <!-- case -->
+        <a name="delivery_02" id="delivery_02"></a>
+         <div class="case clearfix case-sub" style="width: 100%;"><br>
+            <p class="pb10"><strong>◆メール便</strong><br>【業者】ヤマト運輸  （ネコポス） </p>
+            <p class="pb10">※メール便配送は、<span class="c-red">商品名に【メール便可(サイズ)】と記載</span>しているものが対象となります。</p>
+            <h3 class="case-sub-title" style="padding-top:20px;">メール便をお断りしている商品の基準</h3>
+            <ul>
+            	<li>ネコポス規定サイズを超えているもの<!--（最長辺33cm以内・厚さ2cm以内・重量1kg以内）--></li>
+              <li>壊れやすい商品（圧に弱いアクセサリー類、箱入り商品など）</li>
+              <li>高額と判断した商品（メール便サイズ目安も、商品の大きさでなく、価格で決められている場合があります）</li>
+            </ul><br><br>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="border">
+            	<tr>
+              	<td width="90" class="td-title">送料</td>
+              	<td>全国一律450円（沖縄・離島は680円）</td>
+              </tr>
+              <tr>
+              	<td class="td-title">支払方法</td>
+              	<td><span class="c-red">【代金引換】はお受けできません。</span></td>
+              </tr>
+              <tr>
+              	<td class="td-title">日時指定</td>
+              	<td><span class="c-red">日時指定をお受けすることはできません。</span><br>
+                        原則としてポストまでのお届けとなりますので、手渡しや不在票の投函はございません。</td>
+              </tr>
+              <tr>
+              	<td class="td-title">配送日数</td>
+              	<td>商品発送後、2～5日程度<br>
+                        ※悪天候等による交通機関の影響で配達日数が遅れる場合があります。<br>
+                        ※忙繁期・沖縄、その他離島にお住いの場合、10日程度かかる場合がございます。お急ぎの方は宅配便をご利用ください。</td>
+                </tr>
+                <tr>
+                    <td class="td-title">保証</td>
+                    <td>商品の遅延・不着・紛失および破損といった配送事故につきましては、保障いたしかねます。</td>
+                </tr>
+                <tr>
+                	<td class="td-title">ご注意ください</td>
+                  <td><ul>
+                  	<li><span class="c-red">お取り置き、同梱はお受けできません。</span></li>
+                  	<li>メール便での配送を希望された場合、「在庫品」をご注文の場合でも即日発送対象外となります。</li>
+                  	<li><span class="c-red">アパート・マンションにお住いの方は、必ずマンション名・号室をご記入ください。</span><br>
+                                ※ご記入いただいていない場合、商品を投函することができません。<br>
+                                ※配達先が不明な場合、お届け先の表札が宛名と異なる場合は返送させていただきます。</li>
+                  	<li>当店ではホテルへの配送は行っておりません。</li>
+                  	<li class="end">メール便の郵便局留は可能です。ご希望の場合は、ご注文の際、備考欄に【ご希望の郵便局店名】をご明記ください。</li>
+                  </ul></td>
+                </tr>
+            </table>
+            <ul style="margin-top: 30px;">
+            	 <li>
+            	 	【メール便可】の商品は、<font color="#cc0000"><b>基本的にメール便優先で配送</b></font>を行っております。
+                <br />但し、【メール便可】であっても、以下の場合に当てはまった場合につきましては、
+            	 </li>
+               <li>	【メール便可】商品とご一緒に、メール便不可の商品(【メール便可】の記載がない商品)をご注文いただいている場合</li>
+               <li>代金引換での受け取りをご希望の場合</li>
+            </ul>
+         </div>
+
+        <!-- / case -->
+
+        <!-- コンビニ受取 -->
+        <!-- / case -->
+
+        <!-- case -->
+        <a name="delivery_07" id="delivery_07"></a>
+        <div class="case clearfix">
+            <h2 class="sub-title">配送日指定、時間指定</h2>
+            <h3 class="case-title">配送時間帯のご指定について</h3>
+            <p>ご注文の際に「お支払い・配送方法」ページの「配送日時指定」にてご希望の「配送希望時間」を選択してください。</p>
+            <p class="pb10"><font color="#cc0000"><b>午前 12時-14時　14時-16時　16時-18時 18時-20時 19時-21時</b></font>ただし時間を指定された場合でも、事情により指定時間内に配達ができない事もございます。</p>
+            <p>ご希望の配達日時がない場合は、最短で発送させていただきます。</p>
+            <h3 class="case-sub-title">「予約販売商品」の配送日について</h3>
+            <p>「予約販売商品」の場合、ご注文時には配送日を指定できませんが、商品入荷後に配達日を指定できます。</p>
+            <h3 class="case-sub-title">
+                <img src="img/at.gif" class="mr5" alt="ご注意ください">
+                ご注意ください</h3>
+            <ul>
+                <li>予約販売商品を含むご注文に関しましては、配送日時指定にはお届けする事ができませんので、予めご了承くださいませ。</li>
+                <li>メール便可の商品の配送でメール便を希望いただいている場合も、配送日・配送時間を指定をされた場合には、宅配便でのお届けとなります。その際の送料は宅配便での送料となります。予めご了承くださいませ。</li>
+                <li>ご指定日はご注文日より1週間以内に設定してください。<font color="cc0000"><b>当日指定不可ご注意ください。</b></font></li>
+                <li>銀行振込、コンビニの場合は、ご入金確認の翌営業日発送となりますので、指定日にお届けできない場合がございます。</li>
+                <li>配送会社の都合上、時間指定サービスをご利用いただけない地域が一部がございます。あしからずご了承くださいませ。</li>
+                <li class="end">ご発送後の変更はできません。</li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+        <!-- / case -->
+
+        <!-- case -->
+        <a name="delivery_08" id="delivery_08"></a>
+        <div class="case clearfix">
+            <h2 class="sub-title">納品書について</h2>
+            <p class="pb10">◆ エコのため、当社では領収書・納品書は基本的に発行しておりません、必要の方はメールにてご連絡くださいませ。</p>
+            
+            <div class="clear"></div>
+        </div>
+        <!-- / case -->
+
+        <!-- case -->
+        <a name="delivery_09" id="delivery_09"></a>
+        <div class="case clearfix">
+            <h2 class="sub-title">海外配送</h2>
+  					<p>当店では、海外へ発送を行っていません。</p>
+            <div class="clear"></div>
+        </div>
+        <!-- / case -->
+    </div>
+    
+        </div>
+     
+	<script type="text/javascript" src="js/cal.js"></script>
+</body>
+</html>
