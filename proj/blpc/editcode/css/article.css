@@ -1,0 +1,251 @@
+@charset "utf-8";
+.atclbox{
+	width: 980px;
+	margin: 0 auto;
+	color: #333333;
+}
+.atclbox h1{
+	width: 100%;
+	height: 48px;
+	line-height: 48px;
+	font-size: 24px;
+	background-color: #6c8bc7;
+	color: #FFFFFF;
+	text-indent: 20px;
+}
+.atclbox h6{
+	height: 36px;
+	line-height: 36px;
+}
+.atclbox h2{
+	font-size: 20px;
+	padding: 20px 0;
+	color: #6C8BC7;
+}
+.atclbox h3{
+	font-size: 16px;
+	font-weight: bold;
+}
+.atclbox h4{
+	border-bottom: 2px solid #6C8BC7;
+	font-size: 24px;
+	line-height: 36px;
+}
+.atclbox h5{
+	border-left: 8px solid #6C8BC7;
+	padding-left: 10px;
+	font-size: 18px;
+	line-height: 30px;margin: 40px 0 0;
+}
+.atclbox dl{
+	width: 980px;
+	margin-bottom: 20px;
+}
+.atclbox dl dt{
+	margin: 6px 0;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 20px;
+}
+.atclbox dl dd{
+	text-indent: 32px;
+	font-size: 16px;
+}
+.atclbox p{
+	font-size: 16px;
+	text-indent: 32px;
+	line-height: 20px;
+	margin: 20px 0;
+	
+}
+.atclbox p span{
+	color: darkred;
+}
+.atclbox p span.toweight{
+	color: #333333;
+	font-weight: bold;
+}
+.atclbox p.specialP{
+	text-align: center;
+	font-size: 24px;
+	text-decoration: underline;
+	line-height: 48px;
+	color: #FFFFFF;
+	background-color: #0000cc;
+}
+.atclbox ul li{
+	line-height: 24px;
+}
+.QAbox{
+	border-bottom: 1px solid #333333;
+	padding-bottom: 20px;
+	margin-bottom: 40px;
+}
+.QAbox .Qttl{
+	display: block;
+	background-image: url(../img/Qicon.png);
+	background-repeat: no-repeat;
+	color: #555555;
+	font-weight: 600;
+	background-position: left center;
+	line-height: 30px;
+	padding-left: 35px;
+}
+.QAbox .Acont{
+	display: block;
+	margin-top: 10px;
+	background-image: url(../img/Aicon.png);
+	line-height: 20px;
+	padding-top: 10px;
+	text-indent: 35px;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.wearbox{
+	width: 980px;
+	margin: 0 auto;
+}
+.wearbox h1{
+	font-size: 24px;
+	color: #333333;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+.wearbox p{
+	font-size: 14px;
+	line-height: 24px;
+}
+.wearbox ul{
+	width: 100%;
+	margin-top: 10px;
+	line-height: 24px;
+	overflow: hidden;
+}
+
+.wearbox ul li{
+	width: 200px;
+	float: left;
+	margin-left: 40px;
+}
+.washBox{
+	width: 980px;
+	margin: 0 auto;
+}
+.washBox h1{
+	font-size: 24px;
+	line-height: 40px;
+}
+.washBox h2{
+	color: #ff66cc;
+	font-size: 20px;
+	margin-top: 20px;
+}
+.washBox ul{
+	overflow: hidden;
+	margin-top: 10px;
+}
+.washBox ul li{
+	float: left;
+}
+.washBox ul li img{
+	display: block;
+	margin: 0 auto;
+}
+.washBox ul li:first-child{
+	width: 400px;
+	border: 1px solid #F1F1F1;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.washBox ul li:last-child{
+	width: 540px;
+	padding: 20px;
+	line-height: 24px;
+}
+.size_area{
+	width: 980px;
+	margin: 0 auto;
+	color: #333333;
+}
+.size_area h3.title{
+	color: #fc3ba8;
+	margin-top: 10px;
+	margin-bottom: 14px;
+}
+.size_area ul{
+	width: 100%;
+	overflow: hidden;
+}
+.size_area ul li{
+	float: left;
+	padding: 0 10px;
+	height: 20px;
+	line-height: 20px;
+	border-right: 1px solid #000000;
+}
+.size_area ul li:last-child{
+	border-right: none;
+}
+.size_area ul li a{
+	color: #333333;
+	text-decoration: underline;
+	font-size: 14px;
+}
+.size_area ul li a:hover{
+	text-decoration: none;
+	color: #fc3ba8;
+}
+.size_area p.text{
+	font-size: 14px;
+	margin-top: 20px;
+	line-height: 18px;
+}
+#size_exp{
+	width: 950px;
+	background-color: #FFEBFF;
+	padding: 10px 15px;
+	margin-bottom: 40px;
+}
+#size_exp h4{
+	font-size: 14px;
+	padding-left: 15px;
+	background-image: url(../img/circle.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	line-height: 14px;
+	font-weight: bold;
+	margin: 20px 0;
+}
+#size_exp dt{
+	padding-left: 20px;
+	line-height: 14px;
+	font-size: 14px;
+	background-image: url(../img/square.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	margin: 10px 0;
+	font-weight: bold;
+}
+#size_exp p.caution{
+	text-align: center;
+	color: #FF0099;
+	padding-bottom: 20px;
+	font-weight: bold;
+	font-size: 20px;
+}
+.size_area table{
+	margin-bottom: 15px;
+}
+.size_area table tr{
+	line-height: 30px;
+}
+.size_area table tr:first-child{
+	color: #FFFFFF;
+}
+.size_area table tr td{
+	border: 1px solid #CCCCCC;
+}
+.size_area table tr td.nonetd{
+	border: none;
+}

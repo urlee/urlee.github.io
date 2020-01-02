@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+<title>textillate</title>
+<link rel="stylesheet" type="text/css" href="animate.css"/>
+<script src="jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="jquery.lettering.js" type="text/javascript" charset="utf-8"></script>
+<script src="jquery.textillate.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+$(function () {
+	$('.text1').textillate({ in: { effect: 'rollIn' } });
+	$('.text2').textillate({
+		initialDelay: 1000, 	//设置动画开始时间
+		in: { effect: 'flipInX'	//设置动画名称
+		}
+	});
+	$('.text3').textillate({
+		initialDelay: 9000,
+		in: { effect: 'bounceInDown' }
+	});
+})
+</script>
+<style type="text/css">
+body {background:#242424;}
+div {width:500px;margin:0 auto;}
+.text1,.text2,.text3 {visibility:hidden;}
+.text1,.text2 {color:#fff;color:#fff;}
+.text2 {letter-spacing:3px;}
+.text1 {margin:50px;text-align:center;font-size:150px;text-shadow:0.025em 0.025em 0.025em rgba(0, 0, 0, 0.8);}
+.text2 {font-family:microsoft yahei;font-size:14px;line-height:24px;text-shadow:0.1em 0.1em 0.1em rgba(0, 0, 0, 0.8)}
+.text3 {font-family:microsoft yahei;text-align:center;font-size:36px;color:#900}
+center {position:fixed;bottom:30px;text-align:center;width:100%;}
+center a {margin:20px; color:#666;text-decoration:none;}
+center a:hover {margin:20px; color:#666;text-decoration:underline;}
+</style>
+</head>
+<body>
+<div>
+	<p class="text1">设计达人</p>
+	<p class="text2">我热爱设计，虽然没有达到狂热的程度，但注定我已经离不开设计，它就像有生命似的，改变了我、我的生活，而我也坚信，设计能改变人们、人们的生活以及全世界。所以我高傲的称自己为设计达人，而你就是下一个！</p>
+	<p class="text3">WELCOME</p>
+</div>
+<center>
+	<a href="#">← 返回教程页</a>
+	<a href="#">设计达人 →</a>
+</center>
+</body>
+</html>
